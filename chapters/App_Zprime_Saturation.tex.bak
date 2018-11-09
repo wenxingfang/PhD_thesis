@@ -1,0 +1,15 @@
+\chapter{Searching heavy resonances in dielectron final state}\label{chap:Zprime}
+\textit{This chapter introduces searching heavy resonances in dielectron final state}
+\section{Introduction}\label{sec:Zprime_intro}
+\section{Dataset and MC samples}\label{sec:Zprime_data_mc}
+\section{Trigger}\label{sec:Zprime_trigger}
+\section{object and event selection}\label{sec:Zprime_HEEP}
+\section{mass scale and resolution}\label{sec:Zprime_HEEP}
+\section{HEEP ID efficiency and scale factor}\label{sec:Zprime_HEEP}
+\section{Backgrounds}\label{sec:Zprime_HEEP}
+\section{Systematic uncertainties}\label{sec:Zprime_HEEP}
+\section{Results}\label{sec:Zprime_HEEP}
+\subsection{Some distributions}\label{subsec:CMS_tracker}
+\subsection{Invariant mass plots}\label{subsec:CMS_tracker}
+\subsection{Limits}\label{subsec:CMS_tracker}
+

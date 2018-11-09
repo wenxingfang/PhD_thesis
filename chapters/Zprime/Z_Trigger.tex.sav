@@ -1,0 +1,26 @@
+\section{Trigger}\label{sec:Zprime_trigger}
+The primary high level trigger (HLT) used in main analysis for 2016 and 2017 is HLT\_DoubleEle33\_CaloIdL\_MW which requires two electron candidates with $E_{T}$ of the supercluster higher than 33 GeV and passing loose calorimeter identification requirements and Medium Window (MW) matching between the gaussian sum filter (gsf) \cite{0954-3899-31-9-N01} track and the hits in pixel detector. In the run period of 276453 to 278822 of 2016 this trigger was prescaled and HLT\_DoubleEle33\_CaloIdL\_GsfTrkIdVL was used as the primary signal trigger. The HLT\_DoubleEle33\_CaloIdL\_GsfTrkIdVL is the same as HLT\_DoubleEle33\_CaloIdL\_MW except replacing MW pixel matching by very loose matching between gsf track and the supercluster in ECAL.
+
+The level 1 trigger (L1) seeding of the primary high level trigger is always seeded by the OR of a DoubleEG (two deposit in ECAL) seed, a SingleEG (one deposit in ECAL) seed and a SingleJet (one L1 object compatible with a jet) seed, after run 275319 in 2016 and in full 2017 it is also seeded by a SingleTau (one L1 object compatible with a $\tau$) seed. The presence of the SingleJet and SingleTau seeds are mean to mitigate the loss of efficiency for high $E_{T}$ electron. The exact unprescaled threshold of each of those seeds changing in time. The lowest threshold for the SingleEG which was always unprescaled was 40 GeV with the corresponding thresholds for the DoubleEG seed being 24 GeV,17 GeV.
+
+The trigger efficiency will be split in L1 trigger efficiency, HLT supercluster $E_{T}$ filter efficiency (the HLT turn on curve) and online electron identification (HLT  ID) efficiency components. For final result only $E_{T}$ dependent efficiency will be used to reweight MC events, others will be cancel in the normalisation of MC events to data in the Z peak region (60-120 GeV). The method to measure the efficiency will be described in Section \ref{sec:trigger_efficiency_method}. The L1 trigger efficiency will be shown in Section \ref{sec:L1_trigger_efficiency}. The HLT turn on and HLT ID efficiency will be shown in Section \ref{sec:HLT_efficiency}.
+
+\subsection{Method for Measuring Trigger Efficiencies in Data}\label{sec:trigger_efficiency_method}
+The tag and probe method \cite{CMS-AN-2009-111} is used to measure the efficiency in data. The event is selected by HLT\_Ele27\_eta2p1\_WPTight (require one LHT electron candidate with supercluster $E_{T}$ higher than 27 GeV and $|\eta|$ less than 2.1 and passing tight online electron cut) for 2016 and HLT\_Ele35\_WPTight (require one HLT electron candidate with supercluster $E_{T}$ higher than 35 GeV and passing tight online electron cut) for 2017. The tag is the electron which passing HLT\_Ele27\_eta2p1\_WPTight (HLT\_Ele35\_WPTight) in 2016 (2017) and passing HEEP ID (as defined in Section ) and in barrel of ECAL. The probe is the electron which passing the HEEP ID as well as any other requirements necessary to measure the given efficiency such as being matched to the $E_{T}$ filter to measure the trigger identification efficiency.
+
+To simplify the computation, tags can not be probes. In the case of the probe being in the barrel, the tag is required to have a smaller supercluster $\phi$ than the probe for even number events and a larger supercluster $\phi$ for odd number events. As the sample is already very pure given there are two electrons passing HEEP ID, no background subtraction is applied, nor any mass window cut imposed. When measuring efficiencies involving the unseeded leg of the HLT\_DoubleEle33\_CaloIdL\_MW (or HLT\_DoubleEle33\_CaloIdL\_GsfTrkIdVL) trigger path, the tag should additionally pass the L1 seeded leg of that trigger and be matched to a L1 EG object, using a $\Delta R$ cone of 0.1 to be completely sure that the unseeded leg is unbiased by L1 seeded trigger. The efficiency is equal to the number of passing probes divided by all probes shown in \ref{eq:tag_probe_eff}.
+\begin{equation}
+\epsilon=\frac{N_{passing~probes}}{N_{all~probes}}
+\label{eq:tag_probe_eff}
+\end{equation}
+
+The L1 trigger efficiency and HLT turn on curves are fitted with either a single or double turn on function (defined in terms of "error function" $erf$). The double turn on function is shown in equation \ref{eq:turn_on}, with the single turn on function being identical except that the B terms are removed. The A0 and B0 parameters can be interpreted as the efficiency at the plateau, the A1 and B1 as the value where the efficiency reaches half maximum and A2 and B2 are the turn on of the curve.
+\begin{equation}
+f(E_{T})=0.5\cdot A0\cdot(1+erf(\frac{E_{T}-A1}{\sqrt{2}\cdot A2}))+0.5\cdot B0\cdot(1+erf(\frac{E_{T}-B1}{\sqrt{2}\cdot B2}))
+\label{eq:turn_on}
+\end{equation}
+
+\subsection{L1 Trigger Efficiencies}\label{sec:L1_trigger_efficiency}
+
+   
+\subsection{HLT Efficiencies}\label{sec:HLT_efficiency} 

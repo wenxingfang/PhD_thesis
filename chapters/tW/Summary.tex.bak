@@ -1,0 +1,15 @@
+\clearpage
+\section{Summary}
+\label{sec:tW_summary} 
+
+A search for new physics via top quark production in $ee$ and $\mu\mu$ final state has been performed using data recorded by CMS in 2016 from proton-proton collisions at $\sqrt{s} = 13$ TeV with 35.9 \fbinv\ integrated luminosity. The single top quark production in association with a W boson is probed for the first time together with the top quark pair production to find the new physics signatures. The results of the analysis have been also compared and combined with those of the analogous search in the $e\mu$ final state.
+Observations are in agreement with standard model expectations. Limit interval at 68\% and 95\% confidence level on the effective couplings have been derived.
+The results are interpreted to constrain the relevant effective couplings using a dedicated multivariate analysis. The observed $95\%$ CL limit band on  effective couplings are found to be [$-1.01$,0.70] for C$_{G}$, [$-0.41$,0.17]  for C$_{tG}$, [$-0.96$,5.74]  for C$_{tW}$ and [$-3.82$,0.63] for C$_{\phi q}^{(3)}$. The corresponding expected limits are [$-1.07$,0.76] for C$_{G}$, [$-0.30$,0.28] for C$_{tG}$, [$-1.91$,6.70] for C$_{tW}$ and [$-2.04$,1.63] for C$_{\phi q}^{(3)}$. For the FCNC effective couplings, the observed limits are [$-0.22$,0.22] and [$-0.46$,0.46] for C$_{uG}$ and C$_{cG}$, respectively; the expected limit being [$-0.30$,0.30] and [$-0.65$,0.65]. The extracted values give the first experimental bound on the C$_{G}$ coupling and  improve upon limits previously obtained at 8 TeV for C$_{tG}$. The limits obtained on the C$_{tW}$, C$_{\phi q}^{(3)}$, C$_{uG}$ and C$_{cG}$ couplings from the tW process are complementary to the limits from the single top t-channel process.
+
+
+My personal contributions to the analysis include performing all the steps of the analysis and cross check of tW cross section measurement. In addition I am responsible to calculate
+all the systematical uncertainties. Moreover, calculating the limit is my key work in this analysis.
+
+
+This results in several publications by the CMS collaboration: two PAS documents, one corresponding to the analysis of 35.9 \fbinv\ of integrated luminosity collected in full 2016 \cite{CMS-PAS-EXO-16-047}
+

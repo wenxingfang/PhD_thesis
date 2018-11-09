@@ -1,0 +1,770 @@
+--- COMMENTS may be placed outside the @ENTRYTYPE{ ... } stuctures
+--- CMS guidelines
+---- Every journal article citation should include the DOI, assuming one exists.
+---- All URLs for CMS notes, ANs, etc, should refer to the CDS server, not the CMS server. Use our standard format for them, as shown below.
+----  CMS Notes not available on CDS are regarded as private and may not be cited.
+----  CMS physics papers (i.e., those intended for publication in journals) may reference only POG PASs, not PAG PASs.
+---- For papers by collaborations, list the collaboration in the COLLABOROATION field and put the first author and "and others" in the AUTHOR field.
+----  If only the collaboration is listed as the author, put "{XXX Collaboration}" under AUTHOR.
+----  Note that we automatically replace the AUTHOR field with the collaboration name for ATLAS, CMS, LHCb, and ATLAS at submission time. Please don't remove the
+----  "First Author and others" in the AUTHOR field.
+---- Other items:
+----   PAGES: Please only list the first page, not the range.
+----   ISSUE: Please do not include in most cases.
+----   URL: Do not include this field if a DOI is available.
+---- Number of authors to list:
+----   PRL requests that we include all authors up to fifteen except for large collaborations, and we take this as our internal guide as well. If there
+----   are more than fifteen, just list the first author + "and others", as above.
+----   The individual journal bib style file (theirs, ours, PLB, etc.) will truncate at the appropriate point. We have ours set to _1_ for more than four.
+---- Use only the URL field instead of embedding an href.
+---- A reference only published on the arXiv should be listed as UNPUBLISHED (with a note "Submitted to XXX" for large collaboration papers).
+----   Experimental papers only on the arXiv and not submitted for publication may not be cited.
+---- Some journals will lowercase the title: use {} to protect words which must be capitalized, e.g., {LHC}, {TeV}, {CERN}, {CMS}.
+----  Do not escape the entire title as it will then clash with the journal style.
+---- Journal names: the journals generally include the series in the journal name, "Physical Review D", vol 5, rather than PR D5
+---- >>> Please use the --preview option with the tdr script to perform a simple-minded reference check before uploading.
+%
+%
+%    Many commonly cited papers are available under svn+ssh://svn.cern.ch/reps/tdr/utils/branches/dev/general/gen.bib and utils/trunk/higgs.bin.
+
+%
+% Notes hosted only on CDS are listed as TECHREPORTs.
+%
+
+@article{Sirunyan:2018lcp,
+      author         = "Sirunyan, Albert M and others",
+      title          = "{Measurement of the production cross section for single
+                        top quarks in association with W bosons in proton-proton
+                        collisions at $\sqrt{s}=$ 13 TeV}",
+      collaboration  = "CMS",
+      journal        = "Submitted to: JHEP",
+      year           = "2018",
+      eprint         = "1805.07399",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ex",
+      reportNumber   = "CMS-TOP-17-018, CERN-EP-2018-074",
+      SLACcitation   = "%%CITATION = ARXIV:1805.07399;%%"
+}
+
+
+@article{Khachatryan:2016kzg,
+      author         = "Khachatryan, Vardan and others",
+      title          = "{Measurement of the $t\bar{t}$ production cross section
+                        using events in the e$\mu$ final state in pp collisions at
+                        $\sqrt{s} =$ 13 TeV}",
+      collaboration  = "CMS",
+      journal        = "Eur. Phys. J.",
+      volume         = "C77",
+      year           = "2017",
+      pages          = "172",
+      doi            = "10.1140/epjc/s10052-017-4718-8",
+      eprint         = "1611.04040",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ex",
+      reportNumber   = "CMS-TOP-16-005, CERN-EP-2016-265",
+      SLACcitation   = "%%CITATION = ARXIV:1611.04040;%%"
+}
+
+@techreport{CMS-PAS-SMP-15-010,
+      title         = "{Measurement of the differential cross section of Z boson
+                       production in association with jets in proton-proton
+                       collisions at $\sqrt{s} = 13$ TeV}",
+      institution   = "CERN",
+      collaboration = "CMS Collaboration",
+      address       = "Geneva",
+      number        = "CMS-PAS-SMP-15-010",
+      year          = "2015",
+      reportNumber  = "CMS-PAS-SMP-15-010",
+      url           = "https://cds.cern.ch/record/2114819",
+}
+
+@TECHREPORT{CMS_AN_2006-027,
+     AUTHOR       = "Belotelov, I. and Golutvin, I. and Bourilkov, D. and Lanyov, A. and Rogalev, E. and Savina, M. and Shmatov, S.",
+     TITLE        = "Search for {ADD} extra dimensional gravity in di-muon channel with the {CMS} Detector",
+     TYPE      = "CMS Note",
+     NUMBER       = "2006/076",
+     URL          = "http://cdsweb.cern.ch/record/962045",
+     YEAR         = "2006"}
+@TECHREPORT{CMS_NOTE_2006-106,
+     AUTHOR       = "Aldaya, M. and Arce, P. and Caballero, J. and de la Cruz, B. and Garcia-Abia, P. and Hernandez, J. M. and Josa, M. I. and Ruiz, E.",
+     TITLE        = "Discovery potential and search strategy for the Standard Model {H}iggs boson in the {$H\to ZZ^\star\to 4\mu$} decay channel using a mass-independent analysis",
+     TYPE      = "CMS Note",
+     NUMBER       = "2006/106",
+     URL          = "http://cdsweb.cern.ch/record/962058",
+     YEAR         = "2006"}
+%
+% standard article
+%
+@Article{Leung:1984ni,
+     author    = "C.~N.~Leung and others",
+     title     = "Low-Energy Manifestations Of A New Interaction Scale: Operator Analysis",
+     journal   = "Z.\ Phys.\  C",
+     volume    = "31",
+     year      = "1986",
+     pages     = "433",
+}
+
+
+@ARTICLE{Buchmuller:1985jz,
+     AUTHOR       = "Buchm{\"u}ller, W. and Wyler, D.",
+     TITLE        = "Effective Lagrangian Analysis Of New Interactions And Flavor Conservation",
+     JOURNAL      = "Nucl.\ Phys.\  B {\bf 268}",
+     VOLUME       = "268",
+     YEAR         = "1986",
+     pages        = "621"
+}
+@Article{Zhang:2010dr,
+      author         = "Zhang, Cen and Willenbrock, Scott",
+      title          = "{Effective-Field-Theory Approach to Top-Quark Production
+                        and Decay}",
+      journal        = "Phys. Rev.",
+      volume         = "D83",
+      year           = "2011",
+      pages          = "034006",
+      doi            = "10.1103/PhysRevD.83.034006",
+      eprint         = "1008.3869",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      SLACcitation   = "%%CITATION = ARXIV:1008.3869;%%"
+}
+@Article{PTDR2,
+     author    = "{CMS Collaboration}",
+     title     = "{CMS} technical design report, volume {II}: {Physics}
+                  performance",
+     journal   = "J. Phys. G",
+     volume    = "34",
+     year      = "2007",
+     pages     = "995",
+     doi       = "10.1088/0954-3899/34/6/S01",
+     SLACcitation  = "%%CITATION = JPHGB,G34,995;%%"
+}
+% PAS are now TECHREPORTS. Same for Notes. A formatted list of PASs is located in [svn]/utils/branches/dev/general/pasBib-tech.bib
+@TECHREPORT{CMS-PAS-JME-10-003,
+      AUTHOR      = "{CMS Collaboration}",
+      COLLABORATION = {CMS},
+      TITLE       = "Jet Performance in pp Collisions at $\sqrt{s}$=7 {TeV}",
+      URL         = "http://cdsweb.cern.ch/record/1279362",
+      TYPE     = "CMS Physics Analysis Summary",
+      NUMBER      = "CMS-PAS-JME-10-003",
+      YEAR        = "2010"
+}
+
+@Article{Haberl:1995ek,
+      author         = "Haberl, P and Nachtmann, O and Wilch, A",
+      title          = "Top production in hadron hadron collisions and anomalous top - gluon couplings",
+      journal        = "  Phys.\ Rev.\ D",
+      volume    = "53",
+      year      = "1996",
+      pages     = "4875"
+}
+
+@Article{Hioki:2009hm,
+      author         = "Hioki, Z and Ohkuma, K",
+      title          = "Search for anomalous top-gluon couplings at LHC revisited",
+      journal        = "Eur.\ Phys.\ J.\ C",
+      volume    = "65",
+      year      = "2010",
+      pages     = "127",
+}
+
+@Article{Hioki:2010zu,
+      author         = "Hioki, Z and Ohkuma, K",
+      title          = "Addendum to: Search for anomalous top-gluon couplings at LHC revisited",
+      journal        = "Eur.\ Phys.\ J.\ C",
+      volume    = "71",
+      year      = "2011",
+      pages     = "1535"
+}
+
+@Article{Hioki:2013hva,
+      author         = "Hioki, Z and Ohkuma, K",
+      title          = "Latest constraint on nonstandard top-gluon couplings at hadron colliders and its future prospect",
+      journal        = "Phys.\ Rev.\ D",
+      volume    = "88",
+      year      = "2013",
+      pages     = ""
+}
+
+
+@Article{Cheung:1995nt,
+      author         = "Cheung, K",
+      title          = "Probing the chromoelectric and chromomagnetic dipole moments of the top quark at hadronic colliders",
+      journal        = "Phys.\ Rev.\ D",
+      volume    = "53",
+      year      = "1996",
+      pages     = "3604"
+}
+
+@Article{HIOKI:2011xx,
+      author         = "Hioki, Z and Ohkuma, K",
+      title          = "Exploring anomalous top interactions via the final lepton in $t\bar{t}$ productions/decays at hadron colliders",
+      journal        = "Phys.\ Rev.\ D",
+      volume    = "83",
+      year      = "2011",
+      pages     = "114045"
+}
+
+@Article{Kamenik:2011dk,
+      author         = "Kamenik, J.~F and Papucci, M and Weiler, A",
+      title          = "Constraining the dipole moments of the top quark",
+      journal        = "Phys.\ Rev.\ D",
+      volume    = "85",
+      year      = "2012",
+      pages     = "071501"
+}
+
+@Article{Bernreuther:2013aga,
+      author         = "Bernreuther, W and Si, Z.~G",
+      title          = "Top quark spin correlations and polarization at the LHC: standard model predictions and effects of anomalous top chromo moments",
+      journal        = "Phys.\ Lett.\ B",
+      volume    = "725",
+      year      = "2013",
+      pages     = "115"
+}
+
+
+@Article{Martinez:2001qs,
+      author         = "Martinez, R and Rodriguez, J.~A.",
+      title          = "The Anomalous chromomagnetic dipole moment of the top quark in the standard model and beyond",
+      journal        = "Phys.\ Rev.\ D",
+      volume    = "65",
+      year      = "2002",
+      pages     = "057301"
+}
+@Article{CMS:2014bea,
+     author    = "{CMS Collaboration}",
+     title     = "Search for Anomalous Top Chromomagnetic Dipole Moments from angular distributions in $t\bar{t}$ Dileptonic events at $\sqrt{s}=7$ TeV with the CMS detector",
+     journal   = "CMS-PAS-TOP-14-005",
+      year      = "2014"
+}
+
+
+@misc{pileup,
+  howpublished          = {\url{https://twiki.cern.ch/twiki/bin/view/CMS/PileupJSONFileforData?rev=26#Pileup\_JSON\_Files\_For\_Run\_II}},
+}
+
+@misc{crosssecTwiki,
+  howpublished={\url{https://twiki.cern.ch/twiki/bin/view/CMS/StandardModelCrossSectionsat13TeV?rev=24}},
+}
+
+@article{AguilarSaavedra:2008zc,
+      author         = "Aguilar-Saavedra, J. A.",
+      title          = "{A Minimal set of top anomalous couplings}",
+      journal        = "Nucl. Phys.",
+      volume         = "B812",
+      year           = "2009",
+      pages          = "181-204",
+      doi            = "10.1016/j.nuclphysb.2008.12.012"
+}
+
+
+@article{CMS:2010eua,
+      title          = "Commissioning of the Particle-Flow reconstruction in Minimum-Bias and Jet Events from pp Collisions at 7 TeV",
+      collaboration  = "CMS",
+      year           = "2010",
+      reportNumber   = "CMS-PAS-PFT-10-002"
+}
+
+@misc{muonid,
+  howpublished          = {\url{https://twiki.cern.ch/twiki/bin/viewauth/CMS/SWGuideMuonIdRun2}}
+}
+
+@misc{muonsf,
+  howpublished          = {\url{https://twiki.cern.ch/twiki/bin/view/CMS/MuonWorkInProgressAndPagResults}}
+}
+
+@misc{eleid,
+  howpublished          = {\url{https://twiki.cern.ch/twiki/bin/view/CMS/EgammaIDRecipesRun2}}
+}
+
+@article{Khachatryan:2015hwa,
+      author         = "Khachatryan, Vardan and others",
+      title          = "Performance of Electron Reconstruction and Selection with the CMS Detector in Proton Proton Collisions at  8  TeV",
+      collaboration  = "CMS",
+      journal        = "JINST",
+      volume         = "10",
+      year           = "2015",
+      pages          = "P06005",
+      doi            = "10.1088/1748-0221/10/06/P06005"
+}
+
+@misc{elereg,
+  howpublished          = {\url{https://twiki.cern.ch/twiki/bin/view/CMS/EGMRegression}}
+}
+
+@misc{elescale,
+  howpublished         = {\url{https://twiki.cern.ch/twiki/bin/view/CMS/EGMSmearer}}
+}
+
+@TECHREPORT{CMS_NOTE_2016-399,
+     AUTHOR       = "Dobur, D and et. all",
+     TITLE        = "Search for EWK SUSY in Final States with Same-Sign Dileptons and Multileptons with Complete 2016 Set of PP Collision Data",
+     TYPE      = "CMS Note",
+      institution   = "CERN",
+     NUMBER       = "2016/399",
+     YEAR         = "2016"}
+
+@misc{jetid,
+  howpublished         = {\url{https://twiki.cern.ch/twiki/bin/viewauth/CMS/JetID}}
+}
+
+@misc{bjet,
+  howpublished         = {\url{https://twiki.cern.ch/twiki/bin/viewauth/CMS/BtagRecommendation80XReReco}}
+}
+
+@misc{metcor,
+  howpublished         = {\url{https://twiki.cern.ch/twiki/bin/viewauth/CMS/MissingETRun2Corrections}}
+}
+
+@misc{metfilter,
+  howpublished         = {\url{https://twiki.cern.ch/twiki/bin/view/CMS/MissingETOptionalFiltersRun2}}
+}
+
+@misc{GT,
+  howpublished         = {\url{https://cms-conddb.cern.ch/cmsDbBrowser/list/Prod/gts/80X\_mcRun2\_asymptotic\_2016\_TrancheIV\_v8}}
+}
+
+@misc{btag,
+  howpublished         = {\url{https://twiki.cern.ch/twiki/bin/viewauth/CMS/BtagRecommendation80XReReco}}
+}
+
+@techreport{CMS-PAS-LUM-17-001,
+      title         = "{CMS Luminosity Measurements for the 2016 Data Taking
+                       Period}",
+      institution   = "CERN",
+      collaboration = "CMS Collaboration",
+      address       = "Geneva",
+      number        = "CMS-PAS-LUM-17-001",
+      year          = "2017"
+}
+
+@misc{recoil,
+  howpublished         = {\url{https://twiki.cern.ch/twiki/bin/view/CMS/MissingETRun2RecoilCorrection}}
+}
+
+@article{Franzosi:2015osa,
+      author         = "Buarque Franzosi, Diogo and Zhang, Cen",
+      title          = "{Probing the top-quark chromomagnetic dipole moment at
+                        next-to-leading order in QCD}",
+      journal        = "Phys. Rev.",
+      volume         = "D91",
+      year           = "2015",
+      number         = "11",
+      pages          = "114010",
+      doi            = "10.1103/PhysRevD.91.114010"
+}
+
+@misc{ttsigma,
+  howpublished         = {\url{https://twiki.cern.ch/twiki/bin/view/LHCPhysics/TtbarNNLO}}
+}
+
+@misc{Rochester,
+  howpublished         = {\url{https://twiki.cern.ch/twiki/bin/viewauth/CMS/RochcorMuon}}
+}
+
+@misc{metsig,
+  howpublished         = {\url{https://twiki.cern.ch/twiki/pub/CMSPublic/WorkBookMetAnalysis/tai_20150119_met_significance.pdf}}
+}
+
+
+@article{trSF,
+      author         = "Arndt, T and   Pardos, C.D and Meyer, A",
+      title          = "Measurement of the 2016 Trigger Efficiencies for a dilepton selection for a ttbar analysis",
+      year           = "2016",
+      journal   = "AN-2016-392"
+}
+@article{TTbar_analysis,
+      author         = "M. Aldaya and others",
+      title          = "Measurement of the differential cross section for top quark pair production in the dilepton final state at $\sqrt{s}$ = 13\TeV with the full 2016 dataset",
+      year           = "2017",
+      journal   = "AN-2017-022"
+}
+
+@MISC{xs_13TeV,
+      author    = "{GEN group}",
+      title     = "{Standard Model Cross Sections for CMS at 13 TeV}",
+      howpublished = "web page: https://twiki.cern.ch/twiki/bin/viewauth/CMS/StandardModelCrossSectionsat13TeV",
+}
+@article{Demartin:2016axk,
+      author         = "Demartin, Federico and Maier, Benedikt and Maltoni, Fabio
+                        and Mawatari, Kentarou and Zaro, Marco",
+      title          = "{tWH associated production at the LHC}",
+      journal        = "Eur. Phys. J.",
+      volume         = "C77",
+      year           = "2017",
+      number         = "1",
+      pages          = "34",
+      doi            = "10.1140/epjc/s10052-017-4601-7"
+}
+
+@article{Aguilar-Saavedra:2014iga,
+      author         = "Aguilar-Saavedra, Juan A. and Fuks, Benjamin and Mangano,
+                        Michelangelo L.",
+      title          = "{Pinning down top dipole moments with ultra-boosted
+                        tops}",
+      journal        = "Phys. Rev.",
+      volume         = "D91",
+      year           = "2015",
+      pages          = "094021"
+}
+
+@article{Khachatryan:2016sib,
+      author         = "Khachatryan, Vardan and others",
+      title          = "{Search for anomalous Wtb couplings and flavour-changing
+                        neutral currents in t-channel single top quark production
+                        in pp collisions at $\sqrt{s} =$ 7 and 8 TeV}",
+      collaboration  = "CMS",
+      journal        = "JHEP",
+      volume         = "02",
+      year           = "2017",
+      pages          = "028",
+      doi            = "10.1007/JHEP02(2017)028",
+      eprint         = "1610.03545",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ex",
+      reportNumber   = "CMS-TOP-14-007, CERN-EP-2016-207"
+}
+
+@article{Khachatryan:2014vma,
+      author         = "Khachatryan, Vardan and others",
+      title          = "{Measurement of the W boson helicity in events with a
+                        single reconstructed top quark in pp collisions at $
+                        \sqrt{s}=8 $ TeV}",
+      collaboration  = "CMS",
+      journal        = "JHEP",
+      volume         = "01",
+      year           = "2015",
+      pages          = "053",
+      doi            = "10.1007/JHEP01(2015)053",
+      eprint         = "1410.1154",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ex",
+      reportNumber   = "CMS-TOP-12-020, CERN-PH-EP-2014-242"
+}
+
+@article{Abazov:2012uga,
+      author         = "Abazov, Victor Mukhamedovich and others",
+      title          = "{Combination of searches for anomalous top quark
+                        couplings with 5.4 fb$^{-1}$ of $p\bar{p}$ collisions}",
+      collaboration  = "D0",
+      journal        = "Phys. Lett.",
+      volume         = "B713",
+      year           = "2012",
+      pages          = "165-171",
+      doi            = "10.1016/j.physletb.2012.05.048",
+      eprint         = "1204.2332",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ex",
+      reportNumber   = "FERMILAB-PUB-12-096-E"
+}
+
+@article{Aaboud:2017aqp,
+      author         = "Aaboud, Morad and others",
+      title          = "{Probing the $Wtb$ vertex structure in $t$-channel
+                        single-top-quark production and decay in $pp$ collisions
+                        at $\sqrt{\mathrm{s}}=8$ TeV with the ATLAS detector}",
+      collaboration  = "ATLAS",
+      journal        = "JHEP",
+      volume         = "04",
+      year           = "2017",
+      pages          = "124",
+      doi            = "10.1007/JHEP04(2017)124",
+      eprint         = "1702.08309",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ex",
+      reportNumber   = "CERN-EP-2017-011"
+}
+
+@article{Aaboud:2016hsq,
+      author         = "Aaboud, Morad and others",
+      title          = "{Measurement of the $W$ boson polarisation in $t\bar{t}$
+                        events from $pp$ collisions at $\sqrt{s}$ = 8 TeV in the
+                        lepton+jets channel with ATLAS}",
+      collaboration  = "ATLAS",
+      journal        = "Eur. Phys. J.",
+      volume         = "C77",
+      year           = "2017",
+      number         = "4",
+      pages          = "264",
+      doi            = "10.1140/epjc/s10052-017-4819-4",
+      eprint         = "1612.02577",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ex",
+      reportNumber   = "CERN-EP-2016-219, CERN-PH-2016-219"
+}
+
+@article{smbr,
+      author         = "Aguilar-Saavedra, J. A.",
+      title          = "{Top flavor-changing neutral interactions: Theoretical
+                        expectations and experimental detection}",
+      booktitle      = "{Particle physics phenomenology at high energy colliders.
+                        Proceedings, Final meeting of the European Union Network,
+                        Montpellier, France, September 26-27, 2004}",
+      journal        = "Acta Phys. Polon.",
+      volume         = "B35",
+      year           = "2004",
+      pages          = "2695-2710",
+      eprint         = "hep-ph/0409342",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      SLACcitation   = "%%CITATION = HEP-PH/0409342;%%"
+}
+@article{Abazov:2010qk,
+      author         = "Abazov, Victor Mukhamedovich and others",
+      title          = "{Search for flavor changing neutral currents via
+                        quark-gluon couplings in single top quark production using
+                        2.3 fb$^{-1}$ of $p\bar{p}$ collisions}",
+      collaboration  = "D0",
+      journal        = "Phys. Lett.",
+      volume         = "B693",
+      year           = "2010",
+      pages          = "81-87",
+      doi            = "10.1016/j.physletb.2010.08.011",
+      eprint         = "1006.3575",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ex",
+      reportNumber   = "FERMILAB-PUB-10-203-E",
+      SLACcitation   = "%%CITATION = ARXIV:1006.3575;%%"
+}
+
+@article{Aaltonen:2008qr,
+      author         = "Aaltonen, T. and others",
+      title          = "{Search for top-quark production via flavor-changing
+                        neutral currents in W+1 jet events at CDF}",
+      collaboration  = "CDF",
+      journal        = "Phys. Rev. Lett.",
+      volume         = "102",
+      year           = "2009",
+      pages          = "151801",
+      doi            = "10.1103/PhysRevLett.102.151801",
+      eprint         = "0812.3400",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ex",
+      reportNumber   = "FERMILAB-PUB-09-011-E",
+      SLACcitation   = "%%CITATION = ARXIV:0812.3400;%%"
+}
+
+@misc{FCNClink,
+  howpublished         = {\url{http://feynrules.irmp.ucl.ac.be/wiki/GeneralFCNTop}}
+}
+
+
+@article{Aad:2012xca,
+      author         = "Aad, Georges and others",
+      title          = "{Evidence for the associated production of a $W$ boson
+                        and a top quark in ATLAS at $\sqrt{s}=7$ TeV}",
+      collaboration  = "ATLAS",
+      journal        = "Phys. Lett.",
+      volume         = "B716",
+      year           = "2012",
+      pages          = "142-159",
+      doi            = "10.1016/j.physletb.2012.08.011",
+      eprint         = "1205.5764",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ex",
+      reportNumber   = "CERN-PH-EP-2012-117",
+      SLACcitation   = "%%CITATION = ARXIV:1205.5764;%%"
+}
+
+@article{Chatrchyan:2012zca,
+      author         = "Chatrchyan, Serguei and others",
+      title          = "{Evidence for associated production of a single top quark
+                        and W boson in $pp$ collisions at $\sqrt{s}$ = 7 TeV}",
+      collaboration  = "CMS",
+      journal        = "Phys. Rev. Lett.",
+      volume         = "110",
+      year           = "2013",
+      pages          = "022003",
+      doi            = "10.1103/PhysRevLett.110.022003",
+      eprint         = "1209.3489",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ex",
+      reportNumber   = "CMS-TOP-11-022, CERN-PH-EP-2012-266",
+      SLACcitation   = "%%CITATION = ARXIV:1209.3489;%%"
+}
+
+@article{Chatrchyan:2014tua,
+      author         = "Chatrchyan, Serguei and others",
+      title          = "{Observation of the associated production of a single top
+                        quark and a $W$ boson in $pp$ collisions at $\sqrt s = $8
+                        TeV}",
+      collaboration  = "CMS",
+      journal        = "Phys. Rev. Lett.",
+      volume         = "112",
+      year           = "2014",
+      number         = "23",
+      pages          = "231802",
+      doi            = "10.1103/PhysRevLett.112.231802",
+      eprint         = "1401.2942",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ex",
+      reportNumber   = "CMS-TOP-12-040, CERN-PH-EP-2013-237",
+      SLACcitation   = "%%CITATION = ARXIV:1401.2942;%%"
+}
+
+@article{Aad:2015eto,
+      author         = "Aad, Georges and others",
+      title          = "{Measurement of the production cross-section of a single
+                        top quark in association with a $W$ boson at 8 TeV with
+                        the ATLAS experiment}",
+      collaboration  = "ATLAS",
+      journal        = "JHEP",
+      volume         = "01",
+      year           = "2016",
+      pages          = "064",
+      doi            = "10.1007/JHEP01(2016)064",
+      eprint         = "1510.03752",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ex",
+      reportNumber   = "CERN-PH-EP-2015-230",
+      SLACcitation   = "%%CITATION = ARXIV:1510.03752;%%"
+}
+
+@article{Aaboud:2016lpj,
+      author         = "Aaboud, Morad and others",
+      title          = "{Measurement of the cross-section for producing a $W$
+                        boson in association with a single top quark in $pp$
+                        collisions at $\sqrt{s}={13} \text{TeV}$ with ATLAS}",
+      collaboration  = "ATLAS",
+      year           = "2016",
+      eprint         = "1612.07231",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ex",
+      reportNumber   = "CERN-EP-2016-238",
+      SLACcitation   = "%%CITATION = ARXIV:1612.07231;%%"
+}
+
+@article{Campbell:2005bb,
+      author         = "Campbell, John M. and Tramontano, Francesco",
+      title          = "{Next-to-leading order corrections to Wt production and
+                        decay}",
+      journal        = "Nucl. Phys.",
+      volume         = "B726",
+      year           = "2005",
+      pages          = "109-130",
+      doi            = "10.1016/j.nuclphysb.2005.08.015",
+      eprint         = "hep-ph/0506289",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      reportNumber   = "CERN-PH-TH-2005-110, DSF-18-2005",
+      SLACcitation   = "%%CITATION = HEP-PH/0506289;%%"
+}
+
+@article{Frixione:2005vw,
+      author         = "Frixione, Stefano and Laenen, Eric and Motylinski,
+                        Patrick and Webber, Bryan R.",
+      title          = "{Single-top production in MC@NLO}",
+      journal        = "JHEP",
+      volume         = "03",
+      year           = "2006",
+      pages          = "092",
+      doi            = "10.1088/1126-6708/2006/03/092",
+      eprint         = "hep-ph/0512250",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      reportNumber   = "CAVENDISH-HEP-05-24, GEF-TH-12-2005, ITP-UU-05-57,
+                        NIKHEF-2005-026",
+      SLACcitation   = "%%CITATION = HEP-PH/0512250;%%"
+}
+
+
+@article{Cascioli_2013wga,
+      author         = "Cascioli, F. and Kallweit, S. and Maierhöfer, P. and
+                        Pozzorini, S.",
+      title          = "{A unified NLO description of top-pair and associated Wt
+                        production}",
+      journal        = "Eur. Phys. J.",
+      volume         = "C74",
+      year           = "2014",
+      number         = "3",
+      pages          = "2783",
+      doi            = "10.1140/epjc/s10052-014-2783-9",
+      eprint         = "1312.0546",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      reportNumber   = "ZU-TH-28-13, LPN13-108",
+      SLACcitation   = "%%CITATION = ARXIV:1312.0546;%%"
+}
+
+@article{Frixione:2008yi,
+      author         = "Frixione, Stefano and Laenen, Eric and Motylinski,
+                        Patrick and Webber, Bryan R. and White, Chris D.",
+      title          = "{Single-top hadroproduction in association with a W
+                        boson}",
+      journal        = "JHEP",
+      volume         = "07",
+      year           = "2008",
+      pages          = "029",
+      doi            = "10.1088/1126-6708/2008/07/029",
+      eprint         = "0805.3067",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      reportNumber   = "CERN-TH-2008-104, ITP-UU-08-27, NIKHEF-2008-005,
+                        ITFA-2008-16, CAVENDISH-HEP-08-06",
+      SLACcitation   = "%%CITATION = ARXIV:0805.3067;%%"
+}
+
+@Article{topPAS11_002,
+    collaboration = "{CMS}",
+    title = "{Measurement of the tt production cross section and the top quark mass in the dilepton channel in pp collisions at $\sqrt{s}=7 \rm\ TeV$}",
+    journal = "JHEP",
+    volume = "1107, 049",
+    year = "2011",
+    eprint    = "1105.5661",
+    archivePrefix = "arXiv",
+    primaryClass  =  "hep-ex"
+}
+
+@article{TOP-11-005_paper,
+    author    = "{CMS Collaboration}",
+    title     = "{Measurement of the $t\bar t$ production cross section in the dilepton channel in pp collisions at $\sqrt{s}$ = 7 TeV}",
+      collaboration  = "{CMS}",
+      journal        = "JHEP",
+      volume         = "11",
+      year           = "2012",
+      pages          = "067",
+      doi            = "10.1007/JHEP11(2012)067",
+      eprint         = "1208.2671",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ex"
+}
+
+@article{TOP-12-007_paper,
+      AUTHOR      = "Chatrchyan, Serguei and others",
+      collaboration = "CMS",
+      title       = "{Measurement of the ${\rm t{\bar t}}$ production cross section in the dilepton channel in pp collisions at $\sqrt{s}$  = 8 TeV}",
+      journal        = "JHEP",
+      volume         = "02",
+      pages          = "024",
+      doi            = "10.1007/JHEP02(2014)024",
+      year           = "2014",
+      eprint         = "1312.7582",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ex"
+}
+
+@TECHREPORT{bib:TOP-15-003_paper,
+      COLLABORATION = "{CMS}",
+      TITLE       = "{Measurement of the top quark pair production cross section in proton-proton collisions at $\sqrt{s}$ = 13 TeV with the CMS detector}",
+      AUTHOR      = "{CMS Collaboration}",
+      TYPE        = "CMS Physics Analysis Summary",
+      NUMBER      = "CMS-PAS-TOP-15-003",
+      YEAR        = "2015"
+}
+
+@article{Kidonakis:2015,
+      author         = "Kidonakis, Nikolaos",
+      title          = "{Theoretical results for electroweak-boson and single-top
+                        production}",
+      booktitle      = "{Proceedings, 23rd International Workshop on
+                        Deep-Inelastic Scattering and Related Subjects (DIS 2015):
+                        Dallas, Texas, USA, April 27-May 01, 2015}",
+      journal        = "PoS",
+      volume         = "DIS2015",
+      year           = "2015",
+      pages          = "170",
+      eprint         = "1506.04072",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      SLACcitation   = "%%CITATION = ARXIV:1506.04072;%%"
+}

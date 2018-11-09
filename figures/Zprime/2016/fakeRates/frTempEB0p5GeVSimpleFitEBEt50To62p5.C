@@ -1,0 +1,986 @@
+void frTempEB0p5GeVSimpleFitEBEt50To62.5()
+{
+//=========Macro generated from canvas: c1/c1
+//=========  (Mon Dec 12 15:35:10 2016) by ROOT version6.02/05
+   TCanvas *c1 = new TCanvas("c1", "c1",16,96,900,750);
+   gStyle->SetOptFit(1);
+   gStyle->SetOptStat(0);
+   c1->Range(0,0,1,1);
+   c1->SetFillColor(0);
+   c1->SetBorderMode(0);
+   c1->SetBorderSize(2);
+   c1->SetTickx(1);
+   c1->SetTicky(1);
+   c1->SetLeftMargin(0.13);
+   c1->SetRightMargin(0.07);
+   c1->SetFrameBorderMode(0);
+  
+// ------------>Primitives in pad: spectrumPad
+   TPad *spectrumPad = new TPad("spectrumPad", "newpad",0.01,0.3,0.99,0.99);
+   spectrumPad->Draw();
+   spectrumPad->cd();
+   spectrumPad->Range(-4.0625,2.623044,27.1875,7.886554);
+   spectrumPad->SetFillColor(0);
+   spectrumPad->SetBorderMode(0);
+   spectrumPad->SetBorderSize(2);
+   spectrumPad->SetLogy();
+   spectrumPad->SetTickx(1);
+   spectrumPad->SetTicky(1);
+   spectrumPad->SetLeftMargin(0.13);
+   spectrumPad->SetRightMargin(0.07);
+   spectrumPad->SetFrameBorderMode(0);
+   spectrumPad->SetFrameBorderMode(0);
+   
+   TH1D *sigPlusJetDist4
+16 = new TH1D("sigPlusJetDist4
+16","",50,0,25);
+   sigPlusJetDist4
+16->SetBinContent(1,1.350692e+07);
+   sigPlusJetDist4
+16->SetBinContent(3,1029760);
+   sigPlusJetDist4
+16->SetBinContent(4,616800);
+   sigPlusJetDist4
+16->SetBinContent(5,454800);
+   sigPlusJetDist4
+16->SetBinContent(6,412640);
+   sigPlusJetDist4
+16->SetBinContent(7,375620);
+   sigPlusJetDist4
+16->SetBinContent(8,322620);
+   sigPlusJetDist4
+16->SetBinContent(9,314680);
+   sigPlusJetDist4
+16->SetBinContent(10,298720);
+   sigPlusJetDist4
+16->SetBinContent(11,268020);
+   sigPlusJetDist4
+16->SetBinContent(12,291120);
+   sigPlusJetDist4
+16->SetBinContent(13,261740);
+   sigPlusJetDist4
+16->SetBinContent(14,227460);
+   sigPlusJetDist4
+16->SetBinContent(15,201220);
+   sigPlusJetDist4
+16->SetBinContent(16,192180);
+   sigPlusJetDist4
+16->SetBinContent(17,186920);
+   sigPlusJetDist4
+16->SetBinContent(18,166440);
+   sigPlusJetDist4
+16->SetBinContent(19,146380);
+   sigPlusJetDist4
+16->SetBinContent(20,155180);
+   sigPlusJetDist4
+16->SetBinContent(21,118000);
+   sigPlusJetDist4
+16->SetBinContent(22,126960);
+   sigPlusJetDist4
+16->SetBinContent(23,98240);
+   sigPlusJetDist4
+16->SetBinContent(24,101840);
+   sigPlusJetDist4
+16->SetBinContent(25,84820);
+   sigPlusJetDist4
+16->SetBinContent(26,100660);
+   sigPlusJetDist4
+16->SetBinContent(27,93000);
+   sigPlusJetDist4
+16->SetBinContent(28,68200);
+   sigPlusJetDist4
+16->SetBinContent(29,78560);
+   sigPlusJetDist4
+16->SetBinContent(30,57200);
+   sigPlusJetDist4
+16->SetBinContent(31,63000);
+   sigPlusJetDist4
+16->SetBinContent(32,56000);
+   sigPlusJetDist4
+16->SetBinContent(33,45940);
+   sigPlusJetDist4
+16->SetBinContent(34,55000);
+   sigPlusJetDist4
+16->SetBinContent(35,36180);
+   sigPlusJetDist4
+16->SetBinContent(36,23160);
+   sigPlusJetDist4
+16->SetBinContent(37,31400);
+   sigPlusJetDist4
+16->SetBinContent(38,31540);
+   sigPlusJetDist4
+16->SetBinContent(39,32140);
+   sigPlusJetDist4
+16->SetBinContent(40,18160);
+   sigPlusJetDist4
+16->SetBinContent(41,10960);
+   sigPlusJetDist4
+16->SetBinContent(42,24680);
+   sigPlusJetDist4
+16->SetBinContent(43,14760);
+   sigPlusJetDist4
+16->SetBinContent(44,17960);
+   sigPlusJetDist4
+16->SetBinContent(45,10720);
+   sigPlusJetDist4
+16->SetBinContent(46,10280);
+   sigPlusJetDist4
+16->SetBinContent(47,6860);
+   sigPlusJetDist4
+16->SetBinContent(48,12500);
+   sigPlusJetDist4
+16->SetBinContent(49,11980);
+   sigPlusJetDist4
+16->SetBinContent(50,6060);
+   sigPlusJetDist4
+16->SetBinContent(51,95820);
+   sigPlusJetDist4
+16->SetBinError(1,148006.6);
+   sigPlusJetDist4
+16->SetBinError(3,40777.95);
+   sigPlusJetDist4
+16->SetBinError(4,31663.23);
+   sigPlusJetDist4
+16->SetBinError(5,27408.61);
+   sigPlusJetDist4
+16->SetBinError(6,25962.37);
+   sigPlusJetDist4
+16->SetBinError(7,24747);
+   sigPlusJetDist4
+16->SetBinError(8,23318.4);
+   sigPlusJetDist4
+16->SetBinError(9,22522.49);
+   sigPlusJetDist4
+16->SetBinError(10,22351.84);
+   sigPlusJetDist4
+16->SetBinError(11,20791.91);
+   sigPlusJetDist4
+16->SetBinError(12,21445.5);
+   sigPlusJetDist4
+16->SetBinError(13,20620.41);
+   sigPlusJetDist4
+16->SetBinError(14,18537.35);
+   sigPlusJetDist4
+16->SetBinError(15,17863.02);
+   sigPlusJetDist4
+16->SetBinError(16,17848.96);
+   sigPlusJetDist4
+16->SetBinError(17,17297.33);
+   sigPlusJetDist4
+16->SetBinError(18,16681.68);
+   sigPlusJetDist4
+16->SetBinError(19,15530.58);
+   sigPlusJetDist4
+16->SetBinError(20,16008.89);
+   sigPlusJetDist4
+16->SetBinError(21,13453.36);
+   sigPlusJetDist4
+16->SetBinError(22,14824.6);
+   sigPlusJetDist4
+16->SetBinError(23,12190.68);
+   sigPlusJetDist4
+16->SetBinError(24,12494.19);
+   sigPlusJetDist4
+16->SetBinError(25,11232.19);
+   sigPlusJetDist4
+16->SetBinError(26,12901.95);
+   sigPlusJetDist4
+16->SetBinError(27,12316.36);
+   sigPlusJetDist4
+16->SetBinError(28,10854.16);
+   sigPlusJetDist4
+16->SetBinError(29,10988.83);
+   sigPlusJetDist4
+16->SetBinError(30,10302.74);
+   sigPlusJetDist4
+16->SetBinError(31,9779.53);
+   sigPlusJetDist4
+16->SetBinError(32,9577.056);
+   sigPlusJetDist4
+16->SetBinError(33,8775.397);
+   sigPlusJetDist4
+16->SetBinError(34,9228.911);
+   sigPlusJetDist4
+16->SetBinError(35,7679.714);
+   sigPlusJetDist4
+16->SetBinError(36,5789.37);
+   sigPlusJetDist4
+16->SetBinError(37,6866.731);
+   sigPlusJetDist4
+16->SetBinError(38,7538.461);
+   sigPlusJetDist4
+16->SetBinError(39,6694.266);
+   sigPlusJetDist4
+16->SetBinError(40,5235.418);
+   sigPlusJetDist4
+16->SetBinError(41,4357.706);
+   sigPlusJetDist4
+16->SetBinError(42,6696.865);
+   sigPlusJetDist4
+16->SetBinError(43,4996.959);
+   sigPlusJetDist4
+16->SetBinError(44,5507.232);
+   sigPlusJetDist4
+16->SetBinError(45,4185.499);
+   sigPlusJetDist4
+16->SetBinError(46,4334.513);
+   sigPlusJetDist4
+16->SetBinError(47,3301.454);
+   sigPlusJetDist4
+16->SetBinError(48,4563.989);
+   sigPlusJetDist4
+16->SetBinError(49,4360.963);
+   sigPlusJetDist4
+16->SetBinError(50,3062.613);
+   sigPlusJetDist4
+16->SetBinError(51,12855.46);
+   sigPlusJetDist4
+16->SetEntries(15341);
+   sigPlusJetDist4
+16->SetDirectory(0);
+   sigPlusJetDist4
+16->SetLineColor(4);
+   sigPlusJetDist4
+16->SetMarkerColor(4);
+   sigPlusJetDist4
+16->SetMarkerStyle(8);
+   sigPlusJetDist4
+16->GetXaxis()->SetLabelFont(42);
+   sigPlusJetDist4
+16->GetXaxis()->SetLabelSize(0.047);
+   sigPlusJetDist4
+16->GetXaxis()->SetTitleSize(0.05);
+   sigPlusJetDist4
+16->GetXaxis()->SetTitleOffset(0.9);
+   sigPlusJetDist4
+16->GetXaxis()->SetTitleFont(42);
+   sigPlusJetDist4
+16->GetYaxis()->SetTitle("# Weighted Events / bin");
+   sigPlusJetDist4
+16->GetYaxis()->SetLabelFont(42);
+   sigPlusJetDist4
+16->GetYaxis()->SetLabelSize(0.047);
+   sigPlusJetDist4
+16->GetYaxis()->SetTitleSize(0.055);
+   sigPlusJetDist4
+16->GetYaxis()->SetTitleOffset(1.2);
+   sigPlusJetDist4
+16->GetYaxis()->SetTitleFont(42);
+   sigPlusJetDist4
+16->GetZaxis()->SetLabelFont(42);
+   sigPlusJetDist4
+16->GetZaxis()->SetLabelSize(0.047);
+   sigPlusJetDist4
+16->GetZaxis()->SetTitleFont(42);
+   sigPlusJetDist4
+16->Draw("EP");
+   
+   TH1D *totHist17 = new TH1D("totHist17","temp",50,0,25);
+   totHist17->SetBinContent(1,1.371596e+07);
+   totHist17->SetBinContent(3,905229.1);
+   totHist17->SetBinContent(4,557332);
+   totHist17->SetBinContent(5,416605.5);
+   totHist17->SetBinContent(6,375557.4);
+   totHist17->SetBinContent(7,337795.1);
+   totHist17->SetBinContent(8,320491.7);
+   totHist17->SetBinContent(9,300824.1);
+   totHist17->SetBinContent(10,289571.1);
+   totHist17->SetBinContent(11,281920.9);
+   totHist17->SetBinContent(12,263491.3);
+   totHist17->SetBinContent(13,232291.3);
+   totHist17->SetBinContent(14,236448.3);
+   totHist17->SetBinContent(15,215387.6);
+   totHist17->SetBinContent(16,200056.5);
+   totHist17->SetBinContent(17,190854.4);
+   totHist17->SetBinContent(18,165343.5);
+   totHist17->SetBinContent(19,152640.9);
+   totHist17->SetBinContent(20,152105.1);
+   totHist17->SetBinContent(21,149286);
+   totHist17->SetBinContent(22,120900.2);
+   totHist17->SetBinContent(23,110575.3);
+   totHist17->SetBinContent(24,120451.8);
+   totHist17->SetBinContent(25,98848.46);
+   totHist17->SetBinContent(26,85244.62);
+   totHist17->SetBinContent(27,90576.55);
+   totHist17->SetBinContent(28,77386.48);
+   totHist17->SetBinContent(29,65463.01);
+   totHist17->SetBinContent(30,70805.78);
+   totHist17->SetBinContent(31,64053.54);
+   totHist17->SetBinContent(32,44117.77);
+   totHist17->SetBinContent(33,50859.17);
+   totHist17->SetBinContent(34,48648.58);
+   totHist17->SetBinContent(35,41290.37);
+   totHist17->SetBinContent(36,40547.16);
+   totHist17->SetBinContent(37,35997.05);
+   totHist17->SetBinContent(38,32625.61);
+   totHist17->SetBinContent(39,31878.25);
+   totHist17->SetBinContent(40,26624.74);
+   totHist17->SetBinContent(41,22179.04);
+   totHist17->SetBinContent(42,23536.38);
+   totHist17->SetBinContent(43,19752.94);
+   totHist17->SetBinContent(44,19803.73);
+   totHist17->SetBinContent(45,13743.75);
+   totHist17->SetBinContent(46,13687.46);
+   totHist17->SetBinContent(47,13150.26);
+   totHist17->SetBinContent(48,12672.17);
+   totHist17->SetBinContent(49,12468.84);
+   totHist17->SetBinContent(50,8902.39);
+   totHist17->SetBinContent(51,142795.4);
+   totHist17->SetBinError(1,39715.76);
+   totHist17->SetBinError(3,14358.91);
+   totHist17->SetBinError(4,12925.96);
+   totHist17->SetBinError(5,11911.71);
+   totHist17->SetBinError(6,11827.27);
+   totHist17->SetBinError(7,11561.74);
+   totHist17->SetBinError(8,11596.97);
+   totHist17->SetBinError(9,11325.67);
+   totHist17->SetBinError(10,11203.3);
+   totHist17->SetBinError(11,11107.86);
+   totHist17->SetBinError(12,10700.93);
+   totHist17->SetBinError(13,10081.89);
+   totHist17->SetBinError(14,10173.73);
+   totHist17->SetBinError(15,9796.415);
+   totHist17->SetBinError(16,9598.178);
+   totHist17->SetBinError(17,9386.129);
+   totHist17->SetBinError(18,8520.678);
+   totHist17->SetBinError(19,8292.167);
+   totHist17->SetBinError(20,8232.496);
+   totHist17->SetBinError(21,8319.234);
+   totHist17->SetBinError(22,7196.368);
+   totHist17->SetBinError(23,6971.731);
+   totHist17->SetBinError(24,7394.584);
+   totHist17->SetBinError(25,6560.77);
+   totHist17->SetBinError(26,6182.564);
+   totHist17->SetBinError(27,6502.997);
+   totHist17->SetBinError(28,5878.313);
+   totHist17->SetBinError(29,5365.828);
+   totHist17->SetBinError(30,5724.062);
+   totHist17->SetBinError(31,5474.248);
+   totHist17->SetBinError(32,4460.783);
+   totHist17->SetBinError(33,4701.869);
+   totHist17->SetBinError(34,4679.918);
+   totHist17->SetBinError(35,4286.28);
+   totHist17->SetBinError(36,4258.932);
+   totHist17->SetBinError(37,4069.84);
+   totHist17->SetBinError(38,3817.511);
+   totHist17->SetBinError(39,3827.852);
+   totHist17->SetBinError(40,3591.57);
+   totHist17->SetBinError(41,3046.45);
+   totHist17->SetBinError(42,3372.419);
+   totHist17->SetBinError(43,2864.31);
+   totHist17->SetBinError(44,2915.62);
+   totHist17->SetBinError(45,2535.527);
+   totHist17->SetBinError(46,2462.381);
+   totHist17->SetBinError(47,2492.948);
+   totHist17->SetBinError(48,2420.816);
+   totHist17->SetBinError(49,2295.083);
+   totHist17->SetBinError(50,2002.704);
+   totHist17->SetBinError(51,8100.041);
+   totHist17->SetEntries(222571);
+   totHist17->SetLineStyle(2);
+   totHist17->SetLineWidth(3);
+   totHist17->GetXaxis()->SetLabelFont(42);
+   totHist17->GetXaxis()->SetLabelSize(0.047);
+   totHist17->GetXaxis()->SetTitleSize(0.05);
+   totHist17->GetXaxis()->SetTitleOffset(0.9);
+   totHist17->GetXaxis()->SetTitleFont(42);
+   totHist17->GetYaxis()->SetLabelFont(42);
+   totHist17->GetYaxis()->SetLabelSize(0.047);
+   totHist17->GetYaxis()->SetTitleSize(0.055);
+   totHist17->GetYaxis()->SetTitleOffset(1.2);
+   totHist17->GetYaxis()->SetTitleFont(42);
+   totHist17->GetZaxis()->SetLabelFont(42);
+   totHist17->GetZaxis()->SetLabelSize(0.047);
+   totHist17->GetZaxis()->SetTitleFont(42);
+   totHist17->Draw("SAMEHISTE");
+   
+   TH1D *var1Hist18 = new TH1D("var1Hist18","temp",50,0,25);
+   var1Hist18->SetBinContent(1,1.195651e+07);
+   var1Hist18->SetBinContent(3,522151.6);
+   var1Hist18->SetBinContent(4,223151.7);
+   var1Hist18->SetBinContent(5,114935.4);
+   var1Hist18->SetBinContent(6,72359.54);
+   var1Hist18->SetBinContent(7,45999.99);
+   var1Hist18->SetBinContent(8,29202.24);
+   var1Hist18->SetBinContent(9,19640.45);
+   var1Hist18->SetBinContent(10,14794.94);
+   var1Hist18->SetBinContent(11,11112.36);
+   var1Hist18->SetBinContent(12,9174.156);
+   var1Hist18->SetBinContent(13,6137.639);
+   var1Hist18->SetBinContent(14,3359.55);
+   var1Hist18->SetBinContent(15,3488.763);
+   var1Hist18->SetBinContent(16,2390.449);
+   var1Hist18->SetBinContent(17,2002.809);
+   var1Hist18->SetBinContent(18,1550.562);
+   var1Hist18->SetBinContent(19,1162.921);
+   var1Hist18->SetBinContent(20,1033.708);
+   var1Hist18->SetBinContent(21,1033.708);
+   var1Hist18->SetBinContent(22,1421.348);
+   var1Hist18->SetBinContent(23,323.0337);
+   var1Hist18->SetBinContent(24,516.8539);
+   var1Hist18->SetBinContent(25,581.4606);
+   var1Hist18->SetBinContent(26,193.8202);
+   var1Hist18->SetBinContent(27,387.6404);
+   var1Hist18->SetBinContent(28,452.2471);
+   var1Hist18->SetBinContent(29,387.6404);
+   var1Hist18->SetBinContent(30,323.0337);
+   var1Hist18->SetBinContent(31,516.8539);
+   var1Hist18->SetBinContent(32,193.8202);
+   var1Hist18->SetBinContent(33,258.4269);
+   var1Hist18->SetBinContent(34,64.60673);
+   var1Hist18->SetBinContent(35,64.60673);
+   var1Hist18->SetBinContent(36,129.2135);
+   var1Hist18->SetBinContent(37,129.2135);
+   var1Hist18->SetBinContent(43,129.2135);
+   var1Hist18->SetBinContent(44,64.60673);
+   var1Hist18->SetBinContent(46,64.60673);
+   var1Hist18->SetBinError(1,27793.36);
+   var1Hist18->SetBinError(3,5808.142);
+   var1Hist18->SetBinError(4,3796.985);
+   var1Hist18->SetBinError(5,2724.995);
+   var1Hist18->SetBinError(6,2162.155);
+   var1Hist18->SetBinError(7,1723.923);
+   var1Hist18->SetBinError(8,1373.558);
+   var1Hist18->SetBinError(9,1126.457);
+   var1Hist18->SetBinError(10,977.6773);
+   var1Hist18->SetBinError(11,847.3093);
+   var1Hist18->SetBinError(12,769.8781);
+   var1Hist18->SetBinError(13,629.7085);
+   var1Hist18->SetBinError(14,465.8858);
+   var1Hist18->SetBinError(15,474.7606);
+   var1Hist18->SetBinError(16,392.9874);
+   var1Hist18->SetBinError(17,359.7151);
+   var1Hist18->SetBinError(18,316.5071);
+   var1Hist18->SetBinError(19,274.1031);
+   var1Hist18->SetBinError(20,258.4269);
+   var1Hist18->SetBinError(21,258.4269);
+   var1Hist18->SetBinError(22,303.0324);
+   var1Hist18->SetBinError(23,144.465);
+   var1Hist18->SetBinError(24,182.7354);
+   var1Hist18->SetBinError(25,193.8202);
+   var1Hist18->SetBinError(26,111.9021);
+   var1Hist18->SetBinError(27,158.2535);
+   var1Hist18->SetBinError(28,170.9333);
+   var1Hist18->SetBinError(29,158.2535);
+   var1Hist18->SetBinError(30,144.465);
+   var1Hist18->SetBinError(31,182.7354);
+   var1Hist18->SetBinError(32,111.9021);
+   var1Hist18->SetBinError(33,129.2135);
+   var1Hist18->SetBinError(34,64.60673);
+   var1Hist18->SetBinError(35,64.60673);
+   var1Hist18->SetBinError(36,91.36772);
+   var1Hist18->SetBinError(37,91.36772);
+   var1Hist18->SetBinError(43,91.36772);
+   var1Hist18->SetBinError(44,64.60673);
+   var1Hist18->SetBinError(46,64.60673);
+   var1Hist18->SetEntries(201951);
+   var1Hist18->SetDirectory(0);
+   var1Hist18->SetLineColor(4);
+   var1Hist18->SetLineStyle(2);
+   var1Hist18->SetLineWidth(2);
+   var1Hist18->GetXaxis()->SetLabelFont(42);
+   var1Hist18->GetXaxis()->SetLabelSize(0.047);
+   var1Hist18->GetXaxis()->SetTitleSize(0.05);
+   var1Hist18->GetXaxis()->SetTitleOffset(0.9);
+   var1Hist18->GetXaxis()->SetTitleFont(42);
+   var1Hist18->GetYaxis()->SetLabelFont(42);
+   var1Hist18->GetYaxis()->SetLabelSize(0.047);
+   var1Hist18->GetYaxis()->SetTitleSize(0.055);
+   var1Hist18->GetYaxis()->SetTitleOffset(1.2);
+   var1Hist18->GetYaxis()->SetTitleFont(42);
+   var1Hist18->GetZaxis()->SetLabelFont(42);
+   var1Hist18->GetZaxis()->SetLabelSize(0.047);
+   var1Hist18->GetZaxis()->SetTitleFont(42);
+   var1Hist18->Draw("SAMEHISTE");
+   
+   TH1D *jetTemplates4
+19 = new TH1D("jetTemplates4
+19","hist",50,0,25);
+   jetTemplates4
+19->SetBinContent(1,1759447);
+   jetTemplates4
+19->SetBinContent(3,383077.5);
+   jetTemplates4
+19->SetBinContent(4,334180.3);
+   jetTemplates4
+19->SetBinContent(5,301670.1);
+   jetTemplates4
+19->SetBinContent(6,303197.8);
+   jetTemplates4
+19->SetBinContent(7,291795.1);
+   jetTemplates4
+19->SetBinContent(8,291289.5);
+   jetTemplates4
+19->SetBinContent(9,281183.6);
+   jetTemplates4
+19->SetBinContent(10,274776.1);
+   jetTemplates4
+19->SetBinContent(11,270808.5);
+   jetTemplates4
+19->SetBinContent(12,254317.1);
+   jetTemplates4
+19->SetBinContent(13,226153.7);
+   jetTemplates4
+19->SetBinContent(14,233088.8);
+   jetTemplates4
+19->SetBinContent(15,211898.9);
+   jetTemplates4
+19->SetBinContent(16,197666);
+   jetTemplates4
+19->SetBinContent(17,188851.6);
+   jetTemplates4
+19->SetBinContent(18,163793);
+   jetTemplates4
+19->SetBinContent(19,151478);
+   jetTemplates4
+19->SetBinContent(20,151071.4);
+   jetTemplates4
+19->SetBinContent(21,148252.3);
+   jetTemplates4
+19->SetBinContent(22,119478.9);
+   jetTemplates4
+19->SetBinContent(23,110252.3);
+   jetTemplates4
+19->SetBinContent(24,119935);
+   jetTemplates4
+19->SetBinContent(25,98267);
+   jetTemplates4
+19->SetBinContent(26,85050.8);
+   jetTemplates4
+19->SetBinContent(27,90188.91);
+   jetTemplates4
+19->SetBinContent(28,76934.24);
+   jetTemplates4
+19->SetBinContent(29,65075.37);
+   jetTemplates4
+19->SetBinContent(30,70482.75);
+   jetTemplates4
+19->SetBinContent(31,63536.69);
+   jetTemplates4
+19->SetBinContent(32,43923.95);
+   jetTemplates4
+19->SetBinContent(33,50600.75);
+   jetTemplates4
+19->SetBinContent(34,48583.97);
+   jetTemplates4
+19->SetBinContent(35,41225.76);
+   jetTemplates4
+19->SetBinContent(36,40417.95);
+   jetTemplates4
+19->SetBinContent(37,35867.84);
+   jetTemplates4
+19->SetBinContent(38,32625.61);
+   jetTemplates4
+19->SetBinContent(39,31878.25);
+   jetTemplates4
+19->SetBinContent(40,26624.74);
+   jetTemplates4
+19->SetBinContent(41,22179.04);
+   jetTemplates4
+19->SetBinContent(42,23536.38);
+   jetTemplates4
+19->SetBinContent(43,19623.73);
+   jetTemplates4
+19->SetBinContent(44,19739.13);
+   jetTemplates4
+19->SetBinContent(45,13743.75);
+   jetTemplates4
+19->SetBinContent(46,13622.85);
+   jetTemplates4
+19->SetBinContent(47,13150.26);
+   jetTemplates4
+19->SetBinContent(48,12672.17);
+   jetTemplates4
+19->SetBinContent(49,12468.84);
+   jetTemplates4
+19->SetBinContent(50,8902.39);
+   jetTemplates4
+19->SetBinContent(51,142795.4);
+   jetTemplates4
+19->SetBinError(1,28370.24);
+   jetTemplates4
+19->SetBinError(3,13131.78);
+   jetTemplates4
+19->SetBinError(4,12355.7);
+   jetTemplates4
+19->SetBinError(5,11595.83);
+   jetTemplates4
+19->SetBinError(6,11627.96);
+   jetTemplates4
+19->SetBinError(7,11432.49);
+   jetTemplates4
+19->SetBinError(8,11515.34);
+   jetTemplates4
+19->SetBinError(9,11269.52);
+   jetTemplates4
+19->SetBinError(10,11160.55);
+   jetTemplates4
+19->SetBinError(11,11075.5);
+   jetTemplates4
+19->SetBinError(12,10673.2);
+   jetTemplates4
+19->SetBinError(13,10062.21);
+   jetTemplates4
+19->SetBinError(14,10163.05);
+   jetTemplates4
+19->SetBinError(15,9784.904);
+   jetTemplates4
+19->SetBinError(16,9590.13);
+   jetTemplates4
+19->SetBinError(17,9379.234);
+   jetTemplates4
+19->SetBinError(18,8514.797);
+   jetTemplates4
+19->SetBinError(19,8287.636);
+   jetTemplates4
+19->SetBinError(20,8228.439);
+   jetTemplates4
+19->SetBinError(21,8315.219);
+   jetTemplates4
+19->SetBinError(22,7189.985);
+   jetTemplates4
+19->SetBinError(23,6970.234);
+   jetTemplates4
+19->SetBinError(24,7392.326);
+   jetTemplates4
+19->SetBinError(25,6557.906);
+   jetTemplates4
+19->SetBinError(26,6181.551);
+   jetTemplates4
+19->SetBinError(27,6501.071);
+   jetTemplates4
+19->SetBinError(28,5875.828);
+   jetTemplates4
+19->SetBinError(29,5363.494);
+   jetTemplates4
+19->SetBinError(30,5722.238);
+   jetTemplates4
+19->SetBinError(31,5471.197);
+   jetTemplates4
+19->SetBinError(32,4459.38);
+   jetTemplates4
+19->SetBinError(33,4700.093);
+   jetTemplates4
+19->SetBinError(34,4679.472);
+   jetTemplates4
+19->SetBinError(35,4285.793);
+   jetTemplates4
+19->SetBinError(36,4257.952);
+   jetTemplates4
+19->SetBinError(37,4068.814);
+   jetTemplates4
+19->SetBinError(38,3817.511);
+   jetTemplates4
+19->SetBinError(39,3827.852);
+   jetTemplates4
+19->SetBinError(40,3591.57);
+   jetTemplates4
+19->SetBinError(41,3046.45);
+   jetTemplates4
+19->SetBinError(42,3372.419);
+   jetTemplates4
+19->SetBinError(43,2862.852);
+   jetTemplates4
+19->SetBinError(44,2914.904);
+   jetTemplates4
+19->SetBinError(45,2535.527);
+   jetTemplates4
+19->SetBinError(46,2461.534);
+   jetTemplates4
+19->SetBinError(47,2492.948);
+   jetTemplates4
+19->SetBinError(48,2420.816);
+   jetTemplates4
+19->SetBinError(49,2295.083);
+   jetTemplates4
+19->SetBinError(50,2002.704);
+   jetTemplates4
+19->SetBinError(51,8100.041);
+   jetTemplates4
+19->SetEntries(20620);
+   jetTemplates4
+19->SetDirectory(0);
+   jetTemplates4
+19->SetLineColor(2);
+   jetTemplates4
+19->SetLineStyle(2);
+   jetTemplates4
+19->SetLineWidth(2);
+   jetTemplates4
+19->GetXaxis()->SetLabelFont(42);
+   jetTemplates4
+19->GetXaxis()->SetLabelSize(0.047);
+   jetTemplates4
+19->GetXaxis()->SetTitleSize(0.05);
+   jetTemplates4
+19->GetXaxis()->SetTitleOffset(0.9);
+   jetTemplates4
+19->GetXaxis()->SetTitleFont(42);
+   jetTemplates4
+19->GetYaxis()->SetLabelFont(42);
+   jetTemplates4
+19->GetYaxis()->SetLabelSize(0.047);
+   jetTemplates4
+19->GetYaxis()->SetTitleSize(0.055);
+   jetTemplates4
+19->GetYaxis()->SetTitleOffset(1.2);
+   jetTemplates4
+19->GetYaxis()->SetTitleFont(42);
+   jetTemplates4
+19->GetZaxis()->SetLabelFont(42);
+   jetTemplates4
+19->GetZaxis()->SetLabelSize(0.047);
+   jetTemplates4
+19->GetZaxis()->SetTitleFont(42);
+   jetTemplates4
+19->Draw("SAMEHISTE");
+   
+   TLegend *leg = new TLegend(0.593386,0.627083,0.892903,0.869967,NULL,"brNDC");
+   leg->SetBorderSize(0);
+   leg->SetLineColor(1);
+   leg->SetLineStyle(1);
+   leg->SetLineWidth(1);
+   leg->SetFillColor(0);
+   leg->SetFillStyle(0);
+   TLegendEntry *entry=leg->AddEntry("sigPlusJetDist4
+","data","LP");
+   entry->SetLineColor(4);
+   entry->SetLineStyle(1);
+   entry->SetLineWidth(1);
+   entry->SetMarkerColor(4);
+   entry->SetMarkerStyle(8);
+   entry->SetMarkerSize(1);
+   entry->SetTextFont(42);
+   entry=leg->AddEntry("totHist","ele+jet templates","L");
+   entry->SetLineColor(1);
+   entry->SetLineStyle(2);
+   entry->SetLineWidth(3);
+   entry->SetMarkerColor(1);
+   entry->SetMarkerStyle(21);
+   entry->SetMarkerSize(1);
+   entry->SetTextFont(42);
+   entry=leg->AddEntry("var1Hist","ele template","L");
+   entry->SetLineColor(4);
+   entry->SetLineStyle(2);
+   entry->SetLineWidth(2);
+   entry->SetMarkerColor(1);
+   entry->SetMarkerStyle(21);
+   entry->SetMarkerSize(1);
+   entry->SetTextFont(42);
+   entry=leg->AddEntry("jetTemplates4
+","jet template","L");
+   entry->SetLineColor(2);
+   entry->SetLineStyle(2);
+   entry->SetLineWidth(2);
+   entry->SetMarkerColor(1);
+   entry->SetMarkerStyle(21);
+   entry->SetMarkerSize(1);
+   entry->SetTextFont(42);
+   leg->Draw();
+   
+   TPaveLabel *pl = new TPaveLabel(0.636662,0.5,0.880375,0.617,"50 < E_{T} < 62.5 GeV","brNDC");
+   pl->SetBorderSize(0);
+   pl->SetFillStyle(0);
+   pl->SetTextAlign(12);
+   pl->SetTextFont(42);
+   pl->SetTextSize(0.438598);
+   pl->Draw();
+   
+   pl = new TPaveLabel(0.636662,0.424,0.880375,0.541,"barrel ","brNDC");
+   pl->SetBorderSize(0);
+   pl->SetFillStyle(0);
+   pl->SetTextAlign(12);
+   pl->SetTextFont(42);
+   pl->SetTextSize(0.438598);
+   pl->Draw();
+   spectrumPad->Modified();
+   c1->cd();
+  
+// ------------>Primitives in pad: ratioPad
+   TPad *ratioPad = new TPad("ratioPad", "newpad",0.01,0.01,0.99,0.33);
+   ratioPad->Draw();
+   ratioPad->cd();
+   ratioPad->Range(-4.0625,-0.923077,27.1875,2.153846);
+   ratioPad->SetFillColor(0);
+   ratioPad->SetFillStyle(4000);
+   ratioPad->SetBorderMode(0);
+   ratioPad->SetBorderSize(2);
+   ratioPad->SetGridy();
+   ratioPad->SetTickx(1);
+   ratioPad->SetTicky(1);
+   ratioPad->SetLeftMargin(0.13);
+   ratioPad->SetRightMargin(0.07);
+   ratioPad->SetTopMargin(0.05);
+   ratioPad->SetBottomMargin(0.3);
+   ratioPad->SetFrameBorderMode(0);
+   ratioPad->SetFrameBorderMode(0);
+   
+   TH1D *ratioHist20 = new TH1D("ratioHist20","",50,0,25);
+   ratioHist20->SetBinContent(1,0.9847596);
+   ratioHist20->SetBinContent(3,1.137568);
+   ratioHist20->SetBinContent(4,1.106701);
+   ratioHist20->SetBinContent(5,1.09168);
+   ratioHist20->SetBinContent(6,1.09874);
+   ratioHist20->SetBinContent(7,1.111976);
+   ratioHist20->SetBinContent(8,1.006641);
+   ratioHist20->SetBinContent(9,1.04606);
+   ratioHist20->SetBinContent(10,1.031595);
+   ratioHist20->SetBinContent(11,0.9506923);
+   ratioHist20->SetBinContent(12,1.104856);
+   ratioHist20->SetBinContent(13,1.126775);
+   ratioHist20->SetBinContent(14,0.9619862);
+   ratioHist20->SetBinContent(15,0.9342226);
+   ratioHist20->SetBinContent(16,0.9606287);
+   ratioHist20->SetBinContent(17,0.9793855);
+   ratioHist20->SetBinContent(18,1.006631);
+   ratioHist20->SetBinContent(19,0.9589826);
+   ratioHist20->SetBinContent(20,1.020216);
+   ratioHist20->SetBinContent(21,0.7904292);
+   ratioHist20->SetBinContent(22,1.050122);
+   ratioHist20->SetBinContent(23,0.8884444);
+   ratioHist20->SetBinContent(24,0.8454832);
+   ratioHist20->SetBinContent(25,0.8580811);
+   ratioHist20->SetBinContent(26,1.180837);
+   ratioHist20->SetBinContent(27,1.026756);
+   ratioHist20->SetBinContent(28,0.8812909);
+   ratioHist20->SetBinContent(29,1.200067);
+   ratioHist20->SetBinContent(30,0.8078436);
+   ratioHist20->SetBinContent(31,0.9835522);
+   ratioHist20->SetBinContent(32,1.26933);
+   ratioHist20->SetBinContent(33,0.9032786);
+   ratioHist20->SetBinContent(34,1.130557);
+   ratioHist20->SetBinContent(35,0.8762334);
+   ratioHist20->SetBinContent(36,0.5711867);
+   ratioHist20->SetBinContent(37,0.8722936);
+   ratioHist20->SetBinContent(38,0.9667252);
+   ratioHist20->SetBinContent(39,1.008211);
+   ratioHist20->SetBinContent(40,0.6820724);
+   ratioHist20->SetBinContent(41,0.4941602);
+   ratioHist20->SetBinContent(42,1.048589);
+   ratioHist20->SetBinContent(43,0.7472306);
+   ratioHist20->SetBinContent(44,0.9068997);
+   ratioHist20->SetBinContent(45,0.7799908);
+   ratioHist20->SetBinContent(46,0.7510523);
+   ratioHist20->SetBinContent(47,0.5216627);
+   ratioHist20->SetBinContent(48,0.9864137);
+   ratioHist20->SetBinContent(49,0.960795);
+   ratioHist20->SetBinContent(50,0.6807161);
+   ratioHist20->SetBinContent(51,0.6710298);
+   ratioHist20->SetBinError(1,0.01116122);
+   ratioHist20->SetBinError(3,0.04852668);
+   ratioHist20->SetBinError(4,0.06234122);
+   ratioHist20->SetBinError(5,0.07281936);
+   ratioHist20->SetBinError(6,0.07730654);
+   ratioHist20->SetBinError(7,0.0825568);
+   ratioHist20->SetBinError(8,0.08136675);
+   ratioHist20->SetBinError(9,0.08459566);
+   ratioHist20->SetBinError(10,0.0868974);
+   ratioHist20->SetBinError(11,0.08271811);
+   ratioHist20->SetBinError(12,0.09293903);
+   ratioHist20->SetBinError(13,0.1013492);
+   ratioHist20->SetBinError(14,0.08865492);
+   ratioHist20->SetBinError(15,0.09318574);
+   ratioHist20->SetBinError(16,0.1004205);
+   ratioHist20->SetBinError(17,0.1026349);
+   ratioHist20->SetBinError(18,0.113446);
+   ratioHist20->SetBinError(19,0.1143077);
+   ratioHist20->SetBinError(20,0.1188543);
+   ratioHist20->SetBinError(21,0.100307);
+   ratioHist20->SetBinError(22,0.1376313);
+   ratioHist20->SetBinError(23,0.1236624);
+   ratioHist20->SetBinError(24,0.1159893);
+   ratioHist20->SetBinError(25,0.1271041);
+   ratioHist20->SetBinError(26,0.1739028);
+   ratioHist20->SetBinError(27,0.1546738);
+   ratioHist20->SetBinError(28,0.1554156);
+   ratioHist20->SetBinError(29,0.194561);
+   ratioHist20->SetBinError(30,0.1594909);
+   ratioHist20->SetBinError(31,0.1742875);
+   ratioHist20->SetBinError(32,0.2521812);
+   ratioHist20->SetBinError(33,0.1916886);
+   ratioHist20->SetBinError(34,0.2186699);
+   ratioHist20->SetBinError(35,0.2070437);
+   ratioHist20->SetBinError(36,0.1548738);
+   ratioHist20->SetBinError(37,0.2147439);
+   ratioHist20->SetBinError(38,0.2572622);
+   ratioHist20->SetBinError(39,0.2423925);
+   ratioHist20->SetBinError(40,0.2170987);
+   ratioHist20->SetBinError(41,0.2078726);
+   ratioHist20->SetBinError(42,0.3217655);
+   ratioHist20->SetBinError(43,0.2752014);
+   ratioHist20->SetBinError(44,0.3084829);
+   ratioHist20->SetBinError(45,0.3368234);
+   ratioHist20->SetBinError(46,0.3442974);
+   ratioHist20->SetBinError(47,0.2698318);
+   ratioHist20->SetBinError(48,0.4064767);
+   ratioHist20->SetBinError(49,0.3919182);
+   ratioHist20->SetBinError(50,0.3765651);
+   ratioHist20->SetBinError(51,0.09774327);
+   ratioHist20->SetMinimum(0);
+   ratioHist20->SetMaximum(2);
+   ratioHist20->SetEntries(1121.347);
+   
+   TF1 *pol07 = new TF1("pol0","pol0",0,25);
+   pol07->SetFillColor(19);
+   pol07->SetFillStyle(0);
+   pol07->SetLineWidth(3);
+   pol07->SetChisquare(58.5597);
+   pol07->SetNDF(48);
+   pol07->GetXaxis()->SetLabelFont(42);
+   pol07->GetXaxis()->SetLabelSize(0.047);
+   pol07->GetXaxis()->SetTitleSize(0.05);
+   pol07->GetXaxis()->SetTitleOffset(0.9);
+   pol07->GetXaxis()->SetTitleFont(42);
+   pol07->GetYaxis()->SetLabelFont(42);
+   pol07->GetYaxis()->SetLabelSize(0.047);
+   pol07->GetYaxis()->SetTitleSize(0.055);
+   pol07->GetYaxis()->SetTitleOffset(1.2);
+   pol07->GetYaxis()->SetTitleFont(42);
+   pol07->SetParameter(0,0.9932186);
+   pol07->SetParError(0,0.009310583);
+   pol07->SetParLimits(0,0,0);
+   ratioHist20->GetListOfFunctions()->Add(pol07);
+   
+   TPaveStats *ptstats = new TPaveStats(0.145818,0.306354,0.369032,0.561721,"brNDC");
+   ptstats->SetName("stats");
+   ptstats->SetBorderSize(0);
+   ptstats->SetFillColor(0);
+   ptstats->SetFillStyle(0);
+   ptstats->SetTextAlign(12);
+   ptstats->SetTextFont(42);
+   TText *AText = ptstats->AddText("#chi^{2} / ndf =  58.6 / 48");
+   AText = ptstats->AddText("Prob  = 0.141");
+   AText = ptstats->AddText("p0       = 0.993 #pm 0.009 ");
+   ptstats->SetOptStat(0);
+   ptstats->SetOptFit(1111);
+   ptstats->Draw();
+   ratioHist20->GetListOfFunctions()->Add(ptstats);
+   ptstats->SetParent(ratioHist20);
+   ratioHist20->SetLineColor(4);
+   ratioHist20->SetMarkerColor(4);
+   ratioHist20->SetMarkerStyle(8);
+   ratioHist20->GetXaxis()->SetTitle(" Track p_{T} Isol [GeV]");
+   ratioHist20->GetXaxis()->SetLabelFont(42);
+   ratioHist20->GetXaxis()->SetLabelSize(0.1);
+   ratioHist20->GetXaxis()->SetTitleSize(0.1);
+   ratioHist20->GetXaxis()->SetTickLength(0.06);
+   ratioHist20->GetXaxis()->SetTitleOffset(0.9);
+   ratioHist20->GetXaxis()->SetTitleFont(42);
+   ratioHist20->GetYaxis()->SetTitle(" data / tot");
+   ratioHist20->GetYaxis()->SetNdivisions(505);
+   ratioHist20->GetYaxis()->SetLabelFont(42);
+   ratioHist20->GetYaxis()->SetLabelSize(0.1);
+   ratioHist20->GetYaxis()->SetTitleSize(0.11);
+   ratioHist20->GetYaxis()->SetTickLength(0.04);
+   ratioHist20->GetYaxis()->SetTitleOffset(0.6);
+   ratioHist20->GetYaxis()->SetTitleFont(42);
+   ratioHist20->GetZaxis()->SetLabelFont(42);
+   ratioHist20->GetZaxis()->SetLabelSize(0.047);
+   ratioHist20->GetZaxis()->SetTitleFont(42);
+   ratioHist20->Draw("");
+   ratioPad->Modified();
+   c1->cd();
+   c1->Modified();
+   c1->cd();
+   c1->SetSelected(c1);
+}

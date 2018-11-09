@@ -1,0 +1,219 @@
+\chapter{The LHC and CMS experiment}\label{chap:LHC_CMS}
+\textit{This chapter introduces the LHC and CMS.The LHC is designed to collide proton beams with a centre-of-mass energy of 14 TeV and an unprecedented luminosity of $10^{34}cm^{-2}s^{-1}$. It can also collide heavy (Pb) ions with an energy of 2.8 TeV per nucleon and a peak luminosity of $10^{27}cm^{-2}s^{-1}$}
+\section{The LHC}\label{sec:LHC}
+The Large Hadron Collider (LHC) is the world's largest and most powerful particle accelerator. It was built by the European Organization for Nuclear Research (CERN) between 1998 and 2008 in collaboration with over 10,000 scientists and engineers from over 100 countries, as well as hundreds of universities and laboratories. It has 26.7 kilometres circumference and is as deep as 175 metres beneath the France-Switzerland border near Geneva shown in left plot of figure \ref{fig:LHC} and it first started up on 10 September 2008. There are four main experiments at LHC which are shown in right plot of \ref{fig:LHC}, the general description about the four experiments are in the following:
+\begin{enumerate}
+\item $\mathbf{ALTAS:}$ One of two general-purpose detectors. ATLAS investigates many different types of physics that might become detectable in the energetic collisions of the LHC. Some of these are confirmations or improved measurements of the SM (like study the Brout-Englert-Higgs boson and top quark), while many others are possible clues for new physical theories (like supersymmetry, extra dimensions and microscopic black holes theories).
+\item $\mathbf{CMS:}$ The other general-purpose detector, like ATLAS, studies the SM and look for clues of new physics. Will be described in section \ref{sec:CMS}.
+\item $\mathbf{ALICE:}$ ALICE is optimized to study heavy-ion (Pb-Pb nuclei) collisions and is focusing on the physics of strongly interacting matter at extreme energy densities.
+ALICE is studying a "fluid" form of matter called quark-gluon plasma which are believed to have existed a fraction of the second after the Big Bang before quarks and gluons bound together to form hadrons and heavier particles and its properties are key issues in QCD physics.
+\item $\mathbf{LHCb:}$ The experiment has wide physics program covering many important aspects of heavy flavor (both beauty and charm), electroweak and QCD physics. Like measuring the parameters of CP violation in the interactions of b-hadrons (hadrons containing a bottom quark) and such studies can help to explain the matter-antimatter asymmetry of the Universe. The detector is also able to perform measurements of production cross sections and electroweak physics in the forward region.
+\end{enumerate}
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[width=0.45\textwidth]{figures/LHC/LHC.jpeg}
+\includegraphics[width=0.35\textwidth]{figures/LHC/LHC2.jpg}
+\caption{The overview of LHC (left) and the four main experiments in LHC (right).}
+\label{fig:LHC}
+\end{center}
+\end{figure}
+
+\subsection{The Proton Proton Collision}\label{sec:LHC_pp_collision}
+The reason for LHC choosing proton as accelerating particle is that proton is stable, easy to get and very low synchrotron radiation comparing with electron, so it can be accelerated to very high energy. The reason for choosing colliding beams is that it gives much higher effective collision energy (or the centre of mass energy $E_{cm}$) which is shown in equation \ref{eq:Colliding_Ecm} assuming $\bf{p_{1}}$ is four-vector $\mathbf{p}=(E,\overrightarrow{p})$ for proton 1 and $\mathbf{p_{2}}$ is four-vector for proton 2. For example when two 7 TeV protons colliding the $E_{cm}$ is 14 TeV while for when one of protons is at rest the $E_{cm}$ is 114.6 GeV.
+\begin{equation}
+\begin{split}
+&E_{cm}^{2}=(\mathbf{p_{1}}+\mathbf{p_{2}})^{2}=(E_{1}+E_{2})^{2}-(\overrightarrow{p_{1}}+\overrightarrow{p_{2}})^{2} \\
+&E_{cm}^{2}=(E_{1}+E_{2})^{2} \mathrm{~when~proton~1~and~proton~2~collision}                                  \\
+&E_{cm}^{2}=(m_{1}^{2}+m_{2}^{2}+2m_{2}E_{1,lab}) \mathrm{~when~proton~2~is~at~rest}                          \\
+\end{split}
+\label{eq:Colliding_Ecm}
+\end{equation}
+
+The acceleration chain for the protons is shown in figure \ref{fig:LHC_chain}. At first the linear particle accelerator LINAC 2 generating 50 MeV protons, which feeds the Proton Synchrotron Booster (PSB). In the PSB the protons are accelerated to 1.4 GeV and injected into the Proton Synchrotron (PS), where they are accelerated to 26 GeV and the proton bunches are formed with the correct 25 ns spacing. Then the proton beam is subsequently accelerated to 450 GeV in the Super Proton Synchrotron (SPS) and transferred to the LHC main ring. In the main ring the proton beam is accelerated in two adjacent parallel beam pipes with opposite travel direction and until they reach the target energy. Finally the proton proton or Pb Pb collisions occur at the points of the four main experiments (shown in right plot of \ref{fig:LHC}).
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[width=0.5\textwidth]{figures/LHC/lhc_accelerator_chain.png}
+\caption{The overview of LHC accelerator chain.}
+\label{fig:LHC_chain}
+\end{center}
+\end{figure}
+\subsection{The Pile Up}\label{sec:LHC_pileup}
+In the LHC the collisions is between proton proton bunch and there are $\mathcal{O}(10^{10})$ protons per bunch, therefore there are many proton proton collisions in the same bunch crossing and this phenomenon is so-called pile up which is shown in left plot of figure \ref{fig:LHC_pileup}. The number of pile up distribution of proton proton collision in 2016 and 2017 are shown in middle plot and right plot of figure \ref{fig:LHC_pileup}, the average number of pile up is 27 for 2016 and it is 33 for 2017.
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[width=0.3\textwidth]{figures/LHC/pile-up.png}
+\includegraphics[width=0.3\textwidth]{figures/LHC/pileup_pp_2016.png}
+\includegraphics[width=0.3\textwidth]{figures/LHC/pileup_pp_2017.png}
+\caption{The phenomenon of pile up (left), the number of pile up distribution for 2016 (middle) and 2017 (right) \cite{CMS_Luminosity}.}
+\label{fig:LHC_pileup}
+\end{center}
+\end{figure}
+\subsection{The Luminosity}\label{sec:LHC_luminosity}
+The quantity that measures the ability of a particle accelerator to produce the required number of interactions is called the luminosity and is the proportionality factor
+between the number of events per second dR/dt and the cross section $\sigma_{p}$:
+\begin{equation}
+\frac{dR}{dt}=\mathcal{L}\cdot\sigma_{p}
+\label{eq:define_Lumi}
+\end{equation}
+The unit of the luminosity is $cm^{2}s^{-1}$ and it is so-called instantaneous luminosity.
+The instantaneous luminosity of two Gaussian beams colliding head-on can be calculated by formula \ref{eq:Lumi} \cite{Herr2013}, where the $N_{1}$ and $N_{2}$ are the number of particles of two colliding bunches, $N_{b}$ is the number of bunches in one beam, $f$ is the beam revolution frequency and $\sigma_{x}$ and $\sigma_{y}$ is the width of the bunch in x axis and y axis direction respectively (here the beam moving direction is z axis).
+\begin{equation}
+\mathcal{L}=\frac{N_{1}N_{2}N_{b}f}{4\pi\sigma_{x}\sigma_{y}}
+\label{eq:Lumi}
+\end{equation}
+
+After integrating the instantaneous luminosity over time it gives so-called integrated luminosity:
+\begin{equation}
+\mathcal{L}_{int}=\int_{0}^{T}\mathcal{L}(t)dt
+\label{eq:Integrated_Lumi}
+\end{equation}
+The cumulative online integrated luminosity of LHC delivered and CMS recorded for 2016 and 2017 are shown in figure \ref{fig:LHC_luminosity}.
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[width=0.45\textwidth]{figures/LHC/int_lumi_per_day_cumulative_pp_2016OnlineLumi.png}
+\includegraphics[width=0.45\textwidth]{figures/LHC/int_lumi_per_day_cumulative_pp_2017OnlineLumi.png}
+\caption{The cumulative online integrated luminosity of LHC delivered and CMS recorded for 2016 (left) and 2017 (right) \cite{CMS_Luminosity}.}
+\label{fig:LHC_luminosity}
+\end{center}
+\end{figure}
+
+The plan of LHC and High Luminosity LHC (HL-LHC) are shown in figure \ref{fig:LHC_plan}. For Run 2 (from year 2015 to 2018) LHC plans to deliver 150 $fb^{-1}$ data which is achievable because from 2015 to 2017 LHC already delivered $\thicksim$ 100 $fb^{-1}$ data. For HL-LHC the goal is to deliver 3000 $fb^{-1}$ which is a factor of 10 increased compared with 300 $fb^{-1}$ data which is the total number of luminosity delivered by LHC.
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[width=0.9\textwidth]{figures/LHC/HL_LHC_PlanUpdateJuly2015.PNG}
+\caption{The plan of LHC and HL-LHC \cite{Antonella:1975962}.}
+\label{fig:LHC_plan}
+\end{center}
+\end{figure}
+
+
+\section{The Compact Muon Solenoid (CMS)}\label{sec:CMS}
+The Compact Muon Solenoid (CMS) is a general-purpose detector at the LHC. It has a broad physics programme ranging from studying the SM to searching for extra dimensions and particles that could make up dark matter. The CMS detector is built around a huge solenoid magnet. This takes the form of a cylindrical coil of superconducting cable that generates a field of 4 tesla and the field is confined by a steel "yoke" which forms the bulk of the detector's 14,000-tonne weight. The complete detector is 21 metres long, 15 metres wide and 15 metres high. A one-quarter cross-sectional view of the CMS detector is shown in figure \ref{fig:CMS_overview} together with some labels used to name the
+detector elements. The transversal view of the CMS detector is shown in figure \ref{fig:CMS_transversal}. The sub-detector from inner to outer is tracker detector, electromagnetic calorimeter detector (ECAL), hadronic calorimeter detector (HCAL) and finally muon detector. The details about the sub-detectors will be described in the following.
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[width=0.9\textwidth]{figures/CMS/cms.png}
+\caption{The exploded view of the CMS detector}
+\label{fig:CMS_overview}
+\end{center}
+\end{figure}
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[width=0.9\textwidth]{figures/CMS/cms_particles.png}
+\caption{The transversal view of the CMS detector}
+\label{fig:CMS_transversal}
+\end{center}
+\end{figure}
+\subsection{Coordinate conventions}\label{subsec:CMS_Coordinate}
+The coordinate system adopted by CMS has the origin centered at the nominal collision point inside the experiment, the y-axis pointing vertically upward, and the x-axis pointing radially inward toward the center of the LHC. Thus, the z-axis points along the beam direction toward the Jura mountains. The azimuthal angle $\phi$ is measured from the
+x-axis in the x-y plane. The polar angle $\theta$ is measured from the z-axis. The coordinate system is shown in figure \ref{fig:CMS_coordinate}. Pseudorapidity is defined as $\eta=-\mathrm{lntan}(\theta/2)$. The momentum and energy measured transverse to the beam direction, denoted by $P_{T}$ and $E_{T}$, respectively, are computed by $P_{T}(E_{T})=P(E)\cdot sin\theta$. The imbalance of energy measured in the transverse plane is denoted by $E_{T}^{miss}$ which is computed by $\overrightarrow{E_{T}^{miss}}=-\sum\overrightarrow{E_{T}^{exists}}$.
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[width=0.5\textwidth]{figures/CMS/cms_coordinate_system.png}
+\caption{The CMS coordinate system}
+\label{fig:CMS_coordinate}
+\end{center}
+\end{figure}
+\subsection{Inner tracking system}\label{subsec:CMS_tracker}
+
+
+The CMS tracking system is used for reconstructing the tracking of charged particle. The tracker system is composed of two sub-detectors immersed in a 3.8 T magnetic field produced by an external solenoidal magnet (detailed in section \ref{subsec:CMS_Magnet}). Referring to figure \ref{fig:CMS_tracker}, the innermost detector, closest to the beam pipe, is the silicon pixel detector, while the outer detector is the silicon strip detector.
+
+The silicon pixel detector is the innermost part of the CMS detector. It provides space point measurements of charged particle trajectories within a pseudorapidity up to $\eta=2.5$ . The pixel detector has been designed to withstand an instantaneous luminosity of $1\times10^{34}cm^{-2}s^{-1}$ with a bunch spacing of 25 ns. The pixel detector comprises three layers in the barrel (TPB) region and two endcap (TPE) disks at each side of the barrel which is shown in figure \ref{fig:CMS_pixel_detector}.The three barrel layers are located at mean radii of 4.4 cm, 7.3 cm and 10.2 cm, and have a length of 53 cm. The two end disks, extending from 6 to 15 cm in radius, are placed on each side at $|z|$ = 34.5 cm and 46.5 cm. In order to achieve the optimal vertex position resolution, the designed size of pixels is 100$\times$150 $\mu m^{2}$. It has a sensitive area of 1.1 $m^{2}$ and is segmented into 66 (48 in TPB and 18 in TPE) million pixels. The endcap disks are assembled in a turbine-like geometry with blades rotated by $20^{\circ}$ to
+ benefit from the large Lorentz drift angle in the magnetic field. The measured hit resolution in the TPB is 9.4 $\mu$m in the r-$\phi$ plane and 20-40 $\mu$m in the longitudinal direction which depends on the angle of the track relative to the sensor.
+
+It is worth mention that during Run 2 the instantaneous luminosity of LHC is significantly increased and it is around to $2\times10^{34}cm^{-2}s^{-1}$. The number of pileup events is then increase to 50 or more which, together with ongoing radiation damage, will potentially lead to a loss in tracking efficiency. To maintain the high tracking efficiency, the pixel detector was updated during an extended winter shutdown in 2016/2017.  The new detector (hereafter referred to as the Phase 1 pixel detector) is consist of four layers in the barrel (BPIX), which represents an additional layer compared to the current detector. The radius of the innermost layer will be reduced from 44 mm to 30 mm. In the endcap region (FPIX) a third disk is added per side. The new detector is therefore allow a four-point coverage in the whole tracking region and the number of channels is almost double from 66 million to 124 million with keeping the same pixel size. A comparison of the current and upgrade designs is shown in figure \ref{fig:CMS_pixel_update}.
+
+The silicon strip tracker is placed outside of the pixel tracker. It has 10 layers in the barrel region, four in the inner barrel (TIB) and 6 in the outer barrel (TOB). It also has two endcaps, each one made up of 3 inner disks (TID) and 9 outer disks (TEC). It is composed of 9.6 million silicon strips with a pitch varying from 80 to 205 $\mu m$. The total area of the Si detectors is around 200 $m^{2}$, providing a coverage up to $\eta$ = 2.5. In order to provide 3-dimensional information, several layers in the barrel and in the endcap have stereo modules with two silicon strip modules mounted back-to-back and rotated by 100 mrad with respect to each other.
+This leads to a single point resolution between 23-34 $\mu$m in the r-$\phi$ direction and 23 $\mu$m in z direction for TIB, for TOB it is from 35-52 $\mu$m in the r-$\phi$ direction and 52 $\mu$m in z direction. The single point resolution that can be achieved depends strongly on the size of the cluster and on the pitch of the sensor and varies not only as a function of the cluster width, but also as a function of pseudorapidity, as the energy deposited by a charged particle in the silicon depends on the angle at which it crosses the sensor plane.
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[width=0.8\textwidth]{figures/CMS/tracker/cms_tracker.png}
+\caption{The tracker layout (1/4 of the z view).}
+\label{fig:CMS_tracker}
+\end{center}
+\end{figure}
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[width=0.8\textwidth]{figures/CMS/tracker/cms_pixelDetector.png}
+\caption{Layout of pixel detectors in the CMS tracker.}
+\label{fig:CMS_pixel_detector}
+\end{center}
+\end{figure}
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[width=0.8\textwidth]{figures/CMS/tracker/pixel_phase1_update.png}
+\caption{Comparison of the Phase 1 pixel detector (top) and the current detector layout (bottom).}
+\label{fig:CMS_pixel_update}
+\end{center}
+\end{figure}
+
+\subsection{Electromagnetic calorimeter}\label{subsec:CMS_ECAL}
+In order to measure the energy of electron and photon the CMS detector use electromagnetic calorimeter (ECAL) which is placed outside of the tracker system. The ECAL is a hermetic, homogeneous calorimeter comprising 61200 lead tungstate $(PbWO_{4})$ crystals mounted in the central barrel part, closed by 7324 crystals in each of the 2 endcaps with coverage in pseudorapidity up to $|\eta| < 3.0$. A preshower system is installed in front of the edges of ECAL endcap for $\pi^{0}$ rejection. A 3D view of the barrel and endcap electromagnetic calorimeter is shown in figure \ref{fig:CMS_Ecal_1}. The reason to choose lead tungstate scintillating crystals for ECAL is because it has short radiation ($X_{0}$ = 0.89 cm) and Moliere (2.2 cm) lengths, also its radiation is fast (80\% of the light is emitted within 25 ns) and hard (up to 10 mrad). However, the relatively low light yield (30 $\gamma$/MeV) requires use of photodetectors with intrinsic gain that can operate in a magnetic field. Silicon avalanche photodiodes (APDs) are used as photodetectors in the barrel and
+vacuum phototriodes (VPTs) in the endcaps. In addition, the sensitivity of both the crystals and the APD response to temperature changes requires a temperature stability (the goal is
+$0.1^{\circ}$ C). The use of $(PbWO_{4})$ crystals has thus allowed the design of a compact calorimeter inside the solenoid that is fast, has fine granularity, and is radiation resistant.
+
+ 
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[width=0.8\textwidth]{figures/CMS/ECAL/ECAL.png}
+\caption{A 3D view of the barrel and endcap electromagnetic calorimeter.}
+\label{fig:CMS_Ecal_1}
+\end{center}
+\end{figure}
+
+The barrel part of the ECAL covers the pseudorapidity range |¦Ç| < 1.479 (see figure \ref{fig:CMS_Ecal_2}). The front face of the crystals is at a radius of 1.29 m and each crystal has a square cross-section of $\approx$ 22$\times$22 $mm^{2}$ and a length of 230 mm corresponding to 25.8 $X_{0}$. The truncated pyramid-shaped crystals are mounted in a geometry which is off-pointing with respect to the mean position of the primary interaction vertex, with a $3^{\circ}$ tilt in both $\phi$ and in $\eta$, in order to avoid the scenario in which a particle could go right along the separation between two center-pointing crystals. The crystal cross-section corresponds to $\Delta\eta\times\Delta\phi=0.0175\times0.0175(1^{\circ})$. The barrel granularity is 360-fold in $\phi$ and 2$\times$85-fold in $\eta$, resulting in a total number of 61200 crystals. The crystal volume in the barrel amounts to 8.14 $m^{3}$(67.4 t). Crystals for each half-barrel will be grouped in 18 supermodules each subtending $20^{\circ}$ in
+$\phi$. Each supermodule will comprise four modules with 500 crystals in the first module and 400 crystals in each of the remaining three modules. For simplicity of construction and assembly, crystals have been grouped in arrays of 2$\times$5 crystals which are contained in a very thin wall (200 $\mu$m) alveolar structure and form a submodule.
+
+The endcap part of the crystal calorimeter covers a pseudorapidity range from 1.48 to 3.0 (see figure \ref{fig:CMS_Ecal_2}). The design of the endcaps provides precision energy measurement to $|\eta|$ = 2.6. Crystals will however be installed up to $|\eta|$ = 3 in order to augment the energy-flow measurement in the forward direction. The mechanical design of the endcap calorimeter is based on an off-pointing pseudoprojective geometry using tapered crystals of the same shape and dimensions (24.7$\times$24.7$\times$220 $mm^{3}$) grouped together into units of 36, referred to as supercrystals. A total of 268 identical supercrystals will be used to cover each endcap with a further 64 sectioned supercrystals used to complete the inner and outer perimeter.Each endcap contains 10764 crystals, corresponding to a volume of 1.52 $m^{3}$ (12.6 t). Both endcaps are identical. Each endcap detector is constructed using Dee-shaped sections as seen figure \ref{fig:CMS_Ecal_endcap}.
+
+The endcap preshower covers a pseudorapidity range from |¦Ç| = 1.65 to 2.61 (see figure \ref{fig:CMS_Ecal_2}). Its main function is to provide $\pi^{0}-\gamma$ separation. The preshower detector, placed in front of the crystals, contains two lead converters of a total thickness of 2$X_{0}$ and 1$X_{0}$ respectively, followed by detector planes of silicon strips with a pitch of $<$ 2 mm. The impact position of the electromagnetic shower is determined by the barycenter of the deposited energy and accuracy is typically 300 $\mu$m at 50 GeV. In order to correct for the energy deposited in the lead converter, the energy measured in the silicon is used to apply corrections to the energy measurement in the crystal. The fraction of energy deposited in the preshower (typically 5\% at 20 GeV) decreases with increasing incident energy. Figure \ref{fig:CMS_Ecal_preshower} shows the layout of the preshower.
+
+Figure \ref{fig:CMS_Ecal_3} shows the total thickness (in radiation lengths) of the ECAL as a function of
+pseudorapidity where the endcap part also includes the preshower detector.
+
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[width=0.8\textwidth]{figures/CMS/ECAL/Ecal_layout.png}
+\caption{Longitudinal section of the electromagnetic calorimeter (one quadrant).}
+\label{fig:CMS_Ecal_2}
+\end{center}
+\end{figure}
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[width=0.8\textwidth]{figures/CMS/ECAL/cms_ecalEndcap.png}
+\caption{A single endcap with Dees apart.}
+\label{fig:CMS_Ecal_endcap}
+\end{center}
+\end{figure}
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[width=0.8\textwidth]{figures/CMS/ECAL/ecalTDR/es-19.pdf}
+\caption{Schematic section through the endcap preshower.}
+\label{fig:CMS_Ecal_preshower}
+\end{center}
+\end{figure}
+
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[width=0.8\textwidth]{figures/CMS/ECAL/ecalTDR/material-budget-17.pdf}
+\caption{Total thickness in $X_{0}$ of the ECAL as a function of pseudorapidity, averaged over $\phi$.}
+\label{fig:CMS_Ecal_3}
+\end{center}
+\end{figure}
+
+
+\subsection{Hadronic calorimeter}\label{subsec:CMS_HCAL}
+\subsection{Magnet}\label{subsec:CMS_Magnet}
+\subsection{Muon system}\label{subsec:CMS_muon}
+\subsection{Trigger}\label{subsec:CMS_trigger}

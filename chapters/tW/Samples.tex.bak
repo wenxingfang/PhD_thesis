@@ -1,0 +1,101 @@
+\clearpage
+\section{Data-sets and Monte Carlo Samples}
+\label{tW_Samples}
+\subsection{Data samples}
+The primary data sets used in this analysis are summarised in Table \ref{data-samples}. The data from the
+Moriond17 rereco campaign (Run2016 03Feb2017 Re-miniAOD) is used for eras 2016B through 2016G and the prompt reconstruction is used for era 2016H (Run2016H-03Feb2017\_ver2 and Run2016H-03Feb2017\_ver3).
+The integrated luminosity of the data sample used in this analysis is $35.9$ fb$^{-1}$ collected by the CMS experiment in 2016.
+Only certified data recommended for analysis by the PdmV group is used. The corresponding JSON file is the following:\\
+Cert\_271036-284044\_13TeV\_23Sep2016ReReco\_Collisions16\_JSON.txt
+
+
+\begin{table}[htp]
+\small
+\begin{center}
+  \begin{tabular}{llc}
+    \hline
+    Datasets                &  run range & integrated luminosity (\pbinv)       \\  \hline \hline
+    /X/Run2016B-03Feb2017\_ver2-v2/MINIAOD  & $273158 - 275376$ & $5788.348$ \\
+    /X/Run2016C-03Feb2017-v1/MINIAOD  & $275657 - 276283$ & $2573.399$ \\
+    /X/Run2016D-03Feb2017-v1/MINIAOD  & $276315 - 276811$ & $4248.384$ \\
+    /X/Run2016E-03Feb2017-v1/MINIAOD  & $276831 - 277420$ & $4009.132$ \\
+    /X/Run2016F-03Feb2017-v1/MINIAOD  & $277981 - 278808$ & $3101.618$ \\
+    /X/Run2016G-03Feb2017-v1/MINIAOD  & $278820 - 280385$ & $7540.488$ \\
+    /X/Run2016H-03Feb2017\_ver2-v1/MINIAOD & $281613 - 284035$ & $8390.540$ \\
+    /X/Run2016H-03Feb2017\_ver3-v1/MINIAOD & $284036 - 284044$ & $215.149$ \\ \hline
+    Sum & $273158 - 284044$ & $35.867$ \\ \hline
+  \end{tabular}
+\end{center}
+\caption{Data sets (X) used in this analysis. X = 'DoubleEG' and 'SingleElectron' for the $ee$ channel. X = 'DoubleMuon' and 'SingleMuon' for $\mu\mu$ channel analysis.}
+%\caption{Data sets (X) used in this analysis. X = 'DoubleEG' and 'SingleElectron' for the $ee$ channel. X = 'MuonEG','SingleElectron' and 'SingleMuon' for $e\mu$ channel. X = 'DoubleMuon' and 'SingleMuon' for $\mu\mu$ channel analysis. X = 'MET' for trigger efficiency and scale factor study. The run ranges are adjusted to only include good runs.}
+\label{data-samples}
+\end{table}
+
+\subsection{MC samples}
+The analysis uses centrally produced Monte Carlo (MC) samples from  'RunIISummer16 MiniAODv2' campaign as are recommended for  Moriond17.
+For the MC samples used, GEN-SIM was produced using CMSSW\_7\_1\_X and the DIGI-RECO was produced using CMSSW\_8\_0\_X.
+All the MC are listed in Table \ref{mc-samples}.
+
+
+
+\begin{table}[h]
+
+\centering
+\small
+\smallskip\noindent
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{llll}
+\hline
+sample                                                                     & xsection(pb)  & xs precision  \\
+\hline
+\hline
+DYJetsToLL\_M-10to50\_TuneCUETP8M1\_13TeV-amcatnloFXFX-pythia8             & 18610         & NLO             \\
+DYJetsToLL\_M-50\_TuneCUETP8M1\_13TeV-amcatnloFXFX-pythia8                 & 5765.4        & NNLO            \\
+\hline
+WWTo2L2Nu\_13TeV-powheg                                                    & 12.178        & NNLO             \\
+WZTo3LNu\_TuneCUETP8M1\_13TeV-powheg-pythia8                               & 4.42965       & NLO              \\
+WZTo2L2Q\_13TeV\_amcatnloFXFX\_madspin\_pythia8                            & 5.595         & NLO              \\
+ZZTo2L2Nu\_13TeV\_powheg\_pythia8                                          & 0.564         & NLO              \\
+ZZTo4L\_13TeV\_powheg\_pythia8                                             & 1.212         & NLO              \\
+WGToLNuG\_TuneCUETP8M1\_13TeV-amcatnloFXFX-pythia8                         & 489           & NLO              \\
+\hline
+ST\_tW\_top\_5f\_NoFullyHadronicDecays\_13TeV-powheg\_TuneCUETP8M1         & 19.47         & app.NNLO         \\
+ST\_tW\_antitop\_5f\_NoFullyHadronicDecays\_13TeV-powheg\_TuneCUETP8M1     & 19.47         & app.NNLO         \\
+TTTo2L2Nu\_TuneCUETP8M2\_ttHtranche3\_13TeV-powheg                         & 87.31         & NNLO             \\
+TTWJetsToQQ\_TuneCUETP8M1\_13TeV-amcatnloFXFX-madspin-pythia8              & 0.4062        & NLO             \\
+TTWJetsToLNu\_TuneCUETP8M1\_13TeV-amcatnloFXFX-madspin-pythia8             & 0.2043        & NLO             \\
+TTZToLLNuNu\_M-10\_TuneCUETP8M1\_13TeV-amcatnlo-pythia8                    & 0.2529        & NLO             \\
+TTZToQQ\_TuneCUETP8M1\_13TeV-amcatnlo-pythia8                              & 0.5297        & NLO             \\
+TTGJets\_TuneCUETP8M1\_13TeV-amcatnloFXFX-madspin-pythia8                  & 3.697         & NLO             \\
+\hline
+WJetsToLNu\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8                        & 61526.7       & NNLO            \\
+\hline
+GluGluHToWWTo2L2Nu\_M125\_13TeV\_powheg\_pythia8                           & 2.5           & NLO             \\
+VBFHToWWTo2L2Nu\_M125\_13TeV\_powheg\_pythia8                              & 0.175         & NLO             \\
+\hline
+\hline
+\end{tabular}}
+\caption{MC samples \tiny{(dataset=/*/RunIISummer16MiniAODv2*PUMoriond17\_80X\_mcRun2\_asymptotic\_2016\_TrancheIV\_v6*/MINIAODSIM)}}
+\label{mc-samples}
+\end{table}
+
+The pile up distributions for MC and data which is calculated by using 69.2 mb as the minimum bias cross section are shown in left of figure \ref{fig:Z_pileup}. MC events are re-weighted to account for the pile up difference between data and MC.
+
+%In the 5 flavor scheme,
+%the tW single top-quark process overlaps and interferes with \ttbar production
+%at NLO where diagrams involving two top quarks are part of the real emission corrections to
+%tW production~\cite{Campbell:2005bb,Frixione:2005vw}.
+%A calculation in the 4 flavor scheme
+%includes tW and \ttbar as well as non-top-quark diagrams~\cite{Cascioli:2013wga} and
+%the interference between tW and \ttbar enters already at tree level.
+%The diagram removal (DR) scheme \cite{Frixione:2008yi}, in which all next-to-leading order (NLO)
+%diagrams that overlap with the \ttbar definition are removed from the calculation of the tW
+%amplitude, was employed to handle interference between tW
+%and \ttbar diagrams, and was applied to the tW sample.
+%
+%The DR scheme was employed to handle interference between tW and \ttbar diagrams, and was applied to the tW sample.
+
+%For plotting and comparing pre-fit MC predictions to data, the predicted tW cross-section at a $\sqrt{s}=13$ TeV is set to the NLO value with next-to-next-to-leading logarithmic (NNLL) soft-gluon corrections, calculated as
+%$\sigma_{\text{theory}}=71.7\pm1.8\,(scale)\pm{3.4}\,(PDF)$ ~\cite{Kidonakis:2015},
+%assuming a top quark mass ($m_{\text{top}}$) of 172.5 GeV.
+%The first uncertainty accounts for the renormalisation and factorisation scale variations (from $m_{\text{top}}/2$ to $2 \,m_{\text{top}}$), while the second uncertainty originates from uncertainties in the MSTW2008 NLO parton distribution function (PDF) sets.

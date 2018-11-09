@@ -1,0 +1,213 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {french}
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}The CMS experiment at LHC}{1}{chapter.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.1}The Large Hadron Collider (LHC)}{1}{section.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1.1}The Proton Proton Collision}{2}{subsection.1.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1.2}The Pile Up}{2}{subsection.1.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1.3}The Luminosity}{3}{subsection.1.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.2}The Compact Muon Solenoid (CMS)}{4}{section.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.1}Coordinate conventions}{5}{subsection.1.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.2}Inner tracking system}{6}{subsection.1.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.3}Electromagnetic calorimeter}{7}{subsection.1.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.4}Hadronic calorimeter}{10}{subsection.1.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.5}Magnet}{13}{subsection.1.2.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.6}Muon system}{14}{subsection.1.2.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.7}Trigger}{15}{subsection.1.2.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.3}Summary}{16}{section.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Event reconstruction}{17}{chapter.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}Electron and photon reconstruction}{17}{section.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.1}Clustering}{17}{subsection.2.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.1.1.1}The Island algorithm}{17}{subsubsection.2.1.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.1.1.2}The Hybrid algorithm}{18}{subsubsection.2.1.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.2}Super-cluster (SC)}{19}{subsection.2.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.3}Position measurement}{20}{subsection.2.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.4}Electron reconstruction}{21}{subsection.2.1.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.1.4.1}Track seeding}{21}{subsubsection.2.1.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.1.4.2}Tracking}{22}{subsubsection.2.1.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.1.4.3}Track-supercluster matching}{22}{subsubsection.2.1.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.5}Photon reconstruction}{23}{subsection.2.1.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.1.5.1}Photon conversion}{23}{subsubsection.2.1.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}Muon reconstruction}{24}{section.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.1}Standalone muon reconstruction}{24}{subsection.2.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.2}Global muon reconstruction}{24}{subsection.2.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.3}Tracker muon reconstruction}{25}{subsection.2.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.3}Particle-flow algorithm}{25}{section.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.4}Tau reconstruction}{25}{section.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.5}Jet and bjet reconstruction}{26}{section.2.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.5.1}b-jet reconstruction}{27}{subsection.2.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.6}MET reconstruction}{28}{section.2.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.7}Summary}{28}{section.2.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Searching for high mass resonances in dielectron final state}{29}{chapter.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}Data and MC samples}{29}{section.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}Trigger}{32}{section.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.1}Method for Measuring Trigger Efficiencies in Data}{32}{subsection.3.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.2}Primary Signal Trigger: L1 Efficiency}{33}{subsection.3.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.3}Primary Signal Trigger:HLT Efficiency}{34}{subsection.3.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.4}Other Trigger Efficiencies}{35}{subsection.3.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}Object and Event Selection}{36}{section.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.4}Mass resolution and scale}{37}{section.3.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.5}HEEP ID efficiency and scale factor}{44}{section.3.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.5.1}Tag and probe method}{44}{subsection.3.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.5.2}HEEP ID efficiencies and scale factors}{56}{subsection.3.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.6}Standard Model backgrounds}{64}{section.3.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.6.1}SM Drell-Yan background}{64}{subsection.3.6.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.6.1.1}DY Background Correction and Uncertainty}{65}{subsubsection.3.6.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.6.2}$\ensuremath {\mathrm {t\mathaccentV {bar}016{t}}}$ and$~\ensuremath {\mathrm {t\mathaccentV {bar}016{t}}}$-like background}{68}{subsection.3.6.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.6.3}Jet background}{70}{subsection.3.6.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.6.3.1}Jet to electron misidentification probability measurement}{70}{subsubsection.3.6.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.6.3.2}Jet mass spectrum estimates}{71}{subsubsection.3.6.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.7}Invariant mass spectra}{75}{section.3.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.7.1}Complementary plot}{75}{subsection.3.7.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.8}Statistical interpretation}{84}{section.3.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.8.1}Upper limits}{88}{subsection.3.8.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.9}Summary}{91}{section.3.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Search for new physics via top quark production in dilepton final state}{93}{chapter.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}Introduction}{93}{section.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}Data-sets and Monte Carlo Samples}{96}{section.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.1}Data samples}{96}{subsection.4.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.2}MC samples}{96}{subsection.4.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}Triggers}{97}{section.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.4}Event reconstruction and object identification}{98}{section.4.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.4.1}Lepton selection}{98}{subsection.4.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.4.1.1}Muon}{98}{subsubsection.4.4.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.4.1.2}Electron}{98}{subsubsection.4.4.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.4.2}Jet selection}{99}{subsection.4.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.4.3}Missing Transverse Energy}{100}{subsection.4.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.4.4}Scale factors}{100}{subsection.4.4.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.4.5}Top $P_{T}$ reweighting}{100}{subsection.4.4.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.5}Event selection and cut optimization}{101}{section.4.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.5.1}Event selection (step 1)}{101}{subsection.4.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.5.2}Event selection (step 2)}{101}{subsection.4.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.6}Background predictions}{103}{section.4.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.6.1}Prompt Background}{103}{subsection.4.6.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.6.2}Fake Background}{104}{subsection.4.6.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.7}Data/MC comparison}{105}{section.4.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.8}Signal extraction using neural networks tools}{113}{section.4.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.8.1}Data/MC comparison for MVA input variables}{114}{subsection.4.8.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.9}Systematic uncertainties}{125}{section.4.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.10}Results}{133}{section.4.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.10.1}Limit setting procedure}{133}{subsection.4.10.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.10.2}Exclusion limits on C$_{G}$ effective coupling}{134}{subsection.4.10.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.10.3}Exclusion limits on C$_{tG}$, C$_{\phi q}$ and C$_{tW}$ effective couplings}{135}{subsection.4.10.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.10.4}Exclusion limits on C$_{uG}$ and C$_{cG}$ effective couplings}{138}{subsection.4.10.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.11}Summary}{141}{section.4.11}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Appendices}{141}{section.4.11}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {.1}Mass resolution fit results}{143}{section.Alph0.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {.2}For 2016 HEEP ID scale factor}{143}{section.Alph0.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {.2.1}N-1 (or N-2, N-3) efficiency for HEEP variables}{143}{subsection.Alph0.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {.2.2}HEEP efficiency versus $\eta $ for different $E_{T}$ bins}{158}{subsection.Alph0.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {.2.3}Cross check with DYJetsToLL amcatnlo sample}{160}{subsection.Alph0.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {.2.4}HEEP efficiecny for mc matched electron for different DY samples}{162}{subsection.Alph0.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {.3}For 2017 HEEP ID scale factor}{162}{section.Alph0.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {.3.1}N-1 (or N-2, N-3) efficiency for HEEP variables}{162}{subsection.Alph0.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {.3.2}Cross check with fit method}{175}{subsection.Alph0.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {.4}MET disagreement investigation}{180}{section.Alph0.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {.4.0.1}Source of MET disagreement}{180}{subsubsection.Alph0.4.0.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {.5}SM tW cross section measurement}{184}{section.Alph0.5}

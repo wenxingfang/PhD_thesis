@@ -1,0 +1,41 @@
+\section{Object and Event Selection}\label{sec:Zprime_HEEP}
+Electrons are required to pass the HEEP selection which is listed in Table \ref{tab:HEEPV70} and then are combined to form dielectron candidates.
+If more than one dielectron candidate is found in the event, only the pair with the two largest electron $E_T$ is retained.
+There is no charge requirement for dielectron candidates and this is made to avoid efficiency losses at high mass for the main analysis.
+Besides, at least one of the electron candidates has to be in barrel (events with both electron candidates in endcaps regions are rejected).
+Events in data are required to satisfy the trigger selection described in section \ref{sec:Zprime_trigger}.
+MC events are weighted using turn on curves shown in figures \ref{fig:L1_eff_2017}, \ref{fig:HLT_turnon_2016} and \ref{fig:HLT_turnon_2017} for considering the L1 or HLT effects.
+
+
+\begin{table}[!h]
+  \begin{center}
+\smallskip\noindent
+\resizebox{\linewidth}{!}{%
+    \begin{tabular}{lll}
+      \hline
+      Variable                          & Barrel                             & Endcap                             \\
+      \hline
+      \multicolumn{3}{c}{Acceptance selections}\\
+      \ET                             & \ET$>$ 35 GeV                    & \ET$>$ 35 GeV                    \\
+      $\eta$                            & $|\eta| < 1.4442$             & $1.566 < |\eta| < 2.5$        \\
+      \hline
+      \multicolumn{3}{c}{Identification selections}\\
+      %\texttt{isEcalDriven}             & true                               & true                               \\
+      $\Delta\eta_{in}^{seed}$          & $|\Delta\eta_{in}^{seed}| < 0.004$ & $|\Delta\eta_{in}^{seed}| < 0.006$ \\
+      $\Delta\phi_{in}$                 & $|\Delta\phi_{in}| < 0.06$         & $|\Delta\phi_{in}| < 0.06$         \\
+      $H/E$                             & $H/E < 1/E + 0.05$                 & $H/E < 5/E + 0.05$                 \\
+      $\sigma_{i\eta i\eta}$            & -                                  & $\sigma_{i\eta i\eta} < 0.03$      \\
+      $\frac{\EOnexFive}{\EFive}$ and $\frac{\ETwoxFive}{\EFive}$        & $\frac{\EOnexFive}{\EFive}>0.83$ or $\frac{\ETwoxFive}{\EFive}>0.94$ & -                              \\
+      Inner lost layer hits             & lost hits $\le 1$                  & lost hits $\le 1$                  \\
+      Impact parameter $d_{xy}$        & $|d_{xy}|<0.02$ cm                   & $|d_{xy}|<0.05$ cm                   \\
+      \hline
+      \multicolumn{3}{c}{Isolation selections}\\
+      \small{Calorimeter isolation} $Iso$                  & $Iso < 2 + 0.03\ET[\mathrm{GeV}] + 0.28\rho$     & $Iso < 2.5 + 0.28\rho$ (\ET<50 GeV) \\
+                                        &                                    & else $Iso < 2.5 + 0.03(\ET[\mathrm{GeV}]-50) + 0.28\rho$ \\
+      $p_T$ isolation $Isopt$          & $Isopt <$ 5 GeV                   & $Isopt <$ 5 GeV                   \\
+      \hline
+    \end{tabular}}
+    \caption{Definitions of HEEP selection cuts.}
+    \label{tab:HEEPV70}
+  \end{center}
+\end{table}

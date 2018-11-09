@@ -1,0 +1,53 @@
+
+\section{Triggers}
+\label{tW_Trigger}
+
+In this analysis we use various sets of triggers in order to achieve an optimal selection efficiency.
+For each dilepton channel (ee, $\mu\mu$) we take the logical OR of the dilepton triggers listed
+in Table \ref{tab:trigger}.
+The increase of the instantaneous luminosity delivered by the LHC in Run H needed the (re)introduction of the DZ cut for pure dimuon trigger.
+
+We complement the partially inefficient dilepton triggers by single lepton triggers and remove the overlap between two
+primary data sets by vetoing events that fired a dilepton trigger in the single lepton primary
+data sets.
+%Because the e$\mu$ channel is complemented by two single lepton primary data sets, the
+%procedure has two steps: We first add events from the SingleElectron primary data set that
+%fired single electron triggers but failed the double lepton triggers that we use to select events
+%in the MuonEG primary data set. We furthermore add events from the SingleMuon primary
+%data set that fired single muon triggers but fired none of the triggers we use to select events in
+%either the MuonEG or the SingleElectron primary data set.
+Table \ref{tab:trigger} gives an overview of all triggers used in this analysis.
+Using \ttbar ~and tW MC samples, it is found that by adding single lepton triggers, trigger efficiency is increased by around 5\%.
+
+
+% Please add the following required packages to your document preamble:
+%\usepackage{multirow}
+\begin{table}[th]
+\centering
+\begin{tabular}{lll}
+\hline
+channel               & path                                                      & dataset             \\ \hline \hline
+\multirow{2}{*}{ee}   & HLT\_Ele23\_Ele12\_caloIdL\_TrackIdL\_IsoVL\_DZ           & data \& MC          \\
+                      & HLT\_Ele27\_WPTight\_Gsf                                  & data \& MC          \\ \hline
+%\multirow{7}{*}{e$\mu$}  & HLT\_Mu8\_TrkIsoVVL\_Ele23\_CaloIdL\_TrackIdL\_IsoVL      & data runs B-G \& MC \\
+%                      & HLT\_Mu23\_TrkIsoVVL\_Ele12\_CaloIdL\_TrackIdL\_IsoVL     & data runs B-G \& MC \\
+%                      & HLT\_Mu8\_TrkIsoVVL\_Ele23\_CaloIdL\_TrackIdL\_IsoVL\_DZ  & data only run H \\
+%                      & HLT\_Mu23\_TrkIsoVVL\_Ele12\_CaloIdL\_TrackIdL\_IsoVL\_DZ & data only run H \\
+%                      & HLT\_Ele27\_WPTight\_Gsf                                  & data \& MC          \\
+%                      & HLT\_IsoMu24                                              & data \& MC          \\
+%                      & HLT\_IsoTkMu24                                            & data \& MC          \\ \hline
+\multirow{6}{*}{$\mu\mu$} & HLT\_Mu17\_TrkIsoVVL\_Mu8\_TrkIsoVVL                      & data runs B-G \& MC \\
+                      & HLT\_Mu17\_TrkIsoVVL\_TkMu8\_TrkIsoVVL                    & data runs B-G \& MC \\
+                      & HLT\_Mu17\_TrkIsoVVL\_Mu8\_TrkIsoVVL\_DZ                  & data only run H     \\
+                      & HLT\_Mu17\_TrkIsoVVL\_TkMu8\_TrkIsoVVL\_DZ                & data only run H     \\
+                      & HLT\_IsoMu24                                              & data \& MC          \\
+                      & HLT\_IsoTkMu24                                            & data \& MC          \\ \hline \hline
+\end{tabular}
+\caption{Summary of the signal triggers}
+\label{tab:trigger}
+\end{table}
+
+
+Since the trigger information is available in simulated samples, we require FullSim MC samples to fire the trigger and finally apply corrections for any data/MC disagreement using scale factors.
+TOP group recommended trigger scale factor (described in \cite{trSF}) are used.
+We also have found trigger scale factors as a cross checked which gives similar result (although they are not used in this analysis).

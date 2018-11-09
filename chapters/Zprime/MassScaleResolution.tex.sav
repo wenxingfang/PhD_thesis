@@ -1,0 +1,181 @@
+\section{Mass resolution and scale}
+\label{sec:mass_res}
+
+The mass resolution function is a crucial point of the analysis, since its outcome enters in the signal model definition. Its estimation follows two steps: a data-MC comparison, and a MC-only study.
+The first step consists in the comparison between the broadness of the invariant mass distribution of the electron pairs $m_{ee}$ selected requiring the HEEP ID at the Z peak (80 GeV $<M_{ee}<$ 100 GeV) between data and DY MC.
+Both distributions are fitted using a Breit-Wigner (B-W) function, whose parameters are fixed to the PDG value of the Z boson, convoluted with a double-sided crystal ball function (dCB), which is defined as a Gaussian core connected with two power-law functions on both sides.
+The $\sigma$ parameter of the dCB function is then compared between data an MC in different $\eta$-categories. For the BB category both electrons are required to be in the ECAL barrel, while for the BE category one electron is required to be in the ECAL barrel, the other one in the ECAL endcap.
+Fit results for data and MC in 2016 (2017) are shown in figure \ref{fig:data_MC_peak_2016} (\ref{fig:data_MC_peak_2017}). 
+
+The $\sigma_{MC}$ of the dCB which fits the MC distribution is subtracted in quadrature from the $\sigma_{data}$ coming from the fit to the data, thus defining the $\sigma_{extra}$ parameter through the relation: $\sigma_{extra}=\sqrt{\sigma_{data}^{2} - \sigma_{MC}^{2}}$. 
+In table \ref{tab:extra} the results for the $\sigma_{extra}$ parameter are shown for the different categories for 2016 and 2017.
+Note that the numbers in table \ref{tab:extra} are expressed in percentage [\%] of the Z peak mass value ($M_{Z}$ DPG value of 91.1876 GeV). The quoted mean values are the ones of the dCB function used to fit the mass spectra after convolution with the B-W function. For 2017 the official EGamma energy scale and smearing is applied for data and MC, therefore the mean values difference between data and MC in 2017 are much smaller than it in 2016 and for the $\sigma_{extra}$ which is 0 in 2017 because of the larger $\sigma_{MC}$ than $\sigma_{data}$.
+
+\begin{figure}[ht]
+  \begin{center}
+    \begin{tabular}{cc}
+      \includegraphics[width=0.48\textwidth]{figures/Zprime/2016/mass_resolution/h_mee_data_BB_2016_Moriond17.pdf} &
+      \includegraphics[width=0.48\textwidth]{figures/Zprime/2016/mass_resolution/h_mee_data_BE_2016_Moriond17.pdf} \\
+      \includegraphics[width=0.48\textwidth]{figures/Zprime/2016/mass_resolution/h_mee_MC_BB_2016_Moriond17.pdf} &
+      \includegraphics[width=0.48\textwidth]{figures/Zprime/2016/mass_resolution/h_mee_MC_BE_2016_Moriond17.pdf}
+    \end{tabular}
+    \caption{Invariant mass distribution at the Z peak in data (top) and MC (bottom) for the BB region (left) and BE (right) channel for 2016.
+    \label{fig:data_MC_peak_2016}}
+  \end{center}
+\end{figure}
+
+\begin{figure}[ht]
+  \begin{center}
+    \begin{tabular}{cc}
+      \includegraphics[width=0.48\textwidth]{figures/Zprime/2017/mass_resolution/data_BB_RunBCDEF} &
+      \includegraphics[width=0.48\textwidth]{figures/Zprime/2017/mass_resolution/data_BE_RunBCDEF} \\
+      \includegraphics[width=0.48\textwidth]{figures/Zprime/2017/mass_resolution/mc_BB} &
+      \includegraphics[width=0.48\textwidth]{figures/Zprime/2017/mass_resolution/mc_BE}
+    \end{tabular}
+    \caption{Invariant mass distribution at the Z peak in data (top) and MC (bottom) for the BB region (left) and BE (right) channel for 2017.
+    \label{fig:data_MC_peak_2017}}
+  \end{center}
+\end{figure}
+
+
+
+\begin{table}[htb]
+\begin{center}
+\begin{tabular}{cccccc}
+\hline
+Year &Category            & $\frac{\Delta M}{M} [\%]$ & $\sigma_{data}$ [\%] & $\sigma_{MC}$ [\%] & $\sigma_{extra}$ [\%] \\ \hline
+\multirow{2}{*}{2016}     &BB       & -0.19 $\pm$ 0.02          & 1.45 $\pm$ 0.00      & 1.20 $\pm$ 0.03    & 0.81 $\pm$ 0.04  \\
+                          &BE       & -0.40 $\pm$ 0.02          & 2.49 $\pm$ 0.01      & 2.15 $\pm$ 0.03    & 1.26 $\pm$ 0.05  \\ \hline
+\multirow{2}{*}{2017}     &BB       & 0.04 $\pm$ 0.01           & 1.63 $\pm$ 0.01      & 1.74 $\pm$ 0.01    & 0 $\pm$ 0 \\ 
+                          &BE       & -0.03 $\pm$ 0.00          & 2.91 $\pm$ 0.00      & 2.93 $\pm$ 0.00    & 0 $\pm$ 0 \\ \hline
+\end{tabular}
+\caption{Results per category for the data-MC scale shift $\frac{\Delta M}{M}$ and the $\sigma_{extra}$ parameters. \label{tab:extra}}
+\end{center}
+\end{table}
+
+\medskip
+The second step of the study is MC-only based.
+In particular, the mass resolution has been studied as a function of the generated invariant mass of the electron pair $m_{gen}$.
+In order to maximise the statistics, different Drell-Yan (DY) samples are used, all of the them generated for a centre-of-mass energy $\sqrt{s}=$~13 TeV and 25 ns of bunch spacing.
+The HEEP ID is applied for reconstucted electro
+For each bin of the generated invariant mass $m_{gen}$, the distribution of the difference between the reconstructed and the generated invariant mass,
+divided for the generated invariant mass is analysed.
+Defining the variable $resolution =\frac{m_{reco}-m_{gen}}{m_{gen}}$, its distribution is obtained as a function of $m_{gen}$ and a binned maximum-likelihood
+fit is performed using a ``cruijff function'' (Gaussian core, connected with an exponential tail on each side) for 2016, while for 2017 the dCB function is used because it is found that the cruijff is not able to correctly describe the invariant mass shape at very high mass due to saturation effects.
+The reconstructed invariant mass $m_{reco}$ has been obtained applying the HEEP ID.
+The fitted parameters were studied in their behaviour versus the corresponding generated mass and an analytic parametrisation is provided and used
+as an input for the limit setting procedure.
+In particular, for the mass resolution, the sigma parameter of the cruijff function $\sigma_{fit}$ is added in quadrature with the $\sigma_{extra}$ parameter.
+Results for the BB region and BE region are shown in figure \ref{fig:resolution}, where the mass resolution plots are fitted using a standard ``energy resolution function'', described by the stochastic, noise and constant terms, to which an extra linear term is added, in the BB case.
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.48\textwidth]{figures/Zprime/2016/mass_resolution/resolution_BB.pdf}
+\includegraphics[width=0.48\textwidth]{figures/Zprime/2016/mass_resolution/resolution_BE.pdf}
+\includegraphics[width=0.48\textwidth]{figures/Zprime/2017/mass_resolution/High_Mass/BB_sigma}
+\includegraphics[width=0.48\textwidth]{figures/Zprime/2017/mass_resolution/High_Mass/BE_sigma}
+\caption{Mass resolution ($\sigma_{fit}$) as a function of the generated invariant mass for the BB region (left) and BE (right) channel for 2016 (top) and 2017 (bottom).
+ \label{fig:resolution}}
+\end{figure}
+
+The binning of the $x-$axis is chosen in order to have a reasonable amount of statistics for each range of $m_{ee}$ and ensure in this way a good quality, in terms
+of reduced $\chi^{2}$, of the performed fits.
+%Some fit results are shown in Fig. \ref{fig:fits_BB} for the BB region, corresponding from left to right to the first bin of the mass resolution plot, the minimum of the mass resolution (encountered around $\approx$~1 TeV), and the last bin.
+%\begin{figure}[ht]
+%\centering
+%\includegraphics[width=0.3\textwidth]{fig/mass_resolution/h_resolution_BB_1_bin_0.pdf}
+%\includegraphics[width=0.3\textwidth]{fig/mass_resolution/h_resolution_BB_5_bin_4.pdf}
+%\includegraphics[width=0.3\textwidth]{fig/mass_resolution/h_resolution_BB_19_bin_11.pdf}
+%\caption{Fit results for the mass resolution, in the BB region.
+% \label{fig:fits_BB}}
+%\end{figure}
+
+%With the same logic, some fit results are shown in Fig. \ref{fig:fits_BE} for the BE region, corresponding from left to right to the minimum of the mass resolution (encountered between 1-2 TeV), and the last two bins.
+%
+%\begin{figure}[ht]
+%\centering
+%\includegraphics[width=0.3\textwidth]{fig/mass_resolution/h_resolution_BE_7_bin_5.pdf}
+%\includegraphics[width=0.3\textwidth]{fig/mass_resolution/h_resolution_BE_13_bin_7.pdf}
+%\includegraphics[width=0.3\textwidth]{fig/mass_resolution/h_resolution_BE_17_bin_8.pdf}
+%\caption{Fit results for the mass resolution, in the BE region.
+% \label{fig:fits_BE}}
+%\end{figure}
+
+In the BB region there is a small linear rise in the mass resolution starting around $\approx$ 1 TeV. The effect has been already studied in \cite{CMS-AN-2015-222} and it is due to leakage of the electromagnetic ECAL shower in the HCAL subdetector which worsen in this way the energy reconstruction driven by the ECAL detector.
+In fact, the effect of the leakage in the HCAL subdetector is visible as an increase in the $H/E$ variable, which is the ratio between the energy in the HCAL over the energy contained in the ECAL detector around the electron direction.
+%The mean of $H_1/E_1 + H_2/E_2$ is shown in figure \ref{fig:hoe}, where $1$ and $2$ label the first and the second electron, as a function of the invariant mass $m_{gen}$. Only in the BB region there is an increase at high mass, while in the BE region it stays rather flat.
+
+%\begin{figure}[ht]
+%\centering
+%\includegraphics[width=0.48\textwidth]{fig/mass_resolution/HoverE_BB.pdf}
+%\includegraphics[width=0.48\textwidth]{fig/mass_resolution/HoverE_BE.pdf}
+%\caption{Mean of $H_1/E_1 + H_2/E_2$ as a function of the generated invariant mass for the BB region (left) and BE (right) channel.
+% \label{fig:hoe}}
+%\end{figure}
+
+%It is also possible to quantify the leakage in the HCAL subdetector considering the behavior of $(H_1 + H_2)/(E_1 + E_2)$, where again $1$ and $2$ label the first and the second electron, as a function of the invariant mass $m_{gen}$. The behavior is very similar to the one of the other possible variable $H_1/E_1 + H_2/E_2$, apart from the absolute y-axis scale (See figure \ref{fig:hoe_tot}).
+
+%\begin{figure}[ht]
+%\centering
+%\includegraphics[width=0.48\textwidth]{fig/mass_resolution/HTotoverETot_BB.pdf}
+%\includegraphics[width=0.48\textwidth]{fig/mass_resolution/HTotoverETot_BE.pdf}
+%\caption{Mean of $(H_1 + H_2)/(E_1 + E_2)$ as a function of the generated invariant mass for the BB region (left) and BE (right) channel.
+% \label{fig:hoe_tot}}
+%\end{figure}
+
+%As a cross-check in support of the HCAL leakage explaination, it is possible to show that the $\eta$ distribution for electrons in the ECAL barrel is different for the BB
+%and BE category: in particular the electrons belonging to the BB category can be both low-$\eta$ and high-$\eta$ electrons, while in BE category there are mostly high-$\eta$
+%electrons (see figure \ref{fig:eta_check}.)
+
+%\begin{figure}[!htbp]
+%\begin{center}
+%\includegraphics[width=0.48\textwidth]{fig/mass_resolution/eta_distributions.png}
+%\end{center}
+%\caption{$|\eta|$ distribution for the electrons falling in the ECAL barrel for BB category and BE category}
+%\label{fig:eta_check}
+%\end{figure}
+
+
+%As a cross-check in support of the HCAL leakage explaination, the reconstructed energy is corrected, simply adding linearly the $H/E$ energetic fraction, without taking into account extra calibration coefficients. With this simple implementation, the resolution in the BB category appear much flatter at high $m_{gen}$ and in this configuration the rise is less pronounced, consisting in a 0.1 \% effect (See fig. \ref{fig:resolution_recover}).
+%
+%\begin{figure}[ht]
+%\centering
+%\includegraphics[width=0.6\textwidth]{fig/mass_resolution/resolution_h_recover_BB.pdf}
+%\caption{Mass resolution as a function of the generated invariant mass for the BB category. The reconstructed energy is corrected to take into account the leakage in the HCAL subdetector.
+% \label{fig:resolution_recover}}
+%\end{figure}
+%
+%
+%
+%Finally, it is interesting to compare the obtained mass resolution plots with the ones that could be obtained using the raw-supercluster energy as reconstructed energy,
+%so taking away the additional corrections applied in order to match the Z peak in data and MC.
+%The comparison between those 2 possibilities (with the full reconstructed energy and using only the raw energy) are shown in Fig. \ref{fig:comparison_res}.
+%
+%\begin{figure}[ht]
+%\centering
+%\includegraphics[width=0.48\textwidth]{fig/mass_resolution/resolution_BB_comparison.png}
+%\includegraphics[width=0.48\textwidth]{fig/mass_resolution/resolution_BE_comparison.png}
+%\caption{Comparison between the mass resolution obtained using the full reconstructed energy (black points) and the raw-supercluster energy (red points) as a function of the generated invariant mass for the BB region (left) and BE (right) channel.
+% \label{fig:comparison_res}}
+%\end{figure}
+%
+%The comparison shows that in both regions, at high mass, the two different configurations tend to converge and, apart from some fluctations they show similar behavior.
+\medskip
+Also the mass scale of the ECAL detector has been studied as a function of the generated invariant mass of the electron pair $m_{gen}$, using the same generated samples taken into account for the mass resolution determination.
+
+For each bin of the generated invariant mass $m_{gen}$, the distribution of the reconstructed invariant mass,
+divided by the generated invariant mass is analysed.
+The mass scale variable is defined as $scale =\frac{m_{reco}}{m_{gen}}$.  From the $resolution$ variable defined above it can be seen that $scale= \frac{m_{reco}}{m_{gen}}= 1 + resolution$.
+The mean parameter of the crystal ball function used to fit the $resolution$ distribution is taken as the mass scale simply adding the unity to it. The error on the parameter is taken accordingly.
+
+Results for the BB region and BE region are shown in figure \ref{fig:scale}.
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.7\textwidth]{figures/Zprime/2016/mass_resolution/scale_BB.pdf}
+\includegraphics[width=0.7\textwidth]{figures/Zprime/2016/mass_resolution/scale_BE.pdf}
+\caption{Mass scale as a function of the generated invariant mass for the BB region (top) and BE (bottom) channel.
+ \label{fig:scale}}
+\end{figure}
+
+In the BB region there is a drop in the mass scale parameter starting around $\approx$ 1 TeV ($\approx$ 0.5 \% effect), which is the counterpart of the rise observed in the mass resolution, and is again due to leakage of a small part of the high-energetic e.m. shower in the HCAL subdetector.

@@ -1,0 +1,106 @@
+%\section*{Constitution du jury de th\`ese:}
+\afterpage{\blankpage}
+\thispagestyle{empty}
+\begin{Large}
+\textbf{Doctoral Jury:}
+\end{Large}
+\begin{itemize}
+\item{Prof. Barbara Clerbaux (Universit\'e Libre de Bruxelles), Co-supervisor}
+\item{Prof. Chengping SHEN (Beihang University), Co-supervisor}
+\item{Prof. Laurent FAVART (Universit\'e Libre de Bruxelles)}
+\item{Prof. Serge Massar (Universit\'e Libre de Bruxelles)}
+
+\end{itemize}
+
+%\bigskip
+%\begin{Large}
+%\Large \textbf{Evaluateurs externes:}
+%\end{Large}
+%\begin{itemize}
+%\item{Prof. Attilio Andreazza (UniMi, Milano)}
+%\item{Prof. Luigi Rolandi (SNS, Pisa)}
+%\end{itemize}
+
+\newpage
+\selectlanguage{english}
+\section*{Abstract}
+%This thesis describes searches for new massive resonances that decay in an electron-positron or photon pair in the final state.
+%Different datasets, coming from proton-proton collisions at a center-of-mass energy $\sqrt{s}=13$ TeV at the Large Hadron Collider (LHC) and collected by the CMS experiment in 2015 and 2016, have been analyzed.
+%After a chapter devoted to the description of the standard model of elementary particle physics, the motivation for the introduction of new theories that go beyond the standard model are introduced and some classes of models are described.
+%The techniques used in order to reconstruct the particles produced in the collisions are discussed afterwards, with a special emphasis on electron/positron and
+%photon reconstructions. Two separate analyses are presented.
+%\\The first one is the search for new heavy resonances decaying in an electron-positron pair in the final state.
+%Such resonances are predicted by a variety of models such as grand unified theories or theories that introduce extra space-like dimensions. Their signature would appear as
+%a localised excess of events in the electron-positron invariant mass spectrum.
+%The event selection is optimized in order to be highly efficient for high-energy electrons/positrons and to avoid loosing potential signal events.
+%The analysis relies on simulated samples for the estimation of the main source of background, which is the standard model Drell-Yan process.
+%Data-driven approaches are pursued for both validating the simulation of the
+%subleading background processes with prompt electrons in the final state and the determination of the background coming from processes of quantum chromo dynamics.
+%After having inspected the electron-positron invariant mass, no excess over the standard model
+%expectation is observed, and 95\% confidence
+%level upper limits are set on the ratio of production cross-section times branching ratio of a
+%new resonance to the one at the Z boson peak, using the data collected in 2016 (35.9 \fbinv).
+%\\The second analysis presented in this thesis is the search for new heavy resonances decaying in the diphoton final state, the existence of which is predicted by models with non-minimal scalar sectors or by theories postulating the existence of additional space-like dimensions.
+%Their signature would appear as a localised excess of events in the diphoton invariant mass spectrum.
+%As for the case of the dielectron analysis, the event selection has been optimized in order to be highly efficient for high-energy photons.
+%The background estimation is completely data-driven and achieved via a parametrization of the observed diphoton invariant mass spectrum.
+%After the inspection of the diphoton invariant mass, no excess over the standard model expectation is observed, and 95\% confidence
+%level upper limits are set on the production cross-section times branching ratio, using the data collected in the first half of 2016 (12.9 \fbinv). Results have also been combined with those obtained with the same analysis techniques but with different datasets collected in 2012 and 2015 by the CMS experiment.
+
+%\newpage
+%\selectlanguage{italian}
+%\section*{Sommario}
+%Questa tesi descrive le ricerche di nuove risonanze massive che decadono in coppie elettrone-positrone o in coppie di fotoni nello stato finale.
+%I dati analizzati, provenienti da collisioni protone-protone a una energia del centro di massa  $\sqrt{s}= 13$ TeV
+%sono stati raccolti nel 2015 e nel 2016 dall'esperimento CMS presso il Large Hadron Collider (LHC).
+%Dopo un capitolo dedicato alla descrizione del modello standard delle particelle elementari,
+%vengono analizzate le motivazioni per l'introduzione di nuove teorie che vanno al di là del modello standard
+%e alcune classi di modelli sono descritte. Le tecniche utilizzate per ricostruire le particelle
+%prodotte nelle collisioni sono in seguito discusse, con una particolare enfasi sulla ricostruzione di elettroni e fotoni.
+%Due distinte analisi sono presentate.
+%\\La prima analisi verte sulla ricerca di nuove resonanze massive che decadono in coppie elettrone-positrone nello stato finale.
+%Tali risonanze sono previste da numerosi modelli di nuova fisica come le \textit{grand unified theories} o da teorie che introducono
+%dimensioni spaziali aggiuntive. Una evidenza sperimentale dell'esistenza di tali particelle nuove apparirebbe come un eccesso localizzato di eventi
+%nello spettro di massa invariante delle coppie elettrone-positrone.
+%La selezione degli eventi è stata ottimizzata per essere altamente efficiente per elettroni di alta energia ed evitare di perdere eventuali eventi di segnale.
+%L 'analisi si basa su campioni simulati per la stima della
+%principale fonte di fondo, che è costituito dal processo Drell-Yan del modello standard.
+%Un approccio basato sui dati viene invece perseguito sia per convalidare la simulazione del fondo sottodominante fatto di processi con elettroni nello stato finale e anche per la determinazione del fondo proveniente da processi di \textit{quantum chromodynamics}.
+%Dopo aver esaminato lo spettro di massa invariante delle coppie elettrone-positrone selezionate, nessun eccesso significativo
+%è stato rilevato rispetto alle predizioni del modello standard e, di conseguenza, sono stati calcolati, utilizzando i dati raccolti nel 2016 (35.9 \fbinv), limiti superiori al 95\% di livello di confidenza sul
+%rapporto tra la sezione d'urto di produzione moltiplicata per il rapporto di decadimento di una nuova risonanza rispetto a quella del bosone Z.
+%\\La seconda analisi presentata in questa tesi è la ricerca di una nuova risonanza pesante che decade in coppie di fotoni nello stato finale, la cui esistenza è prevista da modelli con settori Higgs non minimali o da teorie che postulano l'esistenza di dimensioni spaziali aggiuntive.
+%In questo caso, una loro evidenza sperimentale apparirebbe come un eccesso localizzato
+%di eventi nello spettro di massa invariante delle coppie di fotoni selezionate. Di conseguenza, la selezione degli eventi è stata ottimizzata
+%per essere altamente efficiente per fotoni di alta energia ed evitare perdite di eventuali eventi di segnale.
+%La stima del fondo segue un approccio basato sui dati stessi e viene ottenuta tramite una
+%parametrizzazione dello spettro di massa invariante osservato. Dopo l'ispezione della massa invariante delle coppie di fotoni selezionate, non si osserva nessun eccesso
+%significativo rispetto alle predizioni del modello standard e pertanto, utilizzando i dati raccolti nella prima metà del 2016 (12.9 \fbinv),
+%sono posti limiti superiori al 95\% di livello di confidenza
+%sulla sezione d'urto di produzione moltiplicata per il rapporto di decadimento di una tale risonanza. I risultati sono stati anche combinati
+%con quelli ottenuti con le stesse tecniche di analisi ma per diversi set di dati, raccolti dall'esperimento CMS nel 2012 e nel 2015.
+
+
+\newpage
+\selectlanguage{english}
+\section*{Acknowledgements}
+%This thesis would have not been possible without the contribution of many people that helped me during the four years of doctoral studies.
+%\\First, I would like to thank Barbara Clerbaux and Paolo Meridiani who supervised to the work presented here with their guidance, support and countless advices during
+%this extreme adventure of the spirit and the body which is named \textit{PhD}.
+%\\I am grateful to all the jury members, Daniele Del Re, Louis Fayard, Ivan Mikulec, Michel Tytgat and Pascal Vanlaer, for reading this thesis and giving me their
+%valuable comments.
+%\\I also want to thank the external evaluators Attilio Andreazza and Luigi Rolandi for their remarks and
+%positive evaluations of this manuscript.
+%\\Major improvements to the quality of the analyses came over the years thanks to many people of the CMS Collaboration during internal meetings, approval talks and conferences. In particular, I want to thank Sam Harper and Pasquale Musella for the time they devoted to me in discussions and explanations and the many things I learnt from them in these occasions.
+%\\A special acknowlegment goes to Shahram Rahatlou and the INFN-Roma1 section for the invaluable opportunity to work at CERN during a rather intense year.
+%The 4-th flour of ``building 32'' became increasingly crowded during that period, with notable spikes during the coffee breaks.
+%\\For lots of laughs and good moments I have to thank Vittorio, Martina (collega ad honorem), Livia, acm, marco, federico, jellysim, giulia e checco.
+%\\My work at the IIHE would not have been that fruitful and pleasant without my
+%colleagues and friends. It is impossible to name everyone here, but special thanks go to my office mates, Laurent, Thomas and Aidan who have shared the office with me during my first years and the present ones, Diego and David to which I wish all the best for their future.
+%\\In ultimo, un ringraziamento a parte va a babbo Alfonso per i prosciutti di montagna \textit{``che solo l'odore ti ubriacava''}, a mamma Giovanna, studentessa modello e
+%oramai specialista nell'imbastire valigie ricolme di vettovaglie e con un libro di Thomas Mann in un angolo, e a Teresa e Antonietta, le mie fonti di fiducia sugli antichi segreti romantici e rusticani di Lucania.
+
+
+
+
+

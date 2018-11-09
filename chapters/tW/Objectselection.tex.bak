@@ -1,0 +1,176 @@
+\clearpage
+\section{Event reconstruction and object identification}
+\label{tW_Objectselection}
+The tW  process in dilepton final states is characterised by the presence of two high $P_{T}$ leptons associated with missing transverse energy (E$_{\rm T}^{\rm miss}$) and one b-jet.
+The reconstruction of the different objects is based on the Particle-Flow (PF) algorithm. The selection includes the following requirements:
+
+\subsection{Lepton selection}
+\subsubsection{Muon}
+
+The muons used in this analysis  are selected inside the fiducial region of the muon
+spectrometer, $\abs{\eta}<  2.4$, with a minimum $P_{T}$  of 20 GeV, and using standard identification criteria, suggested by the Muon POG. Furthermore, they are required to be particle-flow muons.
+Cuts are applied on the quality of the track fit, number of hits in the pixel, tracker and number
+of matched muon segments for the muons to be considered for the dilepton candidate. These
+requirements are summarised in the following and correspond to the so-called Tight muon identification \cite{muonid}.
+
+$\bullet$ $P_{T}>$ 20 GeV and $\abs{\eta}<  2.4$,
+
+$\bullet$ is a GlobalMuon and PFMuon,
+
+$\bullet$ number of matched Stations $> $1,
+
+$\bullet$ number of pixel hits $>$ 0,
+
+$\bullet$ number of hits in the inner tracker $>$ 5,
+
+$\bullet$ number of muon hits $>$ 0,
+
+$\bullet$ $\frac{\chi^2}{NDF}$ of the global-muon track fit $<$ 10,
+
+$\bullet$ Impact parameter constrains between the muon track and the selected primary vertex dZ $<$0.5  and d0$<$ $0.2$ cm.
+
+
+For the muon isolation, a cone of $\Delta R = 0.4$ is built to
+compute the flux of particle flow candidates, the delta-beta correction is applied to correct
+for pileup contamination. This correction is achieved by subtracting half the sum of the $P_{T}$ of
+the charged particles in the cone of interest but with particles not originating from the primary
+vertex.
+The muon isolation is therefore defined as:
+\begin{eqnarray}
+\label{eq:Irel}
+I_{rel}^{\mu} = \frac{1}{P_{T}^{\mu}} &(&\Sigma P_{T}(\text{ch-had from PV}) + max(0,\Sigma E_{T}(\text{neut-had}) \nonumber \\
+&+&  \Sigma E_{T}(\text{photon}) - 0.5 \Sigma P_{T}(\text{ch-had from PU})))
+\end{eqnarray}
+
+The factor $0.5$ corresponds to a approximate average of neutral to charged particles and has
+been measured in jets in \cite{CMS:2010eua}. In our analysis the muon candidates must have $I_{rel}^{\mu}<0.15$ to be
+considered as isolated \cite{muonid}.
+Scale factors are used to correct for differences in the reconstruction, ID and Isolation efficiencies in data and Monte Carlo. They are evaluated using the tag and probe technique, and both
+the scale factors and their uncertainty prescriptions are provided by the Muon POG \cite{muonsf}.
+In addition, muon energy scale and smearing is applied  based on Rochester group  recommendations \cite{Rochester}.
+
+
+\subsubsection{Electron}
+
+Electron candidates are selected from the reconstructed GSF electrons with  $ P_{T}>$ 20 GeV and $\abs{\eta}<$ 2.4 while gap is removed ($1.4442 < \abs{\eta_{SuperCluster} }< 1.566$).
+Electrons need to pass the tight cut based POG recommended working point \cite{eleid} which includes the requirement to pass the conversion veto.
+Additionally, we apply cuts on the longitudinal and transverse impact parameter with respect to the primary vertex which are removed from the official working point variable list.
+It is shown by TOP PAG group that electron ID scale factors are not changed by adding these two extra variables with respect to official tight working point \cite{eleid}.
+The following table contains the cuts used for the tight electron identification, derived using the Spring16 samples for 80X-based data and simulation. The details can be found in \cite{eleid}.
+%\cite{https://twiki.cern.ch/twiki/bin/viewauth/CMS/CutBasedElectronIdentificationRun2},
+
+\begin{table}[!h]
+\begin{center}
+\begin{tabular}{lll}
+\hline\hline
+                & Barrel$(\abs{\eta_{SuperCluster} })<=1.479 $& Endcap$(\abs{\eta_{SuperCluster} })>1.479 $  \\
+\hline
+full5$\times$ 5 $\sigma_{I_{\eta} I_{\eta}} < $ & $0.00998$ & $0.0292$ \\
+$\abs {\Delta\eta_{Inseed}}<$ & $0.00308$ & $0.00605$ \\
+$\abs{\Delta \Phi_{In}}<$ &$0.0816$ &$0.0394$ \\
+H/E $<$& $0.0414$ & $0.0641$ \\
+relative electron isolation $<$& $0.0588$&$0.0571$\\
+$\abs{(1/E-1/P)}<$ &0.0129&0.0129\\
+expected missing iner hits$<=$&1 &1\\
+pass conversion veto & yes& yes \\
+d0 $<~$ &  $0.05$ & $0.1$ \\
+dZ $<$& $0.1$ & $0.2$ \\
+\hline
+\end{tabular}
+\caption{  The cuts for the electron identification in the barrel and endcap.}
+\label{Tab.electrontightidentification}
+\end{center}
+\end{table}
+
+
+An MVA regression technique is used to find the  corrections for the super cluster energy to account for the effects like energy leakage into the gaps between crystals, energy leakage into the HCAL downstream the ECAL, etc \cite{Khachatryan:2015hwa}.
+The regression which is used in RunIISummer16 MiniAODv2 MC samples is trained using CMSSW74X.
+EGamma POG has provided 80 regression which should be applied offline to find the correct electron energy. 80 electron regression is applied as is explained in \cite{elereg}.
+In addition, electron energy scale and smearing is applied  based on Egamma POG recommendations \cite{elescale}.
+
+
+\subsection{Jet selection}
+
+Particle candidates found by the PF algorithm are clustered into jets using the Anti-kT algorithm
+ with distance parameter $R =0.4$ (AK4). The influence of pileup is mitigated by the Charged
+Hadron Subtraction (CHS) technique which removes tracks identified as originating from pileup vertices. Jets are calibrated
+in simulation and in data separately, accounting for deposits from pile-up and the imperfect
+detector response.
+L1Fastjet corrections, Level 2 and Level 3 jet energy corrections and L2L3Residual corrections (only for data) are applied using the latest set of JECs (Summer16\_23Sep2016V4).
+Jets in MC are smeared using the latest set of JERs (Spring16\_25nsV10).
+Corrected jets with $P_{T} >$ 30 GeV and $\abs{\eta} <2.4$ are selected if they pass the
+loose jet identification criteria \cite{jetid}, i.e. the neutral electromagnetic and hadron fractions are
+ $<$ 99\% and the jet consists of at least two PF candidates. Furthermore, both the charged hadron
+fraction and multiplicity are required to be $>$ 0 and the charged electromagnetic fraction has to be $<$ 99\%.
+
+Selected jet may still overlap with the selected leptons. This is possible because the lepton
+can be clustered into a jet as well. To prevent such cases, jets that are found within a cone of
+R = 0.4 around any of the selected signal leptons are removed from the set of selected jets.
+
+Jets originating from the hadronization of b-quarks are identified using the Combined Secondary Vertex algorithm (CSVv2). The CSVv2 algorithm combines information from track impact parameters and secondary vertices identified within a given jet. In this analysis, a jet is
+b-tagged when its CSVv2 value passes the medium working point (i.e. CSVv2 $>$ 0.8484) \cite{bjet}.
+
+
+\subsection{Missing Transverse Energy}
+
+Missing transverse energy is calculated as the negative of the vectorial sum of the transverse
+momentum vectors of all PF candidates in an event. To make MET a better estimate of true
+invisible particles, so called Type-1 plus smeared corrections are applied, which propagate the jet energy
+corrections to the raw MET \cite{metcor}.
+%Latest T$_{xy}$-Shift correction is also provided and compared with T1 only corrections.
+%Due to corrections related to muons and high energy electrons in reMiniAOD campain, 'slimmedMETsMuEGClean' collection is used.
+
+
+In order to reduce the instrumental noise in the detector, MET filters are applied as is recommended by Jet-MET POG \cite{metfilter}.
+These filters are summarised below:
+
+$\bullet$ HBHENoiseFilter (data and MC),
+
+$\bullet$ HBHENoiseIsoFilter (data and MC),
+
+$\bullet$ globalTightHalo2016Filter (data and MC),
+
+$\bullet$ goodVertices (data and MC),
+
+$\bullet$ EcalDeadCellTriggerPrimitiveFilter (data and MC),
+
+$\bullet$ BadChargedCandidateFilter (data and MC),
+
+$\bullet$ BadPFMuonFilter (data and MC),
+
+$\bullet$ eeBadScFilter (only data)
+
+\subsection{Scale factors}
+
+In the following, object related scale factors used in this analysis are listed:
+\medskip
+
+Muon: {\small\url{https://twiki.cern.ch/twiki/bin/view/CMS/MuonWorkInProgressAndPagResults#Results\_on\_the\_full\_2016\_data}}
+
+$\bullet$ Tracking efficiency
+{\small\url{https://test-calderona.web.cern.ch/test-calderona/MuonPOG/2016dataReRecoEfficiencies/tracking/Tracking\_EfficienciesAndSF\_BCDEFGH.root}}
+
+$\bullet$ Identification efficiency
+{\small\url{https://gaperrin.web.cern.ch/gaperrin/tnp/TnP2016/2016Data\_Moriond2017\_6\_12\_16/JSON/RunBCDEF/EfficienciesAndSF\_BCDEF.root}},
+{\small\url{https://gaperrin.web.cern.ch/gaperrin/tnp/TnP2016/2016Data Moriond2017\_6\_12\_16/JSON/RunGH/EfficienciesAndSF\_GH.root}}
+
+$\bullet$ Isolation efficiency
+{\small\url{https://test-calderona.web.cern.ch/test-calderona/MuonPOG/2016dataReRecoEfficiencies/isolation/EfficienciesAndSF\_BCDEF.root}},
+{\small\url{https://test-calderona.web.cern.ch/test-calderona/MuonPOG/2016dataReRecoEfficiencies/isolation/EfficienciesAndSF\_GH.root}}
+\medskip
+
+Electron: {\small\url{https://twiki.cern.ch/twiki/bin/view/CMS/EgammaIDRecipesRun2#Efficiencies\_and\_scale\_factors}}
+
+$\bullet$ Reconstruction efficiency
+{\small\url{http://fcouderc.web.cern.ch/fcouderc/EGamma/scaleFactors/Moriond17/approval/RECO/passingRECO/egammaEffi.txt\_EGM2D.root}}
+
+$\bullet$ Identification + isolation efficiency
+{\small\url{http://fcouderc.web.cern.ch/fcouderc/EGamma/scaleFactors/Moriond17/approval/EleID/passingTight80X/egammaEffi.txt\_EGM2D.root}}
+\medskip
+
+B-tagging: {\small\url{https://twiki.cern.ch/twiki/bin/viewauth/CMS/BtagRecommendation80XReReco}}
+
+$\bullet$ b-tagging efficiency
+
+\subsection{Top $P_{T}$ reweighting}
+In order to better describe the transverse momenta ($P_{T}$) distribution of the top quark in \ttbar~ events, the top quark transverse momentum spectrum simulated with {\sc Powheg}  is reweighted to match the differential top quark ${P}_{T}$ distribution at NNLO QCD accuracy and including EW corrections calculated in Ref. \cite{Czakon:2017wor}.
