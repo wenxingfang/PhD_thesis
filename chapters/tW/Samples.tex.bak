@@ -1,11 +1,11 @@
 \clearpage
-\section{Data-sets and Monte Carlo Samples}
+\section{Data-sets and MC Samples}
 \label{tW_Samples}
 \subsection{Data samples}
-The primary data sets used in this analysis are summarised in Table \ref{data-samples}. The data from the
-Moriond17 rereco campaign (Run2016 03Feb2017 Re-miniAOD) is used for eras 2016B through 2016G and the prompt reconstruction is used for era 2016H (Run2016H-03Feb2017\_ver2 and Run2016H-03Feb2017\_ver3).
+The primary data sets used in this analysis are summarized in Table \ref{data-samples}. The data from the
+Moriond17 rereco campaign (Run2016 03Feb2017 Re-miniAOD) are used for eras 2016B through 2016G and the prompt reconstruction is used for era 2016H (Run2016H-03Feb2017\_ver2 and Run2016H-03Feb2017\_ver3).
 The integrated luminosity of the data sample used in this analysis is $35.9$ fb$^{-1}$ collected by the CMS experiment in 2016.
-Only certified data recommended for analysis by the PdmV group is used. The corresponding JSON file is the following:\\
+Only certified data recommended for analysis is used. The corresponding JSON file is the following:\\
 Cert\_271036-284044\_13TeV\_23Sep2016ReReco\_Collisions16\_JSON.txt
 
 
@@ -14,7 +14,7 @@ Cert\_271036-284044\_13TeV\_23Sep2016ReReco\_Collisions16\_JSON.txt
 \begin{center}
   \begin{tabular}{llc}
     \hline
-    Datasets                &  run range & integrated luminosity (\pbinv)       \\  \hline \hline
+    Datasets                &  Run range & Integrated luminosity (\pbinv)       \\  \hline \hline
     /X/Run2016B-03Feb2017\_ver2-v2/MINIAOD  & $273158 - 275376$ & $5788.348$ \\
     /X/Run2016C-03Feb2017-v1/MINIAOD  & $275657 - 276283$ & $2573.399$ \\
     /X/Run2016D-03Feb2017-v1/MINIAOD  & $276315 - 276811$ & $4248.384$ \\
@@ -26,15 +26,14 @@ Cert\_271036-284044\_13TeV\_23Sep2016ReReco\_Collisions16\_JSON.txt
     Sum & $273158 - 284044$ & $35.867$ \\ \hline
   \end{tabular}
 \end{center}
-\caption{Data sets (X) used in this analysis. X = 'DoubleEG' and 'SingleElectron' for the $ee$ channel. X = 'DoubleMuon' and 'SingleMuon' for $\mu\mu$ channel analysis.}
-%\caption{Data sets (X) used in this analysis. X = 'DoubleEG' and 'SingleElectron' for the $ee$ channel. X = 'MuonEG','SingleElectron' and 'SingleMuon' for $e\mu$ channel. X = 'DoubleMuon' and 'SingleMuon' for $\mu\mu$ channel analysis. X = 'MET' for trigger efficiency and scale factor study. The run ranges are adjusted to only include good runs.}
+\caption{Data sets (X) used in this analysis. X = ``DoubleEG'' and ``SingleElectron'' for the ee channel. X = ``DoubleMuon'' and ``SingleMuon'' for \mumu channel analysis.}
+%\caption{Data sets (X) used in this analysis. X = 'DoubleEG' and 'SingleElectron' for the ee channel. X = 'MuonEG','SingleElectron' and 'SingleMuon' for $e\mu$ channel. X = 'DoubleMuon' and 'SingleMuon' for \mumu channel analysis. X = 'MET' for trigger efficiency and scale factor study. The run ranges are adjusted to only include good runs.}
 \label{data-samples}
 \end{table}
 
 \subsection{MC samples}
-The analysis uses centrally produced Monte Carlo (MC) samples from  'RunIISummer16 MiniAODv2' campaign as are recommended for  Moriond17.
-For the MC samples used, GEN-SIM was produced using CMSSW\_7\_1\_X and the DIGI-RECO was produced using CMSSW\_8\_0\_X.
-All the MC are listed in Table \ref{mc-samples}.
+The analysis uses centrally produced MC samples from  ``RunIISummer16 MiniAODv2'' campaign as are recommended for Moriond17.
+All the MC samples are listed in Table \ref{mc-samples}.
 
 
 
@@ -46,7 +45,7 @@ All the MC are listed in Table \ref{mc-samples}.
 \resizebox{\linewidth}{!}{%
 \begin{tabular}{llll}
 \hline
-sample                                                                     & xsection(pb)  & xs precision  \\
+Sample                                                                     & Xsection(pb)  & Xs precision  \\
 \hline
 \hline
 DYJetsToLL\_M-10to50\_TuneCUETP8M1\_13TeV-amcatnloFXFX-pythia8             & 18610         & NLO             \\
@@ -75,11 +74,11 @@ VBFHToWWTo2L2Nu\_M125\_13TeV\_powheg\_pythia8                              & 0.1
 \hline
 \hline
 \end{tabular}}
-\caption{MC samples \tiny{(dataset=/*/RunIISummer16MiniAODv2*PUMoriond17\_80X\_mcRun2\_asymptotic\_2016\_TrancheIV\_v6*/MINIAODSIM)}}
+\caption{MC samples.}
 \label{mc-samples}
 \end{table}
 
-The pile up distributions for MC and data which is calculated by using 69.2 mb as the minimum bias cross section are shown in left of figure \ref{fig:Z_pileup}. MC events are re-weighted to account for the pile up difference between data and MC.
+The pile up distributions for MC and data, which are calculated by using 69.2 mb as the minimum bias cross section, are shown in the left plot of Figure \ref{fig:Z_pileup}. MC events are re-weighted to account for the pile up difference between data and MC.
 
 %In the 5 flavor scheme,
 %the tW single top-quark process overlaps and interferes with \ttbar production

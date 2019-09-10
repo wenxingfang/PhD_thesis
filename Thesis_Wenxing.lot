@@ -1,0 +1,117 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {french}
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {1.1}{\ignorespaces Quarks and their properties \cite {Olive:2016xmw}.}}{24}{table.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {1.2}{\ignorespaces Properties of the leptons in the three generations. Neutrinos are assumed to have zero mass in SM but by the observation of neutrino's oscillations the upper limits on their masses are set\cite {Olive:2016xmw}.}}{24}{table.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {1.3}{\ignorespaces Range, relative strength with respect to the strong force, and mediators of the four fundamental interactions. The gravitational force is not included in the SM, and gravitons are hypothetical particles. }}{25}{table.1.3}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {2.1}{\ignorespaces The SM parameters. The quark masses are presented in the renormalization scheme known as $\mathrm {\overline {MS}}$ \cite {Olive:2016xmw}.}}{39}{table.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {2.2}{\ignorespaces The specific \ensuremath {\mathrm {Z^{'}}}\xspace bosons with corresponding $\mathrm {\ensuremath {\uptheta }\xspace _{E_6}}$ form $\mathrm {E_6}$ model together with the vector ($c_V$) and axial ($c_A$) couplings between the \ensuremath {\mathrm {Z^{'}}}\xspace and the up quarks ($u$), the down quarks ($d$), and the charged leptons ($l$). The \ensuremath {\mathrm {Z^{'}}_\mathrm {SSM}}\xspace from the Sequential Standard Model which has the same SM couplings is also shown.}}{42}{table.2.2}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {3.1}{\ignorespaces The LHC data taking conditions from its start-up in 2010 to 2018.}}{49}{table.3.1}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {4.1}{\ignorespaces Default values of control parameters for Hybrid algorithm .}}{63}{table.4.1}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {5.1}{\ignorespaces The various datasets using in the analysis and their integrated luminosities. X = DoubleEG is for the main analysis, X = SingleElectron is for the trigger and electron selection efficiency, X = SinglePhoton is for the fake electron study and X = SingleMuon is for the e$\upmu $ study.}}{72}{table.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {5.2}{\ignorespaces MC samples used in the main analysis.}}{73}{table.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {5.3}{\ignorespaces The definitions of HEEP selection cuts \cite {HEEP_twiki}.}}{79}{table.5.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {5.4}{\ignorespaces The results of scale shift $\frac {\Delta M}{M}$ between data and MC, as well as the $\sigma _{extra}$ parameters per category. }}{81}{table.5.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {5.5}{\ignorespaces MC samples used in the HEEP efficiency and scale factor studies}}{88}{table.5.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {5.6}{\ignorespaces The HEEP efficiencies in data and MC, as well as the scale factors when the probe is in the barrel and endcap for non-DY processes included and subtracted.}}{106}{table.5.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {5.7}{\ignorespaces Measurements of the DY cross section in the range of $\mathrm {60<M_{ee}<120}$ GeV. The scale factors for HEEP ID efficiency between data and MC are taken from Table~\ref {tab:HEEP_eff_nominal}. It should be noticed that the scale factors in Table~\ref {tab:HEEP_eff_nominal} are for individual electrons, while here they are for electron pairs. For 2017, the gsf electron reconstruction efficiency scale factor between data and MC is already included in MC acc$\times $eff \cite {CMS-AN-2016-404,CMS-AN-2018-021}.}}{108}{table.5.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {5.8}{\ignorespaces The PDF uncertainties on the DY cross section relative to the Z boson peak region (60-120 GeV) as a function of mass \cite {CMS-AN-2016-404}. }}{109}{table.5.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {5.9}{\ignorespaces The selection requirements for the starting point of the fake rate calculation.}}{116}{table.5.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {5.10}{\ignorespaces The functional approximation of the measured fake rate for HEEP electrons in the barrel and endcap vs \ensuremath {\mathrm {E_T}}\xspace \cite {CMS-AN-2016-404,CMS-AN-2018-021}.}}{116}{table.5.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {5.11}{\ignorespaces Predicted SM background and observed data yields as a function of dielectron invariant mass for Barrel-Barrel, Barrel-Endcap and Barrel-Barrel plus Barrel-Endcap regions. The uncertainty contains statistic uncertainty and systematic uncertainty.}}{124}{table.5.11}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {5.12}{\ignorespaces The relative effect of each systematic uncertainty as a function of dielectron invariant mass.}}{125}{table.5.12}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {5.13}{\ignorespaces The input parameters to the limit setting code. The MC efficiencies do not have the data/MC scale factor applied or any \ensuremath {\mathrm {E_T}}\xspace independent efficiency like HLT identification efficiency although \ensuremath {\mathrm {E_T}}\xspace dependent effects like L1 and HLT turn on are included \cite {CMS-AN-2016-404,CMS-AN-2018-021}.}}{133}{table.5.13}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {5.14}{\ignorespaces The observed and expected 95\% CL lower limits on the masses of spin 1 $\ensuremath {\mathrm {Z^{'}}_\mathrm {\uppsi }}\xspace $ and $\ensuremath {\mathrm {Z^{'}}_\mathrm {SSM}}\xspace $ bosons, assuming a signal width of 0.6\% (3\%) of the resonance mass for $\ensuremath {\mathrm {Z^{'}}_\mathrm {\uppsi }}\xspace $ ($\ensuremath {\mathrm {Z^{'}}_\mathrm {SSM}}\xspace $) \cite {Sirunyan2018,CMS-PAS-EXO-18-006}. }}{135}{table.5.14}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {5.15}{\ignorespaces The observed and expected 95\% CL lower limits on the masses of spin 2 resonance with width equal to 0.01, 0.36, and 1.42 GeV corresponding to coupling parameters $k/\overline {M}_{Pl}$ of 0.01, 0.005, and 0.10 \cite {Sirunyan2018}.}}{135}{table.5.15}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {6.1}{\ignorespaces Data sets (X) used in this analysis. X = ``DoubleEG'' and ``SingleElectron'' for the ee channel. X = ``DoubleMuon'' and ``SingleMuon'' for \ensuremath {\upmu \upmu }\xspace channel analysis.}}{138}{table.6.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {6.2}{\ignorespaces MC samples.}}{138}{table.6.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {6.3}{\ignorespaces Summary of the signal triggers.}}{139}{table.6.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {6.4}{\ignorespaces The cuts for the electron identification in the barrel and endcap.}}{141}{table.6.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {6.5}{\ignorespaces Event selection criteria for ee and \ensuremath {\upmu \upmu }\xspace channels}}{143}{table.6.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {6.6}{\ignorespaces The values of $k_{ll}$ for different njet-nbjet regions. Errors are statistical uncertainties only.}}{145}{table.6.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {6.7}{\ignorespaces Data-driven Z$+$jets background estimation in the \ensuremath {\upmu \upmu }\xspace and ee channels after the ``$Step1+Step2$'' selection requirements. Errors are statistical uncertainties only.}}{146}{table.6.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {6.8}{\ignorespaces Numbers of expected events from tW, t$\mathaccentV {bar}016{\rm t}$, and DY productions, from the remaining backgrounds (other and nonprompt backgrounds), total background contribution and observed events in data after all selections for the ee and \ensuremath {\upmu \upmu }\xspace channels and for various (n-jets,m-tags) categories. The uncertainties correspond to the statistical contribution only for the individual background predictions and to the quadratic sum of the statistical and systematic contributions for the total background predictions.}}{147}{table.6.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {6.9}{\ignorespaces Summary of the observables used for probing effective couplings in various (n-jets,m-tags) categories in the ee and \ensuremath {\upmu \upmu }\xspace channels.}}{156}{table.6.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {6.10}{\ignorespaces Input variables for the NN used in the analysis in various bins of n-jets and m-tags. The symbols ``${\mathchar "1270}$'' indicate the variable is used.}}{156}{table.6.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {6.11}{\ignorespaces MC samples used for systematic study.}}{168}{table.6.11}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {6.12}{\ignorespaces Systematic samples for FCNC signal study.}}{172}{table.6.12}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {6.13}{\ignorespaces All systematic uncertainty effects for ee channel.}}{173}{table.6.13}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {6.14}{\ignorespaces All systematic uncertainty effects for $\ensuremath {\upmu \upmu }\xspace $ channel.}}{174}{table.6.14}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {6.15}{\ignorespaces Cross sections for \ensuremath {\mathrm {t\mathaccentV {bar}016{t}}}\xspace and tW production [in pb] for the various effective couplings for $\Lambda $ = 1 TeV. The respective available K-factors are also shown.}}{176}{table.6.15}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {6.16}{\ignorespaces Cross sections for \ensuremath {\mathrm {t\mathaccentV {bar}016{t}}}\xspace and tW production [in pb] for the various effective couplings for $\Lambda $ = 1 TeV together with Q-scale errors.}}{177}{table.6.16}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {6.17}{\ignorespaces Summary of allowed 68\% CL and 95\% CL intervals on \ensuremath {\mathrm {C_{G}}}\xspace effective coupling obtained in ee, e$\ensuremath {\upmu }\xspace $, \ensuremath {\upmu \upmu }\xspace and combined channels ($\Lambda = 1$ TeV).}}{177}{table.6.17}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {6.18}{\ignorespaces Summary of allowed 68\% CL and 95\% CL intervals on \ensuremath {\mathrm {C_{tG}}}\xspace , \ensuremath {\mathrm {C_{\upphi q}^{(3)}}}\xspace and \ensuremath {\mathrm {C_{tW}}}\xspace effective couplings obtained in ee, e$\ensuremath {\upmu }\xspace $, \ensuremath {\upmu \upmu }\xspace and combined channels ($\Lambda = 1$ TeV).}}{179}{table.6.18}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {6.19}{\ignorespaces Summary of allowed 68\% CL and 95\% CL intervals on \ensuremath {\mathrm {C_{uG}}}\xspace and \ensuremath {\mathrm {C_{cG}}}\xspace effective coupling obtained in ee, e$\ensuremath {\upmu }\xspace $, \ensuremath {\upmu \upmu }\xspace and combined channels ($\Lambda = 1$ TeV).}}{182}{table.6.19}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {6.20}{\ignorespaces The expected and observed 95\% CL intervals on the cross section of tW production via \ensuremath {\mathrm {C_{uG}}}\xspace and \ensuremath {\mathrm {C_{cG}}}\xspace effective couplings times square of the branching fraction B(W$\rightarrow \ell \ensuremath {\upnu }\xspace $), the effective couplings \ensuremath {\mathrm {C_{uG}}}\xspace and \ensuremath {\mathrm {C_{cG}}}\xspace , and the corresponding branching fractions B(t $\rightarrow $ ug) and B(t $\rightarrow $ cg).}}{183}{table.6.20}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {B.1}{\ignorespaces HEEP scale factors for different $\ensuremath {\upeta }\xspace $ bins.}}{230}{table.B.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {B.2}{\ignorespaces Detail of saturated HEEP electrons.}}{254}{table.B.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {B.3}{\ignorespaces The expected significance and best fit of $tW$ cross section measurement for ee, $e\ensuremath {\upmu }\xspace $, \ensuremath {\upmu \upmu }\xspace channels and combined}}{276}{table.B.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {B.4}{\ignorespaces The effect of systematical uncertainties for combined channel}}{276}{table.B.4}
+\defcounter {refsection}{0}\relax 
+\select@language {french}

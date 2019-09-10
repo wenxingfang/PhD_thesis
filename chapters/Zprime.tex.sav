@@ -1,0 +1,28 @@
+\chapter{Searching for High Mass Resonances in Dielectron Final State}\label{chap:Zprime}
+In order to address the shortcoming of the standard model (SM), there are several theories beyond the SM predicting the existence of heavy resonances at the TeV scale that can couple to quarks or gluons and can decay to dilepton pairs. We present in this chapter a search for high mass resonances in the dielectron final state. This analysis uses proton-proton collision data at the centre-of-mass energy of 13 TeV collected by the CMS experiment in 2016 and 2017, corresponding to an integrated luminosity of 35.9 \fbinv and 41.4 \fbinv respectively. The strategy of the analysis is looking for a ``bump'' in the dielectron invariant mass distribution, in particular in the high mass tail. The data and MC samples are described in Section \ref{sec:Zprime_data_mc}. Introduction to the triggers used is presented in Section \ref{sec:Zprime_trigger}. The object and event selection are expressed in Section \ref{sec:Zprime_HEEP}. The mass scale and resolution studies are introduced in Section \ref{sec:mass_res}. The measurement of High Energy Electron Pair selection efficiency is presented in Section \ref{sec:Zprime_SF}. The SM backgrounds estimation is expressed in Section \ref{ZP_SM_background}. In Section the final dielectron invariant mass spectra are given. Finally, the statistical interpretation is presented in Section \ref{sec:Zprime_Limit}.
+
+%\section{Introduction}\label{sec:Zprime_intro}
+
+\input{chapters/Zprime/Samples}
+\input{chapters/Zprime/Trigger}
+\input{chapters/Zprime/HEEPID}
+\input{chapters/Zprime/MassScaleResolution}
+\input{chapters/Zprime/ScaleFactors}
+\input{chapters/Zprime/Backgrounds_DY}
+\input{chapters/Zprime/Backgrounds_ttbar}
+\input{chapters/Zprime/FakeRates}
+\input{chapters/Zprime/Results}
+\input{chapters/Zprime/Limit}
+\input{chapters/Zprime/Summary}
+
+
+
+
+
+
+
+
+
+
+
+

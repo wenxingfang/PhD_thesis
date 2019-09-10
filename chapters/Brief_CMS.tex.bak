@@ -1,0 +1,38 @@
+\section{The Compact Muon Solenoid (CMS)}
+
+CMS is one of the main four experiments at the Large Hadron Collider (LHC). CMS has a general-purpose detector which aims to study the Standard Model and look
+for clues of new physics. Below gives an introduction about the CMS detector.
+
+The CMS detector is built around a huge solenoid magnet. It is a cylindrical coil of superconducting cables that generates a field of 3.8 Tesla. The complete detector is 21 meters long, 15 meters wide, and 15 meters high. The subdetectors which constitute the CMS detector from inner to outer are described in following:
+
+\begin{enumerate}
+\item $\mathbf{Inner~tracking~system}$ which measures the trajectory of charged particles and reconstructs secondary vertices;
+\item $\mathbf{Electromagnetic~calorimeter}$ which measures the energy of electrons and photons;
+\item $\mathbf{Hadronic~calorimeter}$ which measures the energy of hadrons;
+\item $\mathbf{Superconducting~magnet}$ which provides a 3.8 Tesla magnetic field parallel to the beam axis to bend the tracks of charged particles;
+\item $\mathbf{Muon~system}$ which identifies and measures the trajectories of muons.
+\end{enumerate} 
+
+The integrated luminosity collected by CMS form the start of LHC which is 2010 to 2018 is shown in Table \ref{tab:CMS_Lumi} together with the central mass energy of the proton proton collisions and the proton bunch spacing. 
+\begin{table}[!hbpt]
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+                       & year & $\sqrt{s}$ & $\mathcal{L}_{int}$ & bunch spacing \\ \hline
+\multirow{3}{*}{Run 1} & 2010 & 7 TeV  & 45.0  \pbinv  & 50 ns                \\ \cline{2-6}
+                       & 2011 & 7 TeV  & 6.1   \fbinv  & 50 ns               \\ \cline{2-6}
+                       & 2012 & 8 TeV  & 23.3  \fbinv  & 50 ns               \\ \hline
+\multirow{4}{*}{Run 2} & 2015 & 13 TeV & 4.2   \fbinv  & 25 ns               \\ \cline{2-6}
+                       & 2016 & 13 TeV & 41.0  \fbinv  & 25 ns               \\ \cline{2-6}
+                       & 2017 & 13 TeV & 49.8  \fbinv  & 25 ns               \\ \cline{2-6}
+                       & 2018 & 13 TeV & 67.9  \fbinv  & 25 ns               \\ \hline
+
+\end{tabular}
+\end{center}
+\caption{The integrated luminosity collected by CMS from 2010 to 2018.}
+\label{tab:CMS_Lumi}
+\end{table}
+
+Now the LHC is in shutdown, it will restart in 2021. From 2021 to 2023 the LHC will deliver $\sim$ 300 \fbinv data which is around two times larger than the data it has delivered.
+
+ 

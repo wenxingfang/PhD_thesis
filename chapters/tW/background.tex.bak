@@ -1,33 +1,31 @@
 \clearpage
-\section{Background predictions}
+\section{Background Predictions}
 \label{tW_background}
 
 \subsection{Prompt Background}
 \label{tW_DY_background}
-The background from processes giving two prompt leptons is taken from Monte Carlo samples and normalized to the luminosity. It consists mostly of events from $t\bar{t}$ production, Drell-Yan and $WW$ production. Other background processes considered are the other diboson processes like $WZ$ and $ZZ$.
+The background from processes giving two prompt leptons is taken from MC samples and normalized to the luminosity. It consists mostly of events from \ttbar production, Drell-Yan, and WW productions. Other background processes considered are the other diboson processes like WZ and ZZ.
 
-In the $\mu\mu$ and $ee$ final states, the normalization of the DY background simulation is estimated from data using the method described in~\cite{topPAS11_002,TOP-11-005_paper,TOP-12-007_paper,bib:TOP-15-003_paper}, extracting the events outside the Z-veto region from the events inside.
+In the \mumu and ee final states, the normalization of the DY background simulation is estimated from data using the method described in~\cite{topPAS11_002,TOP-11-005_paper,TOP-12-007_paper,bib:TOP-15-003_paper}, extracting the events outside the Z-veto region from the events inside.
 As described above, events in this region have a dilepton invariant mass between 76 GeV and 106 GeV and are rejected for the analysis.
-Since contamination from non-DY background contributions can still be present in the Z-veto region, this contribution is subtracted from the $e\mu$ channel and then scaled according to the event yields in the $ee$ and $\mu\mu$ channels.
+Since contamination from non-DY background contributions can still be present in the Z-veto region, this contribution is subtracted from the e$\mu$ channel and then scaled according to the event yields in the ee and \mumu channels.
 
 The expected number of events outside the Z-veto can be measured from data as:
 %\begin{eqnarray}
-$$N^{l^{+}l^{-}, Z+jets~data}_{out} = R^{l^{+}l^{-}}_{out/in}( N^{l^{+}l^{-},data}_{in} -0.5 N^{e\mu,data}_{in} k_{ll})$$
+$$N^{ll, Z+jets~data}_{out} = R^{ll}_{out/in}( N^{ll,data}_{in} -0.5 N^{e\mu,data}_{in} k_{ll})$$
 %\label{eq:dyest}
 %\end{eqnarray}
-where $ll = \mu\mu$  or $ee$  and $R_{out/in}$ is the ratio of the number of events outside/inside the Z-veto region taken from the DY simulated sample:
-$$R_{out/in}= \frac{N^{l^{+}l^{-},Z+jets~MC}_{out}}{N^{l^{+}l^{-},Z+jets~MC}_{in} }.$$
+where $ll = \mu\mu$  or ee  and $R_{out/in}$ is the ratio of the number of events outside/inside the Z-veto region taken from the DY simulated sample:
+$$R_{out/in}= \frac{N^{ll,Z+jets~MC}_{out}}{N^{ll,Z+jets~MC}_{in}}.$$
 
 Here, $k_{ll}$ is a correction factor that takes into account the differences between electron and muon reconstruction.
-This correction can be determined from the number of $ee$ and $\mu\mu$ events in the Z peak region after applying the $MET$ requirement (labeled as \textit{loose}).
-Since $N^{e^+e^-_{in, loose}}$ and $N^{\mu^+\mu^-_{in, loose}}$ are proportional to the square of the corresponding single-lepton candidate selection efficiencies, the correction factor can be expressed as: $$k_{ee} = \sqrt{\frac{N^{e^+e^-_{in, loose}}}{N^{\mu^+\mu^-_{in, loose}}}}$$
-$$k_{\mu\mu} = \sqrt{\frac{N^{\mu^+\mu^-_{in, loose}}}{N^{e^+e^-_{in, loose}}}}$$
+This correction can be determined from the number of ee and \mumu events in the Z peak region after applying the MET requirement (labeled as \textit{loose}).
+Since $N^{ee_{in, loose}}$ and $N^{\mumu_{in, loose}}$ are proportional to the square of the corresponding single-lepton candidate selection efficiencies, the correction factor can be expressed as: $$k_{ee} = \sqrt{\frac{N^{ee_{in, loose}}}{N^{\mumu_{in, loose}}}}$$
+$$k_{\mu\mu} = \sqrt{\frac{N^{\mumu_{in, loose}}}{N^{ee_{in, loose}}}}$$
 
-The value of $k_{ll}$ for different njet-nbjet regions are shown in Table \ref{tab:kll}. We use explicitly $k_{ll}$ for different njet-nbjet regions.
+The values of $k_{ll}$ for different njet-nbjet regions are shown in Table \ref{tab:kll}. We use explicitly $k_{ll}$ for different njet-nbjet regions.
 \begin{table}[ht]
 \centering
-\caption{The value of $k_{ll}$ for different njet-nbjet regions. Errors are statistical uncertainties only.}
-\label{tab:kll}
 \begin{tabular}{|c|c|c|c|c|}
 \hline
 Channel                                 & all                                       & 1jet,1tag                 & 2jet,1tag             & \textgreater=2jet,2tag \\ \hline
@@ -36,12 +34,14 @@ $N^{\mu^{+}\mu^{-}_{in, loose}}$ (data) & 501781                                
 $k_{ee}$                                & 0.66 $\pm$ 0.001                          & 0.68 $\pm$ 0.007          & 0.70 $\pm$ 0.007      & 0.69 $\pm$ 0.008         \\ \hline
 $k_{\mu\mu}$                            & 1.51 $\pm$ 0.002                          & 1.48 $\pm$ 0.014          & 1.42 $\pm$ 0.014      & 1.44 $\pm$ 0.018         \\ \hline
 \end{tabular}
+\caption{The values of $k_{ll}$ for different njet-nbjet regions. Errors are statistical uncertainties only.}
+\label{tab:kll}
 \end{table}
 
 
 
 
-The global scaling factors $${C}_{Z+jets}=\frac{N^{l^{+}l^{-}, Z+jets~data}_{out}}{N^{l^{+}l^{-},Z+jets~MC}_{out}}$$ are determined.
+The global scaling factors $${C}_{Z+jets}=\frac{N^{ll, Z+jets~data}_{out}}{N^{ll,Z+jets~MC}_{out}}$$ are determined.
 The results and scaling factors are summarized in Table~\ref{tab:DY_scale}.
 
 
@@ -49,19 +49,19 @@ The results and scaling factors are summarized in Table~\ref{tab:DY_scale}.
 \centering
 \begin{tabular}{|c|c|c|c|c|c|c|c|c|}
 \hline
-                                   & \multicolumn{2}{c|}{all} & \multicolumn{2}{c|}{1jet,1tag} & \multicolumn{2}{c|}{2jet,1tag} & \multicolumn{2}{c|}{$>=2jet,2tag$} \\ \hline
-                                   & $ee$       & $\mu\mu$    & $ee$         & $\mu\mu$        & $ee$         & $\mu\mu$        & $ee$           & $\mu\mu$          \\ \hline
-$N^{l^{+}l^{-},Z+jets~MC}_{in} $   & 243878.3   & 562506.9    & 2712.3       & 6490.7          & 1550.6       & 3734.2          & 306.8          & 712.7             \\ \hline
-$N^{l^{+}l^{-},Z+jets~MC}_{out}$   & 22376      & 56494.6     & 301.4        & 878.7           & 280.8        & 590.9           & 53.7           & 94.1              \\ \hline
+                                   & \multicolumn{2}{c|}{All} & \multicolumn{2}{c|}{1jet,1tag} & \multicolumn{2}{c|}{2jet,1tag} & \multicolumn{2}{c|}{$>=2jet,2tag$} \\ \hline
+                                   & ee       & \mumu    & ee         & \mumu        & ee         & \mumu        & ee           & \mumu          \\ \hline
+$N^{ll,Z+jets~MC}_{in} $           & 243878.3   & 562506.9    & 2712.3       & 6490.7          & 1550.6       & 3734.2          & 306.8          & 712.7             \\ \hline
+$N^{ll,Z+jets~MC}_{out}$           & 22376      & 56494.6     & 301.4        & 878.7           & 280.8        & 590.9           & 53.7           & 94.1              \\ \hline
 $R_{out/in}$                       & 0.092      & 0.100       & 0.111        & 0.135           & 0.181        & 0.158           & 0.175          & 0.132             \\ \hline
-$N^{l^{+}l^{-},data}_{in}$         & 220435     & 501781      & 3805         & 8291            & 3735         & 7550            & 2493           & 5180              \\ \hline
+$N^{ll,data}_{in}$                 & 220435     & 501781      & 3805         & 8291            & 3735         & 7550            & 2493           & 5180              \\ \hline
 $N^{e\mu,data}_{in}$               & 34322      & 34322       & 4453         & 4453            & 6230         & 6230            & 6259           & 6259              \\ \hline
-$N^{l^{+}l^{-},Z+jets~data}_{out}$ & 19185.9    & 47793.1     & 254.6        & 676.3           & 281.6        & 494.8           & 58.4           & 89.0              \\ \hline
+$N^{ll,Z+jets~data}_{out}$         & 19185.9    & 47793.1     & 254.6        & 676.3           & 281.6        & 494.8           & 58.4           & 89.0              \\ \hline
 $C_{Z+jets}$                       & 0.857      & 0.846       & 0.845        & 0.770           & 1.002        & 0.837           & 1.087          & 0.945             \\
                                    & $\pm$ 0.004& $\pm$ 0.003 & $\pm$ 0.049  & $\pm$ 0.030     & $\pm$ 0.085  & $\pm$ 0.048     & $\pm$ 0.28    & $\pm$ 0.181 \\ \hline
 \end{tabular}
-\caption{Data-driven $Z+jets$ background estimation in the $\mu\mu$ and $ee$
-channels after the $``Step1+Step2''$ selection requirement. Errors are statistical uncertainties only.}
+\caption{Data-driven Z$+$jets background estimation in the \mumu and ee
+channels after the ``$Step1+Step2$'' selection requirements. Errors are statistical uncertainties only.}
 \label{tab:DY_scale}
 \end{table}
 
@@ -74,16 +74,16 @@ channels after the $``Step1+Step2''$ selection requirement. Errors are statistic
 %In e$mu$ final state, the background from DY events decaying to dimuons or dielectrons where one of the two leptons is then
 %misidentified as the other lepton flavour is taken from MC events normalized to the luminosity.
 Another source of events with misidentified leptons is the W$\gamma$ process,
-where the $W$ decays to a muon or electron and the photon is either misidentified as electron, or the photon converts and gives an electron. This background contribution is taken from MC simulation. For the backgrounds which involve a jet that are misidentified as an electron or muon, a data-driven technique is used.
+where the W decays to an electron and a neutrino and the photon is either misidentified as electron, or the photon converts and gives an electron. This background contribution is taken from MC simulation. For the backgrounds which involve a jet that are misidentified as an electron or muon, a data-driven technique is used.
 
 The jet background (or called Nonprompt background) consists of events where a jet is reconstructed as an electron or muon that
-passes the selection mostly from $W$+jets process and QCD.
-The method which is used to estimate jets  is called same sign
+passes the selection, coming mostly from W+jets process and QCD.
+The method which is used to estimate the jet background is called same sign
 method. In the same sign method, we use the fact that the probability of assigning positive or
 negative charge to the misidentified jet should be equal. Therefore, opposite and same-sign  pairs are similar for fake jets in total number and distribution shape for many variables.
 On the other hand, all other standard model processes have opposite sign electron pairs and
-do not contribute to same sign control region. The contributions of the prompt backgrounds
-are subtracted from data in same sign region using MC samples  to find the jets contribution in opposite sign region (signal region).
+do not contribute to the same sign control region. The contributions of the prompt backgrounds
+are subtracted from data in the same sign region using MC samples  to find the jets contribution in the opposite sign region (signal region).
 
 %Figure \ref{fig:ss_bkg} shows a comparison between data and MC
 %in same sign control region. Missed MC backgrounds are $W$+jets and QCD. In Table \ref{tab:samesign} the number of events for data and MC backgrounds are shown.
@@ -98,7 +98,7 @@ are subtracted from data in same sign region using MC samples  to find the jets 
 %\begin{tabular}{|c|c|c|c|c|c|}
 %\hline
 %                          &           & 1jet,0tag& 1jet,1tag & 2jet,1tag & $>=$2jet,2tag \\ \hline
-%\multirow{5}{*}{$ee$}     & data      & -        & 112       &  137      &  132    \\ \cline{2-6}
+%\multirow{5}{*}{ee}     & data      & -        & 112       &  137      &  132    \\ \cline{2-6}
 %                          & tW        & -        & 11        &  8        &  4      \\ \cline{2-6}
 %                          & $t\bar{t}$& -        & 75        &  99       &  88     \\ \cline{2-6}
 %                          & DY        & -        & 15        &  2        &  2      \\ \cline{2-6}
@@ -108,7 +108,7 @@ are subtracted from data in same sign region using MC samples  to find the jets 
 %                          & $t\bar{t}$& 282      & 307       &  365      &  268    \\ \cline{2-6}
 %                          & DY        & 638      & 31        &  20       &  0      \\ \cline{2-6}
 %                          & other     & 1657     & 68        &  76       &  73     \\ \hline
-%\multirow{5}{*}{$\mu\mu$} & data      & -        & 154       &  205      &  63     \\ \cline{2-6}
+%\multirow{5}{*}{\mumu} & data      & -        & 154       &  205      &  63     \\ \cline{2-6}
 %                          & tW        & -        & 3         &  5        &  1      \\ \cline{2-6}
 %                          & $t\bar{t}$& -        & 57        &  48       &  7      \\ \cline{2-6}
 %                          & DY        & -        & 0         &  3        &  0      \\ \cline{2-6}
@@ -122,7 +122,7 @@ are subtracted from data in same sign region using MC samples  to find the jets 
 %\label{faketab}
 %\begin{tabular}{|l|l|l|l|}
 %\hline
-%                & $ee$ & $\mu\mu$ & $e\mu$ \\ \hline
+%                & ee & \mumu & $e\mu$ \\ \hline
 %$1jet,0tag$     & -    & -        & 1411   \\ \hline
 %$1jet,1tag$     & 0    & 87       & 296    \\ \hline
 %$2jet,1tag$     & 15   & 133      & 390    \\ \hline
@@ -152,15 +152,12 @@ are subtracted from data in same sign region using MC samples  to find the jets 
 %\end{figure}
 
 \clearpage
-\section{Data/MC comparison}
+\section{Data/MC Comparison}
 \label{tW_data_mc}
-After all selections and background estimation, the expected numbers of events from tW, t$\bar{\rm t}$, DY and remaining background contributions mentioned above, as well as the total number of background events are reported in table~\ref{tab:total_event} for the ee and $\mu\mu$ channels and for the various (n-jets,m-tags) categories. The data and MC comparison are shown in figures \ref{fig:step2_leading_lepton}-\ref{fig:step2_MET_phi_Dphi_DR}. In Figure \ref{fig:binee}, the data in the six (three ee plus three $\mu\mu$) search regions are shown together with the predictions for the SM backgrounds. The sources of systematic uncertainties which are considered in the Table \ref{tab:total_event} and the plots of figures \ref{fig:step2_leading_lepton}-\ref{fig:binee} are explained in section \ref{tW_systematic}.
+After all selections and background estimation, the expected numbers of events from tW, t$\bar{\rm t}$, DY and remaining background contributions mentioned above, as well as the total number of background events are reported in Table~\ref{tab:total_event} for the ee and \mumu channels and for the various (n-jets,m-tags) categories. The data and MC comparison are shown in Figures \ref{fig:step2_leading_lepton}-\ref{fig:step2_MET_phi_Dphi_DR}. The definitions of $\mathrm{HT^{syst}}$, $\mathrm{\pt^{syst}}$, and $\mathrm{MT^{syst}}$ in Figure \ref{fig:step2_HT_Pt_Mt_rho} are $\mathrm{HT^{syst}=\sum{\pt^{jet}}+\sum{\pt^{lepton}}}$, $\mathrm{\pt^{syst}=\sum{\overrightarrow{\pt^{jet}}}+\sum{\overrightarrow{\pt^{lepton}}}}$, $\mathrm{MT^{syst}=\sqrt{(HT^{syst})^{2}-(\pt^{syst})^{2}}}$.
+In Figure \ref{fig:binee}, the data in the six (three ee plus three \mumu) search regions are shown together with the predictions for the SM backgrounds. The sources of systematic uncertainties which are considered in the Table \ref{tab:total_event} and the plots of Figures \ref{fig:step2_leading_lepton}-\ref{fig:binee} are explained in Section \ref{tW_systematic}.
 
 \begin{table}[h]
-\caption{Numbers of expected events from tW, t$\bar{\rm t}$ and DY production, from the remaining  backgrounds (other and nonprompt backgrounds), total background contribution and observed events in data after all selections for the ee and $\mu\mu$ channels and for various (n-jets,m-tags) categories.
-The uncertainties correspond to the statistical contribution only for the individual background predictions and to the quadratic sum of the statistical and systematic contributions for the total background predictions.
-}
-\label{tab:total_event}
 \centering
 \resizebox{\linewidth}{!}{
 \begin{tabular}{|c|c|c|c|c|c|c|c|}
@@ -170,14 +167,17 @@ The uncertainties correspond to the statistical contribution only for the indivi
 \multirow{3}{*}{ee}       & (1,1)     & 884$\pm$8    &4741$\pm$15 &258$\pm$50   & 53$\pm$5     &5936$\pm$470   & 5902$\pm$76   \\ \cline{2-8}
                           & (2,1)     & 518$\pm$6    &7479$\pm$19 &241$\pm$53   & 94$\pm$5     &8331$\pm$597   & 8266$\pm$90   \\ \cline{2-8}
                           & ($\ge$2,2)& 267$\pm$4    &7561$\pm$18 &46$\pm$24    & 99$\pm$4     &7973$\pm$819   & 7945$\pm$89   \\ \hline
-%\multirow{4}{*}{e$\mu$}   & (1,0)     & 4835$\pm$20  &23557$\pm$35&11352$\pm$277& 10294$\pm$72 &50038$\pm$6931 & 48973$\pm$221     \\ \cline{2-8}
+%\multirow{4}{*}{e$\upmu$}   & (1,0)     & 4835$\pm$20  &23557$\pm$35&11352$\pm$277& 10294$\pm$72 &50038$\pm$6931 & 48973$\pm$221     \\ \cline{2-8}
 %                          & (1,1)     & 6048$\pm$22  &30436$\pm$38&561$\pm$66   & 629$\pm$13   &37673$\pm$2984 & 37370$\pm$193     \\ \cline{2-8}
 %                          & (2,1)     & 3117$\pm$16  &47206$\pm$48&278$\pm$48  & 781$\pm$9    &51382$\pm$3714  & 50725$\pm$225    \\ \cline{2-8}
 %                          & ($\ge$2,2)& 1450$\pm$10  &47310$\pm$46&32$\pm$22    & 598$\pm$9    &49391$\pm$5010 & 49262$\pm$221    \\ \hline
-\multirow{3}{*}{$\mu\mu$} & (1,1)     & 1738$\pm$12  &9700$\pm$21 &744$\pm$90  & 183$\pm$5    &12366$\pm$879   & 12178$\pm$110  \\ \cline{2-8}
+\multirow{3}{*}{\mumu} & (1,1)     & 1738$\pm$12  &9700$\pm$21 &744$\pm$90  & 183$\pm$5    &12366$\pm$879   & 12178$\pm$110  \\ \cline{2-8}
                           & (2,1)     & 989$\pm$9    &14987$\pm$27&501$\pm$75   & 275$\pm$5    &16751$\pm$1276 & 16395$\pm$128  \\ \cline{2-8}
                           & ($\ge$2,2)& 508$\pm$6    &15136$\pm$26&82$\pm$24    & 163$\pm$5  &15889$\pm$1714   & 15838$\pm$125 \\ \hline
 \end{tabular}}
+\caption{Numbers of expected events from tW, t$\bar{\rm t}$, and DY productions, from the remaining  backgrounds (other and nonprompt backgrounds), total background contribution and observed events in data after all selections for the ee and \mumu channels and for various (n-jets,m-tags) categories.
+The uncertainties correspond to the statistical contribution only for the individual background predictions and to the quadratic sum of the statistical and systematic contributions for the total background predictions.}
+\label{tab:total_event}
 \end{table}
 
 
@@ -186,7 +186,7 @@ The uncertainties correspond to the statistical contribution only for the indivi
 %\centering
 %\begin{tabular}{|c|c|c||c|c|}
 %\hline
-%Channel & $ee$               & fraction & $\mu\mu$       & fraction  \\ \hline
+%Channel & ee               & fraction & \mumu       & fraction  \\ \hline
 %tW      & 3674  +/- 26       & 5.62\%   & 7103   +/- 24  & 5.08\%  \\ \hline
 %TTbar   & 38209 +/- 62       & 58.41\%  & 75949  +/- 61  & 54.37\% \\ \hline
 %DY      & 19176 +/- 5749     & 29.31\%  & 47845  +/- 627 & 34.25\% \\ \hline
@@ -235,7 +235,7 @@ The uncertainties correspond to the statistical contribution only for the indivi
       \includegraphics[width=0.4\textwidth]{figures/tW/fig/Step2/ee/H_lepton_led_phi.png}&
       \includegraphics[width=0.4\textwidth]{figures/tW/fig/Step2/mumu/H_lepton_led_phi.png}\\
     \end{tabular}
-    \caption{The distributions of Pt (top), $\eta$ (middle) and $\phi$ (bottom) of leading lepton for $ee$ (left) and $\mu\mu$ (right) channels after step 2 (full selection).
+    \caption{The distributions of \pt (top), $\eta$ (middle) and $\phi$ (bottom) of leading lepton for ee (left) and \mumu (right) channels after step 2 (full selection).
     \label{fig:step2_leading_lepton}}
   \end{center}
 \end{figure}
@@ -250,7 +250,7 @@ The uncertainties correspond to the statistical contribution only for the indivi
       \includegraphics[width=0.4\textwidth]{figures/tW/fig/Step2/ee/H_lepton_sub_phi.png}&
       \includegraphics[width=0.4\textwidth]{figures/tW/fig/Step2/mumu/H_lepton_sub_phi.png}\\
     \end{tabular}
-    \caption{The distributions of Pt (top), $\eta$ (middle) and $\phi$ (bottom) of sub-leading lepton for $ee$ (left) and $\mu\mu$ (right) channels after step 2 (full selection).
+    \caption{The distributions of \pt (top), $\eta$ (middle) and $\phi$ (bottom) of sub-leading lepton for ee (left) and \mumu (right) channels after step 2 (full selection).
     \label{fig:step2_subleading_lepton}}
   \end{center}
 \end{figure}
@@ -268,7 +268,7 @@ The uncertainties correspond to the statistical contribution only for the indivi
       \includegraphics[width=0.4\textwidth]{figures/tW/fig/Step2/ee/H_Ptll_phi.png}&
       \includegraphics[width=0.4\textwidth]{figures/tW/fig/Step2/mumu/H_Ptll_phi.png}\\
     \end{tabular}
-    \caption{The distributions of invariant mass of two leptons (first row), Pt of two leptons (second row), Rapidity of two leptons (third row) and $\phi$ of two leptons (last row) for $ee$ (left) and $\mu\mu$ (right) channels after step 2 (full selection).
+    \caption{The distributions of invariant mass of two leptons (first row), \pt of two leptons (second row), Rapidity of two leptons (third row) and $\phi$ of two leptons (last row) for ee (left) and \mumu (right) channels after step 2 (full selection).
     \label{fig:step2_M_pt_R_phi}}
   \end{center}
 \end{figure}
@@ -286,7 +286,7 @@ The uncertainties correspond to the statistical contribution only for the indivi
       \includegraphics[width=0.4\textwidth]{figures/tW/fig/Step2/ee/H_njet_bjet.png}&
       \includegraphics[width=0.4\textwidth]{figures/tW/fig/Step2/mumu/H_njet_bjet.png}\\
     \end{tabular}
-    \caption{The distributions of number of vertices (first row), number of jet (second row), number of b jet (third row) and number of jet-bjet (last row) for $ee$ (left) and $\mu\mu$ (right) channels after step 2 (full selection).
+    \caption{The distributions of number of vertices (first row), number of jet (second row), number of b jets (third row) and number of jet-bjets (last row) for ee (left) and \mumu (right) channels after step 2 (full selection).
     \label{fig:step2_Nvtx_jet_bjet}}
   \end{center}
 \end{figure}
@@ -304,10 +304,12 @@ The uncertainties correspond to the statistical contribution only for the indivi
       \includegraphics[width=0.4\textwidth]{figures/tW/fig/Step2/ee/H_rho.png}&
       \includegraphics[width=0.4\textwidth]{figures/tW/fig/Step2/mumu/H_rho.png}\\
     \end{tabular}
-    \caption{The distributions of $HT^{system}$ (first row), $Pt^{system}$ (second row), $Mt^{system}$ (third row)  and $\rho$ for $ee$ (left) and $\mu\mu$ (right) channels after step 2 (full selection).
+    \caption{The distributions of $\mathrm{HT^{syst}}$ (first row), $\mathrm{\pt^{syst}}$ (second row), $\mathrm{MT^{syst}}$ (third row)  and $\rho$ for ee (left) and \mumu (right) channels after step 2 (full selection).
     \label{fig:step2_HT_Pt_Mt_rho}}
   \end{center}
 \end{figure}
+
+
 
 
 \begin{figure}[ht]
@@ -322,7 +324,7 @@ The uncertainties correspond to the statistical contribution only for the indivi
       \includegraphics[width=0.4\textwidth]{figures/tW/fig/Step2/ee/H_ll_DR.png}&
       \includegraphics[width=0.4\textwidth]{figures/tW/fig/Step2/mumu/H_ll_DR.png}\\
     \end{tabular}
-    \caption{The distributions of MET (top row), $\Delta\phi$ between two leptons (middle row) and $\Delta R$ between two leptons (bottom row) for $ee$ (left) and $\mu\mu$ (right) channels after step 2 (full selection).
+    \caption{The distributions of MET (top row), $\Delta\phi$ between two leptons (middle row) and $\Delta R$ between two leptons (bottom row) for ee (left) and \mumu (right) channels after step 2 (full selection).
     \label{fig:step2_MET_phi_Dphi_DR}}
   \end{center}
 \end{figure}
@@ -333,7 +335,7 @@ The uncertainties correspond to the statistical contribution only for the indivi
       \includegraphics[width=0.45\textwidth]{figures/tW/fig/Result/ee/H_Limit_N_jet_bjet.png}&
       \includegraphics[width=0.45\textwidth]{figures/tW/fig/Result/mumu/H_Limit_N_jet_bjet.png}\\
     \end{tabular}
-    \caption{The observed numbers of events and SM background predictions in the search regions of the analysis for the ee (left), $\mu\mu$ (right) channels. The hatched band corresponds to the quadratic sum of statistical and systematic uncertainties in the event yield for the SM background predictions. The ratios of data to the sum of the predicted yields are shown at the bottom of each plot. The narrow hatched band represents the contribution from the statistical uncertainty in the MC simulation.
+    \caption{The observed numbers of events and SM background predictions in the search regions of the analysis for the ee (left), \mumu (right) channels. The hatched band corresponds to the quadratic sum of statistical and systematic uncertainties in the event yield for the SM background predictions. The ratios of data to the sum of the predicted yields are shown at the bottom of each plot. The narrow hatched band represents the contribution from the statistical uncertainty in the MC simulation.
     \label{fig:binee}}
   \end{center}
 \end{figure}
@@ -361,7 +363,7 @@ The uncertainties correspond to the statistical contribution only for the indivi
 %      \includegraphics[width=0.32\textwidth]{figures/tW/fig/Step2/emu/H_lepton_led_phi.png}&
 %      \includegraphics[width=0.32\textwidth]{figures/tW/fig/Step2/mumu/H_lepton_led_phi.png}\\
 %    \end{tabular}
-%    \caption{The distributions of Pt (top), $\eta$ (middle) and $\phi$ (bottom) of leading lepton for $ee$ (left), $e\mu$ (middle) and $\mu\mu$ (right) channels after step 2 (full selection).
+%    \caption{The distributions of Pt (top), $\eta$ (middle) and $\phi$ (bottom) of leading lepton for ee (left), $e\mu$ (middle) and \mumu (right) channels after step 2 (full selection).
 %    \label{fig:step2_leading_lepton}}
 %  \end{center}
 %\end{figure}
@@ -379,7 +381,7 @@ The uncertainties correspond to the statistical contribution only for the indivi
 %      \includegraphics[width=0.32\textwidth]{figures/tW/fig/Step2/emu/H_lepton_sub_phi.png}&
 %      \includegraphics[width=0.32\textwidth]{figures/tW/fig/Step2/mumu/H_lepton_sub_phi.png}\\
 %    \end{tabular}
-%    \caption{The distributions of Pt (top), $\eta$ (middle) and $\phi$ (bottom) of sub-leading lepton for $ee$ (left), $e\mu$ (middle) and $\mu\mu$ (right) channels after step 2 (full selection).
+%    \caption{The distributions of Pt (top), $\eta$ (middle) and $\phi$ (bottom) of sub-leading lepton for ee (left), $e\mu$ (middle) and \mumu (right) channels after step 2 (full selection).
 %    \label{fig:step2_subleading_lepton}}
 %  \end{center}
 %\end{figure}
@@ -401,7 +403,7 @@ The uncertainties correspond to the statistical contribution only for the indivi
 %      \includegraphics[width=0.32\textwidth]{figures/tW/fig/Step2/emu/H_Ptll_phi.png}&
 %      \includegraphics[width=0.32\textwidth]{figures/tW/fig/Step2/mumu/H_Ptll_phi.png}\\
 %    \end{tabular}
-%    \caption{The distributions of invariant mass of two leptons (first row), Pt of two leptons (second row), Rapidity of two leptons (third row) and $\phi$ of two leptons (last row) for $ee$ (left), $e\mu$ (middle) and $\mu\mu$ (right) channels after step 2 (full selection).
+%    \caption{The distributions of invariant mass of two leptons (first row), Pt of two leptons (second row), Rapidity of two leptons (third row) and $\phi$ of two leptons (last row) for ee (left), $e\mu$ (middle) and \mumu (right) channels after step 2 (full selection).
 %    \label{fig:step2_M_pt_R_phi}}
 %  \end{center}
 %\end{figure}
@@ -423,7 +425,7 @@ The uncertainties correspond to the statistical contribution only for the indivi
 %      \includegraphics[width=0.32\textwidth]{figures/tW/fig/Step2/emu/H_njet_bjet.png}&
 %      \includegraphics[width=0.32\textwidth]{figures/tW/fig/Step2/mumu/H_njet_bjet.png}\\
 %    \end{tabular}
-%    \caption{The distributions of number of vertices (first row), number of jet (second row), number of b jet (third row) and number of jet-bjet (last row) for $ee$ (left), $e\mu$ (middle) and $\mu\mu$ (right) channels after step 2 (full selection).
+%    \caption{The distributions of number of vertices (first row), number of jet (second row), number of b jet (third row) and number of jet-bjet (last row) for ee (left), $e\mu$ (middle) and \mumu (right) channels after step 2 (full selection).
 %    \label{fig:step2_Nvtx_jet_bjet}}
 %  \end{center}
 %\end{figure}
@@ -445,7 +447,7 @@ The uncertainties correspond to the statistical contribution only for the indivi
 %      \includegraphics[width=0.32\textwidth]{figures/tW/fig/Step2/emu/H_rho.png}&
 %      \includegraphics[width=0.32\textwidth]{figures/tW/fig/Step2/mumu/H_rho.png}\\
 %    \end{tabular}
-%    \caption{The distributions of $HT^{system}$ (first row), $Pt^{system}$ (second row), $Mt^{system}$ (third row)  and $\rho$ for $ee$ (left), $e\mu$ (middle) and $\mu\mu$ (right) channels after step 2 (full selection).
+%    \caption{The distributions of $HT^{system}$ (first row), $Pt^{system}$ (second row), $Mt^{system}$ (third row)  and $\rho$ for ee (left), $e\mu$ (middle) and \mumu (right) channels after step 2 (full selection).
 %    \label{fig:step2_HT_Pt_Mt_rho}}
 %  \end{center}
 %\end{figure}
@@ -467,7 +469,7 @@ The uncertainties correspond to the statistical contribution only for the indivi
 %      \includegraphics[width=0.32\textwidth]{figures/tW/fig/Step2/emu/H_ll_DR.png}&
 %      \includegraphics[width=0.32\textwidth]{figures/tW/fig/Step2/mumu/H_ll_DR.png}\\
 %    \end{tabular}
-%    \caption{The distributions of MET (first row), $\phi$ of MET (second row), $\Delta\phi$ between two leptons (third row) and $\Delta R$ between two leptons (last row) for $ee$ (left), $e\mu$ (middle) and $\mu\mu$ (right) channels after step 2 (full selection).
+%    \caption{The distributions of MET (first row), $\phi$ of MET (second row), $\Delta\phi$ between two leptons (third row) and $\Delta R$ between two leptons (last row) for ee (left), $e\mu$ (middle) and \mumu (right) channels after step 2 (full selection).
 %    \label{fig:step2_MET_phi_Dphi_DR}}
 %  \end{center}
 %\end{figure}
@@ -479,7 +481,7 @@ The uncertainties correspond to the statistical contribution only for the indivi
 %      \includegraphics[width=0.45\textwidth]{figures/tW/fig/Result/mumu/H_Limit_N_jet_bjet.png}\\
 %      \multicolumn{2}{c}{\includegraphics[width=0.45\textwidth]{figures/tW/fig/Result/emu/H_Limit_N_jet_bjet.png}} \\
 %    \end{tabular}
-%    \caption{The observed numbers of events and SM background predictions in the search regions of the analysis for the ee (upper left), $\mu\mu$  (upper right) and e$\mu$ (lower) channel. The hatched band corresponds to the quadratic sum of statistical and systematic uncertainties in the event yield for the SM background predictions. The ratios of data to the sum of the predicted yields are shown at the bottom of each plot. The narrow hatched band represents the contribution from the statistical uncertainty in the MC simulation.
+%    \caption{The observed numbers of events and SM background predictions in the search regions of the analysis for the ee (upper left), \mumu  (upper right) and e$\upmu$ (lower) channel. The hatched band corresponds to the quadratic sum of statistical and systematic uncertainties in the event yield for the SM background predictions. The ratios of data to the sum of the predicted yields are shown at the bottom of each plot. The narrow hatched band represents the contribution from the statistical uncertainty in the MC simulation.
 %    \label{fig:binee}}
 %  \end{center}
 %\end{figure}

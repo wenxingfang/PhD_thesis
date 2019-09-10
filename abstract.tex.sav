@@ -1,0 +1,68 @@
+%\section*{Constitution du jury de th\`ese:}
+\afterpage{\blankpage}
+\thispagestyle{empty}
+\begin{Large}
+\textbf{Doctoral Jury:}
+\end{Large}
+\begin{itemize}
+\item{Prof. Barbara Clerbaux (Universit\'e Libre de Bruxelles), Co-supervisor}
+\item{Prof. Chengping SHEN (Beihang University), Co-supervisor}
+
+\end{itemize}
+
+%\bigskip
+%\begin{Large}
+%\Large \textbf{Evaluateurs externes:}
+%\end{Large}
+%\begin{itemize}
+%\item{Prof. Attilio Andreazza (UniMi, Milano)}
+%\item{Prof. Luigi Rolandi (SNS, Pisa)}
+%\end{itemize}
+
+\newpage
+%%\selectlanguage{english}
+\section*{Abstract}
+
+This thesis describes searches for new heavy resonances that decay into dielectron final state and searches for new physics in the top quark sector. The standard model of elementary particle is introduced in the first chapter. After that, a fraction of theories beyond standard model that predict the existence of new massive resonances are described together with an introduction to the effective field theory what is used to search for new physics in top quark sector. Then, the Larger Hadron Collider (LHC) and the Compact Muon Solenoid (CMS) detector are introduced, and the techniques used in order to reconstruct the particles produced in the collisions are discussed afterwards. Finally, two separate analyses are presented.
+
+The first one is the search for new heavy resonances decaying into a dielectron pair in the final state. These resonances are predicted by a variety of models such as grand unified theories or theories that introduce extra space-like dimensions. The signature of these new resonances would be a localised excess of events in the dielectron invariant mass spectrum. The data used are the one collected by the CMS experiment in 2016 with 35.9 \fbinv and in 2017 with 41.4 \fbinv. The event selections are optimized in order to be highly efficient for high-energy electrons/positrons to avoid loosing potential signal events. The main source of background, the Drell-Yan process, is estimated from simulation. Data-driven approaches are used for validating the subleading background processes which are estimated from simulations, they are also used for the determination of the backgrounds coming from quantum chromo dynamics processes. After having inspected the dielectron invariant mass, no significant excess over the standard model background is observed, and upper limit at 95\% confidence level is set on the ratio of production cross-section times branching ratio of a new resonance to the one at the Z boson peak.
+
+The second analysis is the search for new physics in the top quark sector with dielectron and dimuon final states using data collected by the CMS experiment in 2016 with 35.9 \fbinv. Due to its high mass and close to electroweak symmetry breaking scale, the top quark is expected to play an important role in several new physics scenarios. The new physics in top quark pair production and in single top quark production in association with a W boson are investigated and a dedicated multivariate analysis is used to separate these two processes. This is the first search for new physics that uses the tW process. No significant deviation from the standard model expectation is observed. Results are interpreted in the framework of an effective field theory and constraints on the relevant effective couplings are set at 95\% confidence level.
+
+
+%\newpage
+%\section*{ժҪ}
+
+\newpage
+\section*{Acknowledgements}
+
+This thesis would have not been possible without the contributions of many people who helped me during the five years of my doctoral studies.
+First, I would like to greatly thank Barbara Clerbaux and Chengping Shen who supervised the work presented here with their guidance, support and countless advices during my PhD study.
+In addition, I want to thank Reza Goldouzian who helped me a lot both in theoretical and experimental parts of my research. Besides, I want to thank Sam Harper for the time he devoted to me in discussions and explanations, I learnt many things in these occasions. A special acknowledgement goes to Xuyang Gao who is one of my best partner of my research, we worked together efficiently and pleasantly. In addition, a great thank goes to Aidan Randle-Conde who helped me a lot at the beginning of my $Z^{'}$ search study. In particular, I would like thank Laurent Thomas from whom I took over the HEEP ID scale factor study in $Z^{'}$ searching. Besides, I want to thank Giuseppe Fasanella who is friendly and provided me a very nice Latex template for my PhD thesis. Moreover, I want to thank the people in IIHE. Firstly, I would like to thank Laurent Favart who is director of IIHE from ULB, we met at first time in Beihang university in 2014, from him I knew the ULB and a joint PhD project between Beihang and ULB which is very nice project. He is gentle and friendly, he takes care of my life in ULB. Secondly, I would thank Pascal Vanlaer who is friendly and enthusiastic.
+
+
+It is impossible to name everyone here, but special , the leader Audrey Terrier who helped a lot in my accommodation and living at ULB.  and  go to my office mates Amandeep, and Diego, wishing all the best for their future.
+Last but not least, I would like to thank my family for the great support and understanding for my PhD study.
+
+
+
+%This thesis would have not been possible without the contribution of many people that helped me during the four years of doctoral studies.
+%\\First, I would like to thank Barbara Clerbaux and Paolo Meridiani who supervised to the work presented here with their guidance, support and countless advices during
+%this extreme adventure of the spirit and the body which is named \textit{PhD}.
+%\\I am grateful to all the jury members, Daniele Del Re, Louis Fayard, Ivan Mikulec, Michel Tytgat and Pascal Vanlaer, for reading this thesis and giving me their
+%valuable comments.
+%\\I also want to thank the external evaluators Attilio Andreazza and Luigi Rolandi for their remarks and
+%positive evaluations of this manuscript.
+%\\Major improvements to the quality of the analyses came over the years thanks to many people of the CMS Collaboration during internal meetings, approval talks and conferences. In particular, I want to thank Sam Harper and Pasquale Musella for the time they devoted to me in discussions and explanations and the many things I learnt from them in these occasions.
+%\\A special acknowlegment goes to Shahram Rahatlou and the INFN-Roma1 section for the invaluable opportunity to work at CERN during a rather intense year.
+%The 4-th flour of  ``building 32'' became increasingly crowded during that period, with notable spikes during the coffee breaks.
+%\\For lots of laughs and good moments I have to thank Vittorio, Martina (collega ad honorem), Livia, acm, marco, federico, jellysim, giulia e checco.
+%\\My work at the IIHE would not have been that fruitful and pleasant without my
+%colleagues and friends. It is impossible to name everyone here, but special thanks go to my office mates, Laurent, Thomas and Aidan who have shared the office with me during my first years and the present ones, Diego and David to which I wish all the best for their future.
+%\\In ultimo, un ringraziamento a parte va a babbo Alfonso per i prosciutti di montagna \textit{ ``che solo l'odore ti ubriacava''}, a mamma Giovanna, studentessa modello e
+%oramai specialista nell'imbastire valigie ricolme di vettovaglie e con un libro di Thomas Mann in un angolo, e a Teresa e Antonietta, le mie fonti di fiducia sugli antichi segreti romantici e rusticani di Lucania.
+
+
+
+
+

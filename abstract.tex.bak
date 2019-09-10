@@ -1,0 +1,45 @@
+
+
+\clearpage
+\section*{Abstract}
+
+This thesis describes searches for new heavy resonances that decay into dielectron final state and searches for new physics in the top quark sector. The standard model of elementary particle is introduced in the first chapter. After that, a selection of theories beyond the standard model that predict the existence of new massive resonances are described together with an introduction to the effective field theory that is used to search for new physics in top quark sector. Then, the Large Hadron Collider (LHC) and the Compact Muon Solenoid (CMS) detector are introduced, and the techniques used in order to reconstruct the particles produced in the collisions are discussed afterwards. Finally, two separate analyses are presented.
+
+The first one is searching for new heavy resonances using dielectron final state. As some beyond Standard Model theories predict the existence of new heavy resonances that can decay into dielectron pair, such as the grand unified theories and theories that introduce extra space-like dimensions. An observation of a local ``bump'' in the dielectron invariant mass spectrum will be an evidence for the existence of a new heavy resonance. The data used is from CMS experiment collected in 2016 with 35.9 \fbinv and in 2017 with 41.4 \fbinv. The event selection is optimized in order to be highly efficiency for high energy electron and avoid loosing potential signal events. The leading background is the Drell-Yan process and it is estimated from simulation. The sub-leading background is from \ttbar and \ttbar-like processes and it is estimated from simulation also. A data-driven method is used to validate the simulation of sub-leading background. The last background from quantum chromodynamics processes is determined by data-driven approach. After having inspected the final dielectron invariant mass spectrum, no significant excess over the standard model background is observed, and upper limit at 95\% confidence level is set on the ratio of production cross-section times branching ratio of a new resonance to the one at the Z boson peak.
+
+%The first one is the search for new heavy resonances decaying into a dielectron pair in the final state. These resonances are predicted by a variety of models such as grand unified theories or theories that introduce extra space-like dimensions. The signature of these new resonances would be a localised excess of events in the dielectron invariant mass spectrum. The data used are the one collected by the CMS experiment in 2016 with 35.9 \fbinv and in 2017 with 41.4 \fbinv. The event selections are optimized in order to be highly efficient for high-energy electrons/positrons to avoid loosing potential signal events. The main source of background, the Drell-Yan process, is estimated from simulation. Data-driven approaches are used for validating the subleading background processes which are estimated from simulations, they are also used for the determination of the backgrounds coming from quantum chromodynamics processes. After having inspected the dielectron invariant mass, no significant excess over the standard model background is observed, and upper limit at 95\% confidence level is set on the ratio of production cross-section times branching ratio of a new resonance to the one at the Z boson peak.
+
+The second analysis is the search for new physics in the top quark sector with dielectron and dimuon final states using data collected by the CMS experiment in 2016 with 35.9 \fbinv. Because of its high mass and close to electroweak symmetry breaking scale, the top quark is expected to play an important role in several new physics scenarios. The new physics in top quark pair production and in single top quark production in association with a W boson are investigated and a dedicated multivariate analysis is used to separate these two processes. No significant deviation from the standard model expectation is observed. Results are interpreted in the framework of an effective field theory and constraints on the relevant effective couplings are set at 95\% confidence level.
+
+
+\textbf{Key works:} new physics, dielectron, dimuon, heavy resonances, top quark, CMS experiment, effective field theory, multivariate analysis.
+
+\afterpage{\blankpage}
+\newpage
+\section*{Acknowledgements}
+
+This thesis would have not been possible without the contributions of many people who helped me during the five years of my doctoral studies.
+
+Firstly, I would like to greatly thank Chengping Shen who is my PhD supervisor at Beihang University and supervised the work presented here. We met each other in 2014 for the first time, he was very friendly and enthusiastic. He inspired my interest in particle physics and opened the door to do a PhD thesis. He gave me great guidance, great support, and countless advices during my PhD study in Beihang University. It is him who encouraged and supported me to be a joint PhD between Beihang University and Universit\'e Libre de Bruxelles (ULB). Besides, he provided me great help and suggestions when I was searching for a job after my PhD.
+
+Secondly, I would give great thanks to Barbara Clerbaux who is my PhD supervisor at ULB and supervised the work presented here. She is very kind, thoughtful, and supportive. She is expert in CMS and she gave me countless guidance during my PhD study in CMS. When I had some questions, she always can provide me very nice explanations and answers. It is she who leaded me to the world of searching for new physics in CMS. She also cared about my living at Brussels and provided me help without hesitation when I needed.
+
+Then, I want to thank the people with whom I worked in searching for new physics. I want to thank Reza Goldouzian who helped me a lot both in theoretical and experimental parts of my research. Besides, I want to thank Sam Harper for the time he devoted to me in discussions and explanations. I learnt many things in these occasions. A special acknowledgement goes to Xuyang Gao who is one of my best partner of my research, we worked together efficiently and pleasantly. In addition, a great thank goes to Aidan Randle-Conde who helped me a lot at the beginning of my \ZP search study. I would like thank to Laurent Thomas from whom I took over the high \PT electron selection efficiency study in \ZP searching. I want to thank Giuseppe Fasanella who did a very nice work in the \ZP search team, he is friendly and provided me a very nice Latex template for my PhD thesis.
+
+Moreover, I want to thank the people in IIHE. Firstly, I would like to thank Laurent Favart who is director of IIHE from ULB, we met each other at first time in Beihang University in 2014. He is gentle and friendly as well as taking care of my living in ULB. Secondly, I would thank Pascal Vanlaer who is enthusiastic, easy going and willing to help when I had some questions, he gave me useful comments on my $V_{tx}$ phenomenological study.
+Then, I want to thank Audrey Terrier who is the secretary at IIHE. She is very kind and helped a lot in my accommodation and living at ULB. Finally, I would like thank to IIHE IT team who works very hard in maintaining and upgrading the IIHE computer cluster which is easy to use and has very high computing efficiency.
+
+%In addition, I want to thank Andrea Giammanco who helped me on my $V_{tx}$ phenomenological study.
+
+A special thank goes to my office mates, Amandeep and Diego, we get alone very well and I wish them all the best for their future.
+
+Last but not least, I would like to thank my family for the great support and understanding during my PhD study.
+
+Although it is impossible to name everyone here, I would like to thank all of you who helped me.
+
+
+\afterpage{\blankpage}
+\newpage
+
+
+

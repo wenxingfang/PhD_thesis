@@ -1,0 +1,2444 @@
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2018.10.4)  17 JUN 2019 23:30
+entering extended mode
+**Thesis_Wenxing.tex
+(D:\my_cernbox\PhD_thesis\PhD_thesis\Thesis_Wenxing.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for loaded.
+(D:\my_cernbox\PhD_thesis\PhD_thesis\layout_settings.tex
+(E:\CTEX\MiKTeX\tex\latex\base\book.cls
+Document Class: book 2007/10/19 v1.4h Standard LaTeX document class
+(E:\CTEX\MiKTeX\tex\latex\base\bk10.clo
+File: bk10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(E:\CTEX\MiKTeX\tex\latex\tools\afterpage.sty
+Package: afterpage 1995/10/27 v1.08 After-Page Package (DPC)
+\AP@output=\toks14
+\AP@partial=\box26
+\AP@footins=\box27
+)
+(E:\CTEX\MiKTeX\tex\latex\base\fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(E:\CTEX\MiKTeX\tex\latex\base\t1enc.def
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+))
+(E:\CTEX\MiKTeX\tex\latex\base\inputenc.sty
+Package: inputenc 2008/03/30 v1.1d Input encoding file
+\inpenc@prehook=\toks15
+\inpenc@posthook=\toks16
+
+(E:\CTEX\MiKTeX\tex\latex\base\utf8.def
+File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
+
+(E:\CTEX\MiKTeX\tex\latex\base\t1enc.dfu
+File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+
+(E:\CTEX\MiKTeX\tex\latex\base\ot1enc.dfu
+File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+
+(E:\CTEX\MiKTeX\tex\latex\base\omsenc.dfu
+File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+))
+(E:\CTEX\MiKTeX\tex\latex\geometry\geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(E:\CTEX\MiKTeX\tex\latex\graphics\keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+(E:\CTEX\MiKTeX\tex\generic\oberdiek\ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+(E:\CTEX\MiKTeX\tex\generic\oberdiek\ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Switches for detecting VTeX and its modes (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(E:\CTEX\MiKTeX\tex\generic\ifxetex\ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count88
+\Gm@cntv=\count89
+\c@Gm@tempcnt=\count90
+\Gm@bindingoffset=\dimen103
+\Gm@wd@mp=\dimen104
+\Gm@odd@mp=\dimen105
+\Gm@even@mp=\dimen106
+\Gm@layoutwidth=\dimen107
+\Gm@layoutheight=\dimen108
+\Gm@layouthoffset=\dimen109
+\Gm@layoutvoffset=\dimen110
+\Gm@dimlist=\toks18
+
+(E:\CTEX\MiKTeX\tex\latex\geometry\geometry.cfg))
+(E:\CTEX\MiKTeX\tex\latex\multirow\multirow.sty
+\bigstrutjot=\dimen111
+)
+
+! LaTeX Error: File `multicolumn.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: 
+(E:\CTEX\MiKTeX\tex\latex\mh\mathtools.sty
+Package: mathtools 2011/04/06 v1.11 mathematical typesetting tools
+
+(E:\CTEX\MiKTeX\tex\latex\tools\calc.sty
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count91
+\calc@Bcount=\count92
+\calc@Adimen=\dimen112
+\calc@Bdimen=\dimen113
+\calc@Askip=\skip43
+\calc@Bskip=\skip44
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count93
+\calc@Cskip=\skip45
+)
+(E:\CTEX\MiKTeX\tex\latex\mh\mhsetup.sty
+Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
+)
+(E:\CTEX\MiKTeX\tex\latex\ams\math\amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip46
+
+For additional information on amsmath, use the `?' option.
+(E:\CTEX\MiKTeX\tex\latex\ams\math\amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(E:\CTEX\MiKTeX\tex\latex\ams\math\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks19
+\ex@=\dimen114
+))
+(E:\CTEX\MiKTeX\tex\latex\ams\math\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen115
+)
+(E:\CTEX\MiKTeX\tex\latex\ams\math\amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count94
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count95
+\leftroot@=\count96
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count97
+\DOTSCASE@=\count98
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box28
+\strutbox@=\box29
+\big@size=\dimen116
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count99
+\c@MaxMatrixCols=\count100
+\dotsspace@=\muskip10
+\c@parentequation=\count101
+\dspbrk@lvl=\count102
+\tag@help=\toks20
+\row@=\count103
+\column@=\count104
+\maxfields@=\count105
+\andhelp@=\toks21
+\eqnshift@=\dimen117
+\alignsep@=\dimen118
+\tagshift@=\dimen119
+\tagwidth@=\dimen120
+\totwidth@=\dimen121
+\lineht@=\dimen122
+\@envbody=\toks22
+\multlinegap=\skip47
+\multlinetaggap=\skip48
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+\g_MT_multlinerow_int=\count106
+\l_MT_multwidth_dim=\dimen123
+\origjot=\skip49
+\l_MT_shortvdotswithinadjustabove_dim=\dimen124
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen125
+)
+(E:\CTEX\MiKTeX\tex\latex\carlisle\slashed.sty
+Package: slashed 1997/01/16 v0.01 Feynman Slashed Character Notation (DPC)
+)
+(E:\CTEX\MiKTeX\tex\latex\tools\enumerate.sty
+Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
+\@enLab=\toks24
+)
+(E:\CTEX\MiKTeX\tex\generic\babel\babel.sty
+Package: babel 2008/07/08 v3.8m The Babel package
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(E:\CTEX\MiKTeX\tex\latex\00miktex\bblopts.cfg
+File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
+)
+(E:\CTEX\MiKTeX\tex\generic\babel\english.ldf
+Language: english 2005/03/30 v3.3o English support from the babel system
+
+(E:\CTEX\MiKTeX\tex\generic\babel\babel.def
+File: babel.def 2008/07/08 v3.8m Babel common definitions
+\babel@savecnt=\count107
+\U@D=\dimen126
+)
+\l@british = a dialect from \language0
+\l@UKenglish = a dialect from \language0
+\l@american = a dialect from \language0
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+)
+(E:\CTEX\MiKTeX\tex\generic\babel\frenchb.ldf
+Language: frenchb 2009/03/16 v2.3d French support from the babel system
+
+
+Package babel Warning: No hyphenation patterns were loaded for
+(babel)                the language `French'
+(babel)                I will use the patterns loaded for \language=0 instead.
+
+\l@french = a dialect from \language0
+Package babel Info: Making : an active character on input line 120.
+Package babel Info: Making ; an active character on input line 121.
+Package babel Info: Making ! an active character on input line 122.
+Package babel Info: Making ? an active character on input line 123.
+\FB@Mht=\dimen127
+\std@mcc=\count108
+\dec@mcc=\count109
+\parindentFFN=\dimen128
+*************************************
+* Local config file frenchb.cfg used
+*
+(E:\CTEX\MiKTeX\tex\generic\babel\frenchb.cfg))
+(E:\CTEX\MiKTeX\tex\generic\babel\frenchb.ldf
+Language: frenchb 2009/03/16 v2.3d French support from the babel system
+))
+(E:\CTEX\MiKTeX\tex\latex\carlisle\scalefnt.sty)
+(E:\CTEX\MiKTeX\tex\latex\cjk\CJK.sty
+Package: CJK 2008/12/29 4.8.2
+
+(E:\CTEX\MiKTeX\tex\latex\cjk\mule\MULEenc.sty
+Package: MULEenc 2008/12/29 4.8.2
+)
+(E:\CTEX\MiKTeX\tex\latex\cjk\CJK.enc
+File: CJK.enc 2008/12/29 4.8.2
+Now handling font encoding C00 ...
+... no UTF-8 mapping file for font encoding C00
+Now handling font encoding C05 ...
+... no UTF-8 mapping file for font encoding C05
+Now handling font encoding C09 ...
+... no UTF-8 mapping file for font encoding C09
+Now handling font encoding C10 ...
+... no UTF-8 mapping file for font encoding C10
+Now handling font encoding C20 ...
+... no UTF-8 mapping file for font encoding C20
+Now handling font encoding C19 ...
+... no UTF-8 mapping file for font encoding C19
+Now handling font encoding C40 ...
+... no UTF-8 mapping file for font encoding C40
+Now handling font encoding C42 ...
+... no UTF-8 mapping file for font encoding C42
+Now handling font encoding C43 ...
+... no UTF-8 mapping file for font encoding C43
+Now handling font encoding C50 ...
+... no UTF-8 mapping file for font encoding C50
+Now handling font encoding C52 ...
+... no UTF-8 mapping file for font encoding C52
+Now handling font encoding C49 ...
+... no UTF-8 mapping file for font encoding C49
+Now handling font encoding C60 ...
+... no UTF-8 mapping file for font encoding C60
+Now handling font encoding C61 ...
+... no UTF-8 mapping file for font encoding C61
+Now handling font encoding C63 ...
+... no UTF-8 mapping file for font encoding C63
+Now handling font encoding C64 ...
+... no UTF-8 mapping file for font encoding C64
+Now handling font encoding C65 ...
+... no UTF-8 mapping file for font encoding C65
+Now handling font encoding C70 ...
+... no UTF-8 mapping file for font encoding C70
+Now handling font encoding C31 ...
+... no UTF-8 mapping file for font encoding C31
+Now handling font encoding C32 ...
+... no UTF-8 mapping file for font encoding C32
+Now handling font encoding C33 ...
+... no UTF-8 mapping file for font encoding C33
+Now handling font encoding C34 ...
+... no UTF-8 mapping file for font encoding C34
+Now handling font encoding C35 ...
+... no UTF-8 mapping file for font encoding C35
+Now handling font encoding C36 ...
+... no UTF-8 mapping file for font encoding C36
+Now handling font encoding C37 ...
+... no UTF-8 mapping file for font encoding C37
+Now handling font encoding C80 ...
+... no UTF-8 mapping file for font encoding C80
+Now handling font encoding C81 ...
+... no UTF-8 mapping file for font encoding C81
+Now handling font encoding C01 ...
+... no UTF-8 mapping file for font encoding C01
+Now handling font encoding C11 ...
+... no UTF-8 mapping file for font encoding C11
+Now handling font encoding C21 ...
+... no UTF-8 mapping file for font encoding C21
+Now handling font encoding C41 ...
+... no UTF-8 mapping file for font encoding C41
+Now handling font encoding C62 ...
+... no UTF-8 mapping file for font encoding C62
+)
+LaTeX Info: Redefining \selectfont on input line 756.
+\CJK@indent=\box30
+) (E:\CTEX\CTeX\tex\latex\ccmap\ccmap.sty
+Package: ccmap 2006/11/18
+
+Package ccmap Warning: fontenc already loaded - some fonts may be unprocessed.
+
+\CCT@hooka@@=\toks25
+) (E:\CTEX\MiKTeX\tex\latex\cancel\cancel.sty
+Package: cancel 2000/03/12 v2.1 Cancel math terms
+)
+(E:\CTEX\MiKTeX\tex\latex\adjustbox\adjustbox.sty
+Package: adjustbox 2011/11/14 v0.8 Adjusting TeX boxes (trim, clip, ...)
+
+(E:\CTEX\MiKTeX\tex\latex\xkeyval\xkeyval.sty
+Package: xkeyval 2008/08/13 v2.6a package option processing (HA)
+
+(E:\CTEX\MiKTeX\tex\generic\xkeyval\xkeyval.tex
+\XKV@toks=\toks26
+\XKV@tempa@toks=\toks27
+\XKV@depth=\count110
+File: xkeyval.tex 2008/08/13 v2.6a key=value parser (HA)
+))
+(E:\CTEX\MiKTeX\tex\latex\adjustbox\adjcalc.sty)
+(E:\CTEX\MiKTeX\tex\latex\graphics\graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(E:\CTEX\MiKTeX\tex\latex\graphics\graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(E:\CTEX\MiKTeX\tex\latex\graphics\trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(E:\CTEX\MiKTeX\tex\latex\00miktex\graphics.cfg
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(E:\CTEX\MiKTeX\tex\latex\pdftex-def\pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(E:\CTEX\MiKTeX\tex\generic\oberdiek\infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
+)
+(E:\CTEX\MiKTeX\tex\generic\oberdiek\ltxcmds.sty
+Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count111
+))
+\Gin@req@height=\dimen129
+\Gin@req@width=\dimen130
+)
+(E:\CTEX\MiKTeX\tex\latex\collectbox\collectbox.sty
+Package: collectbox 2011/08/23 v0.4 Collect macro arguments as boxes
+\collectedbox=\box31
+)
+\adjbox@tllx=\dimen131
+\adjbox@tlly=\dimen132
+\adjbox@turx=\dimen133
+\adjbox@tury=\dimen134
+\adjbox@Width=\dimen135
+\adjbox@Height=\dimen136
+\adjbox@Depth=\dimen137
+\adjbox@Totalheight=\dimen138
+Package adjustbox Info: Using driver 'adjpdftex.def'. on input line 290.
+
+(E:\CTEX\MiKTeX\tex\latex\adjustbox\adjpdftex.def
+File: adjpdftex.def 2011/11/14 v0.8 adjustbox clip driver for pdftex
+)
+(E:\CTEX\MiKTeX\tex\latex\ltxmisc\varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box32
+\sift@deathcycles=\count112
+\@vwid@loff=\dimen139
+\@vwid@roff=\dimen140
+))
+(E:\CTEX\MiKTeX\tex\latex\biblatex\biblatex.sty
+Package: biblatex 2011/11/13 v1.7 programmable bibliographies
+
+(E:\CTEX\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+Package: etoolbox 2011/01/03 v2.1 e-TeX tools for LaTeX
+
+(E:\CTEX\MiKTeX\tex\latex\misc\etex.sty
+Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
+\et@xins=\count113
+)
+\etb@tempcnta=\count114
+)
+(E:\CTEX\MiKTeX\tex\latex\logreq\logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count115
+
+(E:\CTEX\MiKTeX\tex\latex\logreq\logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+(E:\CTEX\MiKTeX\tex\latex\base\ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(E:\CTEX\MiKTeX\tex\latex\ltxmisc\url.sty
+\Urlmuskip=\muskip11
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+\c@listtotal=\count116
+\c@listcount=\count117
+\c@liststart=\count118
+\c@liststop=\count119
+\c@citecount=\count120
+\c@citetotal=\count121
+\c@multicitecount=\count122
+\c@multicitetotal=\count123
+\c@instcount=\count124
+\c@maxnames=\count125
+\c@minnames=\count126
+\c@maxitems=\count127
+\c@minitems=\count128
+\c@citecounter=\count129
+\c@savedcitecounter=\count130
+\c@uniquelist=\count131
+\c@uniquename=\count132
+\c@refsection=\count133
+\c@refsegment=\count134
+\c@maxextrayear=\count135
+\c@maxextraalpha=\count136
+\c@abbrvpenalty=\count137
+\c@highnamepenalty=\count138
+\c@lownamepenalty=\count139
+\c@maxparens=\count140
+\c@parenlevel=\count141
+\blx@tempcnta=\count142
+\blx@tempcntb=\count143
+\blx@tempcntc=\count144
+\blx@maxsection=\count145
+\blx@maxsegment=\count146
+\blx@notetype=\count147
+\blx@parenlevel@text=\count148
+\blx@parenlevel@foot=\count149
+\labelnumberwidth=\skip50
+\labelalphawidth=\skip51
+\shorthandwidth=\skip52
+\biblabelsep=\skip53
+\bibitemsep=\skip54
+\bibnamesep=\skip55
+\bibinitsep=\skip56
+\bibparsep=\skip57
+\bibhang=\skip58
+\blx@auxin=\read1
+\blx@auxout=\write3
+\c@mincomprange=\count150
+\c@maxcomprange=\count151
+\c@mincompwidth=\count152
+\c@labelname=\count153
+\c@savedlabelname=\count154
+\c@author=\count155
+\c@savedauthor=\count156
+\c@shortauthor=\count157
+\c@savedshortauthor=\count158
+\c@editor=\count159
+\c@savededitor=\count160
+\c@editora=\count161
+\c@savededitora=\count162
+\c@editorb=\count163
+\c@savededitorb=\count164
+\c@editorc=\count165
+\c@savededitorc=\count166
+\c@shorteditor=\count167
+\c@savedshorteditor=\count168
+\c@bookauthor=\count169
+\c@savedbookauthor=\count170
+\c@translator=\count171
+\c@savedtranslator=\count172
+\c@annotator=\count173
+\c@savedannotator=\count174
+\c@commentator=\count175
+\c@savedcommentator=\count176
+\c@introduction=\count177
+\c@savedintroduction=\count178
+\c@foreword=\count179
+\c@savedforeword=\count180
+\c@afterword=\count181
+\c@savedafterword=\count182
+\c@holder=\count183
+\c@savedholder=\count184
+\c@namea=\count185
+\c@savednamea=\count186
+\c@nameb=\count187
+\c@savednameb=\count188
+\c@namec=\count189
+\c@savednamec=\count190
+\c@institution=\count191
+\c@savedinstitution=\count192
+\c@language=\count193
+\c@savedlanguage=\count194
+\c@location=\count195
+\c@savedlocation=\count196
+\c@organization=\count197
+\c@savedorganization=\count198
+\c@origlocation=\count199
+\c@savedoriglocation=\count200
+\c@origpublisher=\count201
+\c@savedorigpublisher=\count202
+\c@pageref=\count203
+\c@savedpageref=\count204
+\c@publisher=\count205
+\c@savedpublisher=\count206
+\c@lista=\count207
+\c@savedlista=\count208
+\c@listb=\count209
+\c@savedlistb=\count210
+\c@listc=\count211
+\c@savedlistc=\count212
+\c@listd=\count213
+\c@savedlistd=\count214
+\c@liste=\count215
+\c@savedliste=\count216
+\c@listf=\count217
+\c@savedlistf=\count218
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(E:\CTEX\MiKTeX\tex\latex\biblatex\blx-compat.def
+File: blx-compat.def 2011/11/13 v1.7 biblatex generic compatibility
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(E:\CTEX\MiKTeX\tex\latex\biblatex\biblatex.def
+File: biblatex.def 2011/11/13 v1.7 biblatex generic definitions
+\c@biburlnumpenalty=\count219
+\c@biburlucpenalty=\count220
+\c@biburllcpenalty=\count221
+\c@smartand=\count222
+)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+(E:\CTEX\MiKTeX\tex\latex\biblatex\bbx\numeric.bbx
+File: numeric.bbx 2011/11/13 v1.7 biblatex bibliography style
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(E:\CTEX\MiKTeX\tex\latex\biblatex\bbx\standard.bbx
+File: standard.bbx 2011/11/13 v1.7 biblatex bibliography style
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+
+(E:\CTEX\MiKTeX\tex\latex\biblatex\cbx\numeric.cbx
+File: numeric.cbx 2011/11/13 v1.7 biblatex citation style
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(E:\CTEX\MiKTeX\tex\latex\biblatex\biblatex.cfg
+File: biblatex.cfg 
+))
+(E:\CTEX\MiKTeX\tex\latex\graphics\epsfig.sty
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+\epsfxsize=\dimen141
+\epsfysize=\dimen142
+)
+(E:\CTEX\MiKTeX\tex\latex\base\textcomp.sty
+Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 71.
+
+(E:\CTEX\MiKTeX\tex\latex\base\ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+Now handling font encoding TS1 ...
+... processing UTF-8 mapping file for font encoding TS1
+
+(E:\CTEX\MiKTeX\tex\latex\base\ts1enc.dfu
+File: ts1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A2 (decimal 162)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A5 (decimal 165)
+   defining Unicode char U+00A6 (decimal 166)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00A8 (decimal 168)
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AC (decimal 172)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00AF (decimal 175)
+   defining Unicode char U+00B0 (decimal 176)
+   defining Unicode char U+00B1 (decimal 177)
+   defining Unicode char U+00B2 (decimal 178)
+   defining Unicode char U+00B3 (decimal 179)
+   defining Unicode char U+00B4 (decimal 180)
+   defining Unicode char U+00B5 (decimal 181)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+00B9 (decimal 185)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+00BC (decimal 188)
+   defining Unicode char U+00BD (decimal 189)
+   defining Unicode char U+00BE (decimal 190)
+   defining Unicode char U+00D7 (decimal 215)
+   defining Unicode char U+00F7 (decimal 247)
+   defining Unicode char U+0192 (decimal 402)
+   defining Unicode char U+02C7 (decimal 711)
+   defining Unicode char U+02D8 (decimal 728)
+   defining Unicode char U+02DD (decimal 733)
+   defining Unicode char U+0E3F (decimal 3647)
+   defining Unicode char U+2016 (decimal 8214)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+203B (decimal 8251)
+   defining Unicode char U+203D (decimal 8253)
+   defining Unicode char U+2044 (decimal 8260)
+   defining Unicode char U+204E (decimal 8270)
+   defining Unicode char U+2052 (decimal 8274)
+   defining Unicode char U+20A1 (decimal 8353)
+   defining Unicode char U+20A4 (decimal 8356)
+   defining Unicode char U+20A6 (decimal 8358)
+   defining Unicode char U+20A9 (decimal 8361)
+   defining Unicode char U+20AB (decimal 8363)
+   defining Unicode char U+20AC (decimal 8364)
+   defining Unicode char U+20B1 (decimal 8369)
+   defining Unicode char U+2103 (decimal 8451)
+   defining Unicode char U+2116 (decimal 8470)
+   defining Unicode char U+2117 (decimal 8471)
+   defining Unicode char U+211E (decimal 8478)
+   defining Unicode char U+2120 (decimal 8480)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2126 (decimal 8486)
+   defining Unicode char U+2127 (decimal 8487)
+   defining Unicode char U+212E (decimal 8494)
+   defining Unicode char U+2190 (decimal 8592)
+   defining Unicode char U+2191 (decimal 8593)
+   defining Unicode char U+2192 (decimal 8594)
+   defining Unicode char U+2193 (decimal 8595)
+   defining Unicode char U+2329 (decimal 9001)
+   defining Unicode char U+232A (decimal 9002)
+   defining Unicode char U+2422 (decimal 9250)
+   defining Unicode char U+25E6 (decimal 9702)
+   defining Unicode char U+25EF (decimal 9711)
+   defining Unicode char U+266A (decimal 9834)
+))
+LaTeX Info: Redefining \oldstylenums on input line 266.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 281.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 282.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 283.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 284.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 285.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 286.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 287.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 288.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 289.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 290.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 291.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 292.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 293.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 294.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 295.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 296.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 297.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 298.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 299.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 300.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 301.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 302.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 303.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 304.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 305.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 306.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 307.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 308.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 309.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 310.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 311.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 312.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 313.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 314.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 315.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 316.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 317.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 318.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 319.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 320.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 321.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 322.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 323.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 324.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 325.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 326.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 327.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 328.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 329.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 330.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 331.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 332.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 333.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 334.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 335.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 336.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 337.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 338.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 339.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
+)
+(E:\CTEX\MiKTeX\tex\latex\tools\array.sty
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen143
+\extrarowheight=\dimen144
+\NC@list=\toks28
+\extratabsurround=\skip59
+\backup@length=\skip60
+)
+(E:\CTEX\MiKTeX\tex\latex\tools\tabularx.sty
+Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
+\TX@col@width=\dimen145
+\TX@old@table=\dimen146
+\TX@old@col=\dimen147
+\TX@target=\dimen148
+\TX@delta=\dimen149
+\TX@cols=\count223
+\TX@ftn=\toks29
+)
+(E:\CTEX\MiKTeX\tex\latex\booktabs\booktabs.sty
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen150
+\lightrulewidth=\dimen151
+\cmidrulewidth=\dimen152
+\belowrulesep=\dimen153
+\belowbottomsep=\dimen154
+\aboverulesep=\dimen155
+\abovetopsep=\dimen156
+\cmidrulesep=\dimen157
+\cmidrulekern=\dimen158
+\defaultaddspace=\dimen159
+\@cmidla=\count224
+\@cmidlb=\count225
+\@aboverulesep=\dimen160
+\@belowrulesep=\dimen161
+\@thisruleclass=\count226
+\@lastruleclass=\count227
+\@thisrulewidth=\dimen162
+)
+(E:\CTEX\MiKTeX\tex\latex\tools\multicol.sty
+Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
+\c@tracingmulticols=\count228
+\mult@box=\box33
+\multicol@leftmargin=\dimen163
+\c@unbalance=\count229
+\c@collectmore=\count230
+\doublecol@number=\count231
+\multicoltolerance=\count232
+\multicolpretolerance=\count233
+\full@width=\dimen164
+\page@free=\dimen165
+\premulticols=\dimen166
+\postmulticols=\dimen167
+\multicolsep=\skip61
+\multicolbaselineskip=\skip62
+\partial@page=\box34
+\last@line=\box35
+\mult@rightbox=\box36
+\mult@grightbox=\box37
+\mult@gfirstbox=\box38
+\mult@firstbox=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\@tempa=\box50
+\@tempa=\box51
+\@tempa=\box52
+\@tempa=\box53
+\@tempa=\box54
+\@tempa=\box55
+\@tempa=\box56
+Normal \count register pool exhausted, switching to extended pool.
+\c@columnbadness=\count277
+\c@finalcolumnbadness=\count278
+\last@try=\dimen168
+\multicolovershoot=\dimen169
+\multicolundershoot=\dimen170
+\mult@nat@firstbox=\box57
+\colbreak@box=\box58
+\multicol@sort@counter=\count279
+)
+(E:\CTEX\MiKTeX\tex\latex\listings\listings.sty
+\lst@mode=\count280
+\lst@gtempboxa=\box59
+\lst@token=\toks30
+\lst@length=\count281
+\lst@currlwidth=\dimen171
+\lst@column=\count282
+\lst@pos=\count283
+\lst@lostspace=\dimen172
+\lst@width=\dimen173
+\lst@newlines=\count284
+\lst@lineno=\count285
+\lst@maxwidth=\dimen174
+
+(E:\CTEX\MiKTeX\tex\latex\listings\lstmisc.sty
+File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
+\c@lstnumber=\count286
+\lst@skipnumbers=\count287
+\lst@framebox=\box60
+)
+(E:\CTEX\MiKTeX\tex\latex\listings\listings.cfg
+File: listings.cfg 2007/02/22 1.4 listings configuration
+))
+Package: listings 2007/02/22 1.4 (Carsten Heinz)
+
+(E:\CTEX\MiKTeX\tex\latex\listings\lstlang1.sty
+File: lstlang1.sty 2004/09/05 1.3 listings language file
+)
+(E:\CTEX\MiKTeX\tex\latex\listings\lstlang1.sty
+File: lstlang1.sty 2004/09/05 1.3 listings language file
+)
+(E:\CTEX\MiKTeX\tex\latex\listings\lstmisc.sty
+File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
+)
+(E:\CTEX\MiKTeX\tex\latex\hyperref\hyperref.sty
+Package: hyperref 2012/02/06 v6.82o Hypertext links for LaTeX
+
+(E:\CTEX\MiKTeX\tex\generic\oberdiek\hobsub-hyperref.sty
+Package: hobsub-hyperref 2011/04/23 v1.4 Bundle oberdiek, subset hyperref (HO)
+
+(E:\CTEX\MiKTeX\tex\generic\oberdiek\hobsub-generic.sty
+Package: hobsub-generic 2011/04/23 v1.4 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2011/04/23 v1.4 Subsetting bundle oberdiek (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2007/09/27 v1.1 Expandable integer calculations (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2011/02/16 v1.5 Prefix for e-TeX command names (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2011/04/07 v1.13 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Defining keys (HO)
+Package: pdftexcmds 2011/04/22 v0.16 Utilities of pdfTeX for LuaTeX (HO)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/04/04 v1.12 Provides string conversions (HO)
+Package: bigintcalc 2011/01/30 v1.2 Expandable big integer calculations (HO)
+Package: bitset 2011/01/30 v1.1 Data type bit set (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provides unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2011/01/30 v1.0 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/04/23 v1.7 Hooks at very end of document (HO)
+Package: atbegshi 2011/01/30 v1.15 At begin shipout hook (HO)
+Package: refcount 2010/12/01 v3.2 Data extraction from references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options of hyperref/bookmark (HO)
+)
+(E:\CTEX\MiKTeX\tex\latex\oberdiek\kvoptions.sty
+Package: kvoptions 2010/12/23 v3.10 Keyval support for LaTeX options (HO)
+)
+\@linkdim=\dimen175
+\Hy@linkcounter=\count288
+\Hy@pagecounter=\count289
+
+(E:\CTEX\MiKTeX\tex\latex\hyperref\pd1enc.def
+File: pd1enc.def 2012/02/06 v6.82o Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+\Hy@SavedSpaceFactor=\count290
+
+(E:\CTEX\MiKTeX\tex\latex\00miktex\hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4046.
+Package hyperref Info: Link nesting OFF on input line 4051.
+Package hyperref Info: Hyper index ON on input line 4054.
+Package hyperref Info: Plain pages OFF on input line 4061.
+Package hyperref Info: Backreferencing OFF on input line 4066.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4284.
+\c@Hy@tempcnt=\count291
+LaTeX Info: Redefining \url on input line 4637.
+\Fld@menulength=\count292
+\Field@Width=\dimen176
+\Fld@charsize=\dimen177
+Package hyperref Info: Hyper figures OFF on input line 5757.
+Package hyperref Info: Link nesting OFF on input line 5762.
+Package hyperref Info: Hyper index ON on input line 5765.
+Package hyperref Info: backreferencing OFF on input line 5772.
+Package hyperref Info: Link coloring OFF on input line 5777.
+Package hyperref Info: Link coloring with OCG OFF on input line 5782.
+Package hyperref Info: PDF/A mode OFF on input line 5787.
+LaTeX Info: Redefining \ref on input line 5827.
+LaTeX Info: Redefining \pageref on input line 5831.
+\Hy@abspage=\count293
+\c@Item=\count294
+\c@Hfootnote=\count295
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(E:\CTEX\MiKTeX\tex\latex\hyperref\hpdftex.def
+File: hpdftex.def 2012/02/06 v6.82o Hyperref driver for pdfTeX
+\Fld@listcount=\count296
+\c@bookmark@seq@number=\count297
+
+(E:\CTEX\MiKTeX\tex\latex\oberdiek\rerunfilecheck.sty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip63
+)
+(E:\CTEX\MiKTeX\tex\latex\amsfonts\amssymb.sty
+Package: amssymb 2009/06/22 v3.00
+
+(E:\CTEX\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+))
+(E:\CTEX\MiKTeX\tex\latex\fancyhdr\fancyhdr.sty
+\fancy@headwidth=\skip64
+\f@ncyO@elh=\skip65
+\f@ncyO@erh=\skip66
+\f@ncyO@olh=\skip67
+\f@ncyO@orh=\skip68
+\f@ncyO@elf=\skip69
+\f@ncyO@erf=\skip70
+\f@ncyO@olf=\skip71
+\f@ncyO@orf=\skip72
+)
+(E:\CTEX\MiKTeX\tex\latex\acronym\acronym.sty
+Package: acronym 2010/09/08 v1.36 Support for acronyms (Tobias Oetiker)
+
+(E:\CTEX\MiKTeX\tex\latex\bigfoot\suffix.sty
+Package: suffix 2006/07/15 1.5 Variant command support
+)
+\AC@clearlist=\toks31
+)
+(E:\CTEX\MiKTeX\tex\latex\comment\comment.sty
+\CommentStream=\write4
+ Excluding comment 'comment')
+(E:\CTEX\MiKTeX\tex\latex\feynmf\feynmp.sty
+Package: feynmp 1996/12/02 v1.08 LaTeX/MetaPost Feynman Diagram Package (ohl)
+\@outfmf=\write5
+\fmfbuf@=\toks32
+\c@fmfgraph=\count298
+)
+(E:\CTEX\MiKTeX\tex\latex\tools\xspace.sty
+Package: xspace 2009/10/20 v1.13 Space after command names (DPC,MH)
+)
+(E:\CTEX\MiKTeX\tex\latex\was\upgreek.sty
+Package: upgreek 2003/02/12 v2.0 (WaS)
+Package upgreek Info: Using Euler Roman for upright Greek on input line 31.
+\symugrf@m=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `ugrf@m' in version `bold'
+(Font)                  U/eur/m/n --> U/eur/b/n on input line 38.
+))
+Package biblatex Info: Trying to load language 'french'...
+Package biblatex Info: ... file 'french.lbx' found.
+
+(E:\CTEX\MiKTeX\tex\latex\biblatex\lbx\french.lbx
+File: french.lbx 2011/11/13 v1.7 biblatex localization
+)
+
+Package biblatex Warning: 'babel' detected but 'csquotes' missing.
+(biblatex)                Loading 'csquotes' recommended.
+
+\@quotelevel=\count299
+\@quotereset=\count300
+
+LaTeX Warning: Unused global option(s):
+    [9pt].
+
+(D:\my_cernbox\PhD_thesis\PhD_thesis\Thesis_Wenxing.aux
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(E:\CTEX\MiKTeX\tex\latex\biblatex\lbx\english.lbx
+File: english.lbx 2011/11/13 v1.7 biblatex localization
+))
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 4.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 4.
+
+(E:\CTEX\MiKTeX\tex\latex\base\ts1cmr.fd
+File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=455.24411pt
+* \textheight=702.78308pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-31.2056pt
+* \headheight=12.0pt
+* \headsep=18.06749pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=115.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Info: Redefining \degres on input line 4.
+LaTeX Info: Redefining \dots on input line 4.
+LaTeX Info: Redefining \up on input line 4.
+(E:\CTEX\MiKTeX\tex\context\base\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count301
+\scratchdimen=\dimen178
+\scratchbox=\box61
+\nofMPsegments=\count302
+\nofMParguments=\count303
+\everyMPshowfont=\toks33
+\MPscratchCnt=\count304
+\MPscratchDim=\dimen179
+\MPnumerator=\count305
+\makeMPintoPDFobject=\count306
+\everyMPtoPDFconversion=\toks34
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+
+
+Package biblatex Warning: Data encoding is 'utf8'.
+(biblatex)                Use backend=biber.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'Thesis_Wenxing.bbl' found.
+(D:\my_cernbox\PhD_thesis\PhD_thesis\Thesis_Wenxing.bbl
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Antonella:1975962':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Sirunyan2018':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'PhysRevLett.13.321':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'PhysRevLett.13.508':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'PhysRevLett.19.1264':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Salam1959':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Chatrchyan2011':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'PhysRevLett.10.531':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'RevModPhys.70.323':
+(biblatex)                - Invalid format of field 'month'.
+
+)
+Package biblatex Info: Reference section=0 on input line 4.
+Package biblatex Info: Reference segment=0 on input line 4.
+\c@lstlisting=\count307
+\AtBeginShipoutBox=\box62
+Package hyperref Info: Link coloring OFF on input line 4.
+ (E:\CTEX\MiKTeX\tex\latex\hyperref\nameref.sty
+Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
+
+(E:\CTEX\MiKTeX\tex\generic\oberdiek\gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count308
+)
+LaTeX Info: Redefining \ref on input line 4.
+LaTeX Info: Redefining \pageref on input line 4.
+LaTeX Info: Redefining \nameref on input line 4.
+
+(D:\my_cernbox\PhD_thesis\PhD_thesis\Thesis_Wenxing.out)
+(D:\my_cernbox\PhD_thesis\PhD_thesis\Thesis_Wenxing.out)
+\@outlinefile=\write6
+
+(E:\CTEX\MiKTeX\tex\latex\cjk\standard.bdg
+File: standard.bdg 2008/12/29 4.8.2
+)
+(E:\CTEX\MiKTeX\tex\latex\cjk\extended.enc
+File: extended.enc 2008/12/29 4.8.2
+)
+(E:\CTEX\MiKTeX\tex\latex\cjk\extended.chr
+File: extended.chr 2008/12/29 4.8.2
+)
+(D:\my_cernbox\PhD_thesis\PhD_thesis\my_commands.tex
+\cmsFigWidth=\skip73
+)
+(D:\my_cernbox\PhD_thesis\PhD_thesis\cover.tex<<t1.cmap>>
+<figures/logo_buaa.jpg, id=60, 451.6875pt x 451.6875pt>
+File: figures/logo_buaa.jpg Graphic file (type jpg)
+
+<use figures/logo_buaa.jpg>
+Package pdftex.def Info: figures/logo_buaa.jpg used on input line 14.
+(pdftex.def)             Requested size: 63.73206pt x 63.73389pt.
+
+<figures/logo_iihe.jpg, id=61, 170.91855pt x 91.7829pt>
+File: figures/logo_iihe.jpg Graphic file (type jpg)
+
+<use figures/logo_iihe.jpg>
+Package pdftex.def Info: figures/logo_iihe.jpg used on input line 16.
+(pdftex.def)             Requested size: 118.68501pt x 63.73389pt.
+
+<figures/logonorm_ulb.jpg, id=62, 282.05376pt x 282.05376pt>
+File: figures/logonorm_ulb.jpg Graphic file (type jpg)
+
+<use figures/logonorm_ulb.jpg>
+Package pdftex.def Info: figures/logonorm_ulb.jpg used on input line 18.
+(pdftex.def)             Requested size: 63.73048pt x 63.73389pt.
+ [1
+
+
+
+{E:/CTEX/UserData/pdftex/config/pdftex.map{Unicode.sfd}{UGBK.sfd}} <D:/my_cernb
+ox/PhD_thesis/PhD_thesis/figures/logo_buaa.jpg> <D:/my_cernbox/PhD_thesis/PhD_t
+hesis/figures/logo_iihe.jpg> <D:/my_cernbox/PhD_thesis/PhD_thesis/figures/logon
+orm_ulb.jpg>]pdfTeX warning (ext4): destination with the same identifier (name{
+page.i}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.56 \end{titlepage}
+                     [1] [2]pdfTeX warning (ext4): destination with the same id
+entifier (name{page.ii}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.98 \newpage
+              [2]) (D:\my_cernbox\PhD_thesis\PhD_thesis\abstract_CN.tex
+LaTeX Font Info:    Try loading font information for C19+song on input line 4.
+
+(E:\CTEX\CTeX\tex\latex\CJK\GB\c19song.fd
+File: c19song.fd 2009/09/23 4.8.2
+)<<c1963.cmap>><<c1961.cmap>><<c1942.cmap>><<c1949.cmap>><<c1958.cmap>><<c1946.
+cmap>><<c1955.cmap>><<c1948.cmap>><<c1962.cmap>><<c1956.cmap>><<c1940.cmap>><<c
+1965.cmap>><<c1951.cmap>><<c1957.cmap>><<c1960.cmap>><<c1964.cmap>><<c1943.cmap
+>><<c1947.cmap>><<c1938.cmap>><<c1925.cmap>><<c1937.cmap>><<c1941.cmap>><<c1959
+.cmap>><<c1954.cmap>><<c1939.cmap>><<c1953.cmap>><<c1944.cmap>><<c1926.cmap>><<
+c1945.cmap>><<c1977.cmap>><<c1952.cmap>><<c1950.cmap>><<ot1.cmap>><<oml.cmap>><
+<oms.cmap>><<omx.cmap>>
+LaTeX Font Info:    Try loading font information for U+msa on input line 8.
+
+(E:\CTEX\MiKTeX\tex\latex\amsfonts\umsa.fd
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+
+LaTeX Warning: File u.cmap not found on input line 8.
+
+LaTeX Font Info:    Try loading font information for U+msb on input line 8.
+(E:\CTEX\MiKTeX\tex\latex\amsfonts\umsb.fd
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+)<<c1984.cmap>><<c1936.cmap>>)
+(D:\my_cernbox\PhD_thesis\PhD_thesis\abstract_FN.tex [3]pdfTeX warning (ext4): 
+destination with the same identifier (name{page.iii}) has been already used, du
+plicate ignored
+<to be read again> 
+                   \relax 
+l.3 \clearpage
+               [3
+
+]<<c1930.cmap>> [4]pdfTeX warning (ext4): destination with the same identifier 
+(name{page.iv}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.67 \newpage
+              [4]) (D:\my_cernbox\PhD_thesis\PhD_thesis\abstract.tex [5
+
+]pdfTeX warning (ext4): destination with the same identifier (name{page.v}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.18 \newpage
+              [5] [6]pdfTeX warning (ext4): destination with the same identifie
+r (name{page.vi}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.42 \newpage
+              [6]) (D:\my_cernbox\PhD_thesis\PhD_thesis\Thesis_Wenxing.toc)
+\tf@toc=\write7
+
+[7
+
+] [8
+
+] (D:\my_cernbox\PhD_thesis\PhD_thesis\chapters/Introduce_CN.tex<<c1986.cmap>> 
+<figures/theory/sm.png, id=234, 776.9025pt x 583.17876pt>
+File: figures/theory/sm.png Graphic file (type png)
+
+<use figures/theory/sm.png>
+Package pdftex.def Info: figures/theory/sm.png used on input line 9.
+(pdftex.def)             Requested size: 341.43307pt x 256.29689pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[1
+
+]
+Overfull \hbox (31.30438pt too wide) in paragraph at lines 19--20
+[]\C19/song/m/n/12/64  \C19/song/m/n/12/61 Ï \C19/song/m/n/12/54 X \C19/song/m
+/n/12/39 d \C19/song/m/n/12/26 § \C19/song/m/n/12/60 N \C19/song/m/n/12/40 õ \C
+19/song/m/n/12/38 ‡ \C19/song/m/n/12/63  \C19/song/m/n/12/37 I \C19/song/m/n/1
+2/65 O \C19/song/m/n/12/51  \C19/song/m/n/12/60 . \C19/song/m/n/12/58 Ô \C19/s
+ong/m/n/12/48 n \C19/song/m/n/12/60 Æ \C19/song/m/n/12/40  \C19/song/m/n/12/48
+ n \C19/song/m/n/12/49 Ø \C19/song/m/n/12/37  \C19/song/m/n/12/57 J \C19/song/
+m/n/12/49 
+ \C19/song/m/n/12/38 Ñ \C19/song/m/n/12/48 5 \C19/song/m/n/12/25 " \C19/song/m/
+n/12/48 ~ \C19/song/m/n/12/54 X \C19/song/m/n/12/38 ‡ \C19/song/m/n/12/40 é \C1
+9/song/m/n/12/38 ¡ \C19/song/m/n/12/51  \C19/song/m/n/12/60 . \C19/song/m/n/12
+/26 £\T1/cmr/m/n/12 SUSY\C19/song/m/n/12/26 ¤ \T1/cmr/m/n/12 [[]11[]]\C19/song/
+m/n/12/26 §
+ []
+
+[2 <D:/my_cernbox/PhD_thesis/PhD_thesis/figures/theory/sm.png>]
+<figures/LHC/LHC.jpeg, id=285, 1508.63625pt x 1023.825pt>
+File: figures/LHC/LHC.jpeg Graphic file (type jpg)
+
+<use figures/LHC/LHC.jpeg>
+Package pdftex.def Info: figures/LHC/LHC.jpeg used on input line 28.
+(pdftex.def)             Requested size: 223.07211pt x 151.37999pt.
+
+<figures/LHC/LHC2.jpg, id=286, 375.3222pt x 391.7034pt>
+File: figures/LHC/LHC2.jpg Graphic file (type jpg)
+
+<use figures/LHC/LHC2.jpg>
+Package pdftex.def Info: figures/LHC/LHC2.jpg used on input line 29.
+(pdftex.def)             Requested size: 223.07211pt x 232.8124pt.
+
+<figures/LHC/pile-up.png, id=291, 1606.0pt x 1151.30125pt>
+File: figures/LHC/pile-up.png Graphic file (type png)
+
+<use figures/LHC/pile-up.png>
+Package pdftex.def Info: figures/LHC/pile-up.png used on input line 39.
+(pdftex.def)             Requested size: 136.57462pt x 97.90323pt.
+
+<figures/LHC/pileup_pp_2016_69200.pdf, id=292, 578.16pt x 433.62pt>
+File: figures/LHC/pileup_pp_2016_69200.pdf Graphic file (type pdf)
+
+<use figures/LHC/pileup_pp_2016_69200.pdf>
+Package pdftex.def Info: figures/LHC/pileup_pp_2016_69200.pdf used on input lin
+e 40.
+(pdftex.def)             Requested size: 145.68144pt x 109.25826pt.
+
+<figures/LHC/pileup_pp_2017_69200.pdf, id=293, 578.16pt x 433.62pt>
+File: figures/LHC/pileup_pp_2017_69200.pdf Graphic file (type pdf)
+
+<use figures/LHC/pileup_pp_2017_69200.pdf>
+Package pdftex.def Info: figures/LHC/pileup_pp_2017_69200.pdf used on input lin
+e 41.
+(pdftex.def)             Requested size: 145.68144pt x 109.25826pt.
+
+
+LaTeX Warning: Reference `sec:LHC' on page 3 undefined on input line 47.
+
+
+<figures/LHC/HL_LHC_PlanUpdateJuly2015.PNG, id=297, 1390.44469pt x 574.39594pt>
+File: figures/LHC/HL_LHC_PlanUpdateJuly2015.PNG Graphic file (type png)
+<use figures/LHC/HL_LHC_PlanUpdateJuly2015.PNG>
+Package pdftex.def Info: figures/LHC/HL_LHC_PlanUpdateJuly2015.PNG used on inpu
+t line 50.
+(pdftex.def)             Requested size: 409.71692pt x 169.2525pt.
+ [3
+
+ <D:/my_cernbox/PhD_thesis/PhD_thesis/figures/LHC/LHC.jpeg> <D:/my_cernbox/PhD_
+thesis/PhD_thesis/figures/LHC/LHC2.jpg> <D:/my_cernbox/PhD_thesis/PhD_thesis/fi
+gures/LHC/pile-up.png> <D:/my_cernbox/PhD_thesis/PhD_thesis/figures/LHC/pileup_
+pp_2016_69200.pdf> <D:/my_cernbox/PhD_thesis/PhD_thesis/figures/LHC/pileup_pp_2
+017_69200.pdf>]
+<figures/CMS/cms.png, id=449, 3189.9175pt x 2253.41875pt>
+File: figures/CMS/cms.png Graphic file (type png)
+
+<use figures/CMS/cms.png>
+Package pdftex.def Info: figures/CMS/cms.png used on input line 59.
+(pdftex.def)             Requested size: 409.71692pt x 289.41313pt.
+
+<figures/CMS/cms_particles.png, id=451, 996.72375pt x 512.91624pt>
+File: figures/CMS/cms_particles.png Graphic file (type png)
+
+<use figures/CMS/cms_particles.png>
+Package pdftex.def Info: figures/CMS/cms_particles.png used on input line 67.
+(pdftex.def)             Requested size: 409.71692pt x 210.83705pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<<c1966.cmap>>
+Missing character: There is no £ in font cmr12!
+Missing character: There is no ¤ in font cmr12!
+
+<figures/CMS/cms_coordinate_system.png, id=455, 260.4129pt x 127.9179pt>
+File: figures/CMS/cms_coordinate_system.png Graphic file (type png)
+
+<use figures/CMS/cms_coordinate_system.png>
+Package pdftex.def Info: figures/CMS/cms_coordinate_system.png used on input li
+ne 76.
+(pdftex.def)             Requested size: 227.62206pt x 111.81271pt.
+ [4 <D:/my_cernbox/PhD_thesis/PhD_thesis/figures/LHC/HL_LHC_PlanUpdateJuly2015.
+PNG> <D:/my_cernbox/PhD_thesis/PhD_thesis/figures/CMS/cms.png>]
+<figures/CMS/tracker/cms_tracker.png, id=472, 708.6475pt x 329.23pt>
+File: figures/CMS/tracker/cms_tracker.png Graphic file (type png)
+
+<use figures/CMS/tracker/cms_tracker.png>
+Package pdftex.def Info: figures/CMS/tracker/cms_tracker.png used on input line
+ 85.
+(pdftex.def)             Requested size: 364.19667pt x 169.20619pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figures/CMS/ECAL/Ecal_layout.png, id=475, 1374.13374pt x 675.52374pt>
+File: figures/CMS/ECAL/Ecal_layout.png Graphic file (type png)
+
+<use figures/CMS/ECAL/Ecal_layout.png>
+Package pdftex.def Info: figures/CMS/ECAL/Ecal_layout.png used on input line 95
+.
+(pdftex.def)             Requested size: 364.19667pt x 179.03355pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Missing character: There is no £ in font cmr12!
+Missing character: There is no ¤ in font cmr12!
+Missing character: There is no £ in font cmr12!
+Missing character: There is no ¤ in font cmr12!
+Missing character: There is no £ in font cmr12!
+Missing character: There is no ¤ in font cmr12!
+[5 <D:/my_cernbox/PhD_thesis/PhD_thesis/figures/CMS/cms_particles.png (PNG copy
+)> <D:/my_cernbox/PhD_thesis/PhD_thesis/figures/CMS/cms_coordinate_system.png>]
+Missing character: There is no £ in font cmr12!
+Missing character: There is no ¤ in font cmr12!
+
+Overfull \hbox (1.08943pt too wide) in paragraph at lines 105--107
+\C19/song/m/n/12/52 Ù \C19/song/m/n/12/64 ¥ \C19/song/m/n/12/26 §\T1/cmr/m/n/12
+ S \C19/song/m/n/12/37 L \C19/song/m/n/12/55 « \C19/song/m/n/12/56 ‘ \C19/song/
+m/n/12/44 Å \C19/song/m/n/12/59 ‘ \C19/song/m/n/12/26 §\T1/cmr/m/n/12 N \C19/so
+ng/m/n/12/39 “ \C19/song/m/n/12/37 L \C19/song/m/n/12/63 D \C19/song/m/n/12/55 
+( \C19/song/m/n/12/59 ‘ \C19/song/m/n/12/26 §\T1/cmr/m/n/12 C \C19/song/m/n/12/
+39 “ \C19/song/m/n/12/37 L \C19/song/m/n/12/38 ~ \C19/song/m/n/12/55 ê \C19/son
+g/m/n/12/59 ‘ \C19/song/m/n/12/25 " \C19/song/m/n/12/48 ~ \C19/song/m/n/12/54 X
+ \C19/song/m/n/12/40 é \C19/song/m/n/12/62 u \C19/song/m/n/12/51 U \C19/song/m/
+n/12/48 þ \C19/song/m/n/12/63 3 \T1/cmr/m/n/12 20 \C19/song/m/n/12/40  \T1/cmr
+/m/n/12 250 GeV \C19/song/m/n/12/40 
+ []
+
+<figures/CMS/HCAL/HCAL.png, id=490, 1180.41pt x 686.565pt>
+File: figures/CMS/HCAL/HCAL.png Graphic file (type png)
+
+<use figures/CMS/HCAL/HCAL.png>
+Package pdftex.def Info: figures/CMS/HCAL/HCAL.png used on input line 111.
+(pdftex.def)             Requested size: 364.19667pt x 211.82724pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 119.
+
+(E:\CTEX\MiKTeX\tex\latex\base\t1cmtt.fd
+File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+<figures/CMS/Muon/Muon.png, id=495, 876.27374pt x 614.295pt>
+File: figures/CMS/Muon/Muon.png Graphic file (type png)
+
+<use figures/CMS/Muon/Muon.png>
+Package pdftex.def Info: figures/CMS/Muon/Muon.png used on input line 126.
+(pdftex.def)             Requested size: 364.19667pt x 255.31198pt.
+ [6 <D:/my_cernbox/PhD_thesis/PhD_thesis/figures/CMS/tracker/cms_tracker.png (P
+NG copy)> <D:/my_cernbox/PhD_thesis/PhD_thesis/figures/CMS/ECAL/Ecal_layout.png
+>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<<c1974.cmap>>
+
+LaTeX Warning: Reference `sec:CMS' on page 7 undefined on input line 132.
+
+
+LaTeX Warning: Reference `chap:Event_reconstruction' on page 7 undefined on inp
+ut line 132.
+
+[7 <D:/my_cernbox/PhD_thesis/PhD_thesis/figures/CMS/HCAL/HCAL.png>] [8 <D:/my_c
+ernbox/PhD_thesis/PhD_thesis/figures/CMS/Muon/Muon.png (PNG copy)>]
+<figures/Zprime/2016/ScaleFactor/SameSign/nominal/g_compare_cut_Et_Barrel_ea_ta
+_exc_AS_nominal_PUW.png, id=540, 999.735pt x 975.645pt>
+File: figures/Zprime/2016/ScaleFactor/SameSign/nominal/g_compare_cut_Et_Barrel_
+ea_ta_exc_AS_nominal_PUW.png Graphic file (type png)
+
+<use figures/Zprime/2016/ScaleFactor/SameSign/nominal/g_compare_cut_Et_Barrel_e
+a_ta_exc_AS_nominal_PUW.png>
+Package pdftex.def Info: figures/Zprime/2016/ScaleFactor/SameSign/nominal/g_com
+pare_cut_Et_Barrel_ea_ta_exc_AS_nominal_PUW.png used on input line 148.
+(pdftex.def)             Requested size: 204.85846pt x 199.91919pt.
+
+<figures/Zprime/2016/ScaleFactor/SameSign/nominal/g_compare_cut_Et_Endcap_ea_ta
+_exc_AS_nominal_PUW.png, id=541, 999.735pt x 975.645pt>
+File: figures/Zprime/2016/ScaleFactor/SameSign/nominal/g_compare_cut_Et_Endcap_
+ea_ta_exc_AS_nominal_PUW.png Graphic file (type png)
+
+<use figures/Zprime/2016/ScaleFactor/SameSign/nominal/g_compare_cut_Et_Endcap_e
+a_ta_exc_AS_nominal_PUW.png>
+Package pdftex.def Info: figures/Zprime/2016/ScaleFactor/SameSign/nominal/g_com
+pare_cut_Et_Endcap_ea_ta_exc_AS_nominal_PUW.png used on input line 149.
+(pdftex.def)             Requested size: 204.85846pt x 199.91919pt.
+
+<figures/Zprime/2017/ScaleFactor/SameSign/nominal/g_compare_cut_Et_Barrel_ea_ta
+_exc_AS_nominal_PUW.png, id=542, 999.735pt x 975.645pt>
+File: figures/Zprime/2017/ScaleFactor/SameSign/nominal/g_compare_cut_Et_Barrel_
+ea_ta_exc_AS_nominal_PUW.png Graphic file (type png)
+
+<use figures/Zprime/2017/ScaleFactor/SameSign/nominal/g_compare_cut_Et_Barrel_e
+a_ta_exc_AS_nominal_PUW.png>
+Package pdftex.def Info: figures/Zprime/2017/ScaleFactor/SameSign/nominal/g_com
+pare_cut_Et_Barrel_ea_ta_exc_AS_nominal_PUW.png used on input line 150.
+(pdftex.def)             Requested size: 204.85846pt x 199.91919pt.
+
+<figures/Zprime/2017/ScaleFactor/SameSign/nominal/g_compare_cut_Et_Endcap_ea_ta
+_exc_AS_nominal_PUW.png, id=543, 999.735pt x 975.645pt>
+File: figures/Zprime/2017/ScaleFactor/SameSign/nominal/g_compare_cut_Et_Endcap_
+ea_ta_exc_AS_nominal_PUW.png Graphic file (type png)
+
+<use figures/Zprime/2017/ScaleFactor/SameSign/nominal/g_compare_cut_Et_Endcap_e
+a_ta_exc_AS_nominal_PUW.png>
+Package pdftex.def Info: figures/Zprime/2017/ScaleFactor/SameSign/nominal/g_com
+pare_cut_Et_Endcap_ea_ta_exc_AS_nominal_PUW.png used on input line 151.
+(pdftex.def)             Requested size: 204.85846pt x 199.91919pt.
+
+<figures/Zprime/2016/mass/massHistEEEE.png, id=545, 999.735pt x 975.645pt>
+File: figures/Zprime/2016/mass/massHistEEEE.png Graphic file (type png)
+
+<use figures/Zprime/2016/mass/massHistEEEE.png>
+Package pdftex.def Info: figures/Zprime/2016/mass/massHistEEEE.png used on inpu
+t line 162.
+(pdftex.def)             Requested size: 213.96529pt x 208.80681pt.
+
+<figures/Zprime/2016/mass/cMassHistEEEE.png, id=546, 999.735pt x 975.645pt>
+File: figures/Zprime/2016/mass/cMassHistEEEE.png Graphic file (type png)
+
+<use figures/Zprime/2016/mass/cMassHistEEEE.png>
+Package pdftex.def Info: figures/Zprime/2016/mass/cMassHistEEEE.png used on inp
+ut line 163.
+(pdftex.def)             Requested size: 213.96529pt x 208.80681pt.
+
+<figures/Zprime/2017/mass/massHistEEEE.png, id=547, 999.735pt x 975.645pt>
+File: figures/Zprime/2017/mass/massHistEEEE.png Graphic file (type png)
+
+<use figures/Zprime/2017/mass/massHistEEEE.png>
+Package pdftex.def Info: figures/Zprime/2017/mass/massHistEEEE.png used on inpu
+t line 164.
+(pdftex.def)             Requested size: 213.96529pt x 208.80681pt.
+
+<figures/Zprime/2017/mass/cMassHistEEEE.png, id=548, 999.735pt x 975.645pt>
+File: figures/Zprime/2017/mass/cMassHistEEEE.png Graphic file (type png)
+
+<use figures/Zprime/2017/mass/cMassHistEEEE.png>
+Package pdftex.def Info: figures/Zprime/2017/mass/cMassHistEEEE.png used on inp
+ut line 165.
+(pdftex.def)             Requested size: 213.96529pt x 208.80681pt.
+
+<figures/Zprime/2016/mass/massHistEBEB.png, id=551, 999.735pt x 975.645pt>
+File: figures/Zprime/2016/mass/massHistEBEB.png Graphic file (type png)
+
+<use figures/Zprime/2016/mass/massHistEBEB.png>
+Package pdftex.def Info: figures/Zprime/2016/mass/massHistEBEB.png used on inpu
+t line 174.
+(pdftex.def)             Requested size: 213.96529pt x 208.80681pt.
+
+<figures/Zprime/2016/mass/cMassHistEBEB.png, id=552, 999.735pt x 975.645pt>
+File: figures/Zprime/2016/mass/cMassHistEBEB.png Graphic file (type png)
+
+<use figures/Zprime/2016/mass/cMassHistEBEB.png>
+Package pdftex.def Info: figures/Zprime/2016/mass/cMassHistEBEB.png used on inp
+ut line 175.
+(pdftex.def)             Requested size: 213.96529pt x 208.80681pt.
+
+<figures/Zprime/2016/mass/massHistEBEE.png, id=553, 999.735pt x 975.645pt>
+File: figures/Zprime/2016/mass/massHistEBEE.png Graphic file (type png)
+
+<use figures/Zprime/2016/mass/massHistEBEE.png>
+Package pdftex.def Info: figures/Zprime/2016/mass/massHistEBEE.png used on inpu
+t line 176.
+(pdftex.def)             Requested size: 213.96529pt x 208.80681pt.
+
+<figures/Zprime/2016/mass/cMassHistEBEE.png, id=554, 999.735pt x 975.645pt>
+File: figures/Zprime/2016/mass/cMassHistEBEE.png Graphic file (type png)
+
+<use figures/Zprime/2016/mass/cMassHistEBEE.png>
+Package pdftex.def Info: figures/Zprime/2016/mass/cMassHistEBEE.png used on inp
+ut line 177.
+(pdftex.def)             Requested size: 213.96529pt x 208.80681pt.
+
+<figures/Zprime/2016/mass/massHist.png, id=555, 999.735pt x 975.645pt>
+File: figures/Zprime/2016/mass/massHist.png Graphic file (type png)
+
+<use figures/Zprime/2016/mass/massHist.png>
+Package pdftex.def Info: figures/Zprime/2016/mass/massHist.png used on input li
+ne 178.
+(pdftex.def)             Requested size: 213.96529pt x 208.80681pt.
+
+<figures/Zprime/2016/mass/cMassHist.png, id=556, 999.735pt x 975.645pt>
+File: figures/Zprime/2016/mass/cMassHist.png Graphic file (type png)
+
+<use figures/Zprime/2016/mass/cMassHist.png>
+Package pdftex.def Info: figures/Zprime/2016/mass/cMassHist.png used on input l
+ine 179.
+(pdftex.def)             Requested size: 213.96529pt x 208.80681pt.
+
+<figures/Zprime/2017/mass/massHistEBEB.png, id=557, 999.735pt x 975.645pt>
+File: figures/Zprime/2017/mass/massHistEBEB.png Graphic file (type png)
+
+<use figures/Zprime/2017/mass/massHistEBEB.png>
+Package pdftex.def Info: figures/Zprime/2017/mass/massHistEBEB.png used on inpu
+t line 187.
+(pdftex.def)             Requested size: 213.96529pt x 208.80681pt.
+
+<figures/Zprime/2017/mass/cMassHistEBEB.png, id=558, 999.735pt x 975.645pt>
+File: figures/Zprime/2017/mass/cMassHistEBEB.png Graphic file (type png)
+
+<use figures/Zprime/2017/mass/cMassHistEBEB.png>
+Package pdftex.def Info: figures/Zprime/2017/mass/cMassHistEBEB.png used on inp
+ut line 188.
+(pdftex.def)             Requested size: 213.96529pt x 208.80681pt.
+
+<figures/Zprime/2017/mass/massHistEBEE.png, id=559, 999.735pt x 975.645pt>
+File: figures/Zprime/2017/mass/massHistEBEE.png Graphic file (type png)
+
+<use figures/Zprime/2017/mass/massHistEBEE.png>
+Package pdftex.def Info: figures/Zprime/2017/mass/massHistEBEE.png used on inpu
+t line 189.
+(pdftex.def)             Requested size: 213.96529pt x 208.80681pt.
+
+<figures/Zprime/2017/mass/cMassHistEBEE.png, id=560, 999.735pt x 975.645pt>
+File: figures/Zprime/2017/mass/cMassHistEBEE.png Graphic file (type png)
+
+<use figures/Zprime/2017/mass/cMassHistEBEE.png>
+Package pdftex.def Info: figures/Zprime/2017/mass/cMassHistEBEE.png used on inp
+ut line 190.
+(pdftex.def)             Requested size: 213.96529pt x 208.80681pt.
+
+<figures/Zprime/2017/mass/massHist.png, id=561, 999.735pt x 975.645pt>
+File: figures/Zprime/2017/mass/massHist.png Graphic file (type png)
+
+<use figures/Zprime/2017/mass/massHist.png>
+Package pdftex.def Info: figures/Zprime/2017/mass/massHist.png used on input li
+ne 191.
+(pdftex.def)             Requested size: 213.96529pt x 208.80681pt.
+
+<figures/Zprime/2017/mass/cMassHist.png, id=562, 999.735pt x 975.645pt>
+File: figures/Zprime/2017/mass/cMassHist.png Graphic file (type png)
+
+<use figures/Zprime/2017/mass/cMassHist.png>
+Package pdftex.def Info: figures/Zprime/2017/mass/cMassHist.png used on input l
+ine 192.
+(pdftex.def)             Requested size: 213.96529pt x 208.80681pt.
+
+<figures/Zprime/2016/paper/Figure_003-a.pdf, id=564, 569.12625pt x 402.50375pt>
+File: figures/Zprime/2016/paper/Figure_003-a.pdf Graphic file (type pdf)
+<use figures/Zprime/2016/paper/Figure_003-a.pdf>
+Package pdftex.def Info: figures/Zprime/2016/paper/Figure_003-a.pdf used on inp
+ut line 202.
+(pdftex.def)             Requested size: 213.96529pt x 151.32545pt.
+
+<figures/Zprime/2017/limitInputs/limitPlot_Dielectron2017_forApproval.pdf, id=5
+65, 569.12625pt x 402.50375pt>
+File: figures/Zprime/2017/limitInputs/limitPlot_Dielectron2017_forApproval.pdf 
+Graphic file (type pdf)
+
+<use figures/Zprime/2017/limitInputs/limitPlot_Dielectron2017_forApproval.pdf>
+Package pdftex.def Info: figures/Zprime/2017/limitInputs/limitPlot_Dielectron20
+17_forApproval.pdf used on input line 203.
+(pdftex.def)             Requested size: 213.96529pt x 151.32545pt.
+
+
+LaTeX Warning: Reference `chap:Zprime' on page 9 undefined on input line 209.
+
+
+<figures/Zprime/2017/limitInputs/limitPlot_Combination_forApproval.pdf, id=571,
+ 569.12625pt x 402.50375pt>
+File: figures/Zprime/2017/limitInputs/limitPlot_Combination_forApproval.pdf Gra
+phic file (type pdf)
+
+<use figures/Zprime/2017/limitInputs/limitPlot_Combination_forApproval.pdf>
+Package pdftex.def Info: figures/Zprime/2017/limitInputs/limitPlot_Combination_
+forApproval.pdf used on input line 212.
+(pdftex.def)             Requested size: 318.66948pt x 225.38213pt.
+
+[9
+
+] [10 <D:/my_cernbox/PhD_thesis/PhD_thesis/figures/Zprime/2016/ScaleFactor/Same
+Sign/nominal/g_compare_cut_Et_Barrel_ea_ta_exc_AS_nominal_PUW.png> <D:/my_cernb
+ox/PhD_thesis/PhD_thesis/figures/Zprime/2016/ScaleFactor/SameSign/nominal/g_com
+pare_cut_Et_Endcap_ea_ta_exc_AS_nominal_PUW.png> <D:/my_cernbox/PhD_thesis/PhD_
+thesis/figures/Zprime/2017/ScaleFactor/SameSign/nominal/g_compare_cut_Et_Barrel
+_ea_ta_exc_AS_nominal_PUW.png> <D:/my_cernbox/PhD_thesis/PhD_thesis/figures/Zpr
+ime/2017/ScaleFactor/SameSign/nominal/g_compare_cut_Et_Endcap_ea_ta_exc_AS_nomi
+nal_PUW.png>] [11 <D:/my_cernbox/PhD_thesis/PhD_thesis/figures/Zprime/2016/mass
+/massHistEEEE.png> <D:/my_cernbox/PhD_thesis/PhD_thesis/figures/Zprime/2016/mas
+s/cMassHistEEEE.png> <D:/my_cernbox/PhD_thesis/PhD_thesis/figures/Zprime/2017/m
+ass/massHistEEEE.png> <D:/my_cernbox/PhD_thesis/PhD_thesis/figures/Zprime/2017/
+mass/cMassHistEEEE.png>] [12 <D:/my_cernbox/PhD_thesis/PhD_thesis/figures/Zprim
+e/2016/mass/massHistEBEB.png> <D:/my_cernbox/PhD_thesis/PhD_thesis/figures/Zpri
+me/2016/mass/cMassHistEBEB.png> <D:/my_cernbox/PhD_thesis/PhD_thesis/figures/Zp
+rime/2016/mass/massHistEBEE.png> <D:/my_cernbox/PhD_thesis/PhD_thesis/figures/Z
+prime/2016/mass/cMassHistEBEE.png> <D:/my_cernbox/PhD_thesis/PhD_thesis/figures
+/Zprime/2016/mass/massHist.png> <D:/my_cernbox/PhD_thesis/PhD_thesis/figures/Zp
+rime/2016/mass/cMassHist.png>] [13 <D:/my_cernbox/PhD_thesis/PhD_thesis/figures
+/Zprime/2017/mass/massHistEBEB.png> <D:/my_cernbox/PhD_thesis/PhD_thesis/figure
+s/Zprime/2017/mass/cMassHistEBEB.png> <D:/my_cernbox/PhD_thesis/PhD_thesis/figu
+res/Zprime/2017/mass/massHistEBEE.png> <D:/my_cernbox/PhD_thesis/PhD_thesis/fig
+ures/Zprime/2017/mass/cMassHistEBEE.png> <D:/my_cernbox/PhD_thesis/PhD_thesis/f
+igures/Zprime/2017/mass/massHist.png> <D:/my_cernbox/PhD_thesis/PhD_thesis/figu
+res/Zprime/2017/mass/cMassHist.png>] [14 <D:/my_cernbox/PhD_thesis/PhD_thesis/f
+igures/Zprime/2016/paper/Figure_003-a.pdf, page is rotated 90 degrees> <D:/my_c
+ernbox/PhD_thesis/PhD_thesis/figures/Zprime/2017/limitInputs/limitPlot_Dielectr
+on2017_forApproval.pdf, page is rotated 90 degrees> <D:/my_cernbox/PhD_thesis/P
+hD_thesis/figures/Zprime/2017/limitInputs/limitPlot_Combination_forApproval.pdf
+, page is rotated 90 degrees>]
+<figures/tW/fig/Step2/ee/H_lepton_led_pt.png, id=767, 864.22874pt x 754.82pt>
+File: figures/tW/fig/Step2/ee/H_lepton_led_pt.png Graphic file (type png)
+
+<use figures/tW/fig/Step2/ee/H_lepton_led_pt.png>
+Package pdftex.def Info: figures/tW/fig/Step2/ee/H_lepton_led_pt.png used on in
+put line 228.
+(pdftex.def)             Requested size: 182.09486pt x 159.03517pt.
+
+<figures/tW/fig/Step2/mumu/H_lepton_led_pt.png, id=768, 864.22874pt x 754.82pt>
+File: figures/tW/fig/Step2/mumu/H_lepton_led_pt.png Graphic file (type png)
+<use figures/tW/fig/Step2/mumu/H_lepton_led_pt.png>
+Package pdftex.def Info: figures/tW/fig/Step2/mumu/H_lepton_led_pt.png used on 
+input line 229.
+(pdftex.def)             Requested size: 182.09486pt x 159.03517pt.
+
+<figures/tW/fig/Step2/ee/H_lepton_led_eta.png, id=769, 864.22874pt x 754.82pt>
+File: figures/tW/fig/Step2/ee/H_lepton_led_eta.png Graphic file (type png)
+
+<use figures/tW/fig/Step2/ee/H_lepton_led_eta.png>
+Package pdftex.def Info: figures/tW/fig/Step2/ee/H_lepton_led_eta.png used on i
+nput line 230.
+(pdftex.def)             Requested size: 182.09486pt x 159.03517pt.
+
+<figures/tW/fig/Step2/mumu/H_lepton_led_eta.png, id=770, 864.22874pt x 754.82pt
+>
+File: figures/tW/fig/Step2/mumu/H_lepton_led_eta.png Graphic file (type png)
+ <use figures/tW/fig/Step2/mumu/H_lepton_led_eta.png>
+Package pdftex.def Info: figures/tW/fig/Step2/mumu/H_lepton_led_eta.png used on
+ input line 231.
+(pdftex.def)             Requested size: 182.09486pt x 159.03517pt.
+
+<figures/tW/fig/Step2/ee/H_lepton_led_phi.png, id=771, 864.22874pt x 754.82pt>
+File: figures/tW/fig/Step2/ee/H_lepton_led_phi.png Graphic file (type png)
+
+<use figures/tW/fig/Step2/ee/H_lepton_led_phi.png>
+Package pdftex.def Info: figures/tW/fig/Step2/ee/H_lepton_led_phi.png used on i
+nput line 232.
+(pdftex.def)             Requested size: 182.09486pt x 159.03517pt.
+
+<figures/tW/fig/Step2/mumu/H_lepton_led_phi.png, id=772, 864.22874pt x 754.82pt
+>
+File: figures/tW/fig/Step2/mumu/H_lepton_led_phi.png Graphic file (type png)
+ <use figures/tW/fig/Step2/mumu/H_lepton_led_phi.png>
+Package pdftex.def Info: figures/tW/fig/Step2/mumu/H_lepton_led_phi.png used on
+ input line 233.
+(pdftex.def)             Requested size: 182.09486pt x 159.03517pt.
+
+<figures/tW/fig/Step2/ee/H_lepton_sub_pt.png, id=773, 864.22874pt x 754.82pt>
+File: figures/tW/fig/Step2/ee/H_lepton_sub_pt.png Graphic file (type png)
+
+<use figures/tW/fig/Step2/ee/H_lepton_sub_pt.png>
+Package pdftex.def Info: figures/tW/fig/Step2/ee/H_lepton_sub_pt.png used on in
+put line 243.
+(pdftex.def)             Requested size: 182.09486pt x 159.03517pt.
+
+<figures/tW/fig/Step2/mumu/H_lepton_sub_pt.png, id=774, 864.22874pt x 754.82pt>
+File: figures/tW/fig/Step2/mumu/H_lepton_sub_pt.png Graphic file (type png)
+<use figures/tW/fig/Step2/mumu/H_lepton_sub_pt.png>
+Package pdftex.def Info: figures/tW/fig/Step2/mumu/H_lepton_sub_pt.png used on 
+input line 244.
+(pdftex.def)             Requested size: 182.09486pt x 159.03517pt.
+
+<figures/tW/fig/Step2/ee/H_lepton_sub_eta.png, id=775, 864.22874pt x 754.82pt>
+File: figures/tW/fig/Step2/ee/H_lepton_sub_eta.png Graphic file (type png)
+
+<use figures/tW/fig/Step2/ee/H_lepton_sub_eta.png>
+Package pdftex.def Info: figures/tW/fig/Step2/ee/H_lepton_sub_eta.png used on i
+nput line 245.
+(pdftex.def)             Requested size: 182.09486pt x 159.03517pt.
+
+<figures/tW/fig/Step2/mumu/H_lepton_sub_eta.png, id=776, 864.22874pt x 754.82pt
+>
+File: figures/tW/fig/Step2/mumu/H_lepton_sub_eta.png Graphic file (type png)
+ <use figures/tW/fig/Step2/mumu/H_lepton_sub_eta.png>
+Package pdftex.def Info: figures/tW/fig/Step2/mumu/H_lepton_sub_eta.png used on
+ input line 246.
+(pdftex.def)             Requested size: 182.09486pt x 159.03517pt.
+
+<figures/tW/fig/Step2/ee/H_lepton_sub_phi.png, id=777, 864.22874pt x 754.82pt>
+File: figures/tW/fig/Step2/ee/H_lepton_sub_phi.png Graphic file (type png)
+
+<use figures/tW/fig/Step2/ee/H_lepton_sub_phi.png>
+Package pdftex.def Info: figures/tW/fig/Step2/ee/H_lepton_sub_phi.png used on i
+nput line 247.
+(pdftex.def)             Requested size: 182.09486pt x 159.03517pt.
+
+<figures/tW/fig/Step2/mumu/H_lepton_sub_phi.png, id=778, 864.22874pt x 754.82pt
+>
+File: figures/tW/fig/Step2/mumu/H_lepton_sub_phi.png Graphic file (type png)
+ <use figures/tW/fig/Step2/mumu/H_lepton_sub_phi.png>
+Package pdftex.def Info: figures/tW/fig/Step2/mumu/H_lepton_sub_phi.png used on
+ input line 248.
+(pdftex.def)             Requested size: 182.09486pt x 159.03517pt.
+
+<figures/tW/fig/Result/ee/H_Limit_N_jet_bjet.png, id=780, 864.22874pt x 754.82p
+t>
+File: figures/tW/fig/Result/ee/H_Limit_N_jet_bjet.png Graphic file (type png)
+ <use figures/tW/fig/Result/ee/H_Limit_N_jet_bjet.png>
+Package pdftex.def Info: figures/tW/fig/Result/ee/H_Limit_N_jet_bjet.png used o
+n input line 259.
+(pdftex.def)             Requested size: 204.85846pt x 178.91457pt.
+
+<figures/tW/fig/Result/mumu/H_Limit_N_jet_bjet.png, id=781, 864.22874pt x 754.8
+2pt>
+File: figures/tW/fig/Result/mumu/H_Limit_N_jet_bjet.png Graphic file (type png)
+
+ <use figures/tW/fig/Result/mumu/H_Limit_N_jet_bjet.png>
+Package pdftex.def Info: figures/tW/fig/Result/mumu/H_Limit_N_jet_bjet.png used
+ on input line 260.
+(pdftex.def)             Requested size: 204.85846pt x 178.91457pt.
+
+<figures/tW/fig/fey.pdf, id=783, 454.69875pt x 226.8475pt>
+File: figures/tW/fig/fey.pdf Graphic file (type pdf)
+
+<use figures/tW/fig/fey.pdf>
+Package pdftex.def Info: figures/tW/fig/fey.pdf used on input line 269.
+(pdftex.def)             Requested size: 455.24411pt x 227.12384pt.
+
+<figures/tW/fig/Result/ee/H_MLP_1jet_1bjet.png, id=785, 864.22874pt x 754.82pt>
+File: figures/tW/fig/Result/ee/H_MLP_1jet_1bjet.png Graphic file (type png)
+<use figures/tW/fig/Result/ee/H_MLP_1jet_1bjet.png>
+Package pdftex.def Info: figures/tW/fig/Result/ee/H_MLP_1jet_1bjet.png used on 
+input line 277.
+(pdftex.def)             Requested size: 204.85846pt x 178.91457pt.
+
+<figures/tW/fig/Result/mumu/H_MLP_1jet_1bjet.png, id=786, 864.22874pt x 754.82p
+t>
+File: figures/tW/fig/Result/mumu/H_MLP_1jet_1bjet.png Graphic file (type png)
+ <use figures/tW/fig/Result/mumu/H_MLP_1jet_1bjet.png>
+Package pdftex.def Info: figures/tW/fig/Result/mumu/H_MLP_1jet_1bjet.png used o
+n input line 278.
+(pdftex.def)             Requested size: 204.85846pt x 178.91457pt.
+
+<figures/tW/fig/Result/ee/H_MLP_2jet_1bjet.png, id=787, 864.22874pt x 754.82pt>
+File: figures/tW/fig/Result/ee/H_MLP_2jet_1bjet.png Graphic file (type png)
+<use figures/tW/fig/Result/ee/H_MLP_2jet_1bjet.png>
+Package pdftex.def Info: figures/tW/fig/Result/ee/H_MLP_2jet_1bjet.png used on 
+input line 279.
+(pdftex.def)             Requested size: 204.85846pt x 178.91457pt.
+
+<figures/tW/fig/Result/mumu/H_MLP_2jet_1bjet.png, id=788, 864.22874pt x 754.82p
+t>
+File: figures/tW/fig/Result/mumu/H_MLP_2jet_1bjet.png Graphic file (type png)
+ <use figures/tW/fig/Result/mumu/H_MLP_2jet_1bjet.png>
+Package pdftex.def Info: figures/tW/fig/Result/mumu/H_MLP_2jet_1bjet.png used o
+n input line 280.
+(pdftex.def)             Requested size: 204.85846pt x 178.91457pt.
+
+<figures/tW/fig/FCNC_Result/ee/H_MLP_tug_xjet_1bjet.png, id=789, 864.22874pt x 
+754.82pt>
+File: figures/tW/fig/FCNC_Result/ee/H_MLP_tug_xjet_1bjet.png Graphic file (type
+ png)
+ <use figures/tW/fig/FCNC_Result/ee/H_MLP_tug_xjet_1bjet.png>
+Package pdftex.def Info: figures/tW/fig/FCNC_Result/ee/H_MLP_tug_xjet_1bjet.png
+ used on input line 281.
+(pdftex.def)             Requested size: 204.85846pt x 178.91457pt.
+
+<figures/tW/fig/FCNC_Result/mumu/H_MLP_tug_xjet_1bjet.png, id=790, 864.22874pt 
+x 754.82pt>
+File: figures/tW/fig/FCNC_Result/mumu/H_MLP_tug_xjet_1bjet.png Graphic file (ty
+pe png)
+ <use figures/tW/fig/FCNC_Result/mumu/H_MLP_tug_xjet_1bjet.png>
+Package pdftex.def Info: figures/tW/fig/FCNC_Result/mumu/H_MLP_tug_xjet_1bjet.p
+ng used on input line 282.
+(pdftex.def)             Requested size: 204.85846pt x 178.91457pt.
+
+
+LaTeX Warning: Reference `chap:tW' on page 15 undefined on input line 289.
+
+<figures/tW/fig/Result/tW_limit.png, id=793, 999.735pt x 774.895pt>
+File: figures/tW/fig/Result/tW_limit.png Graphic file (type png)
+
+<use figures/tW/fig/Result/tW_limit.png>
+Package pdftex.def Info: figures/tW/fig/Result/tW_limit.png used on input line 
+294.
+(pdftex.def)             Requested size: 409.71692pt x 317.56712pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (D:\my_cernbox\PhD_thesis\PhD_thesis\chapters/Introduce.tex [15
+
+] [16 <D:/my_cernbox/PhD_thesis/PhD_thesis/figures/tW/fig/Step2/ee/H_lepton_led
+_pt.png> <D:/my_cernbox/PhD_thesis/PhD_thesis/figures/tW/fig/Step2/mumu/H_lepto
+n_led_pt.png> <D:/my_cernbox/PhD_thesis/PhD_thesis/figures/tW/fig/Step2/ee/H_le
+pton_led_eta.png> <D:/my_cernbox/PhD_thesis/PhD_thesis/figures/tW/fig/Step2/mum
+u/H_lepton_led_eta.png> <D:/my_cernbox/PhD_thesis/PhD_thesis/figures/tW/fig/Ste
+p2/ee/H_lepton_led_phi.png> <D:/my_cernbox/PhD_thesis/PhD_thesis/figures/tW/fig
+/Step2/mumu/H_lepton_led_phi.png>] [17 <D:/my_cernbox/PhD_thesis/PhD_thesis/fig
+ures/tW/fig/Step2/ee/H_lepton_sub_pt.png> <D:/my_cernbox/PhD_thesis/PhD_thesis/
+figures/tW/fig/Step2/mumu/H_lepton_sub_pt.png> <D:/my_cernbox/PhD_thesis/PhD_th
+esis/figures/tW/fig/Step2/ee/H_lepton_sub_eta.png> <D:/my_cernbox/PhD_thesis/Ph
+D_thesis/figures/tW/fig/Step2/mumu/H_lepton_sub_eta.png> <D:/my_cernbox/PhD_the
+sis/PhD_thesis/figures/tW/fig/Step2/ee/H_lepton_sub_phi.png> <D:/my_cernbox/PhD
+_thesis/PhD_thesis/figures/tW/fig/Step2/mumu/H_lepton_sub_phi.png>] [18 <D:/my_
+cernbox/PhD_thesis/PhD_thesis/figures/tW/fig/Result/ee/H_Limit_N_jet_bjet.png> 
+<D:/my_cernbox/PhD_thesis/PhD_thesis/figures/tW/fig/Result/mumu/H_Limit_N_jet_b
+jet.png> <D:/my_cernbox/PhD_thesis/PhD_thesis/figures/tW/fig/fey.pdf>] [19 <D:/
+my_cernbox/PhD_thesis/PhD_thesis/figures/tW/fig/Result/ee/H_MLP_1jet_1bjet.png>
+ <D:/my_cernbox/PhD_thesis/PhD_thesis/figures/tW/fig/Result/mumu/H_MLP_1jet_1bj
+et.png> <D:/my_cernbox/PhD_thesis/PhD_thesis/figures/tW/fig/Result/ee/H_MLP_2je
+t_1bjet.png> <D:/my_cernbox/PhD_thesis/PhD_thesis/figures/tW/fig/Result/mumu/H_
+MLP_2jet_1bjet.png> <D:/my_cernbox/PhD_thesis/PhD_thesis/figures/tW/fig/FCNC_Re
+sult/ee/H_MLP_tug_xjet_1bjet.png> <D:/my_cernbox/PhD_thesis/PhD_thesis/figures/
+tW/fig/FCNC_Result/mumu/H_MLP_tug_xjet_1bjet.png>] [20 <D:/my_cernbox/PhD_thesi
+s/PhD_thesis/figures/tW/fig/Result/tW_limit.png>] [21
+
+]
+
+LaTeX Warning: Reference `chap:LHC_CMS' on page 22 undefined on input line 17.
+
+
+LaTeX Warning: Reference `chap:Event_reconstruction' on page 22 undefined on in
+put line 17.
+
+
+LaTeX Warning: Reference `chap:Zprime' on page 22 undefined on input line 17.
+
+
+LaTeX Warning: Reference `chap:tW' on page 22 undefined on input line 17.
+
+
+LaTeX Warning: Reference `chp:conclusion' on page 22 undefined on input line 17
+.
+
+) (D:\my_cernbox\PhD_thesis\PhD_thesis\chapters/StandardModel.tex [22]
+Chapter 1.
+[23
+
+] [24]
+File: figures/theory/sm.png Graphic file (type png)
+ <use figures/theory/sm.png>
+Package pdftex.def Info: figures/theory/sm.png used on input line 84.
+(pdftex.def)             Requested size: 341.43307pt x 256.29689pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Reference `subsec:Feynman' on page 25 undefined on input line 90
+.
+
+
+LaTeX Warning: Reference `subsec:QED' on page 25 undefined on input line 90.
+
+
+LaTeX Warning: Reference `subsec:QCD' on page 25 undefined on input line 90.
+
+
+LaTeX Warning: Reference `sec:Groups' on page 25 undefined on input line 90.
+
+[25] [26] [27
+
+] [28]
+
+LaTeX Warning: Reference `eq:lambda_matrices' on page 29 undefined on input lin
+e 211.
+
+[29] <figures/theory/Higgs_Field.png, id=982, 879.285pt x 724.7075pt>
+File: figures/theory/Higgs_Field.png Graphic file (type png)
+
+<use figures/theory/Higgs_Field.png>
+Package pdftex.def Info: figures/theory/Higgs_Field.png used on input line 249.
+
+(pdftex.def)             Requested size: 227.62206pt x 187.6012pt.
+ [30 <D:/my_cernbox/PhD_thesis/PhD_thesis/figures/theory/Higgs_Field.png>]
+
+LaTeX Warning: Reference `chap:Zprime' on page 31 undefined on input line 268.
+
+<figures/theory/DY1.png, id=1001, 691.58376pt x 514.92375pt>
+File: figures/theory/DY1.png Graphic file (type png)
+
+<use figures/theory/DY1.png>
+Package pdftex.def Info: figures/theory/DY1.png used on input line 272.
+(pdftex.def)             Requested size: 182.09486pt x 135.57414pt.
+
+<figures/theory/DY2.png, id=1002, 706.64pt x 514.92375pt>
+File: figures/theory/DY2.png Graphic file (type png)
+
+<use figures/theory/DY2.png>
+Package pdftex.def Info: figures/theory/DY2.png used on input line 273.
+(pdftex.def)             Requested size: 182.09486pt x 132.69058pt.
+
+<figures/theory/DY3.png, id=1004, 963.6pt x 690.58pt>
+File: figures/theory/DY3.png Graphic file (type png)
+
+<use figures/theory/DY3.png>
+Package pdftex.def Info: figures/theory/DY3.png used on input line 285.
+(pdftex.def)             Requested size: 182.09486pt x 130.49501pt.
+ [31
+
+ <D:/my_cernbox/PhD_thesis/PhD_thesis/figures/theory/DY1.png> <D:/my_cernbox/Ph
+D_thesis/PhD_thesis/figures/theory/DY2.png> <D:/my_cernbox/PhD_thesis/PhD_thesi
+s/figures/theory/DY3.png>]
+<figures/theory/DY_XS_CMS_Run1.png, id=1025, 809.0225pt x 685.56125pt>
+File: figures/theory/DY_XS_CMS_Run1.png Graphic file (type png)
+
+<use figures/theory/DY_XS_CMS_Run1.png>
+Package pdftex.def Info: figures/theory/DY_XS_CMS_Run1.png used on input line 3
+24.
+(pdftex.def)             Requested size: 409.71692pt x 347.19424pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figures/theory/PI.png, id=1029, 1438.37375pt x 435.6275pt>
+File: figures/theory/PI.png Graphic file (type png)
+
+<use figures/theory/PI.png>
+Package pdftex.def Info: figures/theory/PI.png used on input line 424.
+(pdftex.def)             Requested size: 409.71692pt x 124.08865pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<<c1929.cmap>>
+
+LaTeX Warning: Reference `chap:Zprime' on page 32 undefined on input line 430.
+
+[32] [33 <D:/my_cernbox/PhD_thesis/PhD_thesis/figures/theory/DY_XS_CMS_Run1.png
+> <D:/my_cernbox/PhD_thesis/PhD_thesis/figures/theory/PI.png>]
+<figures/theory/Neutron.png, id=1052, 722.7pt x 224.037pt>
+File: figures/theory/Neutron.png Graphic file (type png)
+
+<use figures/theory/Neutron.png>
+Package pdftex.def Info: figures/theory/Neutron.png used on input line 451.
+(pdftex.def)             Requested size: 341.43307pt x 105.84436pt.
+
+
+LaTeX Warning: Reference `chap:tW' on page 34 undefined on input line 466.
+
+) (D:\my_cernbox\PhD_thesis\PhD_thesis\chapters/BSM.tex [34
+
+ <D:/my_cernbox/PhD_thesis/PhD_thesis/figures/theory/Neutron.png>] [35] [36
+
+]
+Chapter 2.
+[37]
+
+LaTeX Warning: File ts1.cmap not found on input line 47.
+
+[38] <figures/theory/higgs_loop.png, id=1124, 1880.02374pt x 355.3275pt>
+File: figures/theory/higgs_loop.png Graphic file (type png)
+
+<use figures/theory/higgs_loop.png>
+Package pdftex.def Info: figures/theory/higgs_loop.png used on input line 77.
+(pdftex.def)             Requested size: 409.71692pt x 77.4349pt.
+ [39 <D:/my_cernbox/PhD_thesis/PhD_thesis/figures/theory/higgs_loop.png>]
+<figures/theory/SMcouplings.png, id=1136, 1061.46562pt x 746.79pt>
+File: figures/theory/SMcouplings.png Graphic file (type png)
+
+<use figures/theory/SMcouplings.png>
+Package pdftex.def Info: figures/theory/SMcouplings.png used on input line 111.
+
+(pdftex.def)             Requested size: 318.66948pt x 224.19826pt.
+ [40 <D:/my_cernbox/PhD_thesis/PhD_thesis/figures/theory/SMcouplings.png>] [41]
+
+
+LaTeX Warning: Reference `chap:Zprime' on page 42 undefined on input line 177.
+
+[42]
+
+LaTeX Warning: Reference `chap:tW' on page 43 undefined on input line 196.
+
+[43]
+File: figures/tW/fig/fey.pdf Graphic file (type pdf)
+ <use figures/tW/fig/fey.pdf>
+Package pdftex.def Info: figures/tW/fig/fey.pdf used on input line 228.
+(pdftex.def)             Requested size: 455.24411pt x 227.12384pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [44])
+(D:\my_cernbox\PhD_thesis\PhD_thesis\my_acronyms.tex [45] [46
+
+]) [47] [48
+
+]
+[49] [50
+
+] [51] [52] [53] [54]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 48.
+ [55]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 48.
+
+(D:\my_cernbox\PhD_thesis\PhD_thesis\Thesis_Wenxing.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 48.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 48.
+Package rerunfilecheck Info: File `Thesis_Wenxing.out' has not changed.
+(rerunfilecheck)             Checksum: 9EBA32419AA27C84CB8471BF71846F7F;1010.
+
+
+LaTeX Warning: There were undefined references.
+
+Package logreq Info: Writing requests to 'Thesis_Wenxing.run.xml'.
+ ) 
+Here is how much of TeX's memory you used:
+ 19023 strings out of 495354
+ 288812 string characters out of 3183859
+ 651783 words of memory out of 3000000
+ 21201 multiletter control sequences out of 15000+200000
+ 61692 words of font info for 182 fonts, out of 3000000 for 9000
+ 15 hyphenation exceptions out of 8191
+ 49i,20n,97p,2403b,4050s stack positions out of 5000i,500n,10000p,200000b,50000s
+{E:/CTEX/MiKTeX/fonts/enc/dvips/cm-super/cm-super-t1.enc}{E:/CTEX/MiKTeX/font
+s/enc/dvips/cm-super/cm-super-ts1.enc}<E:/CTEX/CTeX/fonts/truetype/chinese/sims
+un.ttf><E:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTEX/CTeX/fonts/true
+type/chinese/simsun.ttf><E:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTE
+X/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTEX/CTeX/fonts/truetype/chinese/s
+imsun.ttf><E:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTEX/CTeX/fonts/t
+ruetype/chinese/simsun.ttf><E:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/
+CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTEX/CTeX/fonts/truetype/chines
+e/simsun.ttf><E:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTEX/CTeX/font
+s/truetype/chinese/simsun.ttf><E:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><
+E:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTEX/CTeX/fonts/truetype/chi
+nese/simsun.ttf><E:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTEX/CTeX/f
+onts/truetype/chinese/simsun.ttf><E:/CTEX/CTeX/fonts/truetype/chinese/simsun.tt
+f><E:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTEX/CTeX/fonts/truetype/
+chinese/simsun.ttf><E:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTEX/CTe
+X/fonts/truetype/chinese/simsun.ttf><E:/CTEX/CTeX/fonts/truetype/chinese/simsun
+.ttf><E:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTEX/CTeX/fonts/truety
+pe/chinese/simsun.ttf><E:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTEX/
+CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTEX/CTeX/fonts/truetype/chinese/sim
+sun.ttf><E:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTEX/CTeX/fonts/tru
+etype/chinese/simsun.ttf><E:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CT
+EX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTEX/CTeX/fonts/truetype/chinese/
+simsun.ttf><E:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTEX/CTeX/fonts/
+truetype/chinese/simsun.ttf><E:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><E:
+/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><E:/CTEX/CTeX/fonts/truetype/chine
+se/simsun.ttf><E:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><E:/CTE
+X/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><E:/CTEX/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmex10.pfb><E:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmm
+i10.pfb><E:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><E:/CTEX/MiKT
+eX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><E:/CTEX/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmmi6.pfb><E:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb>
+<E:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><E:/CTEX/MiKTeX/fonts/
+type1/public/amsfonts/cm/cmr10.pfb><E:/CTEX/MiKTeX/fonts/type1/public/amsfonts/
+cm/cmr12.pfb><E:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><E:/CTEX/M
+iKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><E:/CTEX/MiKTeX/fonts/type1/publi
+c/amsfonts/cm/cmr7.pfb><E:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb>
+<E:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><E:/CTEX/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmsy5.pfb><E:/CTEX/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmsy6.pfb><E:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><E:/CTEX
+/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><E:/CTEX/MiKTeX/fonts/type1/pu
+blic/amsfonts/cm/cmti8.pfb><E:/CTEX/MiKTeX/fonts/type1/public/amsfonts/euler/eu
+rm10.pfb><E:/CTEX/MiKTeX/fonts/type1/public/amsfonts/euler/eurm7.pfb><E:/CTEX/M
+iKTeX/fonts/type1/public/amsfonts/latxfont/line10.pfb><E:/CTEX/MiKTeX/fonts/typ
+e1/public/amsfonts/symbols/msam10.pfb><E:/CTEX/MiKTeX/fonts/type1/public/amsfon
+ts/symbols/msbm10.pfb><E:/CTEX/MiKTeX/fonts/type1/public/cm-super/sfbx1000.pfb>
+<E:/CTEX/MiKTeX/fonts/type1/public/cm-super/sfbx1200.pfb><E:/CTEX/MiKTeX/fonts/
+type1/public/cm-super/sfbx1440.pfb><E:/CTEX/MiKTeX/fonts/type1/public/cm-super/
+sfbx2074.pfb><E:/CTEX/MiKTeX/fonts/type1/public/cm-super/sfbx2488.pfb><E:/CTEX/
+MiKTeX/fonts/type1/public/cm-super/sfcc1000.pfb><E:/CTEX/MiKTeX/fonts/type1/pub
+lic/cm-super/sfcc1440.pfb><E:/CTEX/MiKTeX/fonts/type1/public/cm-super/sfrm0600.
+pfb><E:/CTEX/MiKTeX/fonts/type1/public/cm-super/sfrm0800.pfb><E:/CTEX/MiKTeX/fo
+nts/type1/public/cm-super/sfrm1000.pfb><E:/CTEX/MiKTeX/fonts/type1/public/cm-su
+per/sfrm1200.pfb><E:/CTEX/MiKTeX/fonts/type1/public/cm-super/sfrm1440.pfb><E:/C
+TEX/MiKTeX/fonts/type1/public/cm-super/sfsl0900.pfb><E:/CTEX/MiKTeX/fonts/type1
+/public/cm-super/sfti1000.pfb><E:/CTEX/MiKTeX/fonts/type1/public/cm-super/sfti1
+200.pfb><E:/CTEX/MiKTeX/fonts/type1/public/cm-super/sftt1000.pfb><E:/CTEX/MiKTe
+X/fonts/type1/public/cm-super/sftt1200.pfb>
+Output written on Thesis_Wenxing.pdf (69 pages, 9331074 bytes).
+PDF statistics:
+ 1752 PDF objects out of 2073 (max. 8388607)
+ 260 named destinations out of 1000 (max. 500000)
+ 644 words of extra memory for PDF output out of 10000 (max. 10000000)
+

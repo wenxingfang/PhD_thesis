@@ -1,28 +1,48 @@
 \input{layout_settings}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
+\begin{CJK*}{GBK}{song}
 \frontmatter
 \input{my_commands}
-%\input{0_Cover}
-%\input{dedication}
-%\input{1_abstract}
-\selectlanguage{english}
+
+\input{cover}
+%%\input{dedication}
+\input{abstract_CN}
+\input{abstract_FN}
+\input{abstract}
+%%\selectlanguage{english}
 \large{\tableofcontents}
+
+
+%\listoffigures %% for remove it for ULB, keep it for BUAA
+%\listoftables  %% for remove it for ULB, keep it for BUAA
 \mainmatter
-%%%Chapters!
-%\input{chapters/Introduce}
-%\input{chapters/StandardModel}
-%\input{chapters/SM_BSM}% just for tmp
+
+\input{chapters/Introduce_CN}
+\input{chapters/Introduce}
+\input{chapters/StandardModel}
+%%\input{chapters/GaugeSymmetry} not used
+\input{chapters/BSM}
 \input{chapters/LHC_CMS}
+%\input{chapters/Brief_CMS} not used
 \input{chapters/Reconstruction}
 \input{chapters/Zprime}
 \input{chapters/tW}
+\input{chapters/Conclusion}
+%\input{chapters/Vtx_study} not used
+\input{chapters/Publications}
+\input{my_acronyms}
 \appendix
 \addcontentsline{toc}{chapter}{Appendices}
 \chapter*{Appendices}
+\input{chapters/AppendixTheory}
+\input{chapters/Appendix_Group}
 \input{chapters/Zprime/AppendixMassRes}
 \input{chapters/Zprime/AppendixID}
+\input{chapters/Zprime/AppendixSaturation}
 \input{chapters/tW/Appendix_MET}
 \input{chapters/tW/Appendix_tW}
 \printbibliography
+\end{CJK*}
 \end{document}

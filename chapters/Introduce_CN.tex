@@ -1,0 +1,304 @@
+%\chapter{Chinese}
+\chapter*{Summary~of~the~thesis~in~Chinese \\ 中文概述}
+该部分简要地概述了本论文中的主要内容。其中包括对标准模型和超标准模型的介绍，同时还介绍了~LHC~和~LHC~上面的四个主要实验。接着着重地介绍了~CMS~探测器的组成和性能。最后分别介绍了利用双电子末态去寻找重的玻色子的研究课题和在顶夸克（top）产生过程寻找新物理的研究课题。
+
+\section*{标准模型和超标准模型的介绍}
+众所周知，标准模型~\cite{David_Griffiths,Francis_Alan,Morii_Lim}~是描述基本粒子性质以及粒子间相互作用机制的理论。基本粒子可以分成构成物质的粒子以及传递相互作用的粒子。其中构成物质的基本粒子包括~6~种轻子：电子（$e$）、电子中微子（$\nu_{e}$）、缪子（$\upmu$）、缪子中微子（$\nu_{\mu}$）、$\tau$~和~$\tau$~中微子（$\nu_{\tau}$），以及~6~种夸克：上夸克（u）、下夸克（d）、粲夸克（c）、奇异夸克（s）、顶夸克（t）和底夸克（b）。所有这些轻子都有相应的反粒子，此外每种夸克还带有有3种颜色量子数（R、G、B）。传递相互作用的粒子包括传递电磁相互作用的光子（$\gamma$）、传递强相互作用的胶子（gluon）和传递弱相互作用的~W~玻色子和~Z~玻色子。除了以上的基本粒子外，标准模型中预言的使基本粒子获得质量的希格斯粒子（Higgs）在~2012~年最终被大型强子对撞机（LHC）上的~ATLAS~实验组和~CMS~实验组同时发现~\cite{Aad:2012tfa,Chatrchyan:2012xdj}。至此，标准模型中的基本粒子都已被找到，见图 \ref{fig:SM_CN}。此外，截止目前粒子物理实验的测量结果都与标准模型的预言相符。因此，标准模型取得了巨大的成功。关于标准模型的更加具体的介绍可以参见第~\ref{sec:SM}~ 章，该章节还详细的介绍了~Drell-Yan~过程~\cite{DRELL1971578}~和有效场理论（Effective~Field~Theory，简称~EFT），这是因为它们在本论文的研究中有着重要作用。
+\begin{figure}[h!]
+ \begin{center}
+\includegraphics[width=0.75\textwidth]{figures/theory/sm.png}
+\caption{标准模型中的基本粒子。}
+  \label{fig:SM_CN}
+ \end{center}
+\end{figure}
+
+
+虽然标准模型取得了巨大的成功，但是它也存在一些缺陷。例如，在天文学和宇宙学界科学家们通过实验观测的结果普遍认为存在暗物质和暗能量~\cite{Rubin:1970zza,Freese:2008cz}。 其中宇宙中的暗物质占约~25\%，暗能量占约~70\%~ 而可见的物质只占约~5\%。但是标准模型并未涉及有关暗物质和暗能量的预言，当然也没能提供暗物质和暗能量的候选者。此外，实验上观测到了中微子在传播过程中它的味可以发生变化（例如从~$\nu_{e}$~到~$\nu_{\mu}$、$\nu_{\mu}$~到~$\nu_{\tau}$~等）即所谓的中微子振荡现象~\cite{Fukuda:1998mi,Abe:2011fz}。 中微子振荡现象的存在表明中微子的质量是非零的，这与标准模型中中微子质量为零的假设不相符。众所周知，我们生活在以正物质组成的世界中，那么反物质去哪儿了呢？一般认为在宇宙大爆炸时，正反物质是成对产生的。因此宇宙中应该存在相同的正物质和反物质。标准模型在~Cabibbo-Kobayashi-Maskawa~（CMK）矩阵中引入了电荷宇称（CP）破坏的参数，但是该参数远不能解释目前所观测到的正反物质不对称现象。标准模型除了不能很好地解释以上这些现象外，它也存在一些瑕疵。例如，由于标准模型没有考虑引力的相互作用，因此可以假设标准模型直到普朗克能标（$10^{19}$~GeV）都是有效的。但为了得到实验上发现的质量为~125~GeV~的~Higgs~粒子，在标准模型中则需要通过将两个~$10^{38}$~ 量级的大数相减得到一个~$10^{4}$~量级的数，这在理论上是可以成立的，但看上去非常不自然，这被称做~Higgs~质量~fine-tuning~问题。如果标准模型只到~TeV~能量有效，那么该问题就不存在了。此外，标准模型里存在~19（若加上中微子的~7~个自由参数，则总共为~26~个自由参数）~个需要通过实验测量确定的自由参数，这使得它看起来不够简洁。关于标准模型缺陷更加详细的描述可参见~\ref{sec:BSM}。
+
+
+正因如此，许多超越标准模型物理学的理论被提了出来。例如超对称模型（SUSY）~\cite{Barbier}，在该模型中每一种基本粒子都有一种被称为超对称伙伴（Superpartner）的粒子与之匹配，超对称伙伴的自旋与原粒子相差~1/2~（也就是说玻色子的超对称伙伴是费米子，费米子的超对称伙伴是玻色子），两者质量相同，各种耦合常数间也有着十分明确的关联。这个模型可以很好的消除~Higgs~质量~fine-tuning~的问题以及等级问题（Hierarchy~Problem）即为什么在电弱统一能标与大统一或~Planck~能标之间存在高达十几个数量级的差别。同时该模型还为暗物质提供了候选者。此外还有大统一理论（GUT）~\cite{Altar:1989,Leike,Rizzo}，该理论想尝试将电磁相互作用、弱相互作用和强相互作用统一起来。对于额外维理论~\cite{arkani98:hlz,Sundrum}，该理论想通过引入额外的维度来解释为什么引力的相互作用强度比另外三种相互作用弱~$10^{30}$~个量级。以上这些超标准模型都预言存在一个新的重玻色子，其可以通过双电子过程衰变。这也是本论文利用双电子末态寻找新的高质量玻色子的动机所在。关于这部分更加详细的介绍可参见~\ref{sec:HeavyResonance}。
+
+如果新物理的能标能在实验中达到，那么新的粒子就能够被产生，可能被直接发现。反之，则需要通过间接的方式去寻找新物理。由于顶夸克是已知基本粒子中最重的粒子以及它与~Higgs~ 和~W~玻色子都有很强的耦合。因此顶夸克在许多超标准模型中占有很重要的地位。本论文的第二个课题对顶夸克产生过程中可能存在的新物理进行了探索研究。其中包括顶夸克对的产生过程以及单个顶夸克伴随~W~玻色子的产生过程。为了提高该分析对新物理的敏感度，该研究采用了多变量分析方法来区分本底事例和信号事例，同时使用有效场的方法对各种可能存在的新耦合做出与理论模型无关的限制。更多的相关介绍可参见~\ref{tW_Int}。
+
+\clearpage
+\section*{LHC~和~CMS~的介绍}
+欧洲大型强子对撞机（LHC）是位于法国和瑞士边界，周长为~27~km，位于地下~50~至~150~米之间的质子-质子对撞机，见图~\ref{fig:LHC_CN}~的左部分。其质心对撞能量达到了世界最高，在~2015~年到~2018~年该值为~13~TeV。LHC~上主要有四个实验组，见图~\ref{fig:LHC_CN}~的右部分。其中包括大型离子对撞器（ALICE）其主要通过铅离子与铅离子对撞或铅离子与质子对撞研究夸克胶子等离子体的性质。还有~LHC~底夸克探测器（LHCb）其主要研究CP破坏、底夸克的性质等。超环面仪器（ATLAS）其是一个综合的粒子探测器，主要研究内容包括精确测量标准模型中的自由参数、寻找~Higgs~（在~2012~年已经被发现）、寻找超越标准模型的新物理。紧凑缪子线圈（CMS）其作用与目的和~ATLAS~一致。ATLAS~和~CMS~两个探测器的存在使得各自的实验结果能被互相检查或确认。
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[width=0.49\textwidth]{figures/LHC/LHC.jpeg}
+\includegraphics[width=0.49\textwidth]{figures/LHC/LHC2.jpg}
+\caption{LHC的全貌（左）和 LHC 上的四个主要实验（右）~\cite{LHC_FourExp}。}
+\label{fig:LHC_CN}
+\end{center}
+\end{figure}
+
+由于一个质子束团中约有~$10^{11}$~个质子，因此当质子束团与质子束团发生对撞时，可能产生多个质子-质子对撞顶点，这种现象被称作“pile-up”，“pile-up” 现象可见图~ \ref{fig:LHC_pileup_CN}~的左部分，2016~年 “pile-up” 的分布情况可见图~\ref{fig:LHC_pileup_CN}~的中间部分以及~2017~年 “pile-up” 的分布情况可见图~\ref{fig:LHC_pileup_CN}~的右部分。
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[width=0.3\textwidth]{figures/LHC/pile-up.png}
+\includegraphics[width=0.32\textwidth]{figures/LHC/pileup_pp_2016_69200.pdf}
+\includegraphics[width=0.32\textwidth]{figures/LHC/pileup_pp_2017_69200.pdf}
+\caption{“pile-up” 现象（左图），2016~年 “pile up” 的分布情况（中间）和~2017~年 “pile up” 的分布情况（右图~\cite{CMS_Luminosity}。}
+\label{fig:LHC_pileup_CN}
+\end{center}
+\end{figure}
+
+从~2015~年到~2018~年~LHC~产生了亮度为~156~\fbinv~的质子-质子对撞数据，实现了预期的~150~\fbinv~目标。在~2024~年以后~LHC~将升级为~HL-LHC~即高亮度~LHC~。关于~LHC~和~HL-LHC~ 的取数计划可见图~\ref{fig:LHC_plan_CN}。 更多的关于~LHC~的介绍可以参见~\ref{sec:LHC}。
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[width=0.9\textwidth]{figures/LHC/HL_LHC_PlanUpdateJuly2015.PNG}
+\caption{LHC~和~HL-LHC~的取数计划~\cite{Antonella:1975962}。}
+\label{fig:LHC_plan_CN}
+\end{center}
+\end{figure}
+
+CMS~探测器~\cite{Chatrchyan:2008aa}~是一个长为~21~米，宽~15~米，高~15~米，重~14000~吨的探测器。从内到外的子探测器依次为硅像素径迹探测器、硅微条径迹探测器、电磁量能器、强子量能器、厄铁线圈以及缪子探测器。CMS~探测器的剖视图和横向截面图可见图~\ref{fig:CMS_overview_CN}~和图~\ref{fig:CMS_transversal_CN}。
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[width=0.9\textwidth]{figures/CMS/cms.png}
+\caption{CMS~探测器的剖视图~\cite{CMS_Detector1}。}
+\label{fig:CMS_overview_CN}
+\end{center}
+\end{figure}
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[width=0.9\textwidth]{figures/CMS/cms_particles.png}
+\caption{CMS~探测器的横向截面图~\cite{CMS_Detector2}。}
+\label{fig:CMS_transversal_CN}
+\end{center}
+\end{figure}
+
+在介绍下面的内容之前有必要先介绍一下~CMS~探测器的坐标系统。CMS~的直角坐标原点为设计时质子-质子对撞的地方，Y~轴的方向向上，X~轴的方向朝向~LHC~的中心，Z~轴的方向朝向~Jura~山脉。X-Y~平面的方位角用~$\phi$~表示，与~Z~轴的夹角（即极角）用~$\theta$~表示。CMS~坐标系统定义可见图~\ref{fig:CMS_coordinate_CN}。赝快度~$\eta$~的定义为~ $\eta=-\mathrm{ln~tan}（\theta/2）$。横向动量和横向能量分别用~\pt~和~\et~表示。其中~$\pt(\et)=\mathrm{p(E)sin}\theta$。在横向面上能量的不平衡值用~$\et^{\mathrm{miss}}$~ 或$\mathrm{\cancel{E}_T}$~ 表示。其值的计算公式为~$\overrightarrow{\mathrm{\et^{miss}}}=-\sum\overrightarrow{\mathrm{\et^{exists}}}$。
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[width=0.5\textwidth]{figures/CMS/cms_coordinate_system.png}
+\caption{CMS~坐标系统定义。}
+\label{fig:CMS_coordinate_CN}
+\end{center}
+\end{figure}
+
+下面继续介绍~CMS~的各个子探测器。CMS~的硅像素径迹探测器是最靠近输流管的子探测器，其主要目的为探测带电粒子的运动轨迹和质子-质子碰撞的顶点。每个像素的大小为$100\times150~\mu \mathrm{m^{2}}$，可覆盖~$|\eta|$~到~2.5~的范围。该探测器设计为能承受瞬时亮度为$1\times10^{34}~\mathrm{cm^{-2}s^{-1}}$，对撞间隔为~25~ns~的质子-质子对撞。硅微条径迹探测器也是为了探测带点粒子的运动轨迹，根据位置的不同其分辨率在~23-52~$\mu \mathrm{m}$~之间，同样覆盖~$|\eta|$~到~2.5~的范围。CMS~的硅像素探测器和硅微条探测器组成了~CMS~的径迹探测器。图 \ref{fig:CMS_tracker_CN} 为~CMS~径迹探测器纵向截面图的四分之一，其中黄色部分为~CMS~的硅像素探测器，粉色部分为~CMS~硅微条探测器。
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[width=0.8\textwidth]{figures/CMS/tracker/cms_tracker.png}
+\caption{CMS~径迹探测器纵向截面图的四分之一~\cite{Chatrchyan:2008aa}。}
+\label{fig:CMS_tracker_CN}
+\end{center}
+\end{figure}
+
+CMS~的电磁量能器的作用是为了测量电子和光子的能量，其由一个桶部（Barrel）和两个端盖（Endcap）组成。桶部由~61200~块（长为~230~mm，宽为~22~mm，高为~22~mm）钨酸铅
+（\PbWO ）晶体组成，可覆盖赝快度从~0~到~1.479。 两边端盖部分分别由~7324~块（长为~220~mm，宽为~24.7~mm，高为~24.7~mm）钨酸铅晶体组成，可覆盖~$|\eta|$~从~1.48~到~3.0~的范围。之所以选择钨酸铅是因为其辐射长度短（$\mathrm{X_{0}~=~0.89~cm}$）、辐射半径小（2.2 cm）、辐射速度快（80\%~的能量在~25~ns~内释放）。为了更好地区分~\pizero~和光子，CMS~ 在每个电磁量能器的端盖前放置了一个~preshower~探测器，覆盖~$|\eta|$~从~1.65~到~2.6~的范围。图~\ref{fig:CMS_Ecal_2_CN}~为~CMS~电磁量能器四分之一的纵向截面图。
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[width=0.8\textwidth]{figures/CMS/ECAL/Ecal_layout.png}
+\caption{CMS~电磁量能器四分之一的纵向截面图~\cite{CMS_TDR1}。}
+\label{fig:CMS_Ecal_2_CN}
+\end{center}
+\end{figure}
+
+CMS~电磁量能器的能量分辨率可以表示为~\cite{ECAL_TDR}：
+\begin{equation}
+（\frac{\sigma}{E}）^{2}=（\frac{S}{\sqrt{E}}）^{2}+（\frac{N}{E}）^{2}+C^{2}
+\label{eq:ECAL_resolution}
+\end{equation}
+其中，S~表示随机项，N~代表噪声项，C~代表常数项。例如对于能量在~20~到~250~GeV~的电子，利用~3$\times$3~的晶体去测量其能量，那么对应的~S~为~0.028~$\sqrt{\mathrm{（GeV）}}$，N~为~0.12~GeV，\\C~为~0.003。
+
+在电磁量能器的外面是强子量能器，其目的是测量强子的能量，包括带电的和中性的强子。强子量能器有桶部（HB）、端盖（HE）、前端（HF）和外部（HO）组成。其中~HB~探测范围为~$|\eta|$~从~0~到~1.3，HE~探测范围为~$|\eta|$~从~1.3~到~3.0，HF~探测范围为~$|\eta|$~从~3.0~到~5.2，目的是为了监测质子对撞的瞬时亮度。而~HO~是放在厄铁线圈外的部分，主要是用于对~HB~的辅助测量。关于强子量能器给组成部分在~CMS~探测器中的位置可见图~\ref{fig:CMS_HCAL_CN}。
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[width=0.8\textwidth]{figures/CMS/HCAL/HCAL.png}
+\caption{CMS~探测器的纵向截面图。其中分别标明了强子量能器桶部（HB）、端盖（HE）、前端（HF）以及外部（HO）的位置~\cite{Chatrchyan:2008aa}。}
+\label{fig:CMS_HCAL_CN}
+\end{center}
+\end{figure}
+
+CMS~强子量能器对单个强子的基准能量分辨率可以表示为~\cite{CERN-LHCC-97-031}：
+\begin{equation}
+\frac{\sigma}{E}=\frac{X}{\sqrt{E}}\oplus5\%, \texttt{~X=65\% （HB）, 83\% （HE）, 100\% （HF）}
+\label{eq:HCAL_resolution}
+\end{equation}
+
+在~CMS~强子量能器外部是~CMS~的厄铁线圈。厄铁线圈利用低温超导技术能提供~3.8~T~的强磁场，使得带电粒子在磁场中运动的轨迹变的弯曲，从而使得带电粒子的动量能被测量。另外厄铁线圈隔绝了几乎所有除了缪子以外的粒子进入其外部的缪子探测器。缪子探测器是~CMS~最外部的子探测器，其主要目的是探测缪子及其动量。缪子探测器由漂移管（DT）、阴极条室（CSC）和阻性板（RPC）组成。其中~DT~和~CSC~提供了很高的缪子空间分辨率，而~RPC~提供了很快的缪子时间分辨率。缪子探测器的桶部（MB）为~$|\eta|$~从~0~到~1.2~的范围，端盖（ME）的部分为~$|\eta|$~从~1.2~到~2.4~ 的范围。图~\ref{fig:CMS_Muon_CN}~为~CMS~缪子探测器的纵向四分之一截面图。如果只利用缪子探测器的信息，那么对于动量约为~1~TeV的谬子，其动量分辨率在~5\%~左右，如果结合~CMS~ 内部的径迹探测器，那么其动量分辨率可以达到~1\%~到~5\%。
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[width=0.8\textwidth]{figures/CMS/Muon/Muon.png}
+\caption{CMS~谬子探测器的纵向四分之一截面图~\cite{Chatrchyan:2008aa}。}
+\label{fig:CMS_Muon_CN}
+\end{center}
+\end{figure}
+
+由于~LHC~质子-质子对撞的频率为~40~MHz（周期为25~ns），每个事例的大小约为~1~MB，而~CMS~数据存储速率上限约为~1~kHz。因此~CMS~利用了两级触发（trigger）来实现对感兴趣事例进行筛选，使得不感兴趣的事例被忽略，而感兴趣的事例能被存储下来。第一级触发被称为~L1~触发，其利用电磁量能器、强子量能器以及谬子探测器来快速判断该事例中是否有能量超过阈值的电子或光子或谬子或中微子或者喷注（jet），为了缩短判断时间~L1~触发并不会使用径迹探测器的信息对光子和电子进行区分。L1~触发的反应时间为~3.2~$\mu s$，通过~L1~触发后事例的速率降为约~100~kHz。事例在通过~L1~触发后将会进入第二级~HLT~触发，HLT~将会结合各个子探测器的信息对事例进行重建包括利用径迹探测器来重建带电粒子的径迹。由于需要进行复杂的重建过程，对于每个事例~HLT~将花费约~100~ms~对其是否通过触发进行判断。最终通过~HLT~的事例速率将降为~600~Hz~左右。这些事例将被永久存储到磁盘以用于后续的物理分析。有关~CMS~探测器的介绍和触发可以参见~\ref{sec:CMS}。关于不同粒子的重建过程可以参见~\ref{chap:Event_reconstruction}。
+
+
+
+\clearpage
+\section*{利用双电子末态寻找重的玻色子}
+
+在介绍该物理分析之前有必要先介绍一下该物理的总体进展。~LHC~和~Tevatron~在以前就利用过双轻子末态寻找重的玻色子。例如~CMS~利用了~7~TeV~\cite{Chatrchyan:2011wq,Chatrchyan:2012it}~和~8~TeV~\cite{Chatrchyan:2012oaa,Khachatryan:2014fba}~以及~2015~年的~13~TeV~加之前~8~TeV~\cite{Khachatryan:2016zqb}~的质子质子对撞数据寻找了~\ZP。
+最近的~CMS~结果是来自于~2016~年~13~TeV~\cite{Sirunyan2018}~和~2017~年~13~TeV~\cite{CMS-PAS-EXO-18-006}~的数据，即本论文所要介绍的研究工作。和~CMS~类似，~LHC~上的~ATLAS~实验组也做了对~\ZP~的寻找。其利用的数据包括：~7~TeV~\cite{Aad:2011xp,Aad:2012hf}、~8~TeV~\cite{Aad:2014cka}~和最新的~13~TeV~全部的数据~\cite{Aaboud:2017buh,Aad:2019fac}。在~Tevatron~上，~CDF~实验组和~D0~实验组利用~1.96~TeV~的质子和反质子对撞数据对~\ZP~进行了寻找~\cite{CDF_Zp,CDF_RS,D0_RS,D0_Zp,CDF_SSM,CDF_RSele}。
+
+
+
+本论文的第一个研究课题是利用双电子末态寻找重的玻色子。利用的数据是来自~CMS~的~2016~年~35.9~\fbinv~和~2017~年~41.4~\fbinv~的数据。对于被选中的电子其必须在电磁量能器的桶部或端盖部分，同时其横向能量要大于~35~GeV，然后通过高能电子选择条件（即~HEEP~选择条件）。我们利用~tag~和~probe~的方法测量了HEEP~的选择效率。其中~tag~为通过~HEEP~条件的电子，并且通过触发表。probe~为普通的电子，此外~tag~和~probe~的不变质量在~Z~玻色子区间。这样做的目的是尽可能减少~probe~中的假电子成分，提高真电子的比例。最后测量到的~HEEP~对真电子的选择效率可见图~\ref{fig:eff_SS_nominal_ET_CN}。
+\begin{figure}[htp]
+  \begin{center}
+    \begin{tabular}{cc}
+      \includegraphics[width=0.45\textwidth]{figures/Zprime/2016/ScaleFactor/SameSign/nominal/g_compare_cut_Et_Barrel_ea_ta_exc_AS_nominal_PUW.png} &
+      \includegraphics[width=0.45\textwidth]{figures/Zprime/2016/ScaleFactor/SameSign/nominal/g_compare_cut_Et_Endcap_ea_ta_exc_AS_nominal_PUW.png} \\
+      \includegraphics[width=0.45\textwidth]{figures/Zprime/2017/ScaleFactor/SameSign/nominal/g_compare_cut_Et_Barrel_ea_ta_exc_AS_nominal_PUW.png} &
+      \includegraphics[width=0.45\textwidth]{figures/Zprime/2017/ScaleFactor/SameSign/nominal/g_compare_cut_Et_Endcap_ea_ta_exc_AS_nominal_PUW.png}
+    \end{tabular}
+    \caption{HEEP~条件对桶部（左侧）和端盖（右侧）电子在数据和蒙卡样本（MC）中的选择效率和~scale~factor~在~2016（上面）和~2017~年（下面）。}
+    \label{fig:eff_SS_nominal_ET_CN}
+  \end{center}
+\end{figure}
+
+对于两个电子都在端盖的事例将不会被选入，因为在高质量区间~QCD~本底对这种事例有较大贡献。最后，被选中的事例需要通过双电子触发表。优化了的事例选择条件能保证对电子具有高的选择效率以及减少非电子被鉴别为电子的误判。
+该分析的主要本底来源于~Drell-Yan~过程，对于该本底的估计则主要来源于蒙特卡洛（MC）模拟。次主要本底来源于顶夸克对和双玻色子过程，这些本底通过~MC~进行模拟并利用数据对其进行检查。最后一部分的本底来源于~jet~误判为电子的情况，这部分的本底通过~data-driven~的方法进行估计。图~\ref{fig:Mee_endcap_endcap_CN}~为两电子都在端盖时的双电子不变质量谱（左）和质量谱积分（右）在~2016~年（上）和~2017~年（下）。从中可见~data-driven~方法还是能比较好地估计出~jet~本底。
+\begin{figure}[b]
+  \begin{center}
+\includegraphics[width=0.47\linewidth,angle=0]{figures/Zprime/2016/mass/massHistEEEE.png}
+\includegraphics[width=0.47\linewidth,angle=0]{figures/Zprime/2016/mass/cMassHistEEEE.png}
+\includegraphics[width=0.47\linewidth,angle=0]{figures/Zprime/2017/mass/massHistEEEE.png}
+\includegraphics[width=0.47\linewidth,angle=0]{figures/Zprime/2017/mass/cMassHistEEEE.png}
+    \caption{两电子都在端盖时的双电子不变质量谱（左）和质量谱积分（右）在~2016~年（上）和~2017~年（下）。}
+       \label{fig:Mee_endcap_endcap_CN}
+  \end{center}
+\end{figure}
+
+图~\ref{mass_2016_CN}~和~\ref{mass_2017_CN}~分别为来自~2016~年和~2017~年的最终双电子不变质量谱（左）和不变质量谱积分（右）对于两电子都在桶部（上）、一个电子在桶部一个电子在端盖（中）和有一个电子在桶部（下）的情况。可惜在对得到的最终双电子不变质量谱进行研究后并没有发现明显超出标准模型预言的事例。
+\begin{figure}[ht]
+  \begin{center}
+    \includegraphics[width=0.47\textwidth]{figures/Zprime/2016/mass/massHistEBEB}
+    \includegraphics[width=0.47\textwidth]{figures/Zprime/2016/mass/cMassHistEBEB}
+    \includegraphics[width=0.47\textwidth]{figures/Zprime/2016/mass/massHistEBEE}
+    \includegraphics[width=0.47\textwidth]{figures/Zprime/2016/mass/cMassHistEBEE}
+    \includegraphics[width=0.47\textwidth]{figures/Zprime/2016/mass/massHist}
+    \includegraphics[width=0.47\textwidth]{figures/Zprime/2016/mass/cMassHist}
+    \caption{2016~年的最终双电子不变质量谱（左）和不变质量谱积分（右）对于两电子都在桶部（上）、一个电子在桶部一个电子在端盖（中）和一个电子在桶部（下）的情况。}
+    \label{mass_2016_CN}
+  \end{center}
+\end{figure}
+
+\begin{figure}[ht]
+  \begin{center}
+    \includegraphics[width=0.47\textwidth]{figures/Zprime/2017/mass/massHistEBEB}
+    \includegraphics[width=0.47\textwidth]{figures/Zprime/2017/mass/cMassHistEBEB}
+    \includegraphics[width=0.47\textwidth]{figures/Zprime/2017/mass/massHistEBEE}
+    \includegraphics[width=0.47\textwidth]{figures/Zprime/2017/mass/cMassHistEBEE}
+    \includegraphics[width=0.47\textwidth]{figures/Zprime/2017/mass/massHist}
+    \includegraphics[width=0.47\textwidth]{figures/Zprime/2017/mass/cMassHist}
+    \caption{2017~年的最终双电子不变质量谱（左）和不变质量谱积分（右）对于两电子都在桶部（上）、一个电子在桶部一个电子在端盖（中）和一个电子在桶部（下）的情况。}
+    \label{mass_2017_CN}
+  \end{center}
+\end{figure}
+
+
+因此该分析利用统计学的方法给出了不同新粒子产生截面乘以衰变分支比的~95\%~的置信上限。同时将该截面乘以衰变分支比上限转换为不同新粒子质量的下限。其结果可见图 \ref{fig:limit_ee_CN}。
+\begin{figure}[!htb]
+\centering
+\includegraphics[width=0.47\textwidth]{figures/Zprime/2016/paper/Figure_003-a.pdf}
+\includegraphics[width=0.47\textwidth]{figures/Zprime/2017/limitInputs/limitPlot_Dielectron2017_forApproval.pdf}
+ \caption{观测到的和期望的~\ZP~的产生截面乘以衰变分支比的~95\%~上限在~2016~年（左）\cite{Sirunyan2018} 和~2017~年（右）\cite{CMS-PAS-EXO-18-006}，同时给出了~$\ZPSSM$~ 和~$\ZPPSI$~ 对应的理论值。}
+\label{fig:limit_ee_CN}
+\end{figure}
+
+在结合了双电子道（2016~年~35.9~\fbinv~加上~2017~年~41.4~\fbinv~的数据）和双缪子道（2016~年~36.3~\fbinv 的数据）后，可以给出更严格的不同模型下的~\ZP~质量下限，如~$\ZPSSM$（其与标准模型中费米子的耦合和~Z~玻色子一样）的质量下限为~4.7~TeV，$\ZPPSI$\\
+（来自于~GUT~模型）的质量下限为~4.1~TeV，见图 \ref{fig:limit_comb_CN}。 具体的研究过程和结果可参见~\ref{chap:Zprime}。
+\begin{figure}[!htb]
+\centering
+\includegraphics[width=0.7\textwidth]{figures/Zprime/2017/limitInputs/limitPlot_Combination_forApproval.pdf}
+ \caption{在结合~2016~年双电子和双谬子道的数据以及~2017~年双电子道的数据后观测到的和期望的~\ZP~的产生截面乘以衰变分支比的~95\%~上限，同时给出了~$\ZPSSM$~和~$\ZPPSI$~ 对应的理论值 \cite{CMS-PAS-EXO-18-006}。}
+\label{fig:limit_comb_CN}
+\end{figure}
+
+
+\clearpage
+\section*{在~top~夸克产生过程寻找新物理}
+
+在介绍该物理分析之前有必要先介绍一下该物理的总体进展。~LHC~上的~CMS~\cite{Khachatryan:2016sib,Khachatryan:2014vma}~和~ATLAS~\cite{Aaboud:2017aqp,Aaboud:2016hsq}~实验组以及~Tevatron~上的~D0~\cite{Abazov:2012uga}~ 实验组曾利用单顶夸克~$t$-channel~产生过程和顶夸克衰变过程寻找~Wtb~的奇异耦合。此外~CMS~曾利用~7~TeV~的数据通过顶夸克对产生过程寻找过新的夸克胶子耦合。最后，~LHC~\cite{Khachatryan:2016sib,Aad:2015gea}~和~Tevatron~\cite{Abazov:2010qk,Aaltonen:2008qr}~也对顶夸克参与的味改变中性流过程的进行了广泛的寻找。
+
+本论文的第二个研究课题是通过双电子或双缪子并且伴随几个~jet（即喷注）~或~bjet \\
+（也叫~btag，为含底夸克的喷注）~的末态对顶夸克的产生过程是否存在新物理进行寻找，包括了顶夸克对的产生过程（\ttbar ）和一个顶夸克加上一个~W~玻色子的过程（tW）。利用的数据是来自~CMS~的~2016~年~35.9~\fbinv~的数据。被选中的电子或缪子需要通过好电子和好缪子的鉴别，同时电子或缪子的横动量要大于~20~GeV，其中~leading~的电子或缪子的横动量要大于~25~GeV。此外，双电子或双缪子的电荷需要相反，整个事例需要通过相关的触发表。为了去除~Drell-Yan~本底过程，要求双电子或双缪子的不变质量需要在~Z~玻色子质量区间外，同时该事例的~MET~要大于~60~GeV。但在实验中发现数据的~MET~分布和蒙卡样本中~MET~的分布符合的并不好，因此采用了~data-driven~方法去估计数据中的~Drell-Yan~本底事例数。我们利用蒙特卡洛样本来模拟能产生两个真电子或真缪子的过程，例如~\ttbar 、tW~和双玻色子过程，对于存在的~jet~误判为电子或缪子的过程，我们利用~“same-sign”~的~data-driven~方法去估计。经过事例选择后的双电子道和双缪子道中~leading~轻子的~Pt、$\eta$~和~$\phi$~的分布可见图~\ref{fig:step2_leading_lepton_CN}。双电子道和双缪子道中~sub-leading~轻子的~\pt 、$\eta$~和~$\phi$~的分布可见图 \ref{fig:step2_subleading_lepton_CN}。从中可见数据的分布与蒙特卡洛样本的预期一致。
+\begin{figure}[ht]
+  \begin{center}
+    \begin{tabular}{ccc}
+      \includegraphics[width=0.4\textwidth]{figures/tW/fig/Step2/ee/H_lepton_led_pt.png}&
+      \includegraphics[width=0.4\textwidth]{figures/tW/fig/Step2/mumu/H_lepton_led_pt.png}\\
+      \includegraphics[width=0.4\textwidth]{figures/tW/fig/Step2/ee/H_lepton_led_eta.png}&
+      \includegraphics[width=0.4\textwidth]{figures/tW/fig/Step2/mumu/H_lepton_led_eta.png}\\
+      \includegraphics[width=0.4\textwidth]{figures/tW/fig/Step2/ee/H_lepton_led_phi.png}&
+      \includegraphics[width=0.4\textwidth]{figures/tW/fig/Step2/mumu/H_lepton_led_phi.png}\\
+    \end{tabular}
+    \caption{双电子道（左）和双缪子道（右）中~leading~轻子的~Pt~（上）、$\eta$~（中）和~$\phi$~（下）的分布。
+    \label{fig:step2_leading_lepton_CN}}
+  \end{center}
+\end{figure}
+
+\begin{figure}[ht]
+  \begin{center}
+    \begin{tabular}{ccc}
+      \includegraphics[width=0.4\textwidth]{figures/tW/fig/Step2/ee/H_lepton_sub_pt.png}&
+      \includegraphics[width=0.4\textwidth]{figures/tW/fig/Step2/mumu/H_lepton_sub_pt.png}\\
+      \includegraphics[width=0.4\textwidth]{figures/tW/fig/Step2/ee/H_lepton_sub_eta.png}&
+      \includegraphics[width=0.4\textwidth]{figures/tW/fig/Step2/mumu/H_lepton_sub_eta.png}\\
+      \includegraphics[width=0.4\textwidth]{figures/tW/fig/Step2/ee/H_lepton_sub_phi.png}&
+      \includegraphics[width=0.4\textwidth]{figures/tW/fig/Step2/mumu/H_lepton_sub_phi.png}\\
+    \end{tabular}
+    \caption{双电子道（左）和双缪子道（右）中~sub-leading~轻子的~Pt~（上）、$\eta$~（中）和~$\phi$~（下）的分布。
+    \label{fig:step2_subleading_lepton_CN}}
+  \end{center}
+\end{figure}
+
+最终的双电子道和双缪子道中数据和蒙卡样本在不同~jet~和~bjet~区域的事例数可见图~\ref{fig:binee_CN}。从中我们知道~tW~过程的事例主要出现在~1-jet,1-tag~区域，而~2-jet,1-tag~ 和~$\geq$2-jet,2-tag~的区域主要来自~\ttbar~过程。
+\begin{figure}[ht]
+  \begin{center}
+    \begin{tabular}{cc}
+      \includegraphics[width=0.45\textwidth]{figures/tW/fig/Result/ee/H_Limit_N_jet_bjet.png}&
+      \includegraphics[width=0.45\textwidth]{figures/tW/fig/Result/mumu/H_Limit_N_jet_bjet.png}\\
+    \end{tabular}
+    \caption{双电子道（左）和双缪子道（右）中数据和蒙卡样本在不同~jet~和~bjet区间的事例数。
+    \label{fig:binee_CN}}
+  \end{center}
+\end{figure}
+
+该分析主要寻找了几种可能存在的新耦合，其中包括只参与~tW~过程的~\CtW （此表示右手的~W~玻色子和~top~夸克及~b~夸克的相互作用），\Cphiq （此与标准模型的~W~ 玻色子和~top~ 夸克及~b~夸克相互作用一致），\CuG （此表示胶子与~u~夸克和~top~夸克的相互作用）和~\CcG （此表示胶子与~c~夸克和~top~夸克的相互作用）以及只参与~\ttbar~过程的~\CG （此表示三个胶子的相互作用）和两个过程都参与的~\CtG （此表示胶子与两~top~夸克的相互作用）。这些过程的费曼图可见图~\ref{fig-feyn_CN}。
+\begin{figure}[t]
+\centering\includegraphics[width=1\textwidth]{figures/tW/fig/fey}
+\caption{tW（左）和~\ttbar （右）的领头阶费曼图。第一行为标准模型过程，第二行和第三行分别代表含有~\Ophiq、\OtW、\OtG、\OG~和~\OucG~的过程。}\label{fig-feyn_CN}
+\end{figure}
+
+由于~\ttbar~和~tW~过程末态很相似，因此该分析采用了多变量分析（神经网络）的方法来区分~\ttbar~和~tW~事例，从而提高了该分析对新物理的敏感度。最终的神经网络输出可见图 \ref{fig:limit_binee_CN}。
+\begin{figure}[ht]
+  \begin{center}
+    \begin{tabular}{ccc}
+      \includegraphics[width=0.45\textwidth]{figures/tW/fig/Result/ee/H_MLP_1jet_1bjet.png} &
+      \includegraphics[width=0.45\textwidth]{figures/tW/fig/Result/mumu/H_MLP_1jet_1bjet.png}\\
+      \includegraphics[width=0.45\textwidth]{figures/tW/fig/Result/ee/H_MLP_2jet_1bjet.png} &
+      \includegraphics[width=0.45\textwidth]{figures/tW/fig/Result/mumu/H_MLP_2jet_1bjet.png}\\
+      \includegraphics[width=0.45\textwidth]{figures/tW/fig/FCNC_Result/ee/H_MLP_tug_xjet_1bjet.png} &
+      \includegraphics[width=0.45\textwidth]{figures/tW/fig/FCNC_Result/mumu/H_MLP_tug_xjet_1bjet.png}\\
+    \end{tabular}
+    \caption{数据和蒙特卡洛样本在双电子道（左）和双缪子道（右）在~1-jet,1-tag~（上）、2-jet,1-tag~（中）和~n-jets,1-tag~（下）区域的神经网络（Neural Network）输出。
+    \label{fig:limit_binee_CN}}
+  \end{center}
+\end{figure}
+
+可惜从图~\ref{fig:limit_binee_CN}~中看到实验数据的分布和标准模型预测一致，并没有发现新物理的迹象。在最后该分析利用统计学的方法给出了不同耦合的~95\%~的置信区间。在结合了一个类似的分析道即一个电子加一个缪子道后，最终的不同耦合的~95\%~的置信区间可见图~\ref{fin_CN}。该分析首次对~\CG~给出了限制，也提高了之前~\CtG~的结果，关于~\CtW，\Cphiq，\CuG~和~\CcG~则是首次利用~tW~过程对其进行研究，也是对之前来自单顶夸克过程的研究结果的补充。关于该分析的更加具体的研究过程和结果可参见~\ref{chap:tW}。
+%
+\begin{figure}[h]
+  \begin{center}
+    \begin{tabular}{c}
+      \includegraphics[width=0.9\textwidth]{figures/tW/fig/Result/tW_limit.png}\\
+    \end{tabular}
+    \caption{在结合双电子道、双缪子道和一个电子加一个缪子道后观测到的和预测的不同耦合的~95\%~的置信区间~\cite{CMS-PAS-TOP-17-020}。}
+    \label{fin_CN}
+  \end{center}
+\end{figure}
+
+
+
+
+

@@ -1,6 +1,6 @@
 \clearpage
-\section{HEEP ID efficiency and scale factor}\label{sec:Zprime_SF}
-The MC samples used for High Energy Electron Pair (HEEP) selection efficiency and scale factor measurement are listed in table \ref{tab:HEEPSF-samples}
+\section{HEEP ID Efficiency and Scale Factor}\label{sec:Zprime_SF}
+The MC samples used for the High Energy Electron Pair (HEEP) selection efficiency measurement and the scale factor measurement are listed in Table \ref{tab:HEEPSF-samples}.
 \begin{table}[htp]
   \begin{center}
 \small
@@ -8,7 +8,7 @@ The MC samples used for High Energy Electron Pair (HEEP) selection efficiency an
 \resizebox{\linewidth}{!}{%
 \begin{tabular}{|l|l|l|}
 \hline
-sample                                                                  & xsection(pb) & comments \\
+Sample                                                                  & Xsection(pb) & Comments \\
 \hline
 \hline
 DYToEE\_NNPDF30\_ 13TeV-powheg-pythia8                                 & 1921.8   & for 2016 $Z\rightarrow ee$     \\
@@ -35,7 +35,7 @@ WZ\_TuneCUETP8M1\_13TeV-pythia8                                         & 47.13 
 ZZ\_TuneCUETP8M1\_13TeV-pythia8                                         & 16.523  & for 2016, 2017         \\
 \hline
 \end{tabular}}
-\caption{MC samples used in HEEP efficiency and scale factor study}
+\caption{MC samples used in the HEEP efficiency and scale factor studies}
 \label{tab:HEEPSF-samples}
   \end{center}
 \end{table}
@@ -43,38 +43,40 @@ ZZ\_TuneCUETP8M1\_13TeV-pythia8                                         & 16.523
 
 \subsection{Tag and probe method}
 \label{subsubsec:Same_sign_method}
-To calculate the efficiency of a certain selection we use a method called 'tag and probe' using Z $\rightarrow$ ee events. This method starts by searching for a good electron, 'tag', which satisfies certain types of criteria. Then the efficiency of interest is measured testing the cuts on a second electron candidate called 'probe' electron. For this study, we measure HEEP ID efficiency and scale factor.
+A so called ``tag and probe'' method is often used for calculating a certain selection efficiency. For the HEEP ID efficiency study, this method starts by searching for a good electron (the ``tag'') which satisfies certain types of criteria. Then the efficiency of the interested selection cut is measured on the second electron candidate called the ``probe''.
 
-Tag is required to fulfill the following conditions and is paired with every other gsf electron candidate in the event that passes the $E_{T}$ and $\eta$ acceptance cuts of the HEEP ID (probe).
+The tag is required to fulfill the following conditions and is paired with every other gsf electron candidate in the event that passes the \et and $\eta$ acceptance cuts of the HEEP ID (probe).
 \begin{itemize}
   \item[$\bullet$] tag must pass the HEEP ID
   \item[$\bullet$] tag must be a barrel electron
   \item[$\bullet$] tag must be matched to the \texttt{HLT\_Ele27\_eta2p1\_WPTight} (\texttt{HLT\_Ele35\_WPTight}) trigger in data in 2016 (2017)
 \end{itemize}
-The invariant mass of the tag and probe must satisfy $70 < m(ee) < 110 ~\mathrm{GeV/c^{2}}$. If there are multiple tag and probe candidates in an event then all pairs are selected.
-When there are two tags in a pair, both are considered to also be probes.
+The invariant mass of the tag and probe must satisfy $70 < \mathrm{M_{ee}} < 110 ~\mathrm{GeV}$. If there are multiple tag and probe candidates in an event then all pairs are selected.
+When there are two tags in a pair, both are considered to be probes (e.g. once as ``$e_1 = tag , e_2 = probe$" and once as ``$e_1 = probe , e_2 = tag$'') and by doing this we can get more statistics.
 What we get is a very clear peak around the mass of the Z boson.
-Therefore, we are confident that the electrons we have chosen are in fact products of a Z boson decay and are real electrons although there are low contamination from other standard model backgrounds.
+Therefore, we are confident that the electrons we have selected are almost real electrons coming from Z boson decay. Although there is a low contamination from other standard model backgrounds.
 
 The efficiency is defined as
 \begin{equation}
 \label{SF:eq:eff}
 \epsilon_{\text{HEEP}} = \frac{N_{\text{passing probes}}}{N_{\text{all probes}}}
 \end{equation}
-where $N_{\text{all probes}}$ is the total number of all selected probes and $N_{\text{passing probes}}$ is the total number of selected probes which pass HEEP ID selection criteria. The efficiency can be measured in data and MC as a function of different variables like electron $E_{T}$, $\eta$, $\phi$, etc.
+where $N_{\text{all probes}}$ is the total number of selected probes and $N_{\text{passing probes}}$ is the number of probes passing HEEP ID selection criteria. The efficiency can be measured in data and MC as a function of different variables like \et of probe, $\eta$ of probe, $\phi$ of probe, etc.
 
-For finding HEEP ID efficiency in data, events are selected from SingleElectron dataset using \texttt{HLT\_Ele27\_eta2p1\_WPTight} (\texttt{HLT\_Ele35\_WPTight}) trigger in 2016 (2017).
+For measuring the HEEP ID efficiency in data, events are selected from SingleElectron dataset using \texttt{HLT\_Ele27\_eta2p1\_WPTight} (\texttt{HLT\_Ele35\_WPTight}) trigger in 2016 (2017).
 
-For finding HEEP ID efficiency in MC, various MC samples are used which can be found in tables \ref{tab:HEEPSF-samples}. MC events are weighted using the trigger turn on curve of \texttt{HLT\_Ele27\_eta2p1\_WPTight} (\texttt{HLT\_Ele35\_WPTight}) path (see figure~\ref{fig:Ele27_2016} and ~\ref{fig:Ele35_2017} of section~\ref{sec:Other_HLT_efficiency}) to emulate the trigger efficiency instead of matching tag with the \\
+For finding HEEP ID efficiency in MC, various MC samples are used which can be found in Table \ref{tab:HEEPSF-samples}. MC events are weighted using the trigger turn on curve of \texttt{HLT\_Ele27\_eta2p1\_WPTight} (\texttt{HLT\_Ele35\_WPTight}) path (see Figures~\ref{fig:Ele27_2016} and ~\ref{fig:Ele35_2017} of section~\ref{sec:Other_HLT_efficiency}) to emulate the trigger efficiency instead of matching tag with the \\
 \texttt{HLT\_Ele27\_eta2p1\_WPTight} (\texttt{HLT\_Ele35\_WPTight}) trigger object.
-MC events are weighted to correct for differnce between data and MC pileup distribution according to the standard procedure.
+MC events are weighted to correct for difference between data and MC pileup distributions according to the standard procedure.
 
-The contribution of  QCD background, where tag and  probe are misidentified jets, is extracted from data using the 'same-sign' method.
+The contribution of QCD background, where tag and probe are misidentified jets, is extracted from data using the ``same-sign'' method.
 In same-sign method, we use the fact that the probability of assigning positive or negative charge to the misidentified jet should be equal (LHC is proton proton collider and positive charged jets should be produced a bit more but we are not sensitive to that amount in this study).
-Therefore, opposite sign and same sign tag and probe pairs are similar for QCD in total number and distribution shape for many variables. On the other hand, all other standard model processes have opposite sign electron pairs and do not contribute to same sign control region.
+Therefore, the number of probe and variable distributions of probe are similar for opposite sign and same sign tag and probe pairs from QCD process. On the other hand, all other standard model processes have opposite sign electron pairs and do not contribute to same sign control region. The other SM backgrounds are considered using MC simulations.
 
-In figure \ref{fig:SS_nominal_mee_2016}, the invariant mass distributions of selected tag and probe pairs are shown for all tag and probe pairs (top), tag and probe pairs in which probe passes HEEP ID selection cuts 'pass-pass' (middle) and tag and probe pairs in which probe fails passing  HEEP ID selection cuts 'pass-fail' (bottom). Due to the different ID efficiencies in barrel and endcaps, the invariant mass distribution of selected tag and probe pairs are separated for probe electrons in barrel and endcaps.
-From figure \ref{fig:SS_nominal_Et_2016} to \ref{fig:SS_nominal_PV_2016} (\ref{fig:SS_nominal_mee_2017} to \ref{fig:SS_nominal_PV_2017}) are invariant mass distributions of selected tag and probe pairs, $E_{T}$, $\eta$, $\phi$ of probes and number of primary vertex for the selected tag and probe pairs event in 2016 (2017).
+Because the HEEP ID efficiency is different in barrel and endcaps regions, the probes are separated in barrel and endcaps.
+In Figure \ref{fig:SS_nominal_mee_2016}, the invariant mass distributions of selected tag and probe pairs are shown for all tag and probe pairs (top), tag and probe pairs in which probe passes HEEP ID selection cuts ``pass-pass'' (middle) and tag and probe pairs in which probe fails passing  HEEP ID selection cuts ``pass-fail'' (bottom). Figures \ref{fig:SS_nominal_Et_2016} to \ref{fig:SS_nominal_PV_2016} present the \et, $\eta$, $\phi$ distributions of the probes and the number of primary vertex for the selected tag and probe pairs event in 2016.
+The corresponding distributions for the 2017 data are presented in Figures \ref{fig:SS_nominal_mee_2017} to \ref{fig:SS_nominal_PV_2017}.
+
 \begin{figure}[htp]
   \begin{center}
     \begin{tabular}{cc}
@@ -85,7 +87,7 @@ From figure \ref{fig:SS_nominal_Et_2016} to \ref{fig:SS_nominal_PV_2016} (\ref{f
       \includegraphics[width=0.45\textwidth]{figures/Zprime/2016/ScaleFactor/SameSign/nominal/stack_mee_Barrel_fail_PUW.png} &
       \includegraphics[width=0.45\textwidth]{figures/Zprime/2016/ScaleFactor/SameSign/nominal/stack_mee_Endcap_fail_PUW.png}
     \end{tabular}
-    \caption{Invariant mass of tag and probe for probe in the barrel (left) and endcap (right) where all the probes are included (top), only passing probes are included (middle) and only failed probes are included (bottom) for 2016.}
+    \caption{Invariant mass distributions of tag and probe for probe in the barrel (left) and endcap (right) where all the probes are included (top), only passing probes are included (middle), and only failed probes are included (bottom) for 2016.}
     \label{fig:SS_nominal_mee_2016}
   \end{center}
 \end{figure}
@@ -99,7 +101,7 @@ From figure \ref{fig:SS_nominal_Et_2016} to \ref{fig:SS_nominal_PV_2016} (\ref{f
       \includegraphics[width=0.45\textwidth]{figures/Zprime/2016/ScaleFactor/SameSign/nominal/stack_Et_Barrel_fail_PUW.png} &
       \includegraphics[width=0.45\textwidth]{figures/Zprime/2016/ScaleFactor/SameSign/nominal/stack_Et_Endcap_fail_PUW.png}
     \end{tabular}
-    \caption{$E_{T}$ of probe in the barrel (left) and endcap (right) where all the probes are included (top), only passing probes are included (middle) and only failed probes are included (bottom) for 2016.}
+    \caption{\et of probe in the barrel (left) and endcap (right) where all the probes are included (top), only passing probes are included (middle), and only failed probes are included (bottom) for 2016.}
     \label{fig:SS_nominal_Et_2016}
   \end{center}
 \end{figure}
@@ -110,7 +112,7 @@ From figure \ref{fig:SS_nominal_Et_2016} to \ref{fig:SS_nominal_PV_2016} (\ref{f
       \includegraphics[width=0.45\textwidth]{figures/Zprime/2016/ScaleFactor/SameSign/nominal/stack_eta_BE_Barrel+Endcap_pass_PUW.png} \\
       \includegraphics[width=0.45\textwidth]{figures/Zprime/2016/ScaleFactor/SameSign/nominal/stack_eta_BE_Barrel+Endcap_fail_PUW.png} &
     \end{tabular}
-    \caption{$\eta$ of probe in the barrel (left) and endcap (right) where all the probes are included (top), only passing probes are included (middle) and only failed probes are included (bottom) for 2016.}
+    \caption{$\eta$ of probe where all the probes are included (top left), only passing probes are included (top right), and only failed probes are included (bottom) for 2016.}
     \label{fig:SS_nominal_eta_2016}
   \end{center}
 \end{figure}
@@ -124,7 +126,7 @@ From figure \ref{fig:SS_nominal_Et_2016} to \ref{fig:SS_nominal_PV_2016} (\ref{f
       \includegraphics[width=0.45\textwidth]{figures/Zprime/2016/ScaleFactor/SameSign/nominal/stack_phi_Barrel_fail_PUW.png} &
       \includegraphics[width=0.45\textwidth]{figures/Zprime/2016/ScaleFactor/SameSign/nominal/stack_phi_Endcap_fail_PUW.png}
     \end{tabular}
-    \caption{$\phi$ of probe in the barrel (left) and endcap (right) where all the probes are included (top), only passing probes are included (middle) and only failed probes are included (bottom) for 2016.}
+    \caption{$\phi$ of probe in the barrel (left) and endcap (right) where all the probes are included (top), only passing probes are included (middle), and only failed probes are included (bottom) for 2016.}
     \label{fig:SS_nominal_phi_2016}
   \end{center}
 \end{figure}
@@ -138,7 +140,7 @@ From figure \ref{fig:SS_nominal_Et_2016} to \ref{fig:SS_nominal_PV_2016} (\ref{f
       \includegraphics[width=0.45\textwidth]{figures/Zprime/2016/ScaleFactor/SameSign/nominal/stack_nVtx_Barrel_fail_PUW.png} &
       \includegraphics[width=0.45\textwidth]{figures/Zprime/2016/ScaleFactor/SameSign/nominal/stack_nVtx_Endcap_fail_PUW.png}
     \end{tabular}
-    \caption{Number of primary vertex of tag and probe pair event in the barrel (left) and endcap (right) where all the probes are included (top), only passing probes are included (middle) and only failed probes are included (bottom) for 2016.}
+    \caption{Number of primary vertex of tag and probe pair event in the barrel (left) and endcap (right) where all the probes are included (top), only passing probes are included (middle), and only failed probes are included (bottom) for 2016.}
     \label{fig:SS_nominal_PV_2016}
   \end{center}
 \end{figure}
@@ -155,7 +157,7 @@ From figure \ref{fig:SS_nominal_Et_2016} to \ref{fig:SS_nominal_PV_2016} (\ref{f
       \includegraphics[width=0.45\textwidth]{figures/Zprime/2017/ScaleFactor/SameSign/nominal/stack_mee_Barrel_fail_PUW.png} &
       \includegraphics[width=0.45\textwidth]{figures/Zprime/2017/ScaleFactor/SameSign/nominal/stack_mee_Endcap_fail_PUW.png}
     \end{tabular}
-    \caption{Invariant mass of tag and probe for probe in the barrel (left) and endcap (right) where all the probes are included (top), only passing probes are included (middle) and only failed probes are included (bottom) for 2017.}
+    \caption{Invariant mass of tag and probe distributions for probe in the barrel (left) and endcap (right) where all the probes are included (top), only passing probes are included (middle), and only failed probes are included (bottom) for 2017.}
     \label{fig:SS_nominal_mee_2017}
   \end{center}
 \end{figure}
@@ -169,7 +171,7 @@ From figure \ref{fig:SS_nominal_Et_2016} to \ref{fig:SS_nominal_PV_2016} (\ref{f
       \includegraphics[width=0.45\textwidth]{figures/Zprime/2017/ScaleFactor/SameSign/nominal/stack_Et_Barrel_fail_PUW.png} &
       \includegraphics[width=0.45\textwidth]{figures/Zprime/2017/ScaleFactor/SameSign/nominal/stack_Et_Endcap_fail_PUW.png}
     \end{tabular}
-    \caption{$E_{T}$ of probe in the barrel (left) and endcap (right) where all the probes are included (top), only passing probes are included (middle) and only failed probes are included (bottom) for 2017.}
+    \caption{\et of probe in the barrel (left) and endcap (right) where all the probes are included (top), only passing probes are included (middle), and only failed probes are included (bottom) for 2017.}
     \label{fig:SS_nominal_Et_2017}
   \end{center}
 \end{figure}
@@ -180,7 +182,7 @@ From figure \ref{fig:SS_nominal_Et_2016} to \ref{fig:SS_nominal_PV_2016} (\ref{f
       \includegraphics[width=0.45\textwidth]{figures/Zprime/2017/ScaleFactor/SameSign/nominal/stack_eta_BE_Barrel+Endcap_pass_PUW.png} \\
       \includegraphics[width=0.45\textwidth]{figures/Zprime/2017/ScaleFactor/SameSign/nominal/stack_eta_BE_Barrel+Endcap_fail_PUW.png} &
     \end{tabular}
-    \caption{$\eta$ of probe in the barrel (left) and endcap (right) where all the probes are included (top), only passing probes are included (middle) and only failed probes are included (bottom) for 2017.}
+    \caption{$\eta$ of probe where all the probes are included (top left), only passing probes are included (top right), and only failed probes are included (bottom) for 2017.}
     \label{fig:SS_nominal_eta_2017}
   \end{center}
 \end{figure}
@@ -194,7 +196,7 @@ From figure \ref{fig:SS_nominal_Et_2016} to \ref{fig:SS_nominal_PV_2016} (\ref{f
       \includegraphics[width=0.45\textwidth]{figures/Zprime/2017/ScaleFactor/SameSign/nominal/stack_phi_Barrel_fail_PUW.png} &
       \includegraphics[width=0.45\textwidth]{figures/Zprime/2017/ScaleFactor/SameSign/nominal/stack_phi_Endcap_fail_PUW.png}
     \end{tabular}
-    \caption{$\phi$ of probe in the barrel (left) and endcap (right) where all the probes are included (top), only passing probes are included (middle) and only failed probes are included (bottom) for 2017.}
+    \caption{$\phi$ of probe in the barrel (left) and endcap (right) where all the probes are included (top), only passing probes are included (middle), and only failed probes are included (bottom) for 2017.}
     \label{fig:SS_nominal_phi_2017}
   \end{center}
 \end{figure}
@@ -208,7 +210,7 @@ From figure \ref{fig:SS_nominal_Et_2016} to \ref{fig:SS_nominal_PV_2016} (\ref{f
       \includegraphics[width=0.45\textwidth]{figures/Zprime/2017/ScaleFactor/SameSign/nominal/stack_nVtx_Barrel_fail_PUW.png} &
       \includegraphics[width=0.45\textwidth]{figures/Zprime/2017/ScaleFactor/SameSign/nominal/stack_nVtx_Endcap_fail_PUW.png}
     \end{tabular}
-    \caption{Number of primary vertex of tag and probe pair event in the barrel (left) and endcap (right) where all the probes are included (top), only passing probes are included (middle) and only failed probes are included (bottom) for 2017.}
+    \caption{Number of primary vertex of tag and probe pair event in the barrel (left) and endcap (right) where all the probes are included (top), only passing probes are included (middle), and only failed probes are included (bottom) for 2017.}
     \label{fig:SS_nominal_PV_2017}
   \end{center}
 \end{figure}
@@ -216,8 +218,8 @@ From figure \ref{fig:SS_nominal_Et_2016} to \ref{fig:SS_nominal_PV_2016} (\ref{f
 \clearpage
 \subsection{HEEP ID efficiencies and scale factors}
 \label{subsubsec:SF_results}
-In 2016 the HEEP ID efficiencies for data and MC are shown as functions of $E_T$, $\eta$, and $\phi$ of the probe, and of $N_{vtx}$ in figures \ref{fig:eff_SS_nominal_ET_2016}-\ref{fig:eff_SS_nominal_nVtx_2016} (left), here data includes both DY and non-DY events. In order to check if the contribution of non-DY backgrounds are estimated correctly, the DY efficiency is compared to data while non-DY contributions are subtracted from data in figures \ref{fig:eff_SS_nominal_ET_2016}-\ref{fig:eff_SS_nominal_nVtx_2016} (right). The scale factors obtained with these two approaches are in a good agreement in all variables. In addition, data to MC scale factor per bin and the mean value are shown in the bottom pad of the same plot.
-Same plots in 2017 are shown in figures \ref{fig:eff_SS_nominal_ET_2017}-\ref{fig:eff_SS_nominal_nVtx_2017}.
+In 2016, the HEEP ID efficiencies for data and MC are shown as a functions of \et of the probe, $\eta$ of the probe, $\phi$ of the probe, and $N_{vtx}$ in Figures \ref{fig:eff_SS_nominal_ET_2016}-\ref{fig:eff_SS_nominal_nVtx_2016} (left), here data includes both DY and non-DY events. In order to check if the contributions of non-DY backgrounds are estimated correctly, the DY efficiency is compared to data from which non-DY contributions are subtracted in Figures \ref{fig:eff_SS_nominal_ET_2016}-\ref{fig:eff_SS_nominal_nVtx_2016} (right). The scale factors obtained with these two approaches are in a good agreement in all variables. In addition, the HEEP ID efficiency scale factors between data and MC are shown in the bottom pad of the same plot.
+Same plots in 2017 are shown in Figures \ref{fig:eff_SS_nominal_ET_2017}-\ref{fig:eff_SS_nominal_nVtx_2017}.
 \begin{figure}[htp]
   \begin{center}
     \begin{tabular}{cc}
@@ -226,7 +228,7 @@ Same plots in 2017 are shown in figures \ref{fig:eff_SS_nominal_ET_2017}-\ref{fi
       \includegraphics[width=0.45\textwidth]{figures/Zprime/2016/ScaleFactor/SameSign/nominal/g_compare_cut_Et_Endcap_ea_ta_inc_AS_nominal_PUW.png} &
       \includegraphics[width=0.45\textwidth]{figures/Zprime/2016/ScaleFactor/SameSign/nominal/g_compare_cut_Et_Endcap_ea_ta_exc_AS_nominal_PUW.png}
     \end{tabular}
-    \caption{Efficiencies and scale factors in MC and data in the barrel (top) and endcap (bottom) where the non-DY processes are included (left) and subtracted (right) as functions of probe $E_T$ in 2016.}
+    \caption{The HEEP efficiencies in data and MC, as well as the scale factors when the probe is in the barrel (top) and endcap (bottom) where the non-DY processes are included (left) and subtracted (right) as functions of probe \et in 2016.}
     \label{fig:eff_SS_nominal_ET_2016}
   \end{center}
 \end{figure}
@@ -237,7 +239,7 @@ Same plots in 2017 are shown in figures \ref{fig:eff_SS_nominal_ET_2017}-\ref{fi
       \includegraphics[width=0.45\textwidth]{figures/Zprime/2016/ScaleFactor/SameSign/nominal/g_compare_cut_eta_Barrel+Endcap_ea_ta_inc_AS_nominal_PUW.png} &
       \includegraphics[width=0.45\textwidth]{figures/Zprime/2016/ScaleFactor/SameSign/nominal/g_compare_cut_eta_Barrel+Endcap_ea_ta_exc_AS_nominal_PUW.png} \\
     \end{tabular}
-    \caption{Efficiencies and scale factors in MC and data where the non-DY processes are included (left) and subtracted (right) as functions of probe $\eta$ in 2016.}
+    \caption{The HEEP efficiencies in data and MC, as well as the scale factors where the non-DY processes are included (left) and subtracted (right) as functions of probe $\eta$ in 2016.}
     \label{fig:eff_SS_nominal_eta_2016}
   \end{center}
 \end{figure}
@@ -250,7 +252,7 @@ Same plots in 2017 are shown in figures \ref{fig:eff_SS_nominal_ET_2017}-\ref{fi
       \includegraphics[width=0.45\textwidth,height=6.3cm]{figures/Zprime/2016/ScaleFactor/SameSign/nominal/g_compare_cut_phi_Endcap_ea_ta_inc_AS_nominal_PUW.png} &
       \includegraphics[width=0.45\textwidth,height=6.3cm]{figures/Zprime/2016/ScaleFactor/SameSign/nominal/g_compare_cut_phi_Endcap_ea_ta_exc_AS_nominal_PUW.png}
     \end{tabular}
-    \caption{Efficiencies and scale factors in MC and data in the barrel (top) and endcap (bottom) where the non-DY processes are included (left) and subtracted (right) as functions of probe $\phi$ in 2016.}
+    \caption{The HEEP efficiencies in data and MC, as well as the scale factors when the probe is in the barrel (top) and endcap (bottom) where the non-DY processes are included (left) and subtracted (right) as functions of probe $\phi$ in 2016.}
     \label{fig:eff_SS_nominal_phi_2016}
   \end{center}
 \end{figure}
@@ -263,7 +265,7 @@ Same plots in 2017 are shown in figures \ref{fig:eff_SS_nominal_ET_2017}-\ref{fi
       \includegraphics[width=0.45\textwidth]{figures/Zprime/2016/ScaleFactor/SameSign/nominal/g_compare_cut_nVtx_Endcap_ea_ta_inc_AS_nominal_PUW.png} &
       \includegraphics[width=0.45\textwidth]{figures/Zprime/2016/ScaleFactor/SameSign/nominal/g_compare_cut_nVtx_Endcap_ea_ta_exc_AS_nominal_PUW.png}
     \end{tabular}
-    \caption{Efficiencies and scale factors in MC and data in the barrel (top) and endcap (bottom) where the non-DY processes are included (left) and subtracted (right) as functions of the number of primary vertices, $n_{Vtx}$ in 2016.}
+    \caption{The HEEP efficiencies in data and MC, as well as the scale factors when the probe is in the barrel (top) and endcap (bottom) where the non-DY processes are included (left) and subtracted (right) as functions of the number of primary vertices, $n_{Vtx}$ in 2016.}
     \label{fig:eff_SS_nominal_nVtx_2016}
   \end{center}
 \end{figure}
@@ -277,7 +279,7 @@ Same plots in 2017 are shown in figures \ref{fig:eff_SS_nominal_ET_2017}-\ref{fi
       \includegraphics[width=0.45\textwidth]{figures/Zprime/2017/ScaleFactor/SameSign/nominal/g_compare_cut_Et_Endcap_ea_ta_inc_AS_nominal_PUW.png} &
       \includegraphics[width=0.45\textwidth]{figures/Zprime/2017/ScaleFactor/SameSign/nominal/g_compare_cut_Et_Endcap_ea_ta_exc_AS_nominal_PUW.png}
     \end{tabular}
-    \caption{Efficiencies and scale factors in MC and data in the barrel (top) and endcap (bottom) where the non-DY processes are included (left) and subtracted (right) as functions of probe $E_T$ in 2017.}
+    \caption{The HEEP efficiencies in data and MC, as well as the scale factors when the probe is in the barrel (top) and endcap (bottom) where the non-DY processes are included (left) and subtracted (right) as functions of probe \et in 2017.}
     \label{fig:eff_SS_nominal_ET_2017}
   \end{center}
 \end{figure}
@@ -288,7 +290,7 @@ Same plots in 2017 are shown in figures \ref{fig:eff_SS_nominal_ET_2017}-\ref{fi
       \includegraphics[width=0.45\textwidth]{figures/Zprime/2017/ScaleFactor/SameSign/nominal/g_compare_cut_eta_Barrel+Endcap_ea_ta_inc_AS_nominal_PUW.png} &
       \includegraphics[width=0.45\textwidth]{figures/Zprime/2017/ScaleFactor/SameSign/nominal/g_compare_cut_eta_Barrel+Endcap_ea_ta_exc_AS_nominal_PUW.png} \\
     \end{tabular}
-    \caption{Efficiencies and scale factors in MC and data where the non-DY processes are included (left) and subtracted (right) as functions of probe $\eta$ in 2017.}
+    \caption{The HEEP efficiencies in data and MC, as well as the scale factors where the non-DY processes are included (left) and subtracted (right) as functions of probe $\eta$ in 2017.}
     \label{fig:eff_SS_nominal_eta_2017}
   \end{center}
 \end{figure}
@@ -301,7 +303,7 @@ Same plots in 2017 are shown in figures \ref{fig:eff_SS_nominal_ET_2017}-\ref{fi
       \includegraphics[width=0.45\textwidth,height=6.3cm]{figures/Zprime/2017/ScaleFactor/SameSign/nominal/g_compare_cut_phi_Endcap_ea_ta_inc_AS_nominal_PUW.png} &
       \includegraphics[width=0.45\textwidth,height=6.3cm]{figures/Zprime/2017/ScaleFactor/SameSign/nominal/g_compare_cut_phi_Endcap_ea_ta_exc_AS_nominal_PUW.png}
     \end{tabular}
-    \caption{Efficiencies and scale factors in MC and data in the barrel (top) and endcap (bottom) where the non-DY processes are included (left) and subtracted (right) as functions of probe $\phi$ in 2017.}
+    \caption{The HEEP efficiencies in data and MC, as well as the scale factors when the probe is in the barrel (top) and endcap (bottom) where the non-DY processes are included (left) and subtracted (right) as functions of probe $\phi$ in 2017.}
     \label{fig:eff_SS_nominal_phi_2017}
   \end{center}
 \end{figure}
@@ -314,18 +316,18 @@ Same plots in 2017 are shown in figures \ref{fig:eff_SS_nominal_ET_2017}-\ref{fi
       \includegraphics[width=0.45\textwidth]{figures/Zprime/2017/ScaleFactor/SameSign/nominal/g_compare_cut_nVtx_Endcap_ea_ta_inc_AS_nominal_PUW.png} &
       \includegraphics[width=0.45\textwidth]{figures/Zprime/2017/ScaleFactor/SameSign/nominal/g_compare_cut_nVtx_Endcap_ea_ta_exc_AS_nominal_PUW.png}
     \end{tabular}
-    \caption{Efficiencies and scale factors in MC and data in the barrel (top) and endcap (bottom) where the non-DY processes are included (left) and subtracted (right) as functions of the number of primary vertices, $n_{Vtx}$ in 2017.}
+    \caption{The HEEP efficiencies in data and MC, as well as the scale factors when the probe is in the barrel (top) and endcap (bottom) where the non-DY processes are included (left) and subtracted (right) as functions of the number of primary vertices, $n_{Vtx}$ in 2017.}
     \label{fig:eff_SS_nominal_nVtx_2017}
   \end{center}
 \end{figure}
 
 \clearpage
 
-The main sources of systematic uncertainties on the scale factor originate from non-DY processes.
-The nominal value of the cross sections are varied by 10\% and 50\% for $t\bar{t}$ and $W+$jets processes, respectively.
-For QCD estimation, we also consider 50\% uncertainty.
+The main systematic uncertainties on the scale factor are from the normalization of non-DY processes.
+The cross sections of \ttbar and $W+$jets processes are varied by 10\% and 50\%, respectively.
+For QCD estimation, it is considered with 50\% uncertainty.
 %Besides, the uncertainty of the  pileup weights is also considered although it is negligible.
-The summary of the efficiencies and scale factors are shown in table \ref{tab:HEEP_eff_nominal}.
+Summary of the HEEP ID efficiencies and the scale factors are shown in Table \ref{tab:HEEP_eff_nominal}.
 
 \begin{table}[htp]
   \begin{center}
@@ -350,26 +352,26 @@ The summary of the efficiencies and scale factors are shown in table \ref{tab:HE
     \end{tabular}
   \end{center}
   \caption{\label{tab:HEEP_eff_nominal}
-  Efficiencies and scale factors in MC and data in the barrel and endcap for non-DY processes included and subtracted.}
+  The HEEP efficiencies in data and MC, as well as the scale factors when the probe is in the barrel and endcap for non-DY processes included and subtracted.}
 \end{table}
 
 
-It is worth mentioning that many complementary studies are done to understand HEEP scale factor better. Important points are summarized in the following and related plots can be found in Appendix.
+It is worth mentioning that many complementary studies are done to understand HEEP scale factor better. Important points are summarized in the following and related plots can be found in Appendix \ref{AppHEEPsf_2016} and \ref{AppHEEPsf_2017}.
 \begin{itemize}
   \item[$\bullet$] In 2016
-  \item[$\bullet$] the DYToEE Monte Carlo sample used had a special global tag which was discovered late in the process. This tag has a different ECAL noise profile and different transparency corrections which could impact our scale factor. The efficiency vs gen $E_T$ for this inclusive sample was compared to the mass binned samples in figure\ref{fig:eff_ZToEE_DYToEE_ET} and they were found to be similar, with a deviation of only 0.3\% at low $E_T$ in the barrel and up to 1\% in the endcap. It should be noted that the deviation in the endcap will act to flatten the scale factor. Thus it is concluded that impact of the special global tag used in the DYToEE sample does not impact the scale factor measurement significantly.
-  \item[$\bullet$] The HEEP scale factor in the last two bins of $E_{T}$ in the endcap seems unusual and DY efficiency is 100\%. The reason could be either a statistical fluctuations or something in Moriond17 MC DY sample. In Appendix \ref{AppHEEPsf_amcatnlo_2016}, we cross checked the HEEP efficiency and scale factor using DYJetsToLL amcatnlo sample which shows the DY efficiency in endcap in last two bins are normal. From figure~\ref{fig:eff_ZToEE_DYToEE_ET}, it can be seen that the efficiency in the MC for 500~GeV electrons is normal if you don't apply the Z constraint and so it is thought to be a statistical fluctuation.
-  \item[$\bullet$] HEEP scale factor drops 2\% around $|\eta|=0$. This is mostly related to 'HIP' (Heavy Interacting Particle) problem which means the heavy interacting particle (most are hadron) produced a huge current in silicon strips and make them off for few bunch crossing and we lose hits from electrons. This problem is present in runs B-F and is removed in runs G-H. This issue is discussed in \ref{AppHEEPsf_eta_Et_bins_2016}.
-  \item[$\bullet$] there is a turn on effect of scale factor at low $E_{T}$.This comes mainly from shower shape variable (which can be seen in Appendix \ref{AppHEEPsf_N_1_2016} figure \ref{fig:Shower_2016}). This effect is small (<1\%) so it is ignored.
+  \item[$\bullet$] the DYToEE Monte Carlo sample used had a special global tag which was discovered late in the process. This tag has a different ECAL noise profile and different transparency corrections which could impact our scale factor. The efficiency vs gen \et for this inclusive sample was compared to the mass binned samples in Figure \ref{fig:eff_ZToEE_DYToEE_ET} and they were found to be similar, with a deviation of only 0.3\% at low \et in the barrel and up to 1\% in the endcap. It should be noted that the deviation in the endcap will act to flatten the scale factor. Thus it is concluded that impact of the special global tag used in the DYToEE sample does not impact the scale factor measurement significantly.
+  \item[$\bullet$] The HEEP scale factor in the last two bins of \et in the endcap seems unusual and DY efficiency is 100\%. The reason could be either a statistical fluctuation or something in Moriond17 MC DY sample. In Appendix \ref{AppHEEPsf_amcatnlo_2016}, we cross checked the HEEP efficiency and scale factor using DYJetsToLL amcatnlo sample which shows the DY efficiencies in endcap in last two bins are normal. From Figure~\ref{fig:eff_ZToEE_DYToEE_ET}, it can be seen that the efficiency in the MC for 500~GeV electrons is normal if you do not apply the Z constraint and so it is thought to be a statistical fluctuation.
+  \item[$\bullet$] HEEP scale factor drops 2\% around $|\eta|=0$. This is mostly related to ``HIP'' (Heavy Interacting Particle) problem which means the heavy interacting particle (most are hadron) produced a huge current in silicon strips and make them off for few bunch crossing and we lose hits from electrons. This problem is present in runs B-F and is removed in runs G-H. This issue is discussed in \ref{AppHEEPsf_eta_Et_bins_2016}.
+  \item[$\bullet$] There is a turn on effect of scale factor at low \et. This comes mainly from shower shape variable (which can be seen in Appendix \ref{AppHEEPsf_N_1_2016} Figure \ref{fig:Shower_2016}). This effect is small (<1\%) so it is ignored.
 \end{itemize}
 \medskip
 \begin{itemize}
   \item[$\circ$] In 2017
-  \item[$\circ$] In run F the pixel detector has a lower efficiency in some region which can be seen in figure \ref{fig:EcalDriven_runF_2017} in Appendix \ref{AppHEEPsf_2017}. This problem causes the lower HEEP ID efficiency in run F.
-  \item[$\circ$] The HEEP ID efficiency in data after non-DY contributions are subtracted for different runs for barrel and endcap in 2017 is shown in figure \ref{fig:Runs_HEEP_eff_rereco_2017}. The efficiency is lower in run B this is because at the beginning of the data taking the detector does not work in very good condition. The efficiency decreases in run E this is because the pile up is significant increased after run E which is shown in figure \ref{fig:Z_pileup}. Comparing 2016 the average HEEP ID efficiency in barrel is close in 2017, for endcap it is improved in 2017.
-  \item[$\circ$] A 'fit method' is preformed to cross check the HEEP ID efficiency which shown in Appendix \ref{AppHEEPsf_Fit_2017}. Comparing the nominal 'cut count method' and 'fit method' they are consistent within 1\% for barrel and 2\% for endcap.
+  \item[$\circ$] In run F the pixel detector has a lower efficiency in some regions which can be seen in Figure \ref{fig:EcalDriven_runF_2017} in Appendix \ref{AppHEEPsf_2017}. This problem causes the lower HEEP ID efficiency in run F.
+  \item[$\circ$] The HEEP ID efficiency in data after non-DY contributions are subtracted for different runs for barrel and endcap in 2017 is shown in Figure \ref{fig:Runs_HEEP_eff_rereco_2017}. The efficiency is lower in run B this is because at the beginning of the data taking the detector does not work in very good condition. The efficiency decreases in run E because the pile up is significant increased after run E which is shown in Figure \ref{fig:Z_pileup}. Comparing 2016 the average HEEP ID efficiency in barrel is close in 2017, for endcap it is improved in 2017.
+  \item[$\circ$] A ``fit method'' is preformed to cross check the HEEP ID efficiency which is shown in Appendix \ref{AppHEEPsf_Fit_2017}. Comparing the nominal ``cut count method'' and ``fit method'' they are consistent within 1\% for barrel and 2\% for endcap.
   \end{itemize}
-More details can be found in ref. \cite{SF_ref1} (\cite{SF_ref2}) for 2016 (2017).
+More details about the HEEP ID scale factor study can be found in Ref. \cite{SF_ref1} (\cite{SF_ref2}) for 2016 (2017).
 
 \begin{figure}[bh]
   \begin{center}

@@ -40,8 +40,12 @@
 \newcommand{\zmm}{\ensuremath{\cmsSymbolFace{Z}/\gamma^{*}\to \Pgmp\Pgmm}\xspace}
 \newcommand{\GKK}{\ensuremath{\mathrm{G}_\mathrm{KK}}\xspace}
 \newcommand{\GLR}{\ensuremath{\mathrm{G}_\mathrm{LR}}\xspace}
+\newcommand{\ZP}{\ensuremath{\mathrm{Z^{'}}}\xspace}
 \newcommand{\ZPSSM}{\ensuremath{\mathrm{Z^{'}}_\mathrm{SSM}}\xspace}
-\newcommand{\ZPPSI}{\ensuremath{\mathrm{Z^{'}}_\mathrm{\psi}}\xspace}
+\newcommand{\ZPPSI}{\ensuremath{\mathrm{Z^{'}}_\mathrm{\uppsi}}\xspace}
+\newcommand{\ZPCHI}{\ensuremath{\mathrm{Z^{'}}_\mathrm{\upchi}}\xspace}
+\newcommand{\ZPETA}{\ensuremath{\mathrm{Z^{'}}_\mathrm{\upeta}}\xspace}
+\newcommand{\ZPI}  {\ensuremath{\mathrm{Z^{'}}_\mathrm{I}}\xspace}
 \newcommand{\LT}{\ensuremath{\Lambda_{\mathrm{T}}}\xspace}
 \newcommand{\MS}{\ensuremath{M_{\mathrm{S}}}\xspace}
 \newcommand{\LC}{\ensuremath{\Lambda}\xspace}
@@ -50,7 +54,7 @@
 \newcommand{\mminmm} {\ensuremath{m^{\text{min}}_{\mu\mu}}\xspace}
 \newcommand{\mminee} {\ensuremath{m^{\text{min}}_{\Pe\Pe}}\xspace}
 \newcommand{\mminll} {\ensuremath{m^{\text{min}}_{\ell\ell}}\xspace}
-\newcommand{\ttbar}{\ensuremath{\mathrm{t\bar{t}}}}
+\newcommand{\ttbar}{\ensuremath{\mathrm{t\bar{t}}}\xspace}
 \newcommand{\invpb}{\ensuremath{\mathrm{pb^{-1}}}}
 \newcommand{\mgz}{$M_{\gamma / Z}$}
 \newcommand{\mmgz}{M_{\gamma / Z}}
@@ -76,15 +80,14 @@
 \newcommand{\GeVC}{\ensuremath{\mathrm{GeV/c}}}
 \newcommand{\GeV}{\ensuremath{\mathrm{GeV}}}
 \newcommand{\zprimeee}{\ensuremath{Z'\rightarrow e^+e^-}}
-\newcommand{\zprimessm}{\ensuremath{Z'_{SSM}}}
 \newcommand{\zPrimeEE}{\ensuremath{Z'\rightarrow e^+e^-}}
-\newcommand{\zee}{\ensuremath{Z/\gamma^{*}\rightarrow e^+e^-}}
-\newcommand{\ztt}{\ensuremath{Z/\gamma^{*}\rightarrow \tau^+\tau^-}}
+\newcommand{\zee}{\ensuremath{\mathrm{Z/\gamma^{*}\rightarrow e^+e^-}}\xspace}
+\newcommand{\ztt}{\ensuremath{\mathrm{Z/\gamma^{*}\rightarrow \tau^+\tau^-}}\xspace}
 \newcommand{\phoJet}{\ensuremath{\gamma\mathrm{+jets}}}
 \newcommand{\phoJets}{\ensuremath{\gamma\mathrm{+jets}}}
-\newcommand{\wjet}{\ensuremath{W\mathrm{+jets}}}
-\newcommand{\wJet}{\ensuremath{W\mathrm{+jets}}}
-\newcommand{\wjets}{\ensuremath{W\mathrm{+jets}}}
+\newcommand{\wjet}{\ensuremath{\mathrm{W+jets}}\xspace}
+\newcommand{\wJet}{\ensuremath{\mathrm{W+jets}}\xspace}
+\newcommand{\wjets}{\ensuremath{\mathrm{W+jets}}\xspace}
 \newcommand{\bnt}{\mbox{\sl start new text}}
 \newcommand{\ent}{\mbox{\sl end new text}}
 \newcommand{\quoteTable}{Table~}
@@ -133,7 +136,9 @@
 \providecommand{\Ggg}{\ensuremath{\mathrm{\PXXG \rightarrow}\gamma\gamma}\xspace}
 \providecommand{\Zee}{\ensuremath{\mathrm{\cPZ \rightarrow}e^{+}e^{-}}\xspace}
 \providecommand{\Zmmg}{\ensuremath{\mathrm{\cPZ \rightarrow}\mu^{+}\mu^{-}\gamma}\xspace}
-\providecommand{\pT}{\ensuremath{p_\mathrm{T}}}
+%\providecommand{\mumu}{\ensuremath{\mathrm{\mu}\mathrm{\mu}}~}
+\providecommand{\pT}{\ensuremath{\mathrm{p_T}}}
+\providecommand{\PT}{\ensuremath{\mathrm{P}_\mathrm{T}}~}
 \providecommand{\gaga}{\ensuremath{\gamma \gamma}\xspace}
 \providecommand{\gj}{\ensuremath{\gamma j}\xspace}
 \providecommand{\jj}{\ensuremath{jj}\xspace}
@@ -141,6 +146,8 @@
 \providecommand{\fgj}{\ensuremath{f_{\gamma j}}\xspace}
 \providecommand{\fjj}{\ensuremath{f_{jj}}\xspace}
 \providecommand{\pt}{\pT\xspace}
+\providecommand{\pZ}{\ensuremath{\mathrm{p_Z}}\xspace}
+\providecommand{\et}{\ensuremath{\mathrm{E_T}}\xspace}
 \providecommand{\HT}{\ensuremath{H_\mathrm{T}}\xspace}
 \providecommand{\ET}{\ensuremath{E_{\mathrm{T}}}\xspace}
 \providecommand{\ie}{i.e.}
@@ -172,14 +179,75 @@
 \providecommand{\Ggg}{\ensuremath{\mathrm{\PXXG \rightarrow}\gamma\gamma}\xspace}
 \providecommand{\Zee}{\ensuremath{\mathrm{\cPZ \rightarrow}e^{+}e^{-}}\xspace}
 \providecommand{\Zmmg}{\ensuremath{\mathrm{\cPZ \rightarrow}\mu^{+}\mu^{-}\gamma}\xspace}
-\providecommand{\pT}{\ensuremath{\mathrm{p_{T}}}\xspace}
+\providecommand{\pT}{\ensuremath{\mathrm{\pt}}\xspace}
 \providecommand{\gaga}{\ensuremath{\gamma \gamma}\xspace}
 \providecommand{\gj}{\ensuremath{\gamma j}\xspace}
 \providecommand{\jj}{\ensuremath{jj}\xspace}
 \providecommand{\TeV}{\ensuremath{\mathrm{TeV}}\xspace}
-\providecommand{\fbinv}{\ensuremath{\textrm{fb}^{-1}}}
-\providecommand{\pbinv}{\ensuremath{\textrm{pb}^{-1}}}
-\providecommand{\invfb}{\ensuremath{\textrm{fb}^{-1}}}
+\providecommand{\fbinv}{\ensuremath{\textrm{fb}^{-1}}\xspace}
+\providecommand{\pbinv}{\ensuremath{\textrm{pb}^{-1}}\xspace}
+\providecommand{\invfb}{\ensuremath{\textrm{fb}^{-1}}\xspace}
 \providecommand{\cPZ}{Z}
 
 \newcommand{\abs}[1]{|{#1}|}
+
+\providecommand{\mTwo}{\ensuremath{\mathrm{m^{2}}}\xspace}
+%\providecommand{\m3}{\ensuremath{\mathrm{m^{3}}}\xspace}
+\newcommand{\mThree}{\ensuremath{\mathrm{m^{3}}}\xspace}
+\providecommand{\mmTwo}{\ensuremath{\mathrm{mm^{2}}}\xspace}
+\providecommand{\PbWO}{\ensuremath{\mathrm{PbWO_{4}}}\xspace}
+
+\providecommand{\mumu}{\ensuremath{\upmu\upmu}\xspace}
+
+
+
+\renewcommand{\phi}{\ensuremath{\upphi}\xspace}
+\renewcommand{\eta}{\ensuremath{\upeta}\xspace}
+\renewcommand{\alpha}{\ensuremath{\upalpha}\xspace}
+\renewcommand{\mu}{\ensuremath{\upmu}\xspace}
+\renewcommand{\nu}{\ensuremath{\upnu}\xspace}
+\renewcommand{\tau}{\ensuremath{\uptau}\xspace}
+\renewcommand{\gamma}{\ensuremath{\upgamma}\xspace}
+\renewcommand{\theta}{\ensuremath{\uptheta}\xspace}
+\newcommand{\Cphiq}{\ensuremath{\mathrm{C_{\upphi q}^{(3)}}}\xspace}
+\newcommand{\Ophiq}{\ensuremath{\mathrm{O_{\upphi q}^{(3)}}}\xspace}
+\newcommand{\CtW}{\ensuremath{\mathrm{C_{tW}}}\xspace}
+\newcommand{\OtW}{\ensuremath{\mathrm{O_{tW}}}\xspace}
+\newcommand{\CtG}{\ensuremath{\mathrm{C_{tG}}}\xspace}
+\newcommand{\OtG}{\ensuremath{\mathrm{O_{tG}}}\xspace}
+\newcommand{\CG}{\ensuremath{\mathrm{C_{G}}}\xspace}
+\newcommand{\OG}{\ensuremath{\mathrm{O_{G}}}\xspace}
+\newcommand{\CuG}{\ensuremath{\mathrm{C_{uG}}}\xspace}
+\newcommand{\OuG}{\ensuremath{\mathrm{O_{uG}}}\xspace}
+\newcommand{\CcG}{\ensuremath{\mathrm{C_{cG}}}\xspace}
+\newcommand{\OcG}{\ensuremath{\mathrm{O_{cG}}}\xspace}
+\newcommand{\CucG}{\ensuremath{\mathrm{C_{u(c)G}}}\xspace}
+\newcommand{\OucG}{\ensuremath{\mathrm{O_{u(c)G}}}\xspace}
+
+\newcommand{\pizero}{\ensuremath{\mathrm{\uppi^{0}}}\xspace}
+
+%%\addto{\captionsenglish}{%
+%\addto{\captionschinese}{%
+%  \renewcommand{\figurename}{Fig.}
+%  \renewcommand{\tablename}{Table}
+%}
+\providecommand{\Vtx}{\ensuremath{\mathrm{V}_\mathrm{tx}}~}
+\newcommand{\VUD}{|V_{ud}|}
+\newcommand{\VUS}{|V_{us}|}
+\newcommand{\VUB}{|V_{ub}|}
+%
+\newcommand{\VCD}{|V_{cd}|}
+\newcommand{\VCS}{|V_{cs}|}
+\newcommand{\VCB}{|V_{cb}|}
+%
+\newcommand{\VTD}{|V_{td}|}
+\newcommand{\VTS}{|V_{ts}|}
+\newcommand{\VTB}{|V_{tb}|}
+\newcommand{\VTQ}{|V_{tq}|}
+
+%\newcommand{\pt}{$p_{\textrm{T}}$}
+%\newcommand{\fb}{$\textrm{fb^{-1}}$}
+%\newcommand{\fb}{\mbox{\textrm{fb^{-1}}}}
+%\newcommand{\RN}[1]{%
+%  \textup{\uppercase\expandafter{\romannumeral#1}}%
+%}

@@ -1,17 +1,18 @@
+\chapter{The Appendices for Experiment}\label{app:theory}
 \section{Mass resolution fit results}
-\label{appendix_mas_res}
+\label{app:_mas_res}
 As described in \ref{sec:mass_res}, for 2017 the quantity $\frac{(M_{reco} - M_{gen})}{M_{gen}}$ is fitted in bins of $M_{gen}$ using a double-sided crystal ball (dCB) function. The fits results are shown for the different mass points in fig. \ref{fig:fit_BB} for the Barrel-Barrel category (BB) and in fig. \ref{fig:fit_BE} for the Barrel-Endcap (BE) category.
 \begin{figure}[ht]
   \begin{center}
     \begin{tabular}{cccc}
       \includegraphics[width=0.22\textwidth]{figures/Zprime/2017/mass_resolution/High_Mass/BB_120_200} &
-      \includegraphics[width=0.22\textwidth]{figures/Zprime/2017/mass_resolution/BB_200_400}&
-      \includegraphics[width=0.22\textwidth]{figures/Zprime/2017/mass_resolution/BB_400_800} &
-      \includegraphics[width=0.22\textwidth]{figures/Zprime/2017/mass_resolution/BB_800_1400} \\
-      \includegraphics[width=0.22\textwidth]{figures/Zprime/2017/mass_resolution/BB_1400_2300} &
-      \includegraphics[width=0.22\textwidth]{figures/Zprime/2017/mass_resolution/BB_2300_3500}&
-      \includegraphics[width=0.22\textwidth]{figures/Zprime/2017/mass_resolution/BB_3500_4500} &
-      \includegraphics[width=0.22\textwidth]{figures/Zprime/2017/mass_resolution/BB_4500_5000}\\
+      \includegraphics[width=0.22\textwidth]{figures/Zprime/2017/mass_resolution/High_Mass/BB_200_400}&
+      \includegraphics[width=0.22\textwidth]{figures/Zprime/2017/mass_resolution/High_Mass/BB_400_800} &
+      \includegraphics[width=0.22\textwidth]{figures/Zprime/2017/mass_resolution/High_Mass/BB_800_1400} \\
+      \includegraphics[width=0.22\textwidth]{figures/Zprime/2017/mass_resolution/High_Mass/BB_1400_2300}&
+      \includegraphics[width=0.22\textwidth]{figures/Zprime/2017/mass_resolution/High_Mass/BB_2300_3500}&
+      \includegraphics[width=0.22\textwidth]{figures/Zprime/2017/mass_resolution/High_Mass/BB_3500_4500}&
+      \includegraphics[width=0.22\textwidth]{figures/Zprime/2017/mass_resolution/High_Mass/BB_4500_5000}\\
     \end{tabular}
     \caption{Fit results of the $\frac{(M_{reco} - M_{gen})}{M_{gen}}$ histograms in the BB category per $M_{gen}$ bins.
     \label{fig:fit_BB}}
@@ -21,14 +22,14 @@ As described in \ref{sec:mass_res}, for 2017 the quantity $\frac{(M_{reco} - M_{
 \begin{figure}[ht]
   \begin{center}
     \begin{tabular}{cccc}
-      \includegraphics[width=0.22\textwidth]{figures/Zprime/2017/mass_resolution/BE_120_200} &
-      \includegraphics[width=0.22\textwidth]{figures/Zprime/2017/mass_resolution/BE_200_400}&
-      \includegraphics[width=0.22\textwidth]{figures/Zprime/2017/mass_resolution/BE_400_800} &
-      \includegraphics[width=0.22\textwidth]{figures/Zprime/2017/mass_resolution/BE_800_1400} \\
-      \includegraphics[width=0.22\textwidth]{figures/Zprime/2017/mass_resolution/BE_1400_2300} &
-      \includegraphics[width=0.22\textwidth]{figures/Zprime/2017/mass_resolution/BE_2300_3500}&
-      \includegraphics[width=0.22\textwidth]{figures/Zprime/2017/mass_resolution/BE_3500_4500} &
-      \includegraphics[width=0.22\textwidth]{figures/Zprime/2017/mass_resolution/BE_4500_5000}\\
+      \includegraphics[width=0.22\textwidth]{figures/Zprime/2017/mass_resolution/High_Mass/BE_120_200} &
+      \includegraphics[width=0.22\textwidth]{figures/Zprime/2017/mass_resolution/High_Mass/BE_200_400}&
+      \includegraphics[width=0.22\textwidth]{figures/Zprime/2017/mass_resolution/High_Mass/BE_400_800} &
+      \includegraphics[width=0.22\textwidth]{figures/Zprime/2017/mass_resolution/High_Mass/BE_800_1400} \\
+      \includegraphics[width=0.22\textwidth]{figures/Zprime/2017/mass_resolution/High_Mass/BE_1400_2300} &
+      \includegraphics[width=0.22\textwidth]{figures/Zprime/2017/mass_resolution/High_Mass/BE_2300_3500}&
+      \includegraphics[width=0.22\textwidth]{figures/Zprime/2017/mass_resolution/High_Mass/BE_3500_4500} &
+      \includegraphics[width=0.22\textwidth]{figures/Zprime/2017/mass_resolution/High_Mass/BE_4500_5000}\\
     \end{tabular}
     \caption{Fit results of the $\frac{(M_{reco} - M_{gen})}{M_{gen}}$ histograms in the BE category per $M_{gen}$ bins.
     \label{fig:fit_BE}}
@@ -40,14 +41,14 @@ The parameters of the fitted dCB functions are then drawn as functions of $M_{ge
 \begin{figure}[ht]
   \begin{center}
     \begin{tabular}{cccc}
-      \includegraphics[width=0.45\textwidth]{figures/Zprime/2017/mass_resolution/BB_mean} &
-      \includegraphics[width=0.45\textwidth]{figures/Zprime/2017/mass_resolution/BB_sigma}\\
-      \includegraphics[width=0.45\textwidth]{figures/Zprime/2017/mass_resolution/BB_PowerL} &
-      \includegraphics[width=0.45\textwidth]{figures/Zprime/2017/mass_resolution/BB_PowerR} \\
-      \includegraphics[width=0.45\textwidth]{figures/Zprime/2017/mass_resolution/BB_CutL} &
-      \includegraphics[width=0.45\textwidth]{figures/Zprime/2017/mass_resolution/BB_CutR} \\
+      \includegraphics[width=0.45\textwidth]{figures/Zprime/2017/mass_resolution/High_Mass/BB_mean} &
+      \includegraphics[width=0.45\textwidth]{figures/Zprime/2017/mass_resolution/High_Mass/BB_sigma}\\
+      \includegraphics[width=0.45\textwidth]{figures/Zprime/2017/mass_resolution/High_Mass/BB_PowerL} &
+      \includegraphics[width=0.45\textwidth]{figures/Zprime/2017/mass_resolution/High_Mass/BB_PowerR} \\
+      \includegraphics[width=0.45\textwidth]{figures/Zprime/2017/mass_resolution/High_Mass/BB_CutL} &
+      \includegraphics[width=0.45\textwidth]{figures/Zprime/2017/mass_resolution/High_Mass/BB_CutR} \\
     \end{tabular}
-    \caption{Parameters of the DCB as a function of $M_{gen}$ for BB category.
+    \caption{Parameters of the dCB as a function of $M_{gen}$ for BB category.
     \label{fig:fit_parameters_BB}}
   \end{center}
 \end{figure}
@@ -55,14 +56,14 @@ The parameters of the fitted dCB functions are then drawn as functions of $M_{ge
 \begin{figure}[ht]
   \begin{center}
     \begin{tabular}{cccc}
-      \includegraphics[width=0.45\textwidth]{figures/Zprime/2017/mass_resolution/BE_mean} &
-      \includegraphics[width=0.45\textwidth]{figures/Zprime/2017/mass_resolution/BE_sigma}\\
-      \includegraphics[width=0.45\textwidth]{figures/Zprime/2017/mass_resolution/BE_PowerL} &
-      \includegraphics[width=0.45\textwidth]{figures/Zprime/2017/mass_resolution/BE_PowerR} \\
-      \includegraphics[width=0.45\textwidth]{figures/Zprime/2017/mass_resolution/BE_CutL} &
-      \includegraphics[width=0.45\textwidth]{figures/Zprime/2017/mass_resolution/BE_CutR} \\
+      \includegraphics[width=0.45\textwidth]{figures/Zprime/2017/mass_resolution/High_Mass/BE_mean} &
+      \includegraphics[width=0.45\textwidth]{figures/Zprime/2017/mass_resolution/High_Mass/BE_sigma}\\
+      \includegraphics[width=0.45\textwidth]{figures/Zprime/2017/mass_resolution/High_Mass/BE_PowerL} &
+      \includegraphics[width=0.45\textwidth]{figures/Zprime/2017/mass_resolution/High_Mass/BE_PowerR} \\
+      \includegraphics[width=0.45\textwidth]{figures/Zprime/2017/mass_resolution/High_Mass/BE_CutL} &
+      \includegraphics[width=0.45\textwidth]{figures/Zprime/2017/mass_resolution/High_Mass/BE_CutR} \\
     \end{tabular}
-    \caption{Parameters of the DCB as a function of $M_{gen}$ for BE category.
+    \caption{Parameters of the dCB as a function of $M_{gen}$ for BE category.
     \label{fig:fit_parameters_BE}}
   \end{center}
 \end{figure}

@@ -1,92 +1,14 @@
-\BOOKMARK [0][-]{chapter.1}{The CMS experiment at LHC}{}% 1
-\BOOKMARK [1][-]{section.1.1}{The Large Hadron Collider \(LHC\)}{chapter.1}% 2
-\BOOKMARK [2][-]{subsection.1.1.1}{The Proton Proton Collision}{section.1.1}% 3
-\BOOKMARK [2][-]{subsection.1.1.2}{The Pile Up}{section.1.1}% 4
-\BOOKMARK [2][-]{subsection.1.1.3}{The Luminosity}{section.1.1}% 5
-\BOOKMARK [1][-]{section.1.2}{The Compact Muon Solenoid \(CMS\)}{chapter.1}% 6
-\BOOKMARK [2][-]{subsection.1.2.1}{Coordinate conventions}{section.1.2}% 7
-\BOOKMARK [2][-]{subsection.1.2.2}{Inner tracking system}{section.1.2}% 8
-\BOOKMARK [2][-]{subsection.1.2.3}{Electromagnetic calorimeter}{section.1.2}% 9
-\BOOKMARK [2][-]{subsection.1.2.4}{Hadronic calorimeter}{section.1.2}% 10
-\BOOKMARK [2][-]{subsection.1.2.5}{Magnet}{section.1.2}% 11
-\BOOKMARK [2][-]{subsection.1.2.6}{Muon system}{section.1.2}% 12
-\BOOKMARK [2][-]{subsection.1.2.7}{Trigger}{section.1.2}% 13
-\BOOKMARK [1][-]{section.1.3}{Summary}{chapter.1}% 14
-\BOOKMARK [0][-]{chapter.2}{Event reconstruction}{}% 15
-\BOOKMARK [1][-]{section.2.1}{Electron and photon reconstruction}{chapter.2}% 16
-\BOOKMARK [2][-]{subsection.2.1.1}{Clustering}{section.2.1}% 17
-\BOOKMARK [2][-]{subsection.2.1.2}{Super-cluster \(SC\)}{section.2.1}% 18
-\BOOKMARK [2][-]{subsection.2.1.3}{Position measurement}{section.2.1}% 19
-\BOOKMARK [2][-]{subsection.2.1.4}{Electron reconstruction}{section.2.1}% 20
-\BOOKMARK [2][-]{subsection.2.1.5}{Photon reconstruction}{section.2.1}% 21
-\BOOKMARK [1][-]{section.2.2}{Muon reconstruction}{chapter.2}% 22
-\BOOKMARK [2][-]{subsection.2.2.1}{Standalone muon reconstruction}{section.2.2}% 23
-\BOOKMARK [2][-]{subsection.2.2.2}{Global muon reconstruction}{section.2.2}% 24
-\BOOKMARK [2][-]{subsection.2.2.3}{Tracker muon reconstruction}{section.2.2}% 25
-\BOOKMARK [1][-]{section.2.3}{Particle-flow algorithm}{chapter.2}% 26
-\BOOKMARK [1][-]{section.2.4}{Tau reconstruction}{chapter.2}% 27
-\BOOKMARK [1][-]{section.2.5}{Jet and bjet reconstruction}{chapter.2}% 28
-\BOOKMARK [2][-]{subsection.2.5.1}{b-jet reconstruction}{section.2.5}% 29
-\BOOKMARK [1][-]{section.2.6}{MET reconstruction}{chapter.2}% 30
-\BOOKMARK [1][-]{section.2.7}{Summary}{chapter.2}% 31
-\BOOKMARK [0][-]{chapter.3}{Searching for high mass resonances in dielectron final state}{}% 32
-\BOOKMARK [1][-]{section.3.1}{Data and MC samples}{chapter.3}% 33
-\BOOKMARK [1][-]{section.3.2}{Trigger}{chapter.3}% 34
-\BOOKMARK [2][-]{subsection.3.2.1}{Method for Measuring Trigger Efficiencies in Data}{section.3.2}% 35
-\BOOKMARK [2][-]{subsection.3.2.2}{Primary Signal Trigger: L1 Efficiency}{section.3.2}% 36
-\BOOKMARK [2][-]{subsection.3.2.3}{Primary Signal Trigger:HLT Efficiency}{section.3.2}% 37
-\BOOKMARK [2][-]{subsection.3.2.4}{Other Trigger Efficiencies}{section.3.2}% 38
-\BOOKMARK [1][-]{section.3.3}{Object and Event Selection}{chapter.3}% 39
-\BOOKMARK [1][-]{section.3.4}{Mass resolution and scale}{chapter.3}% 40
-\BOOKMARK [1][-]{section.3.5}{HEEP ID efficiency and scale factor}{chapter.3}% 41
-\BOOKMARK [2][-]{subsection.3.5.1}{Tag and probe method}{section.3.5}% 42
-\BOOKMARK [2][-]{subsection.3.5.2}{HEEP ID efficiencies and scale factors}{section.3.5}% 43
-\BOOKMARK [1][-]{section.3.6}{Standard Model backgrounds}{chapter.3}% 44
-\BOOKMARK [2][-]{subsection.3.6.1}{SM Drell-Yan background}{section.3.6}% 45
-\BOOKMARK [2][-]{subsection.3.6.2}{h1 andh2-like background}{section.3.6}% 46
-\BOOKMARK [2][-]{subsection.3.6.3}{Jet background}{section.3.6}% 47
-\BOOKMARK [1][-]{section.3.7}{Invariant mass spectra}{chapter.3}% 48
-\BOOKMARK [2][-]{subsection.3.7.1}{Complementary plot}{section.3.7}% 49
-\BOOKMARK [1][-]{section.3.8}{Statistical interpretation}{chapter.3}% 50
-\BOOKMARK [2][-]{subsection.3.8.1}{Upper limits}{section.3.8}% 51
-\BOOKMARK [1][-]{section.3.9}{Summary}{chapter.3}% 52
-\BOOKMARK [0][-]{chapter.4}{Search for new physics via top quark production in dilepton final state}{}% 53
-\BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 54
-\BOOKMARK [1][-]{section.4.2}{Data-sets and Monte Carlo Samples}{chapter.4}% 55
-\BOOKMARK [2][-]{subsection.4.2.1}{Data samples}{section.4.2}% 56
-\BOOKMARK [2][-]{subsection.4.2.2}{MC samples}{section.4.2}% 57
-\BOOKMARK [1][-]{section.4.3}{Triggers}{chapter.4}% 58
-\BOOKMARK [1][-]{section.4.4}{Event reconstruction and object identification}{chapter.4}% 59
-\BOOKMARK [2][-]{subsection.4.4.1}{Lepton selection}{section.4.4}% 60
-\BOOKMARK [2][-]{subsection.4.4.2}{Jet selection}{section.4.4}% 61
-\BOOKMARK [2][-]{subsection.4.4.3}{Missing Transverse Energy}{section.4.4}% 62
-\BOOKMARK [2][-]{subsection.4.4.4}{Scale factors}{section.4.4}% 63
-\BOOKMARK [2][-]{subsection.4.4.5}{Top PT reweighting}{section.4.4}% 64
-\BOOKMARK [1][-]{section.4.5}{Event selection and cut optimization}{chapter.4}% 65
-\BOOKMARK [2][-]{subsection.4.5.1}{Event selection \(step 1\)}{section.4.5}% 66
-\BOOKMARK [2][-]{subsection.4.5.2}{Event selection \(step 2\)}{section.4.5}% 67
-\BOOKMARK [1][-]{section.4.6}{Background predictions}{chapter.4}% 68
-\BOOKMARK [2][-]{subsection.4.6.1}{Prompt Background}{section.4.6}% 69
-\BOOKMARK [2][-]{subsection.4.6.2}{Fake Background}{section.4.6}% 70
-\BOOKMARK [1][-]{section.4.7}{Data/MC comparison}{chapter.4}% 71
-\BOOKMARK [1][-]{section.4.8}{Signal extraction using neural networks tools}{chapter.4}% 72
-\BOOKMARK [2][-]{subsection.4.8.1}{Data/MC comparison for MVA input variables}{section.4.8}% 73
-\BOOKMARK [1][-]{section.4.9}{Systematic uncertainties}{chapter.4}% 74
-\BOOKMARK [1][-]{section.4.10}{Results}{chapter.4}% 75
-\BOOKMARK [2][-]{subsection.4.10.1}{Limit setting procedure}{section.4.10}% 76
-\BOOKMARK [2][-]{subsection.4.10.2}{Exclusion limits on }{section.4.10}% 77
-\BOOKMARK [2][-]{subsection.4.10.3}{Exclusion limits on }{section.4.10}% 78
-\BOOKMARK [2][-]{subsection.4.10.4}{Exclusion limits on }{section.4.10}% 79
-\BOOKMARK [1][-]{section.4.11}{Summary}{chapter.4}% 80
-\BOOKMARK [0][-]{section.4.11}{Appendices}{}% 81
-\BOOKMARK [1][-]{section.Alph0.1}{Mass resolution fit results}{section.4.11}% 82
-\BOOKMARK [1][-]{section.Alph0.2}{For 2016 HEEP ID scale factor}{section.4.11}% 83
-\BOOKMARK [2][-]{subsection.Alph0.2.1}{N-1 \(or N-2, N-3\) efficiency for HEEP variables}{section.Alph0.2}% 84
-\BOOKMARK [2][-]{subsection.Alph0.2.2}{HEEP efficiency versus h1 for different h2 bins}{section.Alph0.2}% 85
-\BOOKMARK [2][-]{subsection.Alph0.2.3}{Cross check with DYJetsToLL amcatnlo sample}{section.Alph0.2}% 86
-\BOOKMARK [2][-]{subsection.Alph0.2.4}{HEEP efficiecny for mc matched electron for different DY samples}{section.Alph0.2}% 87
-\BOOKMARK [1][-]{section.Alph0.3}{For 2017 HEEP ID scale factor}{section.4.11}% 88
-\BOOKMARK [2][-]{subsection.Alph0.3.1}{N-1 \(or N-2, N-3\) efficiency for HEEP variables}{section.Alph0.3}% 89
-\BOOKMARK [2][-]{subsection.Alph0.3.2}{Cross check with fit method}{section.Alph0.3}% 90
-\BOOKMARK [1][-]{section.Alph0.4}{MET disagreement investigation}{section.4.11}% 91
-\BOOKMARK [1][-]{section.Alph0.5}{SM tW cross section measurement}{section.4.11}% 92
+\BOOKMARK [0][-]{chapter.1}{The Standard Model of particle physics}{}% 1
+\BOOKMARK [1][-]{section.1.1}{The elementary particles}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.2}{The fundamental interactions}{chapter.1}% 3
+\BOOKMARK [1][-]{section.1.3}{Gauge symmetries: a brief introduction}{chapter.1}% 4
+\BOOKMARK [1][-]{section.1.4}{The Drell-Yan process}{chapter.1}% 5
+\BOOKMARK [1][-]{section.1.5}{The photon induced process}{chapter.1}% 6
+\BOOKMARK [1][-]{section.1.6}{The effective field theory}{chapter.1}% 7
+\BOOKMARK [1][-]{section.1.7}{Summary}{chapter.1}% 8
+\BOOKMARK [0][-]{chapter.2}{The beyond Standard Model of particle physics}{}% 9
+\BOOKMARK [1][-]{section.2.1}{Motivation for new physics}{chapter.2}% 10
+\BOOKMARK [1][-]{section.2.2}{New heavy particles decaying into a lepton pair}{chapter.2}% 11
+\BOOKMARK [1][-]{section.2.3}{New physics in top quark production}{chapter.2}% 12
+\BOOKMARK [1][-]{section.2.4}{Summary}{chapter.2}% 13
+\BOOKMARK [0][-]{chapter*.18}{Appendices}{}% 14

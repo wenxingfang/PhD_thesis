@@ -1,0 +1,68 @@
+\chapter*{Publications, talks, posters, and internal notes}\label{chp:Publications}
+
+\section{Publications}
+\subsection{Journals}
+%\begin{enumerate}[label=\textbf{\arabic*}), nolistsep]
+\begin{enumerate}
+\item{CMS Collaboration, ``Search for high-mass resonances in dilepton final states in proton-proton collisions at $\sqrt{s}$ = 13 TeV'',  JHEP 2018.6 (2018). DOI: 10.1007/JHEP06(2018)120}
+\item{CMS Collaboration, ``Search for narrow resonances in dilepton mass spectra in proton-proton collisions at $\sqrt{s}$ = 13 TeV and combination with 8 TeV data'', Phys. Lett. B 768 (2017) 57. DOI:10.1016/j.physletb.2017.02.010}
+\item{Barbara Clerbaux et al. ``Model-independent constraints on the CKM matrix elements |$\mathrm{V_{tb}}$|, |$\mathrm{V_{ts}}$| and |$\mathrm{V_{td}}$|'', JHEP (2019). DOI:10.1007/JHEP03(2019)022}
+\end{enumerate}
+
+
+\subsection{Physics analysis summary}
+\begin{enumerate}%[label=\textbf{\arabic*}), nolistsep]
+\item{CMS Collaboration, ``Search for new physics via top quark production in dilepton final state at at $\sqrt{s}=13$ TeV'', CMS-PAS-TOP-17-020}
+\item{CMS Collaboration, ``Search for high mass resonances in dielectron final state'', CMS-PAS-EXO-18-006}
+\item{CMS Collaboration, ``Search for high-mass resonances in the dilepton final state using proton-proton collisions at $\sqrt{s}=$ 13 TeV'', CMS-PAS-EXO-16-047}
+\item{CMS Collaboration, ``Search for a high-mass resonance decaying into a dileptonfinal state in 13 $fb^{-1}$ of pp collisions at $\sqrt{s}=13$ TeV'', CMS-PAS-EXO-16-031}
+\item{CMS Collaboration, ``Search for a narrow resonance produced in 13 TeV pp collisions decaying to electron pair or muon pair final states'', CMS-PAS-EXO-15-005}
+\end{enumerate}
+
+\subsection{Conference proceedings}
+\begin{enumerate}%[label=\textbf{\arabic*}), nolistsep]
+\item{W. Fang for the CMS Collaboration, ``Search for heavy resonances in the dilepton final state with the CMS detector'', proceedings for LHCP, CMS-CR-2016-189}
+\end{enumerate}
+
+
+
+\section{Talks and posters}
+
+\subsection{Talks at conferences}
+%\medskip
+\begin{enumerate}%[label=\textbf{\arabic*}), nolistsep]
+\item{Parallel talk, ``Search for new physics via top quark production in dilepton final state at 13 TeV'', Chinese LHCP, 19 December 2018}
+\item{Parallel talk, ``Latest CMS results on heavy resonance search in the dilepton final state'', General Meeting of the Belgian Physical Society, 11 April 2018}
+\item{Parallel talk, ``Search for high mass ee/e$\mu$ resonances in CMS'', Chinese LHCP, 22 December 2017}
+\item{Workshop talk, ``Identification of high energy e/$\gamma$'', CMS EGM workshop on 2017 performance and plans for 2018, 21 November 2017}
+\end{enumerate}
+
+\subsection{CMS approval (pre-approve) talks}
+\begin{enumerate}%[label=\textbf{\arabic*}), nolistsep]
+\item{Approval talk of TOP-17-020, ``Search for new physics in top quark production in di-lepton final state'', June 2018}
+\item{Pre-Approval talk of EXO-18-006, ``High mass resonance search in ee channel with full 2017 data'', February 2018}
+\item{Approval talk of EXO-16-031, ``Search for high mass dielectron resonances with 2016 data'', July 2016}
+\end{enumerate}
+
+\subsection{Posters at international conferences}
+\begin{enumerate}%[label=\textbf{\arabic*}), nolistsep]
+\item{``Search for heavy resonances in the dilepton final state with the CMS detector at the Large Hadron Collider'', General Meeting of the Belgian Physical Society, UMons, Belgium, May 2017}
+\item{``Search for heavy resonances in the dilepton final state with the CMS detector'', LHCP conference, June 2016}
+\end{enumerate}
+
+
+
+
+\section{Contribution to internal notes of the CMS collaboration}
+\begin{enumerate}%[label=\textbf{\arabic*}), nolistsep]
+\item {``Search for high-mass resonances in the di-electron final state with 2017 data'', CMS-AN-18-021, 13 authors, 94 pages}
+\item {``HEEP selection efficiency scale factor study for CMS with the full 2017 data sample'', CMS-AN-18-143, 3 authors, 64 pages}
+\item {``Search for new physics via top quark production in dilepton final state at 13 TeV'', CMS-AN-17-134, 4 authors, 34 pages}
+\item {``Measurement of the cross-section for tW production in dilepton final states at 13 TeV using 2016 data'', CMS-AN-17-132, 4 authors, 72 pages}
+\item {``HEEP selection efficiency scale factor study for CMS with the full 2016 data sample'', CMS-AN-17-077, 3 authors, 54 pages}
+\item {``Search for high mass di-electron resonances with the full 2016 data'', CMS-AN-16-404, 14 authors, 104 pages}
+\item {``Search for High Mass Di-Electron Resonances with 2016 Data'', CMS-AN-16-190, 14 authors, 65 pages}
+\item {``HEEP Selection Efficiency Scale Factor Study for CMS in Run 2'', CMS-AN-15-320, 5 authors, 65 pages}
+\item {``Dielectron resonance search in Run 2 at $\sqrt{s}= 13$ TeV pp collisions'', CMS-AN-15-222, 17 authors, 60 pages}
+\item {``Studies of two Egamma tag and probe HLT trigger paths for CMS in Run 2'', CMS-AN-15-134, 4 authors, 17 pages}
+\end{enumerate}

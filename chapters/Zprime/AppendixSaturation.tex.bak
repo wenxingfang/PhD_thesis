@@ -1,0 +1,2 @@
+\section{Electron Saturation Study}\label{app:Saturation}
+When the deposite energy in single ECAL crystal is very high, the electric readout will be saturated because of limited dynamic range. Therefore the energy of saturated electron measured by detector with be incorrect. Here we adopt MVA method to get the correct energy of saturated electron which can be seen in chapter \ref{get_true_energy}. Besides, we also check the ECAL linearity response in chapter \ref{linearity}. Finally we study the saturate effection to the HEEP ID efficiency in chapter \ref{HEEP_effect}. 

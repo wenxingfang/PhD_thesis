@@ -1,18 +1,18 @@
 \clearpage
-\section{Event selection and cut optimization}
+\section{Event Selection}
 \label{tW_Eventselection}
 The selection of the events to be used for our search is done in two steps which are explained in the following sections.
 \subsection{Event selection (step 1)}
 \label{step1_selection}
 At the first step, we focus on selecting events by requiring trigger and lepton selection. Events should fire one of the triggers summarized in Table \ref{tab:trigger}.
-At least 1 pair of opposite charge leptons with invariant mass $>$ 20 GeV is required while leading lepton should have $P_{T}$ $>$ 25 GeV.
-The first two selected leptons which are sorted due to the $P_{T}$ should have same flavor opposite sign. If the two highest $P_{T}$ leptons are different flavor (e.g. $e\mu$ event) or same sign, event is rejected.
-The events are divided in the ee and $\mu\mu$ channels according to the flavours of the two leptons with the highest $P_{T}$
+At least 1 pair of opposite charge leptons with invariant mass $>$ 20 GeV is required while the leading lepton should have \pt $>$ 25 GeV.
+The first two selected leptons which are sorted due to the \pt should have the same flavor and opposite sign. If the two highest \pt leptons have different flavors (e.g. e$\mu$ event) or same sign, the event is rejected.
+The events are divided in the ee and \mumu channels according to the flavours of the two leptons with the highest \pt
 and are further categorised in different bins depending on the number of jets (``n-jets'') in the final state and the number of them which are b-tagged (``m-tags'').
 The largest number of  tW events is expected in the category with exactly one  b-tagged jet (1-jet,1-tag) followed by the category with two jets, one of which being a  b jet (2-jets,1-tag). Events in the categories with more than  two jets and exactly two b-tagged jets  are dominated by $\ttbar$ process ($\geq$2-jets,2-tags).
 
 %Some distributions for Data/MC comparison after this step are shown in figures \ref{fig:step1_leading_lepton1}-\ref{fig:step1_Nvtx_jet_bjet}.
-%In Figure \ref{fig:step1_MET_phi}, one can see that the  Data/MC agreement for MET distribution in $ee$ and $\mu\mu$ channels are not good. We have investigated this problem (see Appendix \ref{MET_disagreement_investigation}).
+%In Figure \ref{fig:step1_MET_phi}, one can see that the  Data/MC agreement for MET distribution in ee and \mumu channels are not good. We have investigated this problem (see Appendix \ref{MET_disagreement_investigation}).
 %
 %
 %Number of events for data and SM prediction using MC simulation after step 1 selection are summarized in Table \ref{tab:cut_flow_step1}.
@@ -21,20 +21,20 @@ The largest number of  tW events is expected in the category with exactly one  b
 \label{step2_selection}
 %\subsubsection{Same flavour channels}
 %No further cut applied for $e\mu$ channel.
-In order to suppress the contribution of Drell-Yan events, we reject events with dilepton invariant mass around Z peak [76, 106]. In addition, a MET cut $>60$ GeV is applied. In Figure \ref{fig:step1_MET_phi}, one can see that the  Data/MC agreement for MET distribution in $ee$ and $\mu\mu$ channels are not good. We have investigated this problem (see Appendix \ref{MET_disagreement_investigation}). Because of that the normalization of the DY background simulation is estimated from data which is described in section \ref{tW_DY_background}.
-The final event selection criteria is shown in Table \ref{tab:Event-selection}.
+In order to suppress the contribution of Drell-Yan events, we reject events with a dilepton invariant mass around the Z peak [76, 106]. In addition, a MET cut $>60$ GeV is applied. In Figure \ref{fig:step1_MET_phi}, one can see that the  Data/MC agreements for MET distributions in ee and \mumu channels are not good. We have investigated this problem (see Appendix \ref{MET_disagreement_investigation}). Because of that the normalization of the DY background simulation is estimated from data which is described in Section \ref{tW_DY_background}.
+The final event selection criteria are shown in Table \ref{tab:Event-selection}.
 \begin{table}[h]
 \centering
 \begin{tabular}{|l|l|c|}
 \hline
-\multirow{3}{*}{Step 1}         &                                                                                         & $ee$ and $\mu\mu$           \\ \cline{2-3}
-                                & $p_{T}^{\text{leading lepton}}>$ 25 GeV and $p_{T}^{\text{sub-leading lepton}}>$ 20 GeV & $\surd$                     \\ \cline{2-3}
+\multirow{3}{*}{Step 1}         &                                                                                         & ee and \mumu           \\ \cline{2-3}
+                                & $\pt^{\text{leading lepton}}>$ 25 GeV and $\pt^{\text{sub-leading lepton}}>$ 20 GeV & $\surd$                     \\ \cline{2-3}
                                 & Mass(ll)$>$ 20 GeV                                                                      & $\surd$                     \\ \cline{2-3}
-                                & The two highest $p_{T}$ leptons should have same flavor and opposite charge             & $\surd$                     \\ \hline
+                                & The two highest \pt leptons should have same flavor and opposite charge             & $\surd$                     \\ \hline
 \multirow{2}{*}{Step 2}         & MET $>$ 60 GeV                                                                          & $\surd$                     \\ \cline{2-3}
                                 & Mass(ll) $<76$ or $>106$ GeV                                                            & $\surd$                     \\ \hline
 \end{tabular}
-\caption{Event Selections}
+\caption{Event selection criteria for ee and \mumu channels}
 \label{tab:Event-selection}
 \end{table}
 
@@ -44,7 +44,7 @@ The final event selection criteria is shown in Table \ref{tab:Event-selection}.
       \includegraphics[width=0.45\textwidth]{figures/tW/fig/Step1/ee_noNvtx/H_MET_Et.png}&
       \includegraphics[width=0.45\textwidth]{figures/tW/fig/Step1/mumu_noNvtx/H_MET_Et.png}\\
     \end{tabular}
-    \caption{The distributions of MET for $ee$ (left) and $\mu\mu$ (right) channels after step 1 selection. All backgrounds are estimated from MC.}
+    \caption{The distributions of MET for ee (left) and \mumu (right) channels after step 1 selection. All backgrounds are estimated from MC simulations.}
     \label{fig:step1_MET_phi}
   \end{center}
 \end{figure}
@@ -53,10 +53,10 @@ The final event selection criteria is shown in Table \ref{tab:Event-selection}.
 %\centering
 %\begin{tabular}{|l|l|c|c|}
 %\hline
-%\multirow{3}{*}{Step 1}         &                                                       & $ee$ and $\mu\mu$     & $e\mu$        \\ \cline{2-4}
-%                                & $p_{T}^{\text{leading lepton}}>$ 25 GeV and $p_{T}^{\text{sub-leading lepton}}>$ 20 GeV & $\surd$               & $\surd$       \\ \cline{2-4}
+%\multirow{3}{*}{Step 1}         &                                                       & ee and \mumu     & $e\mu$        \\ \cline{2-4}
+%                                & $\pt^{\text{leading lepton}}>$ 25 GeV and $\pt^{\text{sub-leading lepton}}>$ 20 GeV & $\surd$               & $\surd$       \\ \cline{2-4}
 %                                & Mass(ll)$>$ 20 GeV                                    & $\surd$               & $\surd$       \\ \cline{2-4}
-%                                & The two highest $p_{T}$ leptons should have opoosite charge       & $\surd$               & $\surd$       \\ \hline
+%                                & The two highest \pt leptons should have opoosite charge       & $\surd$               & $\surd$       \\ \hline
 %\multirow{2}{*}{Step 2}         & MET $>$ 60 GeV                                        & $\surd$               & -       \\ \cline{2-4}
 %                                & Mass(ll) $<76$ or $>106$ GeV                          & $\surd$               & -            \\ \hline
 %\end{tabular}
@@ -68,7 +68,7 @@ The final event selection criteria is shown in Table \ref{tab:Event-selection}.
 %\centering
 %\begin{tabular}{|c|c|c||c|c|}
 %\hline
-%Channel & $ee$                   & fraction & $\mu\mu$            &fraction \\ \hline
+%Channel & ee                   & fraction & \mumu            &fraction \\ \hline
 %tW      & 8242      +/- 26       & 0.08\%   & 16259     +/- 37    & 0.07\%  \\ \hline
 %TTbar   & 82120     +/- 62       & 0.83\%   & 165203    +/- 90    & 0.73\%  \\ \hline
 %DY      & 9822251   +/- 6708     & 98.82\%  & 22325807  +/- 10376 & 98.96\% \\ \hline
@@ -118,7 +118,7 @@ The final event selection criteria is shown in Table \ref{tab:Event-selection}.
 %      \includegraphics[width=0.32\textwidth]{figures/tW/fig/Step1/emu_noNvtx/H_lepton_led_phi.png}&
 %      \includegraphics[width=0.32\textwidth]{figures/tW/fig/Step1/mumu_noNvtx/H_lepton_led_phi.png}\\
 %    \end{tabular}
-%    \caption{The distributions of Pt (top), $\eta$ (middle) and $\phi$ (bottom) of leading lepton for $ee$ (left), $e\mu$ (middle) and $\mu\mu$ (right) channels after step 1 (trigger and lepton selections). All backgrounds are estimated from MC.}
+%    \caption{The distributions of Pt (top), $\eta$ (middle) and $\phi$ (bottom) of leading lepton for ee (left), $e\mu$ (middle) and \mumu (right) channels after step 1 (trigger and lepton selections). All backgrounds are estimated from MC.}
 %    \label{fig:step1_leading_lepton1}
 %  \end{center}
 %\end{figure}
@@ -136,7 +136,7 @@ The final event selection criteria is shown in Table \ref{tab:Event-selection}.
 %      \includegraphics[width=0.32\textwidth]{figures/tW/fig/Step1/emu_noNvtx/H_lepton_sub_phi.png}&
 %      \includegraphics[width=0.32\textwidth]{figures/tW/fig/Step1/mumu_noNvtx/H_lepton_sub_phi.png}\\
 %    \end{tabular}
-%    \caption{The distributions of Pt (top), $\eta$ (middle) and $\phi$ (bottom) of sub-leading lepton for $ee$ (left), $e\mu$ (middle) and $\mu\mu$ (right) channels after step 1 (trigger and lepton selections). All backgrounds are estimated from MC.}
+%    \caption{The distributions of Pt (top), $\eta$ (middle) and $\phi$ (bottom) of sub-leading lepton for ee (left), $e\mu$ (middle) and \mumu (right) channels after step 1 (trigger and lepton selections). All backgrounds are estimated from MC.}
 %    \label{fig:step1_leading_lepton}
 %  \end{center}
 %\end{figure}
@@ -157,7 +157,7 @@ The final event selection criteria is shown in Table \ref{tab:Event-selection}.
 %      \includegraphics[width=0.32\textwidth]{figures/tW/fig/Step1/emu_noNvtx/H_MET_T1Txy_phi.png}&
 %      \includegraphics[width=0.32\textwidth]{figures/tW/fig/Step1/mumu_noNvtx/H_MET_T1Txy_phi.png}\\
 %    \end{tabular}
-%    \caption{The distributions of MET-T1 corrected (first row), $\phi$ of MET (second row), MET-T1-Txy corrected (third row) and $\phi$ of MET-T1-Txy corrected (last row) for $ee$ (left), $e\mu$ (middle) and $\mu\mu$ (right) channels after step 1 (trigger and lepton selections). All backgrounds are estimated from MC.}
+%    \caption{The distributions of MET-T1 corrected (first row), $\phi$ of MET (second row), MET-T1-Txy corrected (third row) and $\phi$ of MET-T1-Txy corrected (last row) for ee (left), $e\mu$ (middle) and \mumu (right) channels after step 1 (trigger and lepton selections). All backgrounds are estimated from MC.}
 %    \label{fig:step1_MET_phi}
 %  \end{center}
 %\end{figure}
@@ -179,7 +179,7 @@ The final event selection criteria is shown in Table \ref{tab:Event-selection}.
 %      \includegraphics[width=0.32\textwidth]{figures/tW/fig/Step1/emu_noNvtx/H_Ptll.png}&
 %      \includegraphics[width=0.32\textwidth]{figures/tW/fig/Step1/mumu_noNvtx/H_Ptll.png}\\
 %    \end{tabular}
-%    \caption{The distributions of MET significance (first row), invariant mass of two leptons in Z peak region [60-120] (second row), invariant mass of two leptons in wide range (third row) and Pt of two leptons system (last row) for $ee$ (left), $e\mu$ (middle) and $\mu\mu$ (right) channels after step 1 (trigger and lepton selections). All backgrounds are estimated from MC.}
+%    \caption{The distributions of MET significance (first row), invariant mass of two leptons in Z peak region [60-120] (second row), invariant mass of two leptons in wide range (third row) and Pt of two leptons system (last row) for ee (left), $e\mu$ (middle) and \mumu (right) channels after step 1 (trigger and lepton selections). All backgrounds are estimated from MC.}
 %    \label{fig:step1_METsf_M_pt}
 %  \end{center}
 %\end{figure}
@@ -200,7 +200,7 @@ The final event selection criteria is shown in Table \ref{tab:Event-selection}.
 %      \includegraphics[width=0.32\textwidth]{figures/tW/fig/Step1/emu_noNvtx/H_njet_bjet.png}&
 %      \includegraphics[width=0.32\textwidth]{figures/tW/fig/Step1/mumu_noNvtx/H_njet_bjet.png}\\
 %    \end{tabular}
-%    \caption{The distributions of number of vertices (first row), number of jets (second row), number of b jets (third row) and number of jets-bjets (last row) for $ee$ (left), $e\mu$ (middle) and $\mu\mu$ (right) channels after step 1 (trigger and lepton selections). All backgrounds are estimated from MC.}
+%    \caption{The distributions of number of vertices (first row), number of jets (second row), number of b jets (third row) and number of jets-bjets (last row) for ee (left), $e\mu$ (middle) and \mumu (right) channels after step 1 (trigger and lepton selections). All backgrounds are estimated from MC.}
 %    \label{fig:step1_Nvtx_jet_bjet}
 %  \end{center}
 %\end{figure}
@@ -218,7 +218,7 @@ The final event selection criteria is shown in Table \ref{tab:Event-selection}.
 %      \includegraphics[width=0.32\textwidth]{fig/EventSelection/_EMu_80_step1_T2/EMu_80_step1_T2_hratio_jet_leading_CSV.png}&
 %      \includegraphics[width=0.32\textwidth]{fig/EventSelection/_MuMu_80_step1_T2/MuMu_80_step1_T2_hratio_jet_leading_CSV.png}\\
 %    \end{tabular}
-%    \caption{The distributions of pt (first row), $\eta$ (second row) and csv discriminat (third row) of leading jet for $ee$ (left), $e\mu$ (middle) and $\mu\mu$ (right) channels after step 1 (trigger and lepton selections). All backgrounds are estimated from MC.}
+%    \caption{The distributions of pt (first row), $\eta$ (second row) and csv discriminat (third row) of leading jet for ee (left), $e\mu$ (middle) and \mumu (right) channels after step 1 (trigger and lepton selections). All backgrounds are estimated from MC.}
 %    \label{fig:step1_leading_jet_info}
 %  \end{center}
 %\end{figure}
@@ -236,7 +236,7 @@ The final event selection criteria is shown in Table \ref{tab:Event-selection}.
 %      \includegraphics[width=0.32\textwidth]{fig/EventSelection/_EMu_80_step1_T2/EMu_80_step1_T2_hratio_jet_sub_leading_CSV.png}&
 %      \includegraphics[width=0.32\textwidth]{fig/EventSelection/_MuMu_80_step1_T2/MuMu_80_step1_T2_hratio_jet_sub_leading_CSV.png}\\
 %    \end{tabular}
-%    \caption{The distributions of pt (first row), $\eta$ (second row) and csv discriminat (third row) of sub-leading jet for $ee$ (left), $e\mu$ (middle) and $\mu\mu$ (right) channels after step 1 (trigger and lepton selections). All backgrounds are estimated from MC.}
+%    \caption{The distributions of pt (first row), $\eta$ (second row) and csv discriminat (third row) of sub-leading jet for ee (left), $e\mu$ (middle) and \mumu (right) channels after step 1 (trigger and lepton selections). All backgrounds are estimated from MC.}
 %    \label{fig:step1_subleading_jet_info}
 %  \end{center}
 %\end{figure}

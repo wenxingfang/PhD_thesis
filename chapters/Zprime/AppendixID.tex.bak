@@ -182,7 +182,7 @@ The efficiencies and scale factors are shown as functions of $\eta$ for $E_{T}$ 
   \end{center}
 \end{figure}
 
-In addition, HEEP scale factor is measured in three $\eta$ bins and summarized in table \ref{tab:eff_eta_bins_2016}
+In addition, HEEP scale factor is measured in three $\eta$ bins and summarized in Table \ref{tab:eff_eta_bins_2016}
 \begin{table}[!htbp]
   \caption{\label{tab:eff_eta_bins_2016}
   HEEP scale factors for different $\eta$ bins.}
@@ -206,7 +206,7 @@ In addition, HEEP scale factor is measured in three $\eta$ bins and summarized i
 \clearpage
 %\section{HEEP efficiency for different runs}
 %\label{AppHEEPsf_diffRuns}
-%In Figure \ref{fig:RunB2F} and \ref{fig:RunGH}, HEEP efficinecy is shown for runs B-F (with "HIP" problem) and runs G-H (without "HIP" problem), respectively. Comparing HEEP efficiency versus number of vertice for these two datasets, one can see that  the "HIP" effect is the main reason for pile-up dependency. However, for no "HIP" dataset the HEEP efficiency has slightly number of vertice dependent.
+%In Figure \ref{fig:RunB2F} and \ref{fig:RunGH}, HEEP efficinecy is shown for runs B-F (with ``HIP'' problem) and runs G-H (without ``HIP'' problem), respectively. Comparing HEEP efficiency versus number of vertice for these two datasets, one can see that  the ``HIP'' effect is the main reason for pile-up dependency. However, for no ``HIP'' dataset the HEEP efficiency has slightly number of vertice dependent.
 %
 %In addition, we have observed that better agreement can be found between data and MC if we use data pile up distribution using lower value for minimum bias cross section (see Figure \ref{fig:PU_ScaleDown}).
 % The HEEP efficiency for dataset runs G-H with new pile up reweighting in which the  minimum bias corss section for data pile-up distribution is scaled down by $4.6\%$ is shown in Figure \ref{fig:RunGH_PU_ScaleDown}. One can see the HEEP scale factor versus number of vertice is improved a bit.
@@ -366,7 +366,7 @@ samples. The $E_{T}$  of probes are shown in Figure \ref{fig:SS_amcatnlo_nominal
 %\section{Cross check with DYJetsToLL madgraph sample}
 %\label{AppHEEPsf_madgraph}
 %Here we cross checked the HEEP efficiency and scale factor using DYJetsToLL madgraph
-%samples. The $E_{T}$  of probes are shown in Figure \ref{fig:SS_madgraph_nominal_ET}. The HEEP efficiency and scale factor for different $E_{T}$ and $\eta$ are shown in figures \ref{fig:eff_SS_madgraph_nominal_ET} and \ref{fig:eff_SS_madgraph_nominal_eta}. The value of HEEP efficiency and scale factor are shown in table \ref{tab:eff_amcatnlo}.
+%samples. The $E_{T}$  of probes are shown in Figure \ref{fig:SS_madgraph_nominal_ET}. The HEEP efficiency and scale factor for different $E_{T}$ and $\eta$ are shown in figures \ref{fig:eff_SS_madgraph_nominal_ET} and \ref{fig:eff_SS_madgraph_nominal_eta}. The value of HEEP efficiency and scale factor are shown in Table \ref{tab:eff_amcatnlo}.
 %
 %\begin{figure}[bh]
 %  \begin{center}

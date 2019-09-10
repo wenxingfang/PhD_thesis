@@ -1,23 +1,24 @@
 \clearpage
-\section{Invariant mass spectra}
+\section{Invariant Mass Spectra}
 \label{sec:results}
 
-The observed dielectron mass spectrum together with the predicted standard model backgrounds and the integral of the mass spectrum are shown in figure~\ref{mass_2016} (\ref{mass_2017})for the barrel-barrel and barrel-endcap channels and combined channels in 2016 (2017).
-In Figure \ref{massratio_2016} (\ref{massratio_2017}), the ratio of observed dielectron mass spectrum in signal region for the barrel-barrel, barrel-endcap and sum of the barrel-barrel and the barrel-endcap together is shown with different binning in 2016 (2017).
-The following systematic uncertainties sources are considered.
+The final dielectron mass spectra from data and standard model prediction are shown in Figure~\ref{mass_2016} (\ref{mass_2017}) together with the integral of the mass spectra in 2016 (2017).
+The ratios of dielectron mass spectra between data and standard model prediction in signal region are shown in Figure \ref{massratio_2016} (\ref{massratio_2017}) in 2016 (2017).
+
+The following systematic uncertainty sources are considered.
 
 \begin{itemize}
-  \item[$\bullet$] normalization to Z peak: 1\% uncertainty is considered on the normalization factor estimated from Z peak in 2016. In 2017 2\% (4\%) uncertainty is considered for barrel-barrel (barrel-endcap).
-  \item[$\bullet$] pileup reweighting: scaling the minimum bias cross section up/down by 4.6\%
-  \item[$\bullet$] DY PDF: relative mass dependent uncertainty from DY PDF (see Figure \ref{fig:pdf_rel_uncert})
-  \item[$\bullet$] cross section of background processes:7\% uncertainty is considered on the cross section of the Non-DY background estimated from MC for different processes.
-  \item[$\bullet$] jets: 50\% uncertainty is considered on fake jet estimation
-  \item[$\bullet$] electron energy scale: 2\% in Barrel-Barrel and 1\% in Barrel-Endcap (for mass $>120$)
-  \item[$\bullet$] HEEP ID scale factor: For barrel it is 1\%  below 90 GeV and 1-3\% linearly increase for 90GeV-1TeV range and 3\% for higher than 1 TeV. For endcap it is 1\% below 90 GeV and 1-4\% linearly increase for 90GeV-300 GeV and 4\% for higher than 300 GeV in 2016. In 2017 it is the same for barrel, for endcap it is 2\% below 90 GeV and 1-5\% linearly increase for 90GeV-300 GeV and 5\% for higher than 300 GeV.
+  \item[$\bullet$] Pile up reweighting: due to the HEEP ID scale factor (see Figures \ref{fig:SS_nominal_PV_2016} and \ref{fig:SS_nominal_PV_2017}) is not flat versus pile up. Therefore, different pile up reweighting condition will give different total number of MC events. This uncertainty is considered by scaling the minimum bias cross section (which is used for producing the pile up distribution of data) up and down by 1 sigma (4.6\%).
+  \item[$\bullet$] DY PDF: due to the DY mass spectrum may dependent on the choosing of PDF, the effect of using different PDFs is estimated (see Section \ref{sec:dyBkgCorr}). This uncertainty is considered by applying a mass dependent uncertainty on the DY cross section (for mass $>120$ GeV) (see Figure \ref{fig:pdf_rel_uncert}).
+  \item[$\bullet$] Cross section of background processes: 7\% (around 1 sigma for \ttbar) uncertainty is considered on the cross section of the non-DY background estimated from MC for different processes.
+  \item[$\bullet$] Jet background: 50\% uncertainty is considered on fake jet contribution due to the uncertainty on the fake rate estimation.
+  \item[$\bullet$] Electron energy scale: From the energy scale study using boosted Z events (see Figures \ref{fig:data_MC_Et_E_BB} and \ref{fig:data_MC_Et_E_BE}), the considered uncertainty on electron energy scale for high mass region is 2\% for barrel-barrel and 1\% in barrel-endcap (for mass $>120$ GeV).
+  \item[$\bullet$] HEEP ID scale factor: From the HEEP ID scale factor study (see Section \ref{sec:Zprime_SF}), one can see in low \et region the scale factor can be measured precisely, while for high \et region, due to the lack of statistics, the uncertainty on the scale factor is increased. Therefore, a \et dependent uncertainty on HEEP ID scale factor is considered. For barrel it is 1\%  below 90 GeV and 1-3\% linearly increase for 90 GeV - 1 TeV range and 3\% for higher than 1 TeV. For endcap it is 1\% below 90 GeV and 1-4\% linearly increase for 90 GeV - 300 GeV and 4\% for higher than 300 GeV in 2016. In 2017 it is the same for barrel, for endcap it is 2\% below 90 GeV and 1-5\% linearly increase for 90 GeV - 300 GeV and 5\% for higher than 300 GeV.
+  \item[$\bullet$] Normalization to Z peak: As we normalized MC to data in Z peak region, there are other uncertainties (which is not mentioned above) could affect Z peak normalization like the uncertainty on trigger efficiency measurement, gsf reconstruction efficiency measurement, and DY cross section in Z peak. All these uncertainties can be merged into one uncertainty which is the Z peak normalization uncertainty. Based on the DY cross section measurement in Z peak region study (see Section \ref{sbusec:DY_xs}), the Z peak normalization uncertainty is considered as 1\% in 2016 and 2\% (4\%) for barrel-barrel (barrel-endcap) in 2017.
 \end{itemize}
 
 
-\begin{figure}[ht]
+\begin{figure}[!htbp]
   \begin{center}
     \includegraphics[width=0.47\textwidth]{figures/Zprime/2016/mass/massHistEBEB}
     \includegraphics[width=0.47\textwidth]{figures/Zprime/2016/mass/cMassHistEBEB}
@@ -30,17 +31,7 @@ The following systematic uncertainties sources are considered.
   \end{center}
 \end{figure}
 
-\begin{figure}
-  \begin{center}
-    \includegraphics[width=0.47\textwidth]{figures/Zprime/2016/mass/SignalRegionHistEBEB_ratio}
-    \includegraphics[width=0.47\textwidth]{figures/Zprime/2016/mass/SignalRegionHistEBEE_ratio}
-    \includegraphics[width=0.47\textwidth]{figures/Zprime/2016/mass/SignalRegionHist_ratio}
-    \caption{The ratio of observed dielectron mass spectrum in signal region for barrel-barrel (top left), barrel-endcap (top right) and sum of the barrel-barrel and the barrel-endcap together (bottom) in 2016.}
-    \label{massratio_2016}
-  \end{center}
-\end{figure}
-
-\begin{figure}[ht]
+\begin{figure}[!htbp]
   \begin{center}
     \includegraphics[width=0.47\textwidth]{figures/Zprime/2017/mass/massHistEBEB}
     \includegraphics[width=0.47\textwidth]{figures/Zprime/2017/mass/cMassHistEBEB}
@@ -53,9 +44,17 @@ The following systematic uncertainties sources are considered.
   \end{center}
 \end{figure}
 
+\begin{figure}[!htbp]
+  \begin{center}
+    \includegraphics[width=0.47\textwidth]{figures/Zprime/2016/mass/SignalRegionHistEBEB_ratio}
+    \includegraphics[width=0.47\textwidth]{figures/Zprime/2016/mass/SignalRegionHistEBEE_ratio}
+    \includegraphics[width=0.47\textwidth]{figures/Zprime/2016/mass/SignalRegionHist_ratio}
+    \caption{The ratio of observed dielectron mass spectrum in signal region for barrel-barrel (top left), barrel-endcap (top right) and sum of the barrel-barrel and the barrel-endcap together (bottom) in 2016.}
+    \label{massratio_2016}
+  \end{center}
+\end{figure}
 
-
-\begin{figure}
+\begin{figure}[!htbp]
   \begin{center}
     \includegraphics[width=0.47\textwidth]{figures/Zprime/2017/mass/SignalRegionHistEBEB}
     \includegraphics[width=0.47\textwidth]{figures/Zprime/2017/mass/SignalRegionHistEBEE}
@@ -69,15 +68,14 @@ The following systematic uncertainties sources are considered.
 
 In Table \ref{data-MCn}, predicted SM background and observed data yields are shown as a function of dielectron invariant mass.
 
-\begin{table}[htp]
+\begin{table}[!htbp]
 \small
-\caption{Predicted SM background and observed data yields as a function of dielectron invariant mass for Barrel-Barrel, Barrel-Endcap and Barrel-Barrel plus Barrel-Endcap. The uncertainty contains statistic uncertainty and systematic uncertainty}
-\label{data-MCn}
+
 \begin{center}
 \scalebox{0.8}{
   \begin{tabular}{|l|l|l|l|l|l|l|}
     \hline
-Year&Mass range    & data      & total bkg                 & $\gamma^*$/Z $\rightarrow$ ee    & $\ttbar$ and $\ttbar$-like bkg  & Jets\\ \hline \hline
+Year&Mass range (GeV)   & Data      & Total bkg                 & $\gamma^*$/Z $\rightarrow$ ee    & $\ttbar$ and $\ttbar$-like bkg  & Jets\\ \hline \hline
 \multirow{24}{*}{2016}&\multicolumn{6}{c|}{Barrel-Barrel} \\ \cline{2-7}
 & 60    -- 120   & 5760346     & 5762889.7  $\pm$ 133911.3 & 5730973.8  $\pm$ 133096.7         & 29369.6    $\pm$ 1277.6    & 2546.3     $\pm$ 1273.2   \\
 & 120   -- 400   & 146598      & 152496.1   $\pm$ 11452.7  & 120819.5   $\pm$ 10364.5          & 29824.2    $\pm$ 1572.3    & 1852.5     $\pm$ 926.2    \\
@@ -129,6 +127,8 @@ Year&Mass range    & data      & total bkg                 & $\gamma^*$/Z $\righ
 
 \end{tabular}}
 \end{center}
+\caption{Predicted SM background and observed data yields as a function of dielectron invariant mass for Barrel-Barrel, Barrel-Endcap and Barrel-Barrel plus Barrel-Endcap regions. The uncertainty contains statistic uncertainty and systematic uncertainty.}
+\label{data-MCn}
 \end{table}
 
 
@@ -136,58 +136,59 @@ Year&Mass range    & data      & total bkg                 & $\gamma^*$/Z $\righ
 
 In Table \ref{systematic_effect}, the relative effect of each systematic uncertainty is shown as a function of dielectron invariant mass.
 
-\begin{table}[htp]
+\begin{table}[!htbp]
 \small
-\caption{The relative effect of each systematic uncertainty as a function of dielectron invariant mass.}
-\label{systematic_effect}
+
 \begin{center}
 \scalebox{0.8}{
 \begin{tabular}{|l|l|l|l|l|l|l|l|l|}
 \hline
-Year&Uncertainty                 & 60-120         & 120-400        & 400-600        & 600-900       & 900-1300       & 1300-1800      & 1800-6000  \\\hline
-\multirow{14}{*}{2016}&normalization\_scale\_up    & 0.998\%        & 0.972\%        & 0.966\%        &0.971\%        & 0.977\%        & 0.980\%        & 0.982\%    \\\cline{2-9}
-&normalization\_scale\_down  & 0.998\%        & 0.972\%        & 0.966\%        &0.971\%        & 0.977\%        & 0.980\%        & 0.982\%    \\\cline{2-9}
-&pdf\_scale\_up              & 0.147\%        & 0.165\%        & 1.122\%        &2.215\%        & 3.753\%        & 6.279\%        & 10.351\%   \\\cline{2-9}
-&pdf\_scale\_down            & 0.096\%        & 0.025\%        & 1.000\%        &1.774\%        & 3.769\%        & 6.397\%        & 9.928\%    \\\cline{2-9}
-&energy\_scale\_up           & 0.201\%        & 4.473\%        & 4.147\%        &4.925\%        & 4.830\%        & 6.523\%        & 8.699\%    \\\cline{2-9}
-&energy\_scale\_down         & 0.095\%        & 4.325\%        & 3.930\%        &3.942\%        & 5.073\%        & 5.614\%        & 6.873\%    \\\cline{2-9}
+Year&Uncertainty             & 60-120 GeV     & 120-400 GeV    & 400-600 GeV    & 600-900 GeV   & 900-1300 GeV   & 1300-1800 GeV  & 1800-6000 GeV \\\hline
+\multirow{14}{*}{2016}&Normalization\_scale\_up    & 0.998\%        & 0.972\%        & 0.966\%        &0.971\%        & 0.977\%        & 0.980\%        & 0.982\%    \\\cline{2-9}
+&Normalization\_scale\_down  & 0.998\%        & 0.972\%        & 0.966\%        &0.971\%        & 0.977\%        & 0.980\%        & 0.982\%    \\\cline{2-9}
+&Pdf\_scale\_up              & 0.147\%        & 0.165\%        & 1.122\%        &2.215\%        & 3.753\%        & 6.279\%        & 10.351\%   \\\cline{2-9}
+&Pdf\_scale\_down            & 0.096\%        & 0.025\%        & 1.000\%        &1.774\%        & 3.769\%        & 6.397\%        & 9.928\%    \\\cline{2-9}
+&Energy\_scale\_up           & 0.201\%        & 4.473\%        & 4.147\%        &4.925\%        & 4.830\%        & 6.523\%        & 8.699\%    \\\cline{2-9}
+&Energy\_scale\_down         & 0.095\%        & 4.325\%        & 3.930\%        &3.942\%        & 5.073\%        & 5.614\%        & 6.873\%    \\\cline{2-9}
 &PU\_scale\_up               & 0.472\%        & 0.446\%        & 0.405\%        &0.827\%        & 0.323\%        & 0.050\%        & 0.729\%    \\\cline{2-9}
 &PU\_scale\_down             & 0.424\%        & 0.262\%        & 0.353\%        &0.264\%        & 0.394\%        & 0.367\%        & 0.349\%    \\\cline{2-9}
-&bgk\_scale\_up              & 0.036\%        & 1.334\%        & 1.870\%        &1.460\%        & 1.092\%        & 0.958\%        & 0.888\%    \\\cline{2-9}
-&bgk\_scale\_down            & 0.036\%        & 1.334\%        & 1.870\%        &1.460\%        & 1.092\%        & 0.958\%        & 0.888\%    \\\cline{2-9}
+&Bgk\_scale\_up              & 0.036\%        & 1.334\%        & 1.870\%        &1.460\%        & 1.092\%        & 0.958\%        & 0.888\%    \\\cline{2-9}
+&Bgk\_scale\_down            & 0.036\%        & 1.334\%        & 1.870\%        &1.460\%        & 1.092\%        & 0.958\%        & 0.888\%    \\\cline{2-9}
 &SF\_scale\_up               & 1.797\%        & 1.778\%        & 2.078\%        &2.893\%        & 3.065\%        & 3.590\%        & 4.949\%    \\\cline{2-9}
 &SF\_scale\_down             & 1.711\%        & 1.510\%        & 1.991\%        &2.144\%        & 3.072\%        & 3.836\%        & 4.355\%    \\\cline{2-9}
-&total\_scale\_up            & 2.124\%        & 5.111\%        & 5.231\%        &6.426\%        & 7.004\%        & 9.836\%        & 14.477\%   \\\cline{2-9}
-&total\_scale\_down          & 2.031\%        & 4.877\%        & 4.996\%        &5.141\%        & 7.188\%        & 9.443\%        & 12.909\%   \\\hline \hline
-\multirow{14}{*}{2017}&normalization\_scale\_up    & 4.033\%        & 3.900\%        & 3.882\%        & 3.895\%        & 3.922\%        & 3.922\%        & 3.937\%        \\\cline{2-9}
-&normalization\_scale\_down  & 3.992\%        & 3.900\%        & 3.882\%        & 3.895\%        & 3.922\%        & 3.922\%        & 3.937\%        \\\cline{2-9}
-&pdf\_scale\_up              & 0.114\%        & 0.125\%        & 1.021\%        & 2.102\%        & 3.941\%        & 6.456\%        & 10.549\%       \\\cline{2-9}
-&pdf\_scale\_down            & 0.114\%        & 0.125\%        & 1.021\%        & 2.102\%        & 3.941\%        & 6.456\%        & 10.549\%       \\\cline{2-9}
-&energy\_scale\_up           & 0.217\%        & 4.312\%        & 4.009\%        & 4.562\%        & 4.382\%        & 5.875\%        & 8.415\%        \\\cline{2-9}
-&energy\_scale\_down         & 0.143\%        & 4.660\%        & 4.312\%        & 4.144\%        & 5.083\%        & 5.335\%        & 7.396\%        \\\cline{2-9}
+&Total\_scale\_up            & 2.124\%        & 5.111\%        & 5.231\%        &6.426\%        & 7.004\%        & 9.836\%        & 14.477\%   \\\cline{2-9}
+&Total\_scale\_down          & 2.031\%        & 4.877\%        & 4.996\%        &5.141\%        & 7.188\%        & 9.443\%        & 12.909\%   \\\hline \hline
+\multirow{14}{*}{2017}&Normalization\_scale\_up    & 4.033\%        & 3.900\%        & 3.882\%        & 3.895\%        & 3.922\%        & 3.922\%        & 3.937\%        \\\cline{2-9}
+&Normalization\_scale\_down  & 3.992\%        & 3.900\%        & 3.882\%        & 3.895\%        & 3.922\%        & 3.922\%        & 3.937\%        \\\cline{2-9}
+&Pdf\_scale\_up              & 0.114\%        & 0.125\%        & 1.021\%        & 2.102\%        & 3.941\%        & 6.456\%        & 10.549\%       \\\cline{2-9}
+&Pdf\_scale\_down            & 0.114\%        & 0.125\%        & 1.021\%        & 2.102\%        & 3.941\%        & 6.456\%        & 10.549\%       \\\cline{2-9}
+&Energy\_scale\_up           & 0.217\%        & 4.312\%        & 4.009\%        & 4.562\%        & 4.382\%        & 5.875\%        & 8.415\%        \\\cline{2-9}
+&Energy\_scale\_down         & 0.143\%        & 4.660\%        & 4.312\%        & 4.144\%        & 5.083\%        & 5.335\%        & 7.396\%        \\\cline{2-9}
 &PU\_scale\_up               & 0.446\%        & 0.315\%        & 0.215\%        & 0.510\%        & 0.344\%        & 0.000\%        & 0.414\%        \\\cline{2-9}
 &PU\_scale\_down             & 0.480\%        & 0.338\%        & 0.247\%        & 0.427\%        & 0.283\%        & 0.096\%        & 0.422\%        \\\cline{2-9}
-&bkg\_scale\_up              & 0.029\%        & 1.391\%        & 2.036\%        & 1.491\%        & 0.959\%        & 0.952\%        & 0.773\%        \\\cline{2-9}
-&bkg\_scale\_down            & 0.029\%        & 1.391\%        & 2.036\%        & 1.491\%        & 0.959\%        & 0.952\%        & 0.773\%        \\\cline{2-9}
+&Bkg\_scale\_up              & 0.029\%        & 1.391\%        & 2.036\%        & 1.491\%        & 0.959\%        & 0.952\%        & 0.773\%        \\\cline{2-9}
+&Bkg\_scale\_down            & 0.029\%        & 1.391\%        & 2.036\%        & 1.491\%        & 0.959\%        & 0.952\%        & 0.773\%        \\\cline{2-9}
 &SF\_scale\_up               & 1.805\%        & 1.515\%        & 1.670\%        & 2.327\%        & 3.477\%        & 4.648\%        & 5.198\%        \\\cline{2-9}
 &SF\_scale\_down             & 1.806\%        & 1.798\%        & 2.627\%        & 3.422\%        & 4.391\%        & 4.872\%        & 5.162\%        \\\cline{2-9}
-&total\_scale\_up            & 4.448\%        & 6.176\%        & 6.258\%        & 6.950\%        & 7.953\%        & 10.681\%        & 15.012\%      \\\cline{2-9}
-&total\_scale\_down          & 4.412\%        & 6.498\%        & 6.768\%        & 7.133\%        & 8.776\%        & 10.496\%        & 14.453\%      \\\hline
+&Total\_scale\_up            & 4.448\%        & 6.176\%        & 6.258\%        & 6.950\%        & 7.953\%        & 10.681\%        & 15.012\%      \\\cline{2-9}
+&Total\_scale\_down          & 4.412\%        & 6.498\%        & 6.768\%        & 7.133\%        & 8.776\%        & 10.496\%        & 14.453\%      \\\hline
 
 \end{tabular}}
 \end{center}
+\caption{The relative effect of each systematic uncertainty as a function of dielectron invariant mass.}
+\label{systematic_effect}
 \end{table}
 
 
 
-
+\clearpage
 \subsection{Complementary plot}
-In addition to the invariant mass plot, the distributions of the following variables are shown in figures \ref{fig:complementary_2016} (\ref{fig:complementary_2017}) for 2016 (2017).
+In addition to the invariant mass plots, the distributions of the following variables are shown in Figure \ref{fig:complementary_2016} (\ref{fig:complementary_2017}) for 2016 (2017).
 \begin{itemize}
   \item invariant mass of the selected electron pair in Z peak region for different catagories
-  \item $E_{T}$, $\eta$ and $\phi$ of leading electron and sub-leading electron for $M_{ee}>200$ GeV
-  \item $\Delta R$ and $\Delta\phi$ between selected electrons for $M_{ee}>200$ GeV
-  \item $P_{T}$ of the reconstructed Z for $M_{ee}>200$ GeV
+  \item \et, $\eta$ and $\phi$ of leading electron and sub-leading electron for $\mathrm{M_{ee}}>200$ GeV
+  \item $\Delta R$ and $\Delta\phi$ between selected electrons for $\mathrm{M_{ee}}>200$ GeV
+  \item \pt of the reconstructed Z for $\mathrm{M_{ee}}>200$ GeV
 \end{itemize}
 
 
@@ -208,7 +209,7 @@ In addition to the invariant mass plot, the distributions of the following varia
       \includegraphics[width=0.32\textwidth]{figures/Zprime/2016/complementary/h_Dphi_ll.png}&
       \includegraphics[width=0.32\textwidth]{figures/Zprime/2016/complementary/h_Ptll.png}\\
     \end{tabular}
-    \caption{The distributions of invariant mass of two electrons in barrel-barrel, barrel-endcap and barrel-barrel + barrel-endcap (first row), $E_{T}$, $\eta$ and $\phi$ of leading electron (second row) and $E_{T}$, $\eta$ and $\phi$ of sub-leading electron (third row),$\Delta R$, $\Delta\phi$ between two electrons and $P_{T}$ of Z (fourth row) in 2016.
+    \caption{The distributions of invariant mass of two electrons in barrel-barrel, barrel-endcap and barrel-barrel + barrel-endcap (first row), \et, $\eta$ and $\phi$ of leading electron (second row) and \et, $\eta$ and $\phi$ of sub-leading electron (third row),$\Delta R$, $\Delta\phi$ between two electrons and \pt of Z (fourth row) in 2016.
     \label{fig:complementary_2016}}
   \end{center}
 \end{figure}
@@ -229,7 +230,7 @@ In addition to the invariant mass plot, the distributions of the following varia
       \includegraphics[width=0.32\textwidth]{figures/Zprime/2017/complementary/h_Dphi_ll.png}&
       \includegraphics[width=0.32\textwidth]{figures/Zprime/2017/complementary/h_Ptll.png}\\
     \end{tabular}
-    \caption{The distributions of invariant mass of two electrons in barrel-barrel, barrel-endcap and barrel-barrel + barrel-endcap (first row), $E_{T}$, $\eta$ and $\phi$ of leading electron (second row) and $E_{T}$, $\eta$ and $\phi$ of sub-leading electron (third row),$\Delta R$, $\Delta\phi$ between two electrons and $P_{T}$ of Z (fourth row) in 2017.
+    \caption{The distributions of invariant mass of two electrons in barrel-barrel, barrel-endcap and barrel-barrel + barrel-endcap (first row), \et, $\eta$ and $\phi$ of leading electron (second row) and \et, $\eta$ and $\phi$ of sub-leading electron (third row),$\Delta R$, $\Delta\phi$ between two electrons and \pt of Z (fourth row) in 2017.
     \label{fig:complementary_2017}}
   \end{center}
 \end{figure}

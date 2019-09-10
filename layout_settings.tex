@@ -12,11 +12,12 @@ bindingoffset=0mm]{geometry}
 \usepackage{mathtools}
 \usepackage{slashed}
 \usepackage{enumerate}
-%\usepackage[italian,frenchb,francais,english]{babel}
 \usepackage[english,frenchb,francais]{babel}
+\usepackage{CJK}
+\usepackage{ccmap}
 \linespread{1} %questo per settare il valore dell'interlinea
 \usepackage{cancel}
-%\usepackage[titletoc,title]{appendix}
+
 \usepackage[export]{adjustbox}
 \usepackage[backend=bibtex,sorting=none]{biblatex}
 \bibliography{database.bib}
@@ -44,8 +45,16 @@ columns=fullflexible}
 \setcounter{secnumdepth}{3}
 \pagestyle{fancy}
 \usepackage{acronym}
+%\usepackage[acronym,nomain]{glossaries}
+%\usepackage{glossaries}
+%\usepackage[automake]{glossaries}
 \usepackage{comment}
 \usepackage{feynmp}
+\usepackage{xspace}
+
+\usepackage{upgreek}
+
+
 \lhead{}
 \rhead{\small \slshape \leftmark}
 
